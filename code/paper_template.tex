@@ -1,0 +1,144 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\newfontfamily\headfont{Inter}[UprightFont=*-ExtraBold,BoldFont=*-ExtraBold,Extension=.otf,Path=/usr/share/fonts/opentype/inter/]
+\usepackage[a4paper,margin=2.3cm]{geometry}
+\usepackage{graphicx,booktabs,float,caption,array,xcolor,longtable}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage[round]{natbib}
+\usepackage{setspace}
+\setstretch{1.05}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\titleformat{\section}{\headfont\Large}{\thesection}{0.8em}{}
+\titleformat{\subsection}{\headfont\large}{\thesubsection}{0.8em}{}
+\captionsetup{font=small,labelfont=bf}
+\urlstyle{same}
+\hypersetup{pdftitle={Transported},pdfauthor={Tristan Hotham}}
+
+\begin{document}
+\begin{center}
+{\Large\bfseries Transported\par}
+\vspace{0.4em}
+{\large The convict ships to Australia, 1788 to 1868, and the wider world of penal transportation:\\{{source.n_main|int}} voyages in Wikipedia's ship lists\par}
+\vspace{1.2em}
+{\large Tristan Hotham\par}
+\vspace{0.3em}
+{\small Independent researcher\\
+ORCID: 0000-0003-4931-9349\\
+DOI: @@DOILINK@@\par}
+\vspace{0.8em}
+2026
+\end{center}
+
+\begin{quote}
+\small
+\begin{center}\textbf{Abstract}\end{center}
+Britain transported about {{stated.conv_162|int}} convicts to Australia between 1788 and 1868. I assemble English Wikipedia's four colony lists of convict ships into a single table of {{source.rows_total|int}} listed voyages and map the {{source.n_main|int}} that arrived from overseas, {{cover.n_main_pct_806|int}}\% of the {{stated.ships_806|int}} ships the articles give. Arrivals rose from a handful a year to a peak of {{peak.n|int}} in {{peak.year|raw}}; {{peak.pct_1815_1840|int}}\% came between 1815 and 1840. Cork was the busiest single port of departure ({{irish.cork|int}} voyages), and Irish ports supplied {{irish.pct|int}}\% of the voyages from the British Isles, but {{irish.nsw_pct|int}}\% of those to New South Wales against {{irish.vdl_pct|int}}\% of those to Van Diemen's Land. A further {{indian.n|int}} voyages sailed from India, Ceylon, Mauritius and Singapore. For the {{days.n|int}} voyages with both dates in the fleet tables or ship articles, the median passage fell from {{days.eras.0.median|int}} days for the first three fleets to {{days.eras.2.median|int}} in the 1820s and 1830s. The Second Fleet lost {{deaths.sf_pct|int}}\% of its embarked convicts at sea and the Third Fleet {{deaths.tf_pct|f1}}\%, against {{deaths.art_pct|f1}}\% on {{deaths.art_n|int}} later voyages whose ship articles give both figures. The lists give convict numbers for only {{cover.n_conv|int}} voyages ({{cover.sum_conv|int}} people), almost none for New South Wales and Tasmania, and identify only {{women.flagged|int}} women's voyages, so they map the shipping well but cannot count the people. Set beside the articles' figures for British America, French Guiana, New Caledonia, Russia's katorga and the Andaman Islands, the Australian system was the largest and longest of its kind.
+
+\textbf{Keywords:} penal transportation; convicts; Australia; convict ships; maritime history; colonial history; Wikipedia; open data; mapping
+\end{quote}
+
+\section{Introduction}
+Penal transportation, the shipping of convicted people to distant colonies to serve their sentences, was used by several European empires from the seventeenth to the twentieth century \citep{wiki}. Britain's use of it was the largest: first to the American colonies under the Transportation Act of 1717, and then, after the American Revolution closed that route in 1776, to the Australian colonies, where about {{stated.conv_162|int}} convicts from Great Britain and Ireland arrived between 1788 and 1868. The colonies were founded on Aboriginal land: the First Fleet met the Eora people at Sydney Cove, and Wikipedia's article on penal transportation records that violent conflict on the Australian frontier ``began only months after the First Fleet landed, lasting over a century''.
+
+The voyages themselves are well documented, above all in Charles Bateson's \emph{The Convict Ships}, and English Wikipedia's volunteers have compiled lists of them, colony by colony. This paper asks what those lists, taken together, can and cannot tell us: how many voyages they hold and when, where the ships sailed from, how long they took and how many convicts died, and how the Australian system compares with other penal transportation systems described in the same encyclopaedia. The paper accompanies an interactive map (\url{{{meta.page}}}).
+
+\section{Data}
+\textbf{Voyage lists.} ``Convict ships to New South Wales'' ({{source.rows.nsw|int}} rows, including one added below) and ``Convict ships to Tasmania'' ({{source.rows.vdl|int}}) give, for each voyage, the ship's name with a link to its article where one exists, the date of arrival, the place it sailed from and brief notes. Neither gives the number of convicts or a departure date. ``Convict ships to Norfolk Island'' ({{source.rows.nfk|int}} arrivals) gives convicts embarked and landed, both for the transfers from Sydney in 1788 to 1804 and for ships that sailed direct from Britain and Ireland in 1840 to 1850. ``List of convict ship voyages to Western Australia'' ({{source.rows.wa|int}} rows) gives the origin, arrival and number of convicts for the {{col.wa.n|int}} voyages of 1850 to 1868, and the number of boys for {{source.n_parkhurst|int}} ships of 1842 to 1849 that carried Parkhurst apprentices.
+
+\textbf{Fleets and ships.} The articles on the First, Second and Third Fleets have per-ship tables with departure and arrival dates, voyage length and convicts, and for the Third Fleet deaths. For {{source.n_ship_articles|int}} ship articles in Wikipedia's convict ship categories I read the infobox (launch year, tons burthen) and lead, and for the ships whose full article was available I read sentences giving a departure date, an arrival date, convicts embarked and convict deaths.
+
+\textbf{Context.} Totals and dates for the Australian system and for other penal transportation systems come from the articles listed in Table~\ref{tab:revs}. Every figure quoted is checked in the code against the exact phrase in the article. No article text is reproduced beyond short quotations. Land outlines are from Natural Earth \citep{naturalearth}.
+
+\section{Method}
+\textbf{Voyages.} A listed voyage is one row of the four lists. The New South Wales list omits Prince of Wales, a First Fleet transport, which I add from the First Fleet article. A \emph{voyage from overseas} is a row with an arrival year whose departure place lies outside Australia, excluding the {{source.n_parkhurst|int}} Parkhurst apprentice ships ({{source.parkhurst_n|int}} boys, matching the article's {{stated.parkhurst|int}}) and {{source.n_dup|int}} voyages listed by two colonies, identified as the same ship name arriving in both within {{meta.dup_days|int}} days (for example a ship that landed convicts at Hobart and then sailed on to Sydney). Such a voyage is kept once, in the list that gives a number of convicts or else at its first arrival. The {{source.n_intra|int}} transfers between Australian ports and the {{source.n_undated|int}} rows without an arrival year (wrecks, a capture, ships listed without dates) are kept in the data but not counted. Years are years of arrival.
+
+\textbf{Departure places.} The ``sailed from'' cell is matched to one of {{ports_n|int}} places, with coordinates I chose for each harbour or anchorage. Where a cell names two places the first is taken as the port of departure. ``England'' and ``Ireland'' without a port are kept as such ({{irish.england_unspecified|int}} voyages give only ``England''). Ireland comprises Cork, Dublin (Kingstown), Waterford and ``Ireland''.
+
+\textbf{Numbers, dates and deaths.} The number of convicts on a voyage is the number landed where given and otherwise the number embarked. Fleet ships are matched to the New South Wales list by name and year. A ship article's voyage is kept only if its arrival date is within {{meta.match_days|int}} days of a list row for the same ship; the first departure date in the article's account is used (later sentences often describe calls at Tenerife or Rio de Janeiro). Voyage length is the fleet table's stated duration or the difference between the article's two dates.
+
+\textbf{Women's voyages.} A voyage is flagged as carrying women where a fleet table or ship article gives female convicts, where the list's notes mention them, or where a ship article sentence says the ship carried female convicts in a year matching exactly one of its voyages (and not male convicts too).
+
+\textbf{Routes.} The lists record no tracks. Each voyage is drawn on a stylised route through open-sea waypoints chosen to follow the usual pattern of the period: south past Madeira and the Cape Verde islands, west towards Brazil, east across the South Atlantic and south of the Cape of Good Hope, then along the Southern Ocean to Fremantle, round the south of Van Diemen's Land to Hobart, or up the east coast to Sydney and Norfolk Island. Ships from India, Mauritius and Singapore cross the Indian Ocean and pass through Bass Strait. Every route is checked not to cross Natural Earth land.
+
+{{TABLE_COLONIES}}
+
+\section{Results}
+\subsection{Eighty years of voyages}
+Figure~\ref{fig:map} maps the {{source.n_main|int}} voyages and Figure~\ref{fig:years} counts them by year. The First Fleet's {{decades.0.n|int}} transports arrived in 1788; the 1790s, with the Second and Third Fleets, had {{peak.n_1790s|int}} voyages, and the war years were thin: {{peak.n_1800s|int}} in the 1800s. Arrivals rose steeply after 1815. The 1820s had {{peak.n_1820s|int}} and the 1830s {{peak.n_1830s|int}}, with a peak of {{peak.n|int}} in {{peak.year|raw}}; {{peak.n_1815_1840|int}} voyages ({{peak.pct_1815_1840|int}}\%) arrived between 1815 and 1840. New South Wales received {{col.nsw.n|int}} voyages and peaked at {{col.nsw.peak_n|int}} in {{col.nsw.peak_year|raw}}. Transportation there was suspended in 1840 and formally abolished on 1 October 1850; the list's last arrival is {{col.nsw.last_ship|raw}}, {{col.nsw.last_date|raw}}. From 1841 to 1849 the lists hold {{peak.vdl_4149|int}} arrivals in Van Diemen's Land, {{peak.nfk_4149|int}} at Norfolk Island and {{peak.nsw_4149|int}} in New South Wales. The Tasmania list ends with {{col.vdl.last_ship|raw}} on {{col.vdl.last_date|raw}}, while its introduction names St Vincent, 26 May 1853, as the last. Western Australia's {{col.wa.n|int}} voyages ran from Scindian in {{col.wa.first|raw}} to Hougoumont in {{col.wa.last|raw}}.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_map.png}
+\caption{Convict voyages from overseas in Wikipedia's lists, on stylised sailing routes, coloured by colony. Circles: voyages from each port.}\label{fig:map}\end{figure}
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_years.png}
+\caption{Convict ships arriving from overseas, by year and colony.}\label{fig:years}\end{figure}
+
+\subsection{How complete are the lists?}
+The articles give about {{stated.conv_162|int}} convicts (``Convicts in Australia'' also gives ``about {{stated.conv_164|int}} \ldots onboard {{stated.ships_806|int}} ships''). The lists' {{cover.n_main|int}} voyages are {{cover.n_main_pct_806|int}}\% of {{stated.ships_806|int}}. Numbers of convicts are given for {{cover.n_conv|int}} voyages ({{cover.n_conv_pct|f1}}\%), {{cover.sum_conv|int}} people or {{cover.sum_conv_pct_162|f1}}\% of {{stated.conv_162|int}}: all {{cover.n_conv_wa|int}} Western Australian voyages, the {{cover.n_conv_nfk|int}} direct voyages to Norfolk Island, and {{cover.n_conv_nsw|int}} New South Wales and {{cover.n_conv_vdl|int}} Tasmanian voyages from the fleet tables and ship articles (Figure~\ref{fig:cover}). Those voyages carried a mean of {{cover.avg_known|int}} convicts, equal to the {{cover.avg_stated|int}} implied by {{stated.conv_164|int}} over {{stated.ships_806|int}}; at that mean the listed voyages would account for about {{cover.implied_if_avg|int}} people. Western Australia's list is complete: its {{wa.n|int}} voyages sum to {{wa.sum|int}}, between the {{stated.wa_668|int}} and {{stated.wa_721|int}} given by two articles.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_cover.png}
+\caption{Listed voyages from overseas by colony; dark: voyages with a number of convicts in a table or ship article.}\label{fig:cover}\end{figure}
+
+\subsection{Where the ships sailed from}
+Of the {{irish.n_ei|int}} voyages from Britain and Ireland, {{irish.thames|int}} left from the Thames and the Downs (London, Woolwich, Deptford, Gravesend, Sheerness) and {{irish.solent|int}} from Portsmouth and Spithead, but the busiest single place in the lists is Cork, with {{irish.cork|int}} (Figure~\ref{fig:ports}). Irish ports supplied {{irish.n|int}} voyages ({{irish.pct|f1}}\%). Almost all went to New South Wales ({{irish.nsw_n|int}}, or {{irish.nsw_pct|f1}}\% of that colony's voyages from the British Isles), against {{irish.vdl_n|int}} to Van Diemen's Land ({{irish.vdl_pct|f1}}\%) and {{irish.wa_irish|int}} to Western Australia, whose ships sailed most often from Portland ({{irish.portland_wa|int}}) and Plymouth ({{irish.plymouth_wa|int}}). The {{indian.n|int}} voyages from India, Ceylon, Mauritius and Singapore ({{indian.pct|f1}}\%, {{indian.first|raw}} to {{indian.last|raw}}) went almost all to New South Wales ({{indian.nsw|int}}); the {{indian.wa|int}} to Western Australia carried {{indian.wa_conv|int}} convicts between them, and {{indian.military|int}} New South Wales notes mention military convicts.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_ports.png}
+\caption{The busiest ports of departure.}\label{fig:ports}\end{figure}
+
+\subsection{The passage}
+For {{days.n|int}} voyages the departure and arrival are both known: {{days.n_fleet|int}} from the fleet tables and {{days.n_article|int}} from ship articles (Figure~\ref{fig:days}). The medians by period are {{days.eras.0.median|int}} days for 1787 to 1791 ({{days.eras.0.n|int}} voyages), {{days.eras.1.median|int}} for 1800 to 1819 ({{days.eras.1.n|int}}), {{days.eras.2.median|int}} for 1820 to 1839 ({{days.eras.2.n|int}}) and {{days.eras.3.median|int}} for 1840 to 1868 ({{days.eras.3.n|int}}). The longest passage is Lady Juliana's {{days.slow.days|int}} days in {{days.slow.y|raw}}; after the fleets, Friends took {{days.slow_after.days|int}} days in {{days.slow_after.y|raw}}, sailing via Rio de Janeiro. The shortest is Scindian's {{days.fast.days|int}} days in {{days.fast.y|raw}}; Hougoumont's last voyage took {{days.hougoumont|int}} by the article's dates. The sample after 1840 is very small and the sample before 1820 nearly as small, so the decline is clearer between the fleets and the 1820s than after.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_days.png}
+\caption{Days from departure to arrival, where both dates are known. Lines: medians by period.}\label{fig:days}\end{figure}
+
+\subsection{Deaths at sea}
+The Second Fleet article gives {{stated.sf_died|int}} deaths among {{stated.sf_embarked|int}} convicts embarked ({{deaths.sf_pct|int}}\%), {{stated.sf_sick|int}} landed sick and {{stated.sf_after|int}} more dead soon after; the article on convict women gives {{stated.sf_267|int}} deaths among {{stated.sf_1006|int}}. Its contractors were paid per head ``whether they landed alive or not''. The Third Fleet table gives {{deaths.tf_deaths|int}} deaths among {{deaths.tf_boarded|int}} boarded ({{deaths.tf_pct|f1}}\%), from {{deaths.tf_best.pct|f1}}\% on Salamander to {{deaths.tf_worst.pct|f1}}\% on Britannia (Figure~\ref{fig:deaths}). The First Fleet's surgeon reported {{stated.ff_deaths|int}} deaths and {{stated.ff_births|int}} births on the voyage. For {{deaths.art_n|int}} later voyages the ship articles give both the number embarked and the convict deaths: {{deaths.art_deaths|int}} of {{deaths.art_embarked|int}} ({{deaths.art_pct|f1}}\%), with no deaths on {{deaths.art_zero|int}} and at most {{deaths.art_max|int}} (Tellicherry, {{deaths.art_max_y|raw}}). These later voyages are a convenience sample of well documented ships, not a random one. The lists also record wrecks: Amphitrite, lost at the outset of her voyage with {{stated.amph_women|int}} women convicts and {{stated.amph_children|int}} children, Neva with {{stated.neva|int}} lives, and George III before she could land her convicts.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_deaths.png}
+\caption{Share of embarked convicts who died at sea.}\label{fig:deaths}\end{figure}
+
+\subsection{Ships}
+The voyages from overseas were made by {{ships.n_ids|int}} ships (grouped by article, or by name within a list where there is no article), {{ships.one_voyage|int}} of them making a single listed voyage. Table~\ref{tab:ships} lists those with the most. For {{ships.lead_agree|int}} of the {{ships.lead_checked|int}} ships whose article states a number of convict voyages, the lists hold that number. Where the article gives a launch year, the median ship was {{ships.age_med|int}} years old at arrival ({{ships.age_n|int}} voyages); the median tons burthen of the {{ships.tons_n|int}} ships with one is {{ships.tons_med|int}}.
+
+{{TABLE_SHIPS}}
+
+\subsection{Women}
+About {{stated.women|int}} of the convicts, one in seven, were women; some {{stated.women_theft_pct|int}}\% had been convicted of theft, and none for prostitution, which was not a transportable offence. Only {{women.flagged|int}} voyages can be identified from the lists as carrying women, a floor rather than an estimate: during the {{stated.fry_years|int}} years of Elizabeth Fry's involvement alone, {{stated.fry_women|int}} women came on {{stated.fry_ships|int}} ships. The article's table of the convict population of New South Wales (Figure~\ref{fig:women}) shows women's share falling from {{women.pop_first_pct|f1}}\% in 1788 to {{women.pop_last_pct|f1}}\% in {{women.pop_last_year|raw}}. Western Australia set the condition that no women be sent.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_women.png}
+\caption{Convict population of New South Wales by sex.}\label{fig:women}\end{figure}
+
+\subsection{The wider world}
+Table~\ref{tab:world} and Figure~\ref{fig:world} set the Australian voyages beside other systems, using only figures the articles state. Transportation to British America, 1718 to 1776, is ``commonly accepted'' to have taken {{stated.am_1717_low|int}}, with estimates of {{stated.am_lang|int}} to {{stated.am_keneally|int}}. France sent more than {{stated.guiana|int}} prisoners to the Devil's Island system in French Guiana (1852 to 1953) and about {{stated.newcal|int}} to New Caledonia (1864 to 1897). Russia's katorga had about {{stated.katorga_1906|int}} serving in 1906 and up to {{stated.katorga_1916|int}} by 1916, and a penal colony on Sakhalin from 1857. British India's penal settlement in the Andaman Islands received its first {{stated.andaman_first|int}} convicts in 1858 and closed in 1947; one article puts the number of political prisoners sent to the Cellular Jail at an estimated {{stated.andaman_80k|int}}, a figure I report but cannot check. Bermuda's convict hulks (1823 to 1863) and Sakhalin have no total in these sources.
+
+{{TABLE_WORLD}}
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_world.png}
+\caption{Penal transportation around the world, with the numbers the articles state.}\label{fig:world}\end{figure}
+
+\section{Limitations}
+First, the lists are volunteer compilations, mostly from Bateson, and have not been checked here against primary records; the Tasmania list in particular is short for the traffic it describes and stops a year before the last voyage its introduction names. Second, they give convict numbers for under a sixth of the voyages, so the people transported cannot be counted from them. Third, the duration and death samples are small and drawn from the best documented ships. Fourth, duplicate detection across lists is a rule of thumb. Fifth, the routes are stylised. Sixth, the women's count is a floor. Finally, figures for other systems are what the articles state, and their sources vary.
+
+\section{Conclusion}
+Wikipedia's lists are a good guide to the convict shipping of the Australian colonies: when it came, where it sailed from and how its rhythm shifted from Sydney to Hobart, Norfolk Island and Fremantle. They are a poor guide to the people on board. The voyages they describe carried people far from home, onto land taken from Aboriginal nations, and they belong to a wider history of empires exiling their convicts, from the Chesapeake to Sakhalin.
+
+\section*{Data and code availability}
+The interactive map is at \url{{{meta.page}}}. Data and code are at \url{{{meta.repo}}} and archived with this paper at @@DOILINK@@. Code is released under the MIT licence; text and figures under CC BY 4.0; the tables derived from Wikipedia under CC BY-SA 4.0.
+
+\section*{AI statement}
+I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.
+
+{{TABLE_REVS}}
+
+\begin{thebibliography}{9}
+\bibitem[Natural Earth(2026)]{naturalearth} Natural Earth (2026) Land and admin 0 countries (1:50m). Public domain. \url{https://www.naturalearthdata.com/}
+\bibitem[Wikipedia(2026)]{wiki} Wikipedia contributors (2026) English Wikipedia articles listed in Table~\ref{tab:revs}, at the revisions given. CC BY-SA 4.0. \url{https://en.wikipedia.org/}
+\end{thebibliography}
+\end{document}

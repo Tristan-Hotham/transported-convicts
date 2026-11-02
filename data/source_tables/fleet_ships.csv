@@ -1,0 +1,24 @@
+fleet,ship,dep,arr,days,male_arr,female_arr,male_boarded,female_boarded,male_deaths,female_deaths,note
+1,Alexander,13 May 1787,19 January 1788,251.0,210.0,0.0,,,,,210 Two were pardoned | 0
+1,Charlotte,13 May 1787,20 January 1788,252.0,100.0,24.0,,,,,100 | 24
+1,Friendship,13 May 1787,19 January 1788,251.0,80.0,24.0,,,,,"80 | 24 To Cape of Good Hope only, transferred to Lady Penrhyn"
+1,Lady Penrhyn,13 May 1787,20 January 1788,252.0,0.0,101.0,,,,,0 | 101
+1,Prince of Wales,13 May 1787,20 January 1788,252.0,2.0,47.0,,,,,2 | 47
+1,Scarborough,13 May 1787,19 January 1788,251.0,208.0,0.0,,,,,208 | 0
+2,Lady Juliana,29 July 1789,3 June 1790,309.0,,222.0,,226.0,,,n/a | 222 (226)
+2,Guardian,12 September 1789,disabled en route,,20.0,,25.0,,,,20 (25) – see below | n/a
+2,Justinian,20 January 1790,20 June 1790,151.0,,,,,,, | 
+2,Surprize,19 January 1790,26 June 1790,158.0,218.0,,254.0,,,,218 (254) | n/a
+2,Neptune,19 January 1790,27 June 1790,159.0,,,421.0,78.0,,,? (421) + 12 from Guardian | ? (78)
+2,Scarborough,19 January 1790,28 June 1790,160.0,180.0,,253.0,,,,180 (253) + 8 from Guardian | n/a
+3,Mary Ann,16 Feb 1791,9 Jul 1791,143.0,,141.0,,150.0,,9.0, | 141 [9] (150)
+3,HMS Gorgon,15 Mar 1791,21 Sep 1791,190.0,30.0,,31.0,,1.0,,30 [1] (31) | 
+3,Matilda,27 Mar 1791,1 Aug 1791,127.0,225.0,,250.0,,25.0,,225 [25] (250) | 
+3,Atlantic,27 Mar 1791,20 Aug 1791,147.0,202.0,,220.0,,18.0,,202 [18] (220) | 
+3,Salamander,27 Mar 1791,21 Aug 1791,148.0,155.0,,160.0,,5.0,,155 [5] (160) | 
+3,William and Ann,27 Mar 1791,28 Aug 1791,154.0,181.0,,188.0,,7.0,,181 [7] (188) | 
+3,Active,27 Mar 1791,26 Sep 1791,183.0,154.0,,175.0,,21.0,,154 [21] (175) | 
+3,Queen,19 Apr 1791,26 Sep 1791,160.0,126.0,22.0,133.0,22.0,7.0,0.0,126 [7] (133) | 22 [-] (22)
+3,Albemarle,27 Mar 1791,13 Oct 1791,200.0,250.0,6.0,282.0,6.0,32.0,0.0,250 [32] (282) | 6 [-] (6) (arrival of females is a mystery)
+3,Britannia,27 Mar 1791,14 Oct 1791,201.0,129.0,,150.0,,21.0,,129 [21] (150) | 
+3,Admiral Barrington,27 Mar 1791,16 Oct 1791,203.0,264.0,,300.0,,36.0,,264 [36] (300) | 

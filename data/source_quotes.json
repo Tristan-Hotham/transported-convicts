@@ -1,0 +1,595 @@
+{
+ "quotes": {
+  "aus_162k": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829,
+   "phrase": "transported about 162,000 convicts from Great Britain and Ireland",
+   "sentence": "Convicts in Sydney , 1793, by Juan Ravenet Between 1784 and 1868 the British penal system transported about 162,000 convicts from Great Britain and Ireland to various penal colonies in Australia ."
+  },
+  "aus_164k": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829,
+   "phrase": "about 164,000 convicts were transported to the Australian colonies between 1788 and 1868 onboard 806 ships",
+   "sentence": "In all, about 164,000 convicts were transported to the Australian colonies between 1788 and 1868 onboard 806 ships."
+  },
+  "aus_women": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829,
+   "phrase": "about 24,000 transportees (one in seven) were women",
+   "sentence": "Women Main article: Convict women in Australia Between 1788 and 1852, about 24,000 transportees (one in seven) were women."
+  },
+  "aus_political": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829,
+   "phrase": "Approximately 3,600 political prisoners were transported",
+   "sentence": "Approximately 3,600 political prisoners were transported to the Australian colonies, many of whom arrived in waves corresponding to political unrest in Britain and Ireland."
+  },
+  "aus_1840": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829,
+   "phrase": "by which time some 150,000 convicts had been sent to the colonies",
+   "sentence": "Transportation to New South Wales was temporarily ended in 1840 under the Order-in-Council of 22 May 1840, by which time some 150,000 convicts had been sent to the colonies."
+  },
+  "nsw_end": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829,
+   "phrase": "The final transport of convicts to New South Wales occurred in 1850",
+   "sentence": "The final transport of convicts to New South Wales occurred in 1850, with some 1,400 convicts transported between the Order-in-Council and that date."
+  },
+  "nsw_abolished": {
+   "article": "Convict ships to New South Wales",
+   "revid": 1329275779,
+   "phrase": "Transportation to the Colony of New South Wales was finally officially abolished on 1 October 1850",
+   "sentence": "Transportation to the Colony of New South Wales was finally officially abolished on 1 October 1850."
+  },
+  "vdl_end": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829,
+   "phrase": "Transportation to Tasmania ended in 1853",
+   "sentence": "Transportation to Tasmania ended in 1853 (see section below on Cessation of Transportation )."
+  },
+  "vdl_last": {
+   "article": "Convict ships to Tasmania",
+   "revid": 1153506110,
+   "phrase": "until 26 May 1853 when St Vincent became the last to arrive",
+   "sentence": "Thereafter one or more vessels arrived each year until 26 May 1853 when St Vincent became the last to arrive."
+  },
+  "vdl_first": {
+   "article": "Convict ships to Tasmania",
+   "revid": 1153506110,
+   "phrase": "Indefatigable arrived at Hobart Town in 1812 and was the first vessel to transport convicts to Van Diemen's Land",
+   "sentence": "Ships transporting British convicts Indefatigable arrived at Hobart Town in 1812 and was the first vessel to transport convicts to Van Diemen's Land (now Tasmania)."
+  },
+  "wa_9721": {
+   "article": "Convict era of Western Australia",
+   "revid": 1376677837,
+   "phrase": "Between 1850 and 1868, 9,721 convicts were transported to Western Australia on 43 convict ship voyages",
+   "sentence": "Between 1850 and 1868, 9,721 convicts were transported to Western Australia on 43 convict ship voyages ."
+  },
+  "wa_9668": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829,
+   "phrase": "9,668 convicts were transported on 43 convict ships",
+   "sentence": "During that period, 9,668 convicts were transported on 43 convict ships ."
+  },
+  "wa_last": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829,
+   "phrase": "In 1868, almost two decades after transportation to the eastern colonies had ceased, the last convict ship arrived in Western Australia",
+   "sentence": "In 1868, almost two decades after transportation to the eastern colonies had ceased, the last convict ship arrived in Western Australia."
+  },
+  "wa_nowomen": {
+   "article": "Convict era of Western Australia",
+   "revid": 1376677837,
+   "phrase": "that no female convicts be transported",
+   "sentence": "At the request of the colony, convicts were initially selected for transportation in accordance with three conditions: that no female convicts be transported; that no political prisoners be transported; and that no convicts convicted of serious crimes be transported."
+  },
+  "wa_parkhurst": {
+   "article": "List of convict ship voyages to Western Australia",
+   "revid": 1334470026,
+   "phrase": "Between 1842 and 1849, Western Australia accepted 234 Parkhurst apprentices, all males aged between 10 and 21",
+   "sentence": "Between 1842 and 1849, Western Australia accepted 234 Parkhurst apprentices, all males aged between 10 and 21."
+  },
+  "nfk_dates": {
+   "article": "Norfolk Island",
+   "revid": 1381712229,
+   "phrase": "The island served as a convict penal settlement from 6 March 1788 until 5 May 1855",
+   "sentence": "The island served as a convict penal settlement from 6 March 1788 until 5 May 1855, except for an 11-year hiatus between 15 February 1814 and 6 June 1825, when it lay abandoned."
+  },
+  "nfk_nocompil": {
+   "article": "Convict ships to Norfolk Island",
+   "revid": 1383115444,
+   "phrase": "There appear to be no compilations of which vessels brought how many convicts from New South Wales to Norfolk Island",
+   "sentence": "There appear to be no compilations of which vessels brought how many convicts from New South Wales to Norfolk Island, and when, during the 1788 to 1814 period."
+  },
+  "ff_depart": {
+   "article": "First Fleet",
+   "revid": 1381165491,
+   "phrase": "On 13 May 1787, the ships, with over 1,400 convicts , marines , sailors, colonial officials, and free settlers onboard, left Portsmouth",
+   "sentence": "On 13 May 1787, the ships, with over 1,400 convicts , marines , sailors, colonial officials, and free settlers onboard, left Portsmouth and travelled over 24,000 kilometres (15,000 mi; 13,000 nmi) and over 250 days before arriving in Botany Bay , New South Wales , on 18 January 1788."
+  },
+  "ff_deaths": {
+   "article": "First Fleet",
+   "revid": 1381165491,
+   "phrase": "reported a total of 48 deaths and 28 births during the voyage",
+   "sentence": "The following statistics were provided by Governor Phillip: Male Female Children Total Convicts & their children 548 188 17 753 Others 219 34 24 277 Total 767 222 41 1,030 The chief surgeon for the First Fleet, John White, reported a total of 48 deaths and 28 births during the voyage."
+  },
+  "ff_252": {
+   "article": "First Fleet",
+   "revid": 1381165491,
+   "phrase": "had travelled for 252 days for more than 15,000 miles",
+   "sentence": "This was one of the world's greatest sea voyages, eleven vessels carrying about 1,487 people and stores had travelled for 252 days for more than 15,000 miles (24,000 km) without losing a ship."
+  },
+  "ff_eora": {
+   "article": "First Fleet",
+   "revid": 1381165491,
+   "phrase": "they encountered the Eora people, including the Bidjigal clan",
+   "sentence": "When the Fleet moved to Sydney Cove seeking better conditions for establishing the colony, they encountered the Eora people, including the Bidjigal clan."
+  },
+  "sf_quarter": {
+   "article": "Second Fleet (Australia)",
+   "revid": 1339109887,
+   "phrase": "Of the 1,006 convicts transported aboard the Fleet, one quarter died during the voyage and around 40 per cent were dead within six months of arrival in Australia",
+   "sentence": "Of the 1,006 convicts transported aboard the Fleet, one quarter died during the voyage and around 40 per cent were dead within six months of arrival in Australia."
+  },
+  "sf_273": {
+   "article": "Second Fleet (Australia)",
+   "revid": 1339109887,
+   "phrase": "Of the 1,038 convicts embarked, 273 died during the voyage (26%) and 486 (47% of those embarked) landed sick",
+   "sentence": "Of the 1,038 convicts embarked, 273 died during the voyage (26%) and 486 (47% of those embarked) landed sick."
+  },
+  "sf_124": {
+   "article": "Second Fleet (Australia)",
+   "revid": 1339109887,
+   "phrase": "Of these, 124 died shortly after they had landed",
+   "sentence": "Of these, 124 died shortly after they had landed."
+  },
+  "sf_fee": {
+   "article": "Second Fleet (Australia)",
+   "revid": 1339109887,
+   "phrase": "per head, whether they landed alive or not",
+   "sentence": "Surprize , Neptune , and Scarborough were contracted from the firm Camden, Calvert & King , which undertook to transport, clothe and feed the convicts for a flat fee of £17 7s 6d, or £17.38 (equivalent to £2,266 in 2025) per head, whether they landed alive or not."
+  },
+  "sf_267": {
+   "article": "Convict women in Australia",
+   "revid": 1346295726,
+   "phrase": "in the Second Fleet , 267 out of 1,006 prisoners died at sea",
+   "sentence": "The beginning of the transportation years brought ships at inconsistent times and the death rate on these ships remained high; in the Second Fleet , 267 out of 1,006 prisoners died at sea."
+  },
+  "tf_2000": {
+   "article": "Third Fleet (Australia)",
+   "revid": 1308790478,
+   "phrase": "with more than 2,000 convicts aboard",
+   "sentence": "1791 prisoner transport convoy to Australia The Third Fleet comprised 11 ships that set sail from the Kingdom of Great Britain in February, March and April 1791, bound for the Sydney penal settlement, with more than 2,000 convicts aboard."
+  },
+  "women_fry": {
+   "article": "Convict women in Australia",
+   "revid": 1346295726,
+   "phrase": "12,000 women were transported on 106 ships",
+   "sentence": "During the 25 years that Fry was involved 12,000 women were transported on 106 ships."
+  },
+  "women_six": {
+   "article": "Convict women in Australia",
+   "revid": 1346295726,
+   "phrase": "male convicts outnumbered the female convicts six to one",
+   "sentence": "During the 18th and 19th centuries many prisoners were transported to Australia to carry out their sentence, a relatively small percentage of whom were women (between 1788 and 1852, male convicts outnumbered the female convicts six to one )."
+  },
+  "frontier": {
+   "article": "Penal transportation",
+   "revid": 1381060835,
+   "phrase": "Violent conflict on the Australian frontier between indigenous Australians and the colonists began only months after the First Fleet landed, lasting over a century",
+   "sentence": "Violent conflict on the Australian frontier between indigenous Australians and the colonists began only months after the First Fleet landed, lasting over a century."
+  },
+  "myall": {
+   "article": "Penal transportation",
+   "revid": 1381060835,
+   "phrase": "convicts and ex-convicts also attacked indigenous people in some instances, such as the Myall Creek Massacre",
+   "sentence": "Convicts forced to work in the bush on the frontier were sometimes the victims of indigenous attacks, while convicts and ex-convicts also attacked indigenous people in some instances, such as the Myall Creek Massacre ."
+  },
+  "hawkesbury": {
+   "article": "Penal transportation",
+   "revid": 1381060835,
+   "phrase": "a group of Irish convicts joined the Aboriginal coalition of Eora , Gandangara , Dharug and Tharawal nations in their fight against the colonists",
+   "sentence": "In the Hawkesbury and Nepean Wars , a group of Irish convicts joined the Aboriginal coalition of Eora , Gandangara , Dharug and Tharawal nations in their fight against the colonists."
+  },
+  "america_lang": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829,
+   "phrase": "it has been estimated to be 50,000 by John Dunmore Lang and 120,000 by Thomas Keneally",
+   "sentence": "The number of convicts transported to North America is not verified, although it has been estimated to be 50,000 by John Dunmore Lang and 120,000 by Thomas Keneally ."
+  },
+  "america_60k": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829,
+   "phrase": "About 60,000 convicts were transported to the British colonies in North America",
+   "sentence": "About 60,000 convicts were transported to the British colonies in North America in the seventeenth and eighteenth centuries, under the terms of the Transportation Act 1717 ."
+  },
+  "america_1717": {
+   "article": "Transportation Act 1717",
+   "revid": 1381752810,
+   "phrase": "It is commonly accepted that 30,000 convicts (women, men and children) may have been transported to the British American colonies, with some estimates going as high as 50,000",
+   "sentence": "It is commonly accepted that 30,000 convicts (women, men and children) may have been transported to the British American colonies, with some estimates going as high as 50,000."
+  },
+  "america_range": {
+   "article": "Penal transportation",
+   "revid": 1381060835,
+   "phrase": "England transported an estimated 50,000 to 120,000 convicts and political prisoners",
+   "sentence": "England transported an estimated 50,000 to 120,000 convicts and political prisoners, as well as prisoners of war from Scotland and Ireland , to its overseas colonies in the Americas from the 1610s until early in the American Revolution in 1776, when transportation to America was temporarily suspended by the Criminal Law Act 1776 ( 16 Geo."
+  },
+  "america_1776": {
+   "article": "Penal transportation",
+   "revid": 1381060835,
+   "phrase": "early in the American Revolution in 1776",
+   "sentence": "England transported an estimated 50,000 to 120,000 convicts and political prisoners, as well as prisoners of war from Scotland and Ireland , to its overseas colonies in the Americas from the 1610s until early in the American Revolution in 1776, when transportation to America was temporarily suspended by the Criminal Law Act 1776 ( 16 Geo."
+  },
+  "bermuda": {
+   "article": "Penal transportation",
+   "revid": 1381060835,
+   "phrase": "From the 1820s until the 1860s, convicts were sent to the Imperial fortress colony of Bermuda",
+   "sentence": "From the 1820s until the 1860s, convicts were sent to the Imperial fortress colony of Bermuda (part of British North America ) to work on the construction of the Royal Naval Dockyard and other defence works, including at the East End of the archipelago, where they were accommodated aboard the hulk of HMS Thames at an area still known as \" Convict Bay \", at St."
+  },
+  "bermuda_1823": {
+   "article": "Royal Naval Dockyard, Bermuda",
+   "revid": 1377314982,
+   "phrase": "the first arriving in 1823",
+   "sentence": "The absence of suitable labour for the continuation of the dockyard works over the following six years led to the decision late in 1822 to use convicts shipped from Britain and Ireland to carry out most of the original phase of building at the base, the first arriving in 1823."
+  },
+  "bermuda_1863": {
+   "article": "Royal Naval Dockyard, Bermuda",
+   "revid": 1377314982,
+   "phrase": "The last convicts were withdrawn in 1863",
+   "sentence": "The last convicts were withdrawn in 1863, returned to Britain on the Bermudian merchant clipper, Cedrine (which was wrecked on the Isle of Wight , on its maiden voyage, costing Captain Thomas Melville Dill, grandfather of the parliamentarian and Attorney General of the same name , his Master's certificate)."
+  },
+  "andaman_1857": {
+   "article": "Penal transportation",
+   "revid": 1381060835,
+   "phrase": "A penal colony was established there in 1857 with prisoners from the Indian Rebellion of 1857",
+   "sentence": "A penal colony was established there in 1857 with prisoners from the Indian Rebellion of 1857 ."
+  },
+  "andaman_80k": {
+   "article": "Penal transportation",
+   "revid": 1381060835,
+   "phrase": "An estimated 80,000 political prisoners were transported to the Cellular Jail",
+   "sentence": "An estimated 80,000 political prisoners were transported to the Cellular Jail which became known for its harsh conditions, including forced labor; prisoners who went on hunger strikes were frequently force-fed ."
+  },
+  "andaman_cells": {
+   "article": "Penal transportation",
+   "revid": 1381060835,
+   "phrase": "was constructed between 1896 and 1906 as a high-security prison with 698 individual cells",
+   "sentence": "[ citation needed ] The Cellular Jail in Port Blair , South Andaman Island , also called Kālā Pānī or Kalapani (Hindi for black waters), was constructed between 1896 and 1906 as a high-security prison with 698 individual cells for solitary confinement ."
+  },
+  "guiana_dates": {
+   "article": "Penal transportation",
+   "revid": 1381060835,
+   "phrase": "Devil's Island, a French penal colony in Guiana , was used for transportation from 1852 to 1953",
+   "sentence": "Devil's Island, a French penal colony in Guiana , was used for transportation from 1852 to 1953."
+  },
+  "newcal": {
+   "article": "Penal transportation",
+   "revid": 1381060835,
+   "phrase": "New Caledonia became a French penal colony from the 1860s until the end of the transportations in 1897; about 22,000 criminals and political prisoners",
+   "sentence": "New Caledonia became a French penal colony from the 1860s until the end of the transportations in 1897; about 22,000 criminals and political prisoners (most notably Communards ) were sent to New Caledonia."
+  },
+  "bagne_1852": {
+   "article": "Bagne (penal establishment)",
+   "revid": 1378312137,
+   "phrase": "The maritime bagnes were then transferred to Cayenne in 1852, and to New Caledonia in 1864",
+   "sentence": "The maritime bagnes were then transferred to Cayenne in 1852, and to New Caledonia in 1864, at a time when the Navy was switching from sail to steam, making the need for manpower less important."
+  },
+  "bagne_1953": {
+   "article": "Bagne (penal establishment)",
+   "revid": 1378312137,
+   "phrase": "On August 1, 1953, the last convicts and their supervisors returned to France",
+   "sentence": "On August 1, 1953, the last convicts and their supervisors returned to France."
+  },
+  "bagne_1938": {
+   "article": "Bagne (penal establishment)",
+   "revid": 1378312137,
+   "phrase": "a decree-law of June 17, 1938",
+   "sentence": "Abolition On the initiative of the Guyanese Gaston Monnerville , undersecretary for the Colonies, a decree-law of June 17, 1938, signed by French President Albert Lebrun abolished deportation, but detention in a penal colony remained in force until 1945."
+  },
+  "katorga_chekhov": {
+   "article": "Katorga",
+   "revid": 1371129600,
+   "phrase": "In 1891 Anton Chekhov , the Russian writer and playwright, visited the katorga settlements on Sakhalin island",
+   "sentence": "In 1891 Anton Chekhov , the Russian writer and playwright, visited the katorga settlements on Sakhalin island in the Russian Far East and wrote about the conditions there in his book Sakhalin Island ."
+  },
+  "katorga_17c": {
+   "article": "Katorga",
+   "revid": 1371129600,
+   "phrase": "Katorga camps were established in the 17th century by Tsar Alexis of Russia",
+   "sentence": "Katorga camps were established in the 17th century by Tsar Alexis of Russia in newly conquered, underpopulated areas of Siberia and the Russian Far East , regions that had few towns or food sources."
+  },
+  "moreton": {
+   "article": "Moreton Bay Penal Settlement",
+   "revid": 1376283471,
+   "phrase": "The Moreton Bay Penal Settlement operated from 1824 to 1842",
+   "sentence": "Former Australian penal settlement Watercolour painting of Moreton Bay Settlement, 1835 The Moreton Bay Penal Settlement operated from 1824 to 1842."
+  },
+  "moreton_1000": {
+   "article": "Moreton Bay Penal Settlement",
+   "revid": 1376283471,
+   "phrase": "the number of prisoners in the settlement rose from 200 to 1000",
+   "sentence": "Between 1826 and 1829, the number of prisoners in the settlement rose from 200 to 1000 and the plight of the convicts whose labour was to establish the settlement was dire."
+  },
+  "macquarie": {
+   "article": "Macquarie Harbour Penal Station",
+   "revid": 1368436442,
+   "phrase": "Opened 1822 Closed 1833",
+   "sentence": "42°23′16″S 145°26′55″E ﻿ / ﻿ 42.387889°S 145.448611°E ﻿ / -42.387889; 145.448611 Status Abandoned Security class Penal colony Opened 1822 Closed 1833 Managed by British Government Governor Lt Governor William Sorell (1822 to 24) Lt Governor George Arthur (1824 to 33) Main article: Convicts on the West Coast of Tasmania The Macquarie Harbour Penal Station , a former British colonial penal settlement , established on Sarah Island , Macquarie Harbour , in the former Penal colony of Van Diemen's Land , now Tasmania , operated between 1822 and 1833."
+  },
+  "portarthur": {
+   "article": "Port Arthur, Tasmania",
+   "revid": 1381786866,
+   "phrase": "From 1833 until 1877, it was the destination for those deemed the most hardened of transported convicts",
+   "sentence": "From 1833 until 1877, it was the destination for those deemed the most hardened of transported convicts ― so-called \"secondary offenders\" ― who had persistently re-offended during their time in Australia."
+  },
+  "sites_unesco": {
+   "article": "Australian Convict Sites",
+   "revid": 1366152364,
+   "phrase": "Inscription 2010",
+   "sentence": "UNESCO World Heritage Site in Australia Australian Convict Sites UNESCO World Heritage Site 1830 illustration of convicts in front of the Hyde Park Barracks , one of the eleven sites that form the Australian Convict Sites Location Australia Criteria Cultural: iv, vi Reference 1306 Inscription 2010 (34th Session ) Area 1,502.51 hectares (5.8012 sq mi) Buffer zone 3,887.63 hectares (15.0102 sq mi) The Australian Convict Sites are a World Heritage Site that consists of eleven penal sites associated with convict transportation to Australia ."
+  },
+  "sites_eleven": {
+   "article": "Australian Convict Sites",
+   "revid": 1366152364,
+   "phrase": "one of the eleven sites that form the Australian Convict Sites",
+   "sentence": "UNESCO World Heritage Site in Australia Australian Convict Sites UNESCO World Heritage Site 1830 illustration of convicts in front of the Hyde Park Barracks , one of the eleven sites that form the Australian Convict Sites Location Australia Criteria Cultural: iv, vi Reference 1306 Inscription 2010 (34th Session ) Area 1,502.51 hectares (5.8012 sq mi) Buffer zone 3,887.63 hectares (15.0102 sq mi) The Australian Convict Sites are a World Heritage Site that consists of eleven penal sites associated with convict transportation to Australia ."
+  },
+  "sites_fremantle": {
+   "article": "Australian Convict Sites",
+   "revid": 1366152364,
+   "phrase": "Fremantle Prison was constructed during the 1850s",
+   "sentence": "Fremantle Prison Western Australia 32°03′18″S 115°45′13″E ﻿ / ﻿ 32.05500°S 115.75361°E ﻿ / -32.05500; 115.75361 ﻿ ( Fremantle Prison ) 1306-011 6 ha (15 acres) Fremantle Prison was constructed during the 1850s soon after the arrival of the first convicts in Western Australia ."
+  },
+  "women_theft": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829,
+   "phrase": "Some 80% of women had been convicted of theft, usually petty",
+   "sentence": "Some 80% of women had been convicted of theft, usually petty."
+  },
+  "women_prost": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829,
+   "phrase": "no women were transported for prostitution, as it was not a transportable offence",
+   "sentence": "Although they were routinely referred to as courtesans , no women were transported for prostitution, as it was not a transportable offence."
+  },
+  "women_courtesans": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829,
+   "phrase": "Although they were routinely referred to as courtesans",
+   "sentence": "Although they were routinely referred to as courtesans , no women were transported for prostitution, as it was not a transportable offence."
+  },
+  "women_fry_society": {
+   "article": "Convict women in Australia",
+   "revid": 1346295726,
+   "phrase": "British Ladies Society cared for women convicts",
+   "sentence": "Elizabeth Fry 's British Ladies Society cared for women convicts."
+  },
+  "ff_tenerife": {
+   "article": "First Fleet",
+   "revid": 1381165491,
+   "phrase": "the fleet anchored at Santa Cruz at Tenerife",
+   "sentence": "On 3 June 1787, the fleet anchored at Santa Cruz at Tenerife ."
+  },
+  "ff_rio": {
+   "article": "First Fleet",
+   "revid": 1381165491,
+   "phrase": "The Fleet reached Rio de Janeiro on 5 August and stayed for a month",
+   "sentence": "The Fleet reached Rio de Janeiro on 5 August and stayed for a month."
+  },
+  "ff_eora_first": {
+   "article": "First Fleet",
+   "revid": 1381165491,
+   "phrase": "First contact was made with the local indigenous people, the Eora , who seemed curious but suspicious of the newcomers",
+   "sentence": "First contact was made with the local indigenous people, the Eora , who seemed curious but suspicious of the newcomers."
+  },
+  "wa_request": {
+   "article": "Convict era of Western Australia",
+   "revid": 1376677837,
+   "phrase": "At the request of the colony, convicts were initially selected",
+   "sentence": "At the request of the colony, convicts were initially selected for transportation in accordance with three conditions: that no female convicts be transported; that no political prisoners be transported; and that no convicts convicted of serious crimes be transported."
+  },
+  "nsw_1840": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829,
+   "phrase": "Transportation to New South Wales was temporarily ended in 1840",
+   "sentence": "Transportation to New South Wales was temporarily ended in 1840 under the Order-in-Council of 22 May 1840, by which time some 150,000 convicts had been sent to the colonies."
+  },
+  "cellular_political": {
+   "article": "Cellular Jail",
+   "revid": 1379660571,
+   "phrase": "Prison for political prisoners",
+   "sentence": "Cellular Jail Entrance of the Cellular Jail Alternative names Kālā Pāni General information Type Prison for political prisoners ( Indian independence activists ) Architectural style Cellular, pronged Location Port Blair , Andaman , India Coordinates 11°40′30″N 92°44′53″E ﻿ / ﻿ 11.675°N 92.748°E ﻿ / 11.675; 92.748 Construction started 1896 Completed 1906 Cost ₹ 517,352 Client India Owner National Memorial Cellular Jail Interactive map of Cellular Jail Notable prisoners Fazl-e-Haq Khairabadi Batukeshwar Dutt Bhai Parmanand Diwan Singh Hare Krishna Konar Hemchandra Kanungo Mahavir Singh Maulvi Al"
+  },
+  "ff_gillen": {
+   "article": "First Fleet",
+   "revid": 1381165491,
+   "phrase": "Convicts (men) 582 543 Convicts (women) 193 189",
+   "sentence": "In her biographical dictionary of the First Fleet, Mollie Gillen gives the following statistics: Embarked at Portsmouth Landed at Sydney Cove Officials and passengers 15 14 Ships' crews 323 306 Marines 247 245 Marines' wives and children 46 45 + 9 born Convicts (men) 582 543 Convicts (women) 193 189 Convicts' children 14 11 + 11 born Total 1,420 1,373 While the names of all crew members of Sirius and Supply are known, the six transports and three store ships may have carried as many as 110 more seamen than have been identified, no complete musters have survived for these ships."
+  },
+  "ff_eleven": {
+   "article": "First Fleet",
+   "revid": 1381165491,
+   "phrase": "eleven vessels carrying about 1,487 people",
+   "sentence": "This was one of the world's greatest sea voyages, eleven vessels carrying about 1,487 people and stores had travelled for 252 days for more than 15,000 miles (24,000 km) without losing a ship."
+  },
+  "guiana_80k": {
+   "article": "Devil's Island",
+   "revid": null,
+   "phrase": "The vast majority of the more than 80,000 prisoners sent to the Devil's Island prison system never returned to France",
+   "sentence": "The vast majority of the more than 80,000 prisoners sent to the Devil's Island prison system never returned to France"
+  },
+  "guiana_pc": {
+   "article": "Penal colony",
+   "revid": null,
+   "phrase": "Devil's Island in French Guiana received some 80,000 forgers and other criminals between 1852 and 1939",
+   "sentence": "Devil's Island in French Guiana received some 80,000 forgers and other criminals between 1852 and 1939"
+  },
+  "sakhalin_1857": {
+   "article": "Sakhalin",
+   "revid": null,
+   "phrase": "In 1857, the Russians established a penal colony, or katorga, on Sakhalin",
+   "sentence": "In 1857, the Russians established a penal colony, or katorga, on Sakhalin"
+  },
+  "sakhalin_1869": {
+   "article": "Sakhalin",
+   "revid": null,
+   "phrase": "which formed the legal basis for Sakhalin Island to be a penal colony",
+   "sentence": "which formed the legal basis for Sakhalin Island to be a penal colony"
+  },
+  "katorga_1906": {
+   "article": "Gulag",
+   "revid": null,
+   "phrase": "approximately 6,000 katorga convicts were serving sentences in 1906, with up to 28,600 by 1916",
+   "sentence": "approximately 6,000 katorga convicts were serving sentences in 1906, with up to 28,600 by 1916"
+  },
+  "portblair_200": {
+   "article": "Port Blair",
+   "revid": null,
+   "phrase": "the first set of 200 convicts arrived at the island in March 1858",
+   "sentence": "the first set of 200 convicts arrived at the island in March 1858"
+  },
+  "andaman_1947": {
+   "article": "Andaman Islands",
+   "revid": null,
+   "phrase": "The penal colony was eventually closed on 15 August 1947",
+   "sentence": "The penal colony was eventually closed on 15 August 1947"
+  },
+  "hulks_1776": {
+   "article": "Hulk (ship type)",
+   "revid": null,
+   "phrase": "commencing in Britain in 1776 when the American Revolution prevented the sending of convicts to North America",
+   "sentence": "commencing in Britain in 1776 when the American Revolution prevented the sending of convicts to North America"
+  },
+  "convict_ship": {
+   "article": "Convict ship",
+   "revid": null,
+   "phrase": "There was no ship specifically built as a convict vessel",
+   "sentence": "There was no ship specifically built as a convict vessel"
+  },
+  "devils_never": {
+   "article": "Devil's Island",
+   "revid": null,
+   "phrase": "never returned to France",
+   "sentence": "never returned to France"
+  }
+ },
+ "revids": {
+  "Convict ships to New South Wales": 1329275779,
+  "Convict ships to Tasmania": 1153506110,
+  "Convict ships to Norfolk Island": 1383115444,
+  "Convict ships to Australia": 1364897894,
+  "List of convict ship voyages to Western Australia": 1334470026,
+  "List of convict ships to Western Australia": 1334470026,
+  "List of convicts transported to Australia": 1369575880,
+  "List of British prison hulks": 1379028118,
+  "Penal transportation": 1381060835,
+  "Convicts in Australia": 1373855829,
+  "Convict era of Western Australia": 1376677837,
+  "Moreton Bay Penal Settlement": 1376283471,
+  "Bagne (penal establishment)": 1378312137,
+  "Cellular Jail": 1379660571,
+  "Royal Naval Dockyard, Bermuda": 1377314982,
+  "Indentured servitude in British America": 1368066200,
+  "Transportation Act 1717": 1381752810,
+  "First Fleet": 1381165491,
+  "Second Fleet (Australia)": 1339109887,
+  "Third Fleet (Australia)": 1308790478,
+  "Australian Convict Sites": 1366152364,
+  "Convict women in Australia": 1346295726,
+  "Macquarie Harbour Penal Station": 1368436442,
+  "Port Arthur, Tasmania": 1381786866,
+  "Norfolk Island": 1381712229,
+  "Katorga": 1371129600
+ },
+ "checks": {
+  "rows_nsw": 603,
+  "rows_vdl": 147,
+  "rows_nfk": 33,
+  "rows_wa": 50,
+  "sailed_values": {
+   "Cork": 105,
+   "Portsmouth": 99,
+   "London": 95,
+   "England": 68,
+   "Dublin": 48,
+   "Sheerness": 44,
+   "Plymouth": 36,
+   "Calcutta": 36,
+   "Spithead": 31,
+   "Mauritius": 29,
+   "The Downs": 29,
+   "Woolwich": 22,
+   "Hobart Town": 21,
+   "": 21,
+   "Sydney": 19,
+   "Portland": 16,
+   "Downs": 14,
+   "Ireland": 10,
+   "Falmouth": 7,
+   "Madras": 6,
+   "India": 5,
+   "Torbay": 5,
+   "Adelaide": 5,
+   "Bengal": 4,
+   "Swan River": 4,
+   "Hobart": 4,
+   "Gravesend": 3,
+   "Ceylon": 3,
+   "Singapore": 3,
+   "Bombay": 3,
+   "Port Jackson": 3,
+   "Isle de France": 2,
+   "Madras & Mauritius": 2,
+   "Waterford": 1,
+   "Quebec": 1,
+   "Madras & Calcutta": 1,
+   "India & Ceylon": 1,
+   "Port Louis": 1,
+   "Sherness": 1,
+   "Singapore & Swan River": 1,
+   "Cowes": 1,
+   "Portsmouth and Cork": 1,
+   "England and Ireland": 1,
+   "Deptford": 1,
+   "the Downs, & Cork": 1,
+   "Yarmouth Roads": 1,
+   "Bombay & Mauritius": 1,
+   "Île de France (Mauritius)": 1,
+   "Calcutta & Mauritius": 1,
+   "Calcutta & Port Phillip": 1,
+   "Cape of Good Hope": 1,
+   "Portsmouth England": 1,
+   "Devonport": 1,
+   "Dublin, via the Cape": 1,
+   "England via Port Jackson": 1,
+   "Portsmouth & Cork": 1,
+   "Lonson": 1,
+   "Norfolk Island": 1,
+   "Dartmouth": 1,
+   "Land's End": 1,
+   "England & Bermuda": 1,
+   "Port Phillip": 1,
+   "Kingstown (Dublin)": 1,
+   "Kingstown": 1
+  },
+  "added_from_fleet": [
+   "Prince of Wales"
+  ],
+  "fleet_matched": 21,
+  "ship_articles": 305,
+  "category_members": {
+   "Category:Convict ships to Australia": 10,
+   "Category:Convict ships to New South Wales": 240,
+   "Category:Convict ships to Norfolk Island": 9,
+   "Category:Convict ships to Tasmania": 119,
+   "Category:Convict ships to Western Australia": 15
+  },
+  "ship_texts": 307,
+  "article_voyages_found": 75,
+  "article_voyages_matched": 33,
+  "women_from_articles": 2,
+  "hulks": 70
+ }
+}

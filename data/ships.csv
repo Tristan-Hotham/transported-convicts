@@ -1,0 +1,454 @@
+ship_id,name,article,voyages,first,last,colonies,launched,tons,lead_voyages,fate,builder
+Mangles (1803 ship),Mangles,Mangles (1803 ship),9,1820,1840,"NSW, Norfolk Island, Tasmania",1803.0,542.0,9.0,Last listed in 1844,"Hudson, Bacon, & Co. Calcutta"
+Guildford (1810 ship),Guildford,Guildford (1810 ship),8,1812,1829,NSW,1810.0,521.0,,Lost with all on board in 1831 on voyage from Singapore to England,"Wells, Wigram & Green, Blackwall"
+nsw:surrey,Surrey,,8,1816,1840,NSW,,,,,
+Asia (1818 ship),Asia,Asia (1818 ship),8,1820,1836,"NSW, Tasmania",1818.0,532.0,8.0,Last listed 1845,"A. Hall & Company, Aberdeen"
+Eliza (1804 ship),Eliza,Eliza (1804 ship),6,1820,1832,"NSW, Tasmania",1802.0,500.0,5.0,Abandoned at sea 1836,Calcutta
+Norfolk (1814 ship),Norfolk,Norfolk (1814 ship),6,1825,1837,"NSW, Tasmania",1814.0,536.0,4.0,Wrecked 1837,Littlehampton
+John (1809 ship),John,John (1809 ship),6,1827,1837,"NSW, Tasmania",1809.0,464.0,,Wrecked 4 May 1855,"| launched = 1809 (or 1810), Chester"
+Waterloo (1815 ship),Waterloo,Waterloo (1815 ship),6,1829,1838,"NSW, Tasmania",1815.0,414.0,4.0,Wrecked August 1842,"George Hillhouse, Sons & Co., Bristol"
+Canada (1800 ship),Canada,Canada (1800 ship),5,1801,1819,NSW,1800.0,393.0,5.0,Disappears from Lloyd's Register after 1832,Francis Hurry & Co.
+Morley (1811 ship),Morley,Morley (1811 ship),5,1817,1829,"NSW, Tasmania",1811.0,480.0,6.0,Last listed 1855,"John Dudman, Deptford"
+Isabella (1818 ship),Isabella,Isabella (1818 ship),5,1818,1833,"NSW, Tasmania",1818.0,579.0,6.0,No longer in Lloyd's Register in 1851,"John Warwick, Rotherhithe"
+Minerva (1805 ship),Minerva,Minerva (1805 ship),5,1818,1839,NSW,1805.0,530.0,4.0,Broken up 1826,"Brocklebank, Lancaster"
+John Barry (1814 ship),John Barry,John Barry (1814 ship),5,1819,1839,"NSW, Tasmania",1814.0,520.0,,1841 damaged in a typhoon and hulked,John Barry
+Countess of Harcourt (1811 ship),Countess of Harcourt,Countess of Harcourt (1811 ship),5,1821,1828,"NSW, Tasmania",1811.0,491.0,5.0,| notes = }},"Chiene, Prince of Wales's Island"
+Mary (1811 Ipswich ship),Mary,Mary (1811 Ipswich ship),5,1823,1835,"NSW, Tasmania",1811.0,361.0,5.0,Wrecked 1845,"Jabez Bayley, Ipswich"
+Asia (1815 ship),Asia,Asia (1815 ship),5,1825,1836,"NSW, Tasmania",1815.0,492.0,4.0,Hulked or broken up in 1860,"Matthew Smith, Calcutta, or Bombay"
+Layton (1814 ship),Layton,Layton (1814 ship),5,1827,1841,"NSW, Tasmania",1814.0,490.0,4.0,Lost at sea 1847,"Brocklebank, Lancaster"
+Roslin Castle (1819 ship),Roslin Castle,Roslin Castle (1819 ship),5,1828,1836,"NSW, Tasmania",1819.0,450.0,5.0,| notes = }},Bristol
+Lord Lyndoch (1814 ship),Lord Lyndoch,Lord Lyndoch (1814 ship),5,1831,1841,"NSW, Tasmania",1814.0,589.0,5.0,Last listed in 1847,"Matthew Smith, Sulkea, Calcutta"
+Sovereign (1793 ship),Sovereign,Sovereign (1793 ship),4,1795,1834,NSW,1793.0,357.0,,Last listed 1822,"Shields, Newcastle-on-Tyne, or Sunderland"
+Elizabeth (1809 ship),Elizabeth,Elizabeth (1809 ship),4,1816,1828,NSW,1809.0,480.0,3.0,Not listed after 1832; possibly lost in December 1831,"Buckle & Davies, Chepstow"
+Shipley (1805 ship),Shipley,Shipley (1805 ship),4,1817,1822,NSW,1805.0,381.0,4.0,Wrecked 19 April 1826,Whitby
+Grenada (1810 ship),Grenada,Grenada (1810 ship),4,1819,1827,"NSW, Tasmania",1810.0,408.0,4.0,Condemned 1827,"Thomas Steemson, Paull, Kingston upon Hull"
+Prince Regent (1811 Shields ship),Prince Regent,Prince Regent (1811 Shields ship),4,1820,1830,"NSW, Tasmania",1811.0,1811.0,4.0,Last listed 1855,"William Temple, Jarrow"
+Henry Porcher (1817 ship),Henry Porcher,Henry Porcher (1817 ship),4,1825,1836,"NSW, Tasmania",1817.0,457.0,,Broken up in 1860,Hilhouse & Sons and Company
+Hooghly (1819 ship),Hooghly,Hooghly (1819 ship),4,1825,1834,NSW,1819.0,442.0,4.0,Sank 10 December 1863,"Gordon, Deptford"
+Sir Charles Forbes (1824 ship),Sir Charles Forbes,Sir Charles Forbes (1824 ship),4,1825,1837,"NSW, Tasmania",1824.0,363.0,3.0,Last listed 1861,"A.Hall & Co., Aberdeen"
+Marquis of Huntley (1804 ship),Marquis of Huntley,Marquis of Huntley (1804 ship),4,1826,1835,NSW,1804.0,547.0,4.0,Last listed in 1843; possibly wrecked 24 June 1844,"Duthie, Aberdeen"
+Andromeda (1819),Andromeda,Andromeda (1819),4,1827,1834,"NSW, Tasmania",1819.0,383.0,4.0,Last listed 1847,|name=Andromeda
+Bengal Merchant (1812 ship),Bengal Merchant,Bengal Merchant (1812 ship),4,1828,1838,"NSW, Tasmania",1812.0,463.0,,Hulked in 1856,"Anthony Blackmore, Howrah, Bengal"
+Boyne (1807 ship),Moffat,Boyne (1807 ship),4,1834,1842,"NSW, Tasmania",1807.0,750.0,4.0,Sold,"Matthew Smith, Calcutta"
+Susan (1813 ship),Susan,Susan (1813 ship),4,1834,1842,"NSW, Tasmania",1813.0,523.0,4.0,Foundered 1846,"Matthew Smith, Calcutta"
+Earl Grey (1835 ship),Earl Grey,Earl Grey (1835 ship),4,1836,1850,"NSW, Tasmania",1835.0,571.0,4.0,|notes= }},Newcastle upon Tyne
+Warren Hastings (1789 ship),Speke,Warren Hastings (1789 ship),3,1808,1826,NSW,1789.0,400.0,3.0,"25 August 1830 register cancelled, demolition being completed","George Gillet, Calcutta, or George Gillet and David Robertson"
+Frederick (1807 ship),Frederick,Frederick (1807 ship),3,1814,1817,NSW,,,,,
+Mariner (1807 ship),Mariner,Mariner (1807 ship),3,1816,1827,NSW,1807.0,446.0,3.0,Still listed in 1856,Fishburn and Brodrick
+Almorah (1817),Almorah,Almorah (1817),3,1817,1824,NSW,1817.0,415.0,,Sank during storm in 1832,"J Foster, Selby"
+Chapman (1777 ship),Chapman,Chapman (1777 ship),3,1817,1826,"NSW, Tasmania",1777.0,542.0,3.0,Last listed in 1853,"Thomas Fishburn, Whitby"
+Larkins (1808 ship),Larkins,Larkins (1808 ship),3,1817,1831,"NSW, Tasmania",1808.0,637.0,,Hulk broken up in 1876,"Hudson, Bacon, Harvey & Weatherall, Calcutta"
+nsw:mary,Mary,,3,1817,1836,NSW,,,,,
+Earl St. Vincent (1800 ship),Earl St. Vincent,Earl St. Vincent (1800 ship),3,1818,1823,NSW,1800.0,412.0,3.0,Last listed 1833,"Robert Davy, Topsham"
+Recovery (1811 ship),Recovery,Recovery (1811 ship),3,1819,1836,NSW,1799.0,470.0,2.0,|notes= }},|laid_down=
+nsw:lord sidmouth,Lord Sidmouth,,3,1819,1823,NSW,,,,,
+Hindostan (1819 ship),Hindostan,Hindostan (1819 ship),3,1821,1841,"NSW, Tasmania",1819.0,1819.0,1.0,Foundered in 1851,"Holt and Richardson, Whitby"
+nsw:mary anne,Mary Anne (or Mary Ann ),,3,1821,1839,NSW,,,,,
+Phoenix (1810 ship),Phoenix,Phoenix (1810 ship),3,1822,1828,"NSW, Tasmania",1810.0,493.0,1.0,Wrecked 19 July 1829,"Robert Davy, Topsham, Devon"
+Albion (1813 ship),Albion,Albion (1813 ship),3,1823,1828,"NSW, Tasmania",1813.0,425.0,3.0,Last listed in Lloyd's Register in 1851,George Hilhouse & Sons
+Hercules (1822 ship),Hercules,Hercules (1822 ship),3,1825,1832,NSW,1822.0,482.0,3.0,Broken up 1847,"Fishburn & Brodrick, Whitby"
+England (1813 ship),England,England (1813 ship),3,1826,1835,"NSW, Tasmania",1813.0,420.0,3.0,Foundered 1843,"Buckle & Davies, Chepstow"
+nsw:marquis of hastings,Marquis of Hastings,,3,1826,1828,NSW,,,,,
+nsw:portland,Portland,,3,1826,1833,NSW,,,,,
+Manlius (1826 ship),Manlius,Manlius (1826 ship),3,1827,1830,"NSW, Tasmania",1826.0,479.0,3.0,Wrecked 9 December 1834,Quebec
+Bussorah Merchant (1818 ship),Bussorah Merchant,Bussorah Merchant (1818 ship),3,1828,1831,"NSW, Tasmania",1818.0,488.0,3.0,Last listed 1865,"J. Thomas, Howrah, Calcutta"
+Georgiana (1826 ship),Georgiana,Georgiana (1826 ship),3,1829,1833,"NSW, Tasmania",1826.0,404.0,3.0,Last listed in 1841,"William Newton, Quebec"
+Lady Harewood (1791 ship),Lady Harewood,Lady Harewood (1791 ship),3,1829,1832,"NSW, Tasmania",1791.0,1799.0,3.0,Condemned at Singapore in 1833,"Randall & Brent, Rotherhithe"
+York (1819 ship),York,York (1819 ship),3,1829,1832,"NSW, Tasmania",1819.0,429.0,3.0,Condemned and sold for breaking up in 1833,"Philip Laing, Monkwearmouth, Southwick"
+Clyde (1820 ship),Clyde,Clyde (1820 ship),3,1830,1838,"NSW, Tasmania",1820.0,451.0,3.0,Last listed in Lloyd's Register in 1845,"John Scott & Sons Greenock, Scotland"
+Royal Admiral (1828 ship),Royal Admiral,Royal Admiral (1828 ship),3,1830,1835,NSW,1828.0,414.0,,Wrecked 1844,"William Bottomly, King's Lynn"
+Dart (1818 ship),Dart,Dart (1818 ship),3,1831,1834,NSW,1818.0,108.0,,Wrecked in March 1838,Sunderland
+Captain Cook (1826 ship),Captain Cook,Captain Cook (1826 ship),3,1832,1836,NSW,1826.0,451.0,3.0,Wrecked August 1843,"Robert Campion, or John & William Campion, Whitby"
+Lady Kennaway (1816 ship),Lady Kennaway,Lady Kennaway (1816 ship),3,1835,1851,"NSW, Tasmania",1816.0,542.0,,Wrecked 25 November 1857,"Kyd & Co., Kidderpore, Calcutta"
+Westmoreland (1832 ship),Westmoreland,Westmoreland (1832 ship),3,1835,1838,"NSW, Tasmania",1832.0,405.0,3.0,Last listed in 1847,Lynn
+nsw:margaret,Margaret,,3,1837,1840,NSW,,,,,
+Gaillardon (1833 ship),Gaillardon,Gaillardon (1833 ship),3,1838,1839,NSW,1833.0,391.0,3.0,Wrecked in February 1840,"J. Thomas, Howrah"
+Barrosa (1811 ship),Barrosa,Barrosa (1811 ship),3,1839,1844,"NSW, Tasmania",1811.0,697.0,3.0,Wrecked 10 January 1847,"White, Cossipore, Calcutta"
+Maitland (1811 ship),Maitland,Maitland (1811 ship),3,1840,1846,"NSW, Norfolk Island, Tasmania",1811.0,623.0,3.0,Wrecked c. 1869,"J. & R. Kyd, Kidderpore, Calcutta"
+Scarborough (1782 ship),Scarborough,Scarborough (1782 ship),2,1788,1790,NSW,,,,,
+Surprize (1780 ship),Surprize,Surprize (1780 ship),2,1790,1794,NSW,,,,,
+Britannia (1783 whaler),Britannia,Britannia (1783 whaler),2,1791,1798,NSW,,,,,
+Royal Admiral (1777 ship),Royal Admiral,Royal Admiral (1777 ship),2,1792,1800,NSW,1777.0,914.0,2.0,Sold c. 1798,"William Barnard, Deptford"
+Indispensable (1791 ship),Indispensable,Indispensable (1791 ship),2,1796,1809,NSW,1791.0,350.0,2.0,"26 April 1830, Register cancelled as demolition was complete }}",Bordeaux
+Friendship (1793 ship),Friendship,Friendship (1793 ship),2,1800,1818,NSW,1793.0,1793.0,,"She was deleted from the registry on 5 July 1819, having been broken up","William & John Wells, Rotherhithe"
+Atlas (1801 South Shields ship),Atlas,Atlas (1801 South Shields ship),2,1802,1819,NSW,1801.0,435.0,2.0,Wrecked 9 May 1820,"Temple shipbuilders, South Shields"
+Coromandel (1793 ship),Coromandel,Coromandel (1793 ship),2,1802,1804,NSW,,500.0,2.0,Foundered 1821,|name=Modeste
+Fortune (1805 ship),Fortune,Fortune (1805 ship),2,1806,1813,NSW,,620.0,,Lost c. 1814,
+Duke of Portland (1794 ship),Duke of Portland,Duke of Portland (1794 ship),2,1807,1809,NSW,1790.0,523.0,,Captured 1794,|laid_down=
+Admiral Gambier (1807 ship),Admiral Gambier,Admiral Gambier (1807 ship),2,1808,1811,NSW,1807.0,500.0,2.0,Wrecked on 20 June 1817,"Simon Temple, Temple shipbuilders, Jarrow, South Shields"
+nsw:hunter,Hunter,,2,1810,1817,NSW,,,,,
+Providence (1807 ship),Providence,Providence (1807 ship),2,1811,1822,NSW,1807.0,621.0,,Stranded and scuttled at Scilly in 1833,"Matthew Smith & Hugh Reid, Howrah, Calcutta"
+Indefatigable (1799),Indefatigable,Indefatigable (1799),2,1812,1815,"NSW, Tasmania",1799.0,549.0,,Burnt to the waterline in 1815,"Ing. Eskdale, Whitby"
+Minstrel (1811 ship),Minstrel,Minstrel (1811 ship),2,1812,1825,NSW,1810.0,351.0,,Foundered 31 March 1851,"Barkworth, Paull, Kingston upon Hull"
+Eliza (1811 ship),Eliza,Eliza (1811 ship),2,1813,1815,NSW,1811.0,197.0,2.0,Wrecked June 1815,Calcutta
+Somersetshire (1810 ship),Somersetshire,Somersetshire (1810 ship),2,1813,1842,"NSW, Tasmania",1810.0,447.0,2.0,Last listed 1844,"Samuel & Daniel Brent, Rotherhithe"
+Surry (1811 ship),Surry ( Surrey ),Surry (1811 ship),2,1814,1829,"NSW, Tasmania",1811.0,443.0,,Broken up in 1857 }},
+Baring (1801 Indiaman),Baring,Baring (1801 Indiaman),2,1815,1819,NSW,1801.0,820.0,2.0,No longer listed after 1820,"Barnard, Deptford"
+Mary Ann (1808 Batavia ship),Mary Ann (or Mary Anne ),Mary Ann (1808 Batavia ship),2,1816,1822,"NSW, Tasmania",1808.0,474.0,,Last listed in 1830,| original_cost =
+HMS Porpoise (1804),Lord Melville,HMS Porpoise (1804),2,1817,1818,"NSW, Tasmania",1804.0,399.0,1.0,Sold 1804 }},"Temple shipbuilders, South Shields"
+Hadlow (1814 ship),Hadlow,Hadlow (1814 ship),2,1818,1820,NSW,1814.0,372.0,2.0,Foundered 1823,"J. Munn, St. Rocques, Quebec"
+Maria (1798 ship),Maria,Maria (1798 ship),2,1818,1820,"NSW, Tasmania",1798.0,413.0,2.0,Last listed in 1833,"John Smith, Gainsborough, Lincolnshire"
+Neptune (1810 ship),Neptune,Neptune (1810 ship),2,1818,1820,NSW,1810.0,473.0,2.0,Broken up December 1821 as unseaworthy,Whitby
+Ocean (1808 ship),Ocean,Ocean (1808 ship),2,1818,1823,NSW,1808.0,435.0,,|notes= }},"Barrick, Whitby, England"
+Malabar (1804 ship),Malabar,Malabar (1804 ship),2,1819,1821,"NSW, Tasmania",1804.0,520.0,,|notes= }},"Temple shipbuilders, South Shields, or Jarrow"
+Mary (1811 Bideford ship),Mary,Mary (1811 Bideford ship),2,1819,1822,NSW,1811.0,405.0,1.0,Last listed in 1835,"Richard Chapman, Bideford"
+nsw:saint michael,St. Michael,,2,1819,1820,NSW,,,,,
+Caledonia (1815 ship),Caledonia,Caledonia (1815 ship),2,1820,1822,Tasmania,1815.0,411.0,,Abandoned at sea August 1832,"Philip Laing, Sunderland, for own account"
+Castle Forbes (1818 ship),Castle Forbes,Castle Forbes (1818 ship),2,1820,1824,NSW,1818.0,439.0,2.0,Ceased sailing c.1832,"Robert Gibbon & Sons, Aberdeen"
+HMS Howe (1805),HMS Dromedary,HMS Howe (1805),2,1820,1820,Tasmania,1799.0,1045.0,,Sold to the Royal Navy in 1805 }},Bombay
+HMS Malabar (1804),HMS Coromandel,HMS Malabar (1804),2,1820,1823,"NSW, Tasmania",1798.0,935.0,,Sold 30 May 1804,Calcutta
+Claudine (1811 ship),Claudine,Claudine (1811 ship),2,1821,1829,"NSW, Tasmania",1811.0,428.0,2.0,Broken up in 1849,"Anthony Blackmore, or M. Smith"
+Prince Regent (1811 Rochester ship),Prince Regent,Prince Regent (1811 Rochester ship),2,1821,1842,"NSW, Tasmania",1811.0,382.0,,Grounded March 1863 and grounded April,"John Pelham, Frindsbury, Rochester"
+nsw:southworth,Southworth,,2,1822,1832,NSW,,,,,
+Competitor (ship),Competitor,Competitor (ship),2,1823,1828,"NSW, Tasmania",1813.0,423.0,2.0,Last listed 1833,Smales & Co.
+Henry (1819 ship),Henry,Henry (1819 ship),2,1823,1825,"NSW, Tasmania",1819.0,285.0,2.0,Wrecked in the Torres Strait in 1825,"George Taylor, Quebec"
+Medina (1811 ship),Medina,Medina (1811 ship),2,1823,1825,"NSW, Tasmania",1811.0,467.0,2.0,Condemned in July 1831,"Robert Davy, Topsham, Devon"
+Princess Royal (1794 ship),Princess Royal,Princess Royal (1794 ship),2,1823,1829,NSW,1794.0,400.0,,Last listed in Lloyd's Register in 1834,"Jacob Preston, Great Yarmouth"
+Sir Godfrey Webster (1799 ship),Sir Godfrey Webster,Sir Godfrey Webster (1799 ship),2,1823,1826,"NSW, Tasmania",1799.0,518.0,2.0,Condemned 1826 as no longer seaworthy; sold for breaking up,"Perry, Wells & Green, Blackwall"
+Woodman (1808 ship),Woodman,Woodman (1808 ship),2,1823,1826,"NSW, Tasmania",1808.0,397.0,2.0,Lost 1836,"John Smith, Gainsborough"
+Brothers (1815 ship),Brothers,Brothers (1815 ship),2,1824,1827,"NSW, Tasmania",1815.0,425.0,,Last listed 1837.,W. S. Chapman and Co.
+Princess Charlotte (1813 Sunderland ship),Princess Charlotte,Princess Charlotte (1813 Sunderland ship),2,1824,1827,"NSW, Tasmania",1813.0,400.0,1.0,Foundered 23 September 1828,"Hylton Ferry, Sunderland"
+nsw:midas,Midas,,2,1825,1825,NSW,,,,,
+Woodford (1819 ship),Woodford,Woodford (1819 ship),2,1826,1828,Tasmania,1819.0,522.0,2.0,Foundered February 1829,"G. Hillhouse, Sons & Co., Bristol"
+Governor Ready (1825 ship),Governor Ready,Governor Ready (1825 ship),2,1827,1829,"NSW, Tasmania",1825.0,512.0,2.0,Wrecked in 1829,Prince Edward Island
+City of Edinburgh (1813 ship),City of Edinburgh,City of Edinburgh (1813 ship),2,1828,1832,NSW,1813.0,360.0,2.0,Wrecked 1840,"A. Woodcock, Coringa, Bengal"
+Eliza (1815 ship),Eliza,Eliza (1815 ship),2,1828,1830,"NSW, Tasmania",1815.0,373.0,2.0,Last listed in 1846,Java
+Florentia (1821 ship),Florentia,Florentia (1821 ship),2,1828,1830,NSW,1821.0,453.0,1.0,|notes= }},Newcastle upon Tyne
+Royal George (1820 ship),Royal George,Royal George (1820 ship),2,1828,1830,"NSW, Tasmania",1820.0,486.0,2.0,|notes= }},"James Shepherd, Paul, Hull"
+nsw:celia,Celia,,2,1828,1831,NSW,,,,,
+Edward (1804 ship),Edward,Edward (1804 ship),2,1829,1831,NSW,1804.0,335.0,2.0,Last listed 1841,Bristol
+Lord Melville (1825 ship),Lord Melville,Lord Melville (1825 ship),2,1829,1830,NSW,1825.0,425.0,2.0,Wrecked 5 October 1836,"George Taylor Shipyards, Canotiere (Quebec City), Quebec"
+Mellish (1819 ship),Mellish,Mellish (1819 ship),2,1829,1830,"NSW, Tasmania",1819.0,423.0,2.0,Wrecked on 5 October 1844,"Kyd, Co., Kidderpore"
+Queen Charlotte (1813 ship),Queen Charlotte,Queen Charlotte (1813 ship),2,1829,1830,NSW,1813.0,102.0,2.0,Disappeared 1832–1833,"Robert Campbell, Sydney"
+Reliance (1815 ship),Reliance,Reliance (1815 ship),2,1829,1829,NSW,1815.0,347.0,,Wrecked 18 December 1836,"Woodcock, Coringa, India"
+Sarah (1819 ship),Sarah,Sarah (1819 ship),2,1829,1837,"NSW, Tasmania",1819.0,488.0,,Condemned c.1843,"James Warwick, Rotherhithe"
+Burrell (1825 ship),Burrell,Burrell (1825 ship),2,1830,1832,NSW,1825.0,402.0,2.0,|notes= }},Newcastle upon Tyne
+Dunvegan Castle (1819 ship),Dunvegan Castle,Dunvegan Castle (1819 ship),2,1830,1832,NSW,1819.0,446.0,2.0,Lost in 1837,"James Macrae, Chittagong"
+Forth (1826 ship),Forth,Forth (1826 ship),2,1830,1835,NSW,1826.0,369.0,2.0,Foundered without a trace in 1835,"Robert Menzies & Sons, Leith"
+James Pattison (1828 ship),James Pattison,James Pattison (1828 ship),2,1830,1837,NSW,1828.0,513.0,,Burnt 1840,"Adam Gordon, Deptford"
+Katherine Stewart Forbes (1818 ship),Katherine Stewart Forbes,Katherine Stewart Forbes (1818 ship),2,1830,1832,"NSW, Tasmania",1818.0,457.0,,Last listed 1860,"William & Henry Pitcher, Northfleet"
+Camden (1799 ship),Camden,Camden (1799 ship),2,1831,1833,NSW,1799.0,298.0,2.0,Wrecked August 1836,"Randall & Brent, Rotherhithe, River Thames"
+nsw:strathfieldsay,Strathfieldsay,,2,1831,1836,NSW,,,,,
+Gilmore (1824 ship),Gilmore,Gilmore (1824 ship),2,1832,1839,Tasmania,1824.0,405.0,2.0,Wrecked 12 April 1866,"Gilmore & Co., Sulkea, Calcutta"
+Parmelia (barque),Parmelia,Parmelia (barque),2,1832,1834,NSW,1825.0,443.0,2.0,Burnt May 1839 and sold for breaking up.,"Sheppard & Campbell–J.Jeffrey, Wolfe's Cove"
+nsw:planter,Planter,,2,1832,1839,NSW,,,,,
+Aurora (1816 ship),Aurora,Aurora (1816 ship),2,1833,1835,"NSW, Tasmania",1816.0,513.0,1.0,Wrecked April 1840,"James Macrae, Chittagong"
+HMS Buffalo (1813),Buffalo,HMS Buffalo (1813),2,1833,1840,NSW,1813.0,589.0,,"Wrecked in Mercury Bay, 28 July 1840.","James Bonner & James Horsburgh, Sulkea"
+nsw:lloyds,Lloyds,,2,1833,1837,NSW,,,,,
+Blenheim (1834 ship),Blenheim,Blenheim (1834 ship),2,1834,1837,"NSW, Tasmania",1834.0,375.0,3.0,Lost 1846,"Jarrow, England"
+Fairlie (1810 ship),Fairlie,Fairlie (1810 ship),2,1834,1852,"NSW, Tasmania",1810.0,690.0,2.0,Foundered November 1865,"J.Gilmore, Calcutta"
+Hive (1820),Hive,Hive (1820),2,1834,1835,NSW,1820.0,485.0,2.0,Wrecked 10 December 1835,|name=Hive
+Royal Sovereign (1829 ship),Royal Sovereign,Royal Sovereign (1829 ship),2,1834,1835,NSW,1829.0,336.0,1.0,|notes= }},Whitby
+vdl:augusta jessie,Augusta Jessie,,2,1834,1838,Tasmania,,,,,
+Lady Nugent (1814 ship),Lady Nugent,Lady Nugent (1814 ship),2,1835,1836,"NSW, Tasmania",1814.0,492.0,2.0,Foundered May 1854,"*J. Scott & Co., Fort Gloster, Calcutta *1827:Wigram & Co. *1834:Campbell & Co. *Sir George Hodgkinson. *J. Somes *Haviside"
+nsw:patriot,Patriot,,2,1835,1838,NSW,,,,,
+nsw:siren,Siren,,2,1835,1836,NSW,,,,,
+Eden (1826 ship),Eden,Eden (1826 ship),2,1836,1840,"NSW, Tasmania",1826.0,513.0,,|notes= }},"Fletcher, Son & Fearnall"
+Henry Wellesley (1804 ship),Henry Wellesley,Henry Wellesley (1804 ship),2,1836,1837,NSW,1804.0,290.0,,Wrecked in 1841,"Bacon, Harvey & Co., Calcutta"
+Integrity (1824 ship),Integrity,Integrity (1824 ship),2,1837,1838,NSW,1824.0,220.0,2.0,Wrecked in August 1841,"Redbridge, Southampton"
+nsw:susannah,Susannah,,2,1837,1839,NSW,,,,,
+Neptune (1815 ship),Neptune,Neptune (1815 ship),2,1838,1850,Tasmania,1815.0,513.0,2.0,Sold for use as a hulk in 1860,"Kyd & Co., Kidderpore, Calcutta"
+Egyptian (1825 ship),Egyptian,Egyptian (1825 ship),2,1839,1840,Tasmania,1825.0,359.0,,Wrecked 20 October 1843,"Thomas Metcalf & Son, South Shields"
+Bheemoolah (1808 ship),Woodbridge,Bheemoolah (1808 ship),2,1840,1843,"NSW, Tasmania",1808.0,479.0,2.0,|notes=Last listed in 1855 }},"Matthew Smith, Howrah, Calcutta"
+London (1832 ship),London,London (1832 ship),2,1842,1851,Tasmania,1832.0,1836.0,2.0,Last listed 1869,"Wigram's, Blackwall"
+Hashemy (1817 ship),Hashemy,Hashemy (1817 ship),2,1849,1850,"NSW, Western Australia",1817.0,479.0,,Hulked c. 1867,"Michael Smith, Howrah, Calcutta"
+wa:pyrenees,Pyrenees,,2,1851,1853,Western Australia,,,,,
+wa:clara,Clara,,2,1857,1864,Western Australia,,,,,
+wa:norwood,Norwood,,2,1862,1867,Western Australia,,,,,
+wa:merchantman,Merchantman,,2,1863,1864,Western Australia,,,,,
+Alexander (1783 ship),Alexander,Alexander (1783 ship),1,1788,1788,NSW,,,,,
+Charlotte (1784 ship),Charlotte,Charlotte (1784 ship),1,1788,1788,NSW,,,,,
+Friendship (1784 ship),Friendship,Friendship (1784 ship),1,1788,1788,NSW,,,,,
+Lady Penrhyn (1786 ship),Lady Penrhyn,Lady Penrhyn (1786 ship),1,1788,1788,NSW,,,,,
+nsw:prince of wales,Prince of Wales,,1,1788,1788,NSW,,,,,
+Lady Juliana (1777 ship),Lady Juliana,Lady Juliana (1777 ship),1,1790,1790,NSW,,,,,
+Neptune (1780 ship),Neptune,Neptune (1780 ship),1,1790,1790,NSW,,,,,
+Active (1764 ship),Active,Active (1764 ship),1,1791,1791,NSW,1764.0,350.0,,| notes= }},"Shoreham, Sussex"
+Admiral Barrington (1781 ship),Admiral Barrington,Admiral Barrington (1781 ship),1,1791,1791,NSW,,,,,
+Albemarle (1776),Albemarle,Albemarle (1776),1,1791,1791,NSW,,,,,
+Atlantic (1783 ship),Atlantic,Atlantic (1783 ship),1,1791,1791,NSW,,,,,
+HMS Gorgon (1785),HMS Gorgon,HMS Gorgon (1785),1,1791,1791,NSW,,,,,
+HMS Shark (1776),Salamander,HMS Shark (1776),1,1791,1791,NSW,,,,,
+Mary Ann (1772 ship),Mary Ann,Mary Ann (1772 ship),1,1791,1791,NSW,,,,,
+Matilda (1790 ship),Matilda,Matilda (1790 ship),1,1791,1791,NSW,,,,,
+Queen (1773 ship),Queen,Queen (1773 ship),1,1791,1791,NSW,,,,,
+William and Ann (1759),William and Ann,William and Ann (1759),1,1791,1791,NSW,,,,,
+Fortitude (1780 EIC ship),Pitt,Fortitude (1780 EIC ship),1,1792,1792,NSW,1780.0,761.0,,| notes= }},"Wells, Deptford"
+Kitty (1787 ship),Kitty,Kitty (1787 ship),1,1792,1792,NSW,1787.0,359.0,,Last listed 1805,Sunderland
+Bellona (1782 ship),Bellona,Bellona (1782 ship),1,1793,1793,NSW,1782.0,456.0,,Scuttled after capture in 1810,"Woolcombe, Limehouse"
+Boddington (1781 ship),Boddington,Boddington (1781 ship),1,1793,1793,NSW,1781.0,331.0,1.0,Wrecked near Blackwall in September 1805.,Thames
+Sugar Cane (1786 ship),Sugar Cane,Sugar Cane (1786 ship),1,1793,1793,NSW,1786.0,362.0,,No longer listed in 1798,| original_cost =
+Marquis Cornwallis (1789 ship),Marquis Cornwallis,Marquis Cornwallis (1789 ship),1,1796,1796,NSW,1789.0,586.0,1.0,Last listed in Lloyd's Register in 1806,"Michael Hogan & Gabriel Gillett, Calcutta"
+Britannia (1774 ship),Britannia,Britannia (1774 ship),1,1797,1797,NSW,1774.0,305.0,,Last listed 1809 in Register of Shipping and 1810 in Lloyd's Register,Bombay Dockyard
+Ganges (1792 ship),Ganges,Ganges (1792 ship),1,1797,1797,NSW,1792.0,617.0,,No longer listed in Lloyd's Register for 1803,India
+Barwell (1782 ship),Barwell,Barwell (1782 ship),1,1798,1798,NSW,1782.0,796.0,1.0,Last listed 1807,"John & William Wells, Deptford"
+Hillsborough (1783 EIC ship),Hillsborough,Hillsborough (1783 EIC ship),1,1799,1799,NSW,1783.0,764.0,,Sold in 1798 }},"Perry & Co., Blackwall Yard"
+Minerva (1773 ship),Minerva,Minerva (1773 ship),1,1800,1800,NSW,1773.0,440.0,,Lost c.1806,Bombay
+Speedy (1779 ship),Speedy,Speedy (1779 ship),1,1800,1800,NSW,1779.0,313.0,,Captured 1807; no longer listed after 1814,| original_cost =
+Anne (1799 ship),Anne,Anne (1799 ship),1,1801,1801,NSW,1790.0,384.0,,| notes = }},| original_cost =
+Earl Cornwallis (1783 ship),Earl Cornwallis,Earl Cornwallis (1783 ship),1,1801,1801,NSW,1783.0,774.0,1.0,No longer in 1809 Lloyd's Register or Register of Ships,"John & William Wells, Rotherhithe"
+Hercules (1801 ship),Hercules,Hercules (1801 ship),1,1801,1801,NSW,1801.0,359.0,1.0,|captured=c. November 1805,"Temple shipbuilders, South Shields"
+Minorca (1799 ship),Minorca,Minorca (1799 ship),1,1801,1801,NSW,1799.0,407.0,1.0,Last listed in Lloyd's Register in 1810,"*Thomas Hearn, Lowlights, Newcastle upon Tyne, or *Francis Hurry & Co, North Shields"
+Nile (1798 ship),Nile,Nile (1798 ship),1,1801,1801,NSW,,,,,
+Atlas (1801 Quebec City ship),Atlas,Atlas (1801 Quebec City ship),1,1802,1802,NSW,1801.0,547.0,,Last listed 1815-16,"William Baldwin, Quebec"
+Perseus (1799 ship),Perseus,Perseus (1799 ship),1,1802,1802,NSW,1799.0,362.0,1.0,Last listed in 1844,"Thomas Haw, Stockton-on-Tees"
+HMS Glatton (1795),HMS Glatton,HMS Glatton (1795),1,1803,1803,NSW,1792.0,1221.0,,Sold to the Royal Navy in 1795 }},Wells & Co. of Blackwell
+Rolla (1800 ship),Rolla,Rolla (1800 ship),1,1803,1803,NSW,1800.0,438.0,1.0,No longer listed in 1858,"Temple shipbuilders, South Shields"
+Experiment (1798 ship),Experiment,Experiment (1798 ship),1,1804,1804,NSW,1798.0,500.0,,Condemned at Batavia in 1818 and sold there in 1819 for breaking up,"Thomas Haw, Stockton-on-Tees"
+Alexander (1801 ship),Alexander,Alexander (1801 ship),1,1806,1806,NSW,1801.0,274.0,,Condemned 1810,"Henry Baldwin, Quebec"
+Tellicherry (1796 ship),Tellicherry,Tellicherry (1796 ship),1,1806,1806,NSW,1796.0,465.0,1.0,Wrecked 13 July 1806,"Joshua Young, Globe Stairs, Rotherhithe"
+William Pitt (1803 ship),William Pitt,William Pitt (1803 ship),1,1806,1806,NSW,1803.0,572.0,,Lost 16 December 1813,Liverpool
+HMS Duchess of York (1801),HMS Duchess of York,HMS Duchess of York (1801),1,1807,1807,NSW,,,,,
+Sydney Cove (1803 ship),Sydney Cove,Sydney Cove (1803 ship),1,1807,1807,NSW,1803.0,282.0,,|honours=,|laid_down=
+Boyd (1783 ship),Boyd,Boyd (1783 ship),1,1809,1809,NSW,1783.0,392.0,,Captured January 1797,"Hill, Limehouse, River Thames"
+Experiment (1802 ship),Experiment,Experiment (1802 ship),1,1809,1809,NSW,1802.0,146.0,,Sold c.1806,|name=
+Æolus (1783 ship),Aeolus,Æolus (1783 ship),1,1809,1809,NSW,1783.0,278.0,,Captured 1807,Henrik Gerner
+Ann (1797 ship),Ann,Ann (1797 ship),1,1810,1810,NSW,,627.0,,|honours=,Batavia
+Indian (1810 ship),Indian,Indian (1810 ship),1,1810,1810,NSW,1810.0,522.0,,Wrecked December 1817,"Simon Temple, Temple shipbuilders, Jarrow"
+Frederick and Maria (1810 ship),Frederick & Maria,Frederick and Maria (1810 ship),1,1811,1811,NSW,,,,,
+Friends (1799 ship),Friends,Friends (1799 ship),1,1811,1811,NSW,,,,,
+Mangalore (1811 ship),Mangalore,Mangalore (1811 ship),1,1811,1811,NSW,,,,,
+Ruby (1800 ship),Ruby,Ruby (1800 ship),1,1811,1811,NSW,1800.0,248.0,,"Lost 1814, or possibly later",|laid_down=
+nsw:eagle,Eagle,,1,1811,1811,NSW,,,,,
+Campbell Macquarie (1812 shipwreck),Campbell Macquarie,Campbell Macquarie (1812 shipwreck),1,1812,1812,NSW,,235.0,,"Wrecked, 10 June 1812",| original_cost=
+Archduke Charles (1809 ship),Archduke Charles,Archduke Charles (1809 ship),1,1813,1813,NSW,1809.0,521.0,1.0,Wrecked June 1816,"Simon Temple (Temple shipbuilders), Jarrow"
+Earl Spencer (1795 EIC ship),Earl Spencer,Earl Spencer (1795 EIC ship),1,1813,1813,NSW,1795.0,644.0,,"| notes = The National Archives splits the eight voyages Earl Spencer made for the East India Company (EIC) under three sets of records. Hackman has only the middle six, which the British Library groups together under ""Earl Spencer (2)"", but has a number of references to owners, masters, and dates that make it clear that voyages 1-7 below are the same vessel. Hackman also states that after voyage #7, the government chartered Earl Spencer for a voyage transporting convicts to Australia. Her return voyage was her eighth for the EIC. Bateson states that Earl Spencer was launched on the Thames in 1803. However, there is no evidence for this and Bateson may simply have mistaken changes in ownership and repairs around 1803 for a new vessel. }}","Perry, Blackwall"
+Broxbornebury (1812 ship),Broxbornebury,Broxbornebury (1812 ship),1,1814,1814,NSW,1812.0,708.0,1.0,Condemned in 1843,"Thomas Pitcher, Northfleet"
+Catherine (1811 ship),Catherine,Catherine (1811 ship),1,1814,1814,NSW,1811.0,304.0,1.0,Last listed in Lloyd's Register 1834,|name=Catherine
+General Hewett (1811 ship),General Hewett,General Hewett (1811 ship),1,1814,1814,NSW,1811.0,894.0,,Sold in 1864 for a hulk or to be broken up,"Matthew Smith, Howrah"
+Three Bees (1813 ship),Three Bees,Three Bees (1813 ship),1,1814,1814,NSW,,,,,
+Wanstead (1813 ship),Wanstead,Wanstead (1813 ship),1,1814,1814,NSW,1811.0,253.0,1.0,Wrecked 1816,|name=Wanstead
+nsw:britannia,Britannia,,1,1814,1814,NSW,,,,,
+Betsey (1801 ship),Marquis of Wellington,Betsey (1801 ship),1,1815,1815,NSW,1801.0,630.0,,Wrecked March 1818 at Margate,Edward Bacon
+Francis and Eliza (1782 ship),Francis & Eliza,Francis and Eliza (1782 ship),1,1815,1815,NSW,1782.0,345.0,,Sold 1820,"River Thames, England"
+Northampton (1801 ship),Northampton,Northampton (1801 ship),1,1815,1815,NSW,1801.0,523.0,,Sold for breakup in 1819 but listed through 1822,"Peter Everitt Mestaer, King and Queen Dock, Rotherhithe"
+nsw:phoenix union,Phoenix Union,,1,1815,1815,NSW,,,,,
+nsw:union,Union,,1,1815,1815,NSW,,,,,
+Alexander (1811 ship),Alexander,Alexander (1811 ship),1,1816,1816,NSW,1811.0,227.0,,Last full listing in 1833,|laid_down=
+Atlas (1811 ship),Atlas,Atlas (1811 ship),1,1816,1816,NSW,1811.0,501.0,,"Disappeared, believed to have foundered in 1817","T. Barrick, Whitby"
+Fanny (1810 ship),Fanny,Fanny (1810 ship),1,1816,1816,NSW,1810.0,431.0,1.0,Last listed 1822,"Samuel & Daniel Brent, Rotherhithe"
+HM Colonial brig Kangaroo (1812),Kangaroo,HM Colonial brig Kangaroo (1812),1,1816,1816,NSW,1811.0,200.0,,Sold 1818,Bideford
+Ocean (1802 ship),Ocean,Ocean (1802 ship),1,1816,1816,NSW,1802.0,532.0,1.0,Last listed 1825,"Jack Beatson–Henry Baldwin, Quebec"
+nsw:bridgewater,Bridgewater,,1,1816,1816,NSW,,,,,
+nsw:hayeston,Hayeston,,1,1816,1816,NSW,,,,,
+nsw:jeune ferdinand,Jeune Ferdinand,,1,1816,1816,NSW,,,,,
+Fame (1812 ship),Fame,Fame (1812 ship),1,1817,1817,NSW,,464.0,,Wrecked 1817,Quebec
+Lord Eldon (1802 EIC ship),Lord Eldon,Lord Eldon (1802 EIC ship),1,1817,1817,NSW,1802.0,538.0,1.0,Last listed in 1819,"Temple shipbuilders, South Shields"
+Pilot (1813 ship),Pilot,Pilot (1813 ship),1,1817,1817,NSW,1813.0,390.0,,Missing at sea,"Temple shipbuilders, Jarrow"
+Sir William Bensley (1802 Indiaman),Sir William Bensley,Sir William Bensley (1802 Indiaman),1,1817,1817,NSW,1802.0,547.0,1.0,1813 sold for a transport,"William Bayley, Ipswich"
+Batavia (1802 ship),Batavia,Batavia (1802 ship),1,1818,1818,NSW,1802.0,555.0,1.0,Broken up 1819,"Robert Davy, Topsham"
+General Stuart (1801 ship),General Stuart (or General Stewart ),General Stuart (1801 ship),1,1818,1818,NSW,1801.0,600.0,,No longer listed after 1825,"J.Dudman, Deptford"
+Glory (1811 ship),Glory,Glory (1811 ship),1,1818,1818,NSW,1811.0,399.0,,Last listed 1824,"William Henry Dockyard, William Henry"
+Lady Castlereagh (1803 EIC ship),Lady Castlereagh,Lady Castlereagh (1803 EIC ship),1,1818,1818,NSW,1803.0,821.0,1.0,Condemned and sold for breaking up October 1818,"Randall, Rotherhithe"
+Martha (1810 ship),Martha,Martha (1810 ship),1,1818,1818,NSW,1810.0,410.0,,Broken up 1820,Blackett & Co.
+Tottenham (1802 Indiaman),Tottenham,Tottenham (1802 Indiaman),1,1818,1818,NSW,1802.0,517.0,1.0,Sold for a transport 1814,"Thomas Haw, Stockton-on-Tees"
+nsw:guide,Guide,,1,1818,1818,NSW,,,,,
+Bencoolen (1818 ship),Bencoolen,Bencoolen (1818 ship),1,1819,1819,NSW,1818.0,416.0,1.0,Broken up 1844,Liverpool
+Globe (1810 ship),Globe,Globe (1810 ship),1,1819,1819,NSW,1810.0,360.0,,Wrecked December 1824,"G. W. Porrett, Scarborough"
+Greyhound (1816 ship),Greyhound,Greyhound (1816 ship),1,1819,1819,NSW,1816.0,223.0,,Burnt 1821,Java
+HMS Daphne (1806),HMS Daphne,HMS Daphne (1806),1,1819,1819,NSW,,539.0,1.0,Sold 15 February 1816,"Robert Davy, Topsham"
+Hibernia (1810 ship),Hibernia,Hibernia (1810 ship),1,1819,1819,Tasmania,1810.0,430.0,,Last listed in Lloyd's Register in 1840,Cowes
+Tyne (1807 ship),Tyne,Tyne (1807 ship),1,1819,1819,NSW,1807.0,462.0,,Burned and sank in March 1828,"Samuel & Daniel Brent, Rotherhithe"
+nsw:little mary,Little Mary,,1,1819,1819,NSW,,,,,
+Agamemnon (1811 ship),Agamemnon,Agamemnon (1811 ship),1,1820,1820,NSW,1811.0,540.0,1.0,Wrecked 2 June 1826,Sunderland
+Dorothy (1815 ship),Dorothy,Dorothy (1815 ship),1,1820,1820,NSW,1815.0,416.0,1.0,Wrecked in 1833,Liverpool
+Hebe (1810 ship),Hebe,Hebe (1810 ship),1,1820,1820,NSW,1810.0,413.0,1.0,Wrecked 1833,"Thomas Steemson, Paull, Hull"
+Janus (1810 ship),Janus,Janus (1810 ship),1,1820,1820,NSW,1810.0,308.0,,Last listed 1832,New York
+Lord Wellington (1810 ship),Lord Wellington,Lord Wellington (1810 ship),1,1820,1820,NSW,1810.0,399.0,,Wrecked 17 December 1822,"John King, Frindsbury, Rochester, Kent"
+nsw:haldane,Haldane,,1,1820,1820,NSW,,,,,
+nsw:sea flower,Sea Flower,,1,1820,1820,NSW,,,,,
+Adamant (1811 ship),Adamant,Adamant (1811 ship),1,1821,1821,NSW,1811.0,427.0,,Wrecked 1828,Blyth
+Dick (1788 ship),Dick,Dick (1788 ship),1,1821,1821,NSW,1788.0,386.0,1.0,Last listed 1822,"Peter Everitt Mestaer, King and Queen Dock, Rotherhithe, Thames"
+John Bull (1799 ship),John Bull,John Bull (1799 ship),1,1821,1821,NSW,1799.0,464.0,,Last listed in 1833,Liverpool
+Lady Ridley (1813 ship),Lady Ridley,Lady Ridley (1813 ship),1,1821,1821,Tasmania,,,,,
+Lord Hungerford (1814 ship),Lord Hungerford,Lord Hungerford (1814 ship),1,1821,1821,Tasmania,1814.0,679.0,,Foundered on 1 June 1861,"R. Kyd and W. Richardson, Kidderpore, Calcutta"
+Medway (1810 ship),Medway,Medway (1810 ship),1,1821,1821,Tasmania,1810.0,435.0,2.0,Condemned 1840,"John King, Frindsbury, (or Upnor)"
+nsw:prince of orange,Prince of Orange,,1,1821,1821,NSW,,,,,
+Amboyna (1807 ship),Amboyna,Amboyna (1807 ship),1,1822,1822,NSW,,,,,
+John Bull (1815 ship),John Bull,John Bull (1815 ship),1,1822,1822,NSW,,,,,
+nsw:calder,Calder,,1,1822,1822,NSW,,,,,
+nsw:medway,Medway,,1,1822,1822,NSW,,,,,
+nsw:brampton,Brampton,,1,1823,1823,NSW,,,,,
+Asia (1817 ship),Asia,Asia (1817 ship),1,1824,1824,Tasmania,1817.0,401.0,,|notes=7 October 1817 (registered) }},"Richard Bulmer & Co, Shields"
+Phoenix (1798 ship),Phoenix,Phoenix (1798 ship),1,1824,1824,Tasmania,1798.0,589.0,,Broken up 1837,"Randall & Brent, Rotherhithe"
+Ann and Amelia (1816 ship),Ann and Amelia,Ann and Amelia (1816 ship),1,1825,1825,NSW,1816.0,553.0,,Wrecked 1835,"James Macrae, Chittagong"
+Royal Charlotte (1819 ship),Royal Charlotte,Royal Charlotte (1819 ship),1,1825,1825,NSW,1819.0,471.0,,Wrecked June 1825,"Calcutta, or Cochin"
+nsw:ann,Ann,,1,1825,1825,NSW,,,,,
+nsw:lonarch,Lonarch,,1,1825,1825,NSW,,,,,
+Regalia (1811 ship),Regalia,Regalia (1811 ship),1,1826,1826,NSW,1811.0,360.0,,Crushed by ice 20 June 1852,"Monkwearmouth, Sunderland"
+Sesostris (1818 ship),Sesostris,Sesostris (1818 ship),1,1826,1826,NSW,1818.0,488.0,,Broken up in 1843,"James Shepherd, Paull, Hull"
+nsw:boyne,Boyne,,1,1826,1826,NSW,,,,,
+nsw:cawdry,Cawdry,,1,1826,1826,NSW,,,,,
+nsw:governor phillip,Governor Phillip,,1,1826,1826,NSW,,,,,
+nsw:lady rowena,Lady Rowena,,1,1826,1826,NSW,,,,,
+nsw:success,Success,,1,1826,1826,NSW,,,,,
+Asia (1813 ship),Asia,Asia (1813 ship),1,1827,1827,Tasmania,1813.0,455.0,1.0,Last listed 1850,"Fishburn & Brodrick, Whitby"
+Cambridge (1825 ship),Cambridge,Cambridge (1825 ship),1,1827,1827,NSW,1825.0,533.0,,Foundered with no trace in April 1835,"Three Rivers, Prince Edward Island"
+Marquis of Lansdown (1824 ship),Marquis of Lansdown,Marquis of Lansdown (1824 ship),1,1827,1827,NSW,1824.0,208.0,,Last listed in 1847,"John Scott & Co., Fort Gloucester, Calcutta"
+nsw:champion,Champion,,1,1827,1827,NSW,,,,,
+nsw:harmony,Harmony,,1,1827,1827,NSW,,,,,
+nsw:louisa,Louisa,,1,1827,1827,NSW,,,,,
+Borneo (1817 ship),Borneo,Borneo (1817 ship),1,1828,1828,Tasmania,1817.0,421.0,,Wrecked 22 July 1832,"Richard Hare, Borneo"
+Borodino (1826 ship),Borodino,Borodino (1826 ship),1,1828,1828,NSW,1810.0,600.0,,Last listed 1833,Thames
+William Miles (1808 ship),William Miles,William Miles (1808 ship),1,1828,1828,Tasmania,1808.0,577.0,,Broken up 1846,"George Hilhouse & Sons, Bristol"
+Majestic (1829 ship),Majestic,Majestic (1829 ship),1,1829,1829,Tasmania,1829.0,344.0,,"Last listed, with stale data, in 1843","Nicol, Reid & Co., Aberdeen"
+Thames (1818 ship),Thames,Thames (1818 ship),1,1829,1829,Tasmania,1818.0,347.0,1.0,Condemned 1830,"John Blackett, Poplar, London, for own account"
+Tranmere (1819 ship),Tranmere,Tranmere (1819 ship),1,1829,1829,NSW,,,,,
+Vittoria (1813 Gainsborough ship),Vittoria,Vittoria (1813 Gainsborough ship),1,1829,1829,NSW,1813.0,395.0,1.0,Last listed 1854 }},
+nsw:america,America,,1,1829,1829,NSW,,,,,
+nsw:fergusson,Fergusson,,1,1829,1829,NSW,,,,,
+nsw:flora,Flora,,1,1829,1829,NSW,,,,,
+nsw:lucy davidson,Lucy Davidson,,1,1829,1829,NSW,,,,,
+nsw:sophia,Sophia,,1,1829,1829,NSW,,,,,
+nsw:william young,William Young,,1,1829,1829,NSW,,,,,
+Adrian (1819 ship),Adrian,Adrian (1819 ship),1,1830,1830,NSW,1819.0,373.0,,Foundered 10 December 1833,"T. & W. Smith (or William Smith & Co), St. Peter's, Newcastle upon Tyne"
+Bombay (1801 ship),Bombay,Bombay (1801 ship),1,1830,1830,NSW,1801.0,310.0,,Last listed 1853,"Bomanjee, Demaun (Daman)"
+Forth (1814 ship),Forth,Forth (1814 ship),1,1830,1830,NSW,1814.0,395.0,1.0,Still sailing 1839,"M.Smith, Howrah, Calcutta"
+nsw:ceylon,Ceylon,,1,1830,1830,NSW,,,,,
+nsw:lady feversham,Lady Feversham,,1,1830,1830,NSW,,,,,
+nsw:mermaid,Mermaid,,1,1830,1830,NSW,,,,,
+nsw:nithsdale,Nithsdale,,1,1830,1830,NSW,,,,,
+Drummore (1830 ship),Drummore,Drummore (1830 ship),1,1831,1831,NSW,1830.0,298.0,,|status=,Leith
+Eleanor (1821 ship),Eleanor,Eleanor (1821 ship),1,1831,1831,NSW,1821.0,282.0,,Burnt 29 September 1842,"J.Montgomery, Sulkea, Calcutta"
+nsw:caroline,Caroline,,1,1831,1831,NSW,,,,,
+nsw:earl of liverpool,Earl of Liverpool,,1,1831,1831,NSW,,,,,
+nsw:exmouth,Exmouth,,1,1831,1831,NSW,,,,,
+nsw:jane,Jane,,1,1831,1831,NSW,,,,,
+nsw:kains,Kains,,1,1831,1831,NSW,,,,,
+nsw:palambam,Palambam,,1,1831,1831,NSW,,,,,
+Lord William Bentinck (1828 Yarmouth ship),Lord William Bentinck,Lord William Bentinck (1828 Yarmouth ship),1,1832,1832,Tasmania,1828.0,443.0,1.0,Wrecked c.1859,Yarmouth
+nsw:helen,Helen,,1,1832,1832,NSW,,,,,
+nsw:pyramus,Pyramus,,1,1832,1832,NSW,,,,,
+nsw:research,Research,,1,1832,1832,NSW,,,,,
+Caroline (1825 ship),Caroline,Caroline (1825 ship),1,1833,1833,NSW,1825.0,329.0,1.0,Wrecked March 1850,"*John Crookenden, Cochin *C. C. Poney Guizelar, Cochin Dockyard"
+Diana (1824 ship),Diana,Diana (1824 ship),1,1833,1833,NSW,1824.0,320.0,1.0,Last listed 1856,"T.Broderick, Whitby"
+Elizabeth (1825 New Brunswick barque),Elizabeth (1825 New Brunswick barque),Elizabeth (1825 New Brunswick barque),1,1833,1833,NSW,1825.0,427.0,1.0,|notes= }},Great Yarmouth
+Emperor Alexander (1813 Chepstow ship),Emperor Alexander,Emperor Alexander (1813 Chepstow ship),1,1833,1833,Tasmania,1813.0,360.0,,Condemned 22 May 1835,Chepstow
+Enchantress (1828 ship),Enchantress,Enchantress (1828 ship),1,1833,1833,Tasmania,1828.0,401.0,,Wrecked,"Joseph Tippitt, Bristol"
+Fanny (1829 ship),Fanny,Fanny (1829 ship),1,1833,1833,NSW,1829.0,275.0,1.0,Still sailing out of Calcutta in 1839,"J.A. Currie, Sulkea, Calcutta"
+Java (1813 ship),Java,Java (1813 ship),1,1833,1833,NSW,,,,,
+Lotus (1826 ship),Lotus,Lotus (1826 ship),1,1833,1833,Tasmania,1826.0,397.0,1.0,Lost 11 May 1844,"T. Barrick, Whitby"
+Neva (1813 ship),Neva,Neva (1813 ship),1,1833,1833,NSW,1813.0,327.0,2.0,"Wrecked in Bass Strait, 13 May 1835","Bunney & Firbank, Hull"
+Stakesby (1814 ship),Stakesby,Stakesby (1814 ship),1,1833,1833,Tasmania,1814.0,450.0,,Foundered 1846,"W.S. Chapman, Whitby"
+nsw:courier,Courier,,1,1833,1833,NSW,,,,,
+nsw:edward lombes,Edward Lombes,,1,1833,1833,NSW,,,,,
+nsw:heroine,Heroine,,1,1833,1833,NSW,,,,,
+nsw:pegasus,Pegasus,,1,1833,1833,NSW,,,,,
+Enchantress (1825 ship),Enchantress,Enchantress (1825 ship),1,1834,1834,NSW,1825.0,375.0,,Wrecked 16 July 1835,| original_cost =
+Numa (1811 ship),Numa,Numa (1811 ship),1,1834,1834,NSW,1811.0,326.0,1.0,Last listed 1854,"John White, Thomas Young, & Edward Potts, Sunderland"
+nsw:george hibbert,George Hibbert,,1,1834,1834,NSW,,,,,
+nsw:henry tanner,Henry Tanner,,1,1834,1834,NSW,,,,,
+nsw:james laing,James Laing,,1,1834,1834,NSW,,,,,
+nsw:prentice,Prentice,,1,1834,1834,NSW,,,,,
+nsw:princess victoria,Princess Victoria,,1,1834,1834,NSW,,,,,
+George III (ship),George III,George III (ship),1,1835,1835,Tasmania,1810.0,383.0,,Wrecked 12 March 1835,"John Dudman & Co., Deptford, London"
+nsw:blackwell,Blackwell,,1,1835,1835,NSW,,,,,
+nsw:clorinda,Clorinda,,1,1835,1835,NSW,,,,,
+nsw:hero,Hero,,1,1835,1835,NSW,,,,,
+nsw:john denniston,John Denniston,,1,1835,1835,NSW,,,,,
+nsw:lady macnaghten,Lady Macnaghten,,1,1835,1835,NSW,,,,,
+nsw:lochiel,Lochiel,,1,1835,1835,NSW,,,,,
+nsw:spence,Spence,,1,1835,1835,NSW,,,,,
+nsw:warrior,Warrior,,1,1835,1835,NSW,,,,,
+Bardaster (1833 ship),Bardaster,Bardaster (1833 ship),1,1836,1836,Tasmania,1833.0,435.0,,Broken up 1840,New Brunswick
+Elizabeth (1805 ship),Elizabeth,Elizabeth (1805 ship),1,1836,1836,NSW,1805.0,392.0,1.0,Condemned 1838.,Dartmouth
+Thomas Harrison (ship),Thomas Harrison,Thomas Harrison (ship),1,1836,1836,NSW,,,,,
+nsw:stirling castle,Stirling Castle,,1,1836,1836,NSW,,,,,
+nsw:swallow,Swallow,,1,1836,1836,NSW,,,,,
+Isabella (1823 ship),Isabella,Isabella (1823 ship),1,1837,1837,NSW,1823.0,178.0,1.0,Last listed in 1856,|laid_down=
+Prince George (1830 ship),Prince George,Prince George (1830 ship),1,1837,1837,NSW,1830.0,482.0,1.0,Last listed 1847,"John Green, ship builder, Bristol"
+nsw:calcutta,Calcutta,,1,1837,1837,NSW,,,,,
+nsw:charles dumergue,Charles Dumergue,,1,1837,1837,NSW,,,,,
+nsw:charles kerr,Charles Kerr,,1,1837,1837,NSW,,,,,
+nsw:ellen,Ellen,,1,1837,1837,NSW,,,,,
+nsw:heber,Heber,,1,1837,1837,NSW,,,,,
+nsw:saint vincent,St. Vincent,,1,1837,1837,NSW,,,,,
+nsw:sarah elizabeth,Sarah & Elizabeth,,1,1837,1837,NSW,,,,,
+nsw:strathisla,Strathisla,,1,1837,1837,NSW,,,,,
+Caledonia (1829 ship),Caledonia,Caledonia (1829 ship),1,1838,1838,NSW,1829.0,189.0,2.0,Last listed in 1855,"Thomas Symers, Coringa, East Godavari district"
+Coromandel (1820 ship),Coromandel,Coromandel (1820 ship),1,1838,1838,Tasmania,1820.0,639.0,,Broken up 1857,"George Gooch, executor of the late Peter Everitt Mestaer, King and Queen Dock, Rotherhithe"
+Diamond (1835 ship),Diamond,Diamond (1835 ship),1,1838,1838,NSW,1835.0,573.0,1.0,Last listed 1853,Isle of Man
+Elizabeth (1830 ship),Elizabeth,Elizabeth (1830 ship),1,1838,1838,NSW,1830.0,194.0,1.0,Wrecked in September 1839,Singapore
+Lord William Bentinck (1828 Bristol ship),Lord William Bentinck,Lord William Bentinck (1828 Bristol ship),1,1838,1838,Tasmania,1828.0,564.0,,Wrecked 1840,Hillhouse & Sons
+Neptune (1836 ship),Neptune,Neptune (1836 ship),1,1838,1838,NSW,1836.0,368.0,1.0,Last listed 1845,Chepstow
+Portsea (1807 ship),Portsea,Portsea (1807 ship),1,1838,1838,NSW,1807.0,315.0,1.0,Coal hulk in 1840; final disposition unknown,"Michael Smith, Howrah, Calcutta"
+nsw:elphinstone,Elphinstone,,1,1838,1838,NSW,,,,,
+nsw:emma eugenia,Emma Eugenia,,1,1838,1838,NSW,,,,,
+nsw:hind,Hind,,1,1838,1838,NSW,,,,,
+nsw:john renwick,John Renwick,,1,1838,1838,NSW,,,,,
+nsw:killmours,Killmours,,1,1838,1838,NSW,,,,,
+nsw:perseverance,Perseverance,,1,1838,1838,NSW,,,,,
+nsw:regia,Regia,,1,1838,1838,NSW,,,,,
+nsw:symmetry,Symmetry,,1,1838,1838,NSW,,,,,
+nsw:william jardine,William Jardine,,1,1838,1838,NSW,,,,,
+Henry (1826 ship),Henry,Henry (1826 ship),1,1839,1839,NSW,1826.0,252.0,1.0,Lost in 1841,"Edward Adams, Buckler's Hard"
+Whitby (barque),Whitby,Whitby (barque),1,1839,1839,NSW,,,,,
+nsw:blenhiem,Blenhiem,,1,1839,1839,NSW,,,,,
+nsw:freak,Freak,,1,1839,1839,NSW,,,,,
+nsw:parkfield,Parkfield,,1,1839,1839,NSW,,,,,
+nsw:theresa,Theresa,,1,1839,1839,NSW,,,,,
+nsw:waverley,Waverley,,1,1839,1839,NSW,,,,,
+Isabella (1827 ship),Isabella,Isabella (1827 ship),1,1840,1840,NSW,1827.0,323.0,1.0,Wrecked in 1841,T. Barrick
+Runnymede (1825 ship),Runnymede,Runnymede (1825 ship),1,1840,1840,Tasmania,1825.0,293.0,1.0,Wrecked 1844,"William Wallis, Blackwall"
+nfk:augusta jessie,Augusta Jessie,,1,1840,1840,Norfolk Island,,,,,
+nfk:nautilus,Nautilus,,1,1840,1840,Norfolk Island,,,,,
+nsw:eudora,Eudora,,1,1840,1840,NSW,,,,,
+nsw:king william,King William,,1,1840,1840,NSW,,,,,
+nsw:middlesex,Middlesex,,1,1840,1840,NSW,,,,,
+nsw:nautilus,Nautilus,,1,1840,1840,NSW,,,,,
+nsw:pekoe,Pekoe,,1,1840,1840,NSW,,,,,
+nsw:seppings,Seppings,,1,1840,1840,NSW,,,,,
+nsw:westbrook,Westbrook,,1,1840,1840,NSW,,,,,
+David Clark (ship),David Clark,David Clark (ship),1,1841,1841,Tasmania,1816.0,576.0,,Broken up 1854; last listed 1854 }},"S. Teague, Clive Street, Calcutta"
+Sir Edward Hughes (1784 EIC ship),HMS Tortoise,Sir Edward Hughes (1784 EIC ship),1,1842,1842,Tasmania,1784.0,957.0,,Sold,Bombay Dockyard
+nsw:sir john byng,Sir John Byng,,1,1842,1842,NSW,,,,,
+vdl:surrey,Surrey,,1,1842,1842,Tasmania,,,,,
+Agincourt (1844 ship),Agincourt,Agincourt (1844 ship),1,1844,1844,Norfolk Island,1844.0,543.0,,Last listed 1886,"James Liang, Sunderland"
+nfk:blundell,Blundell,,1,1844,1844,Norfolk Island,,,,,
+nfk:david malcolm,David Malcolm,,1,1845,1845,Norfolk Island,,,,,
+nfk:hyderabad,Hyderabad,,1,1845,1845,Norfolk Island,,,,,
+nfk:hydrabad,Hydrabad,,1,1845,1845,Norfolk Island,,,,,
+nfk:china,China,,1,1846,1846,Norfolk Island,,,,,
+nfk:john calvin,John Calvin,,1,1846,1846,Norfolk Island,,,,,
+nfk:mayda,Mayda,,1,1846,1846,Norfolk Island,,,,,
+nfk:tory,Tory,,1,1847,1847,Norfolk Island,,,,,
+nsw:adelaide,Adelaide,,1,1849,1849,NSW,,,,,
+nsw:havering,Havering,,1,1849,1849,NSW,,,,,
+nsw:randolph,Randolph,,1,1849,1849,NSW,,,,,
+Scindian,Scindian,Scindian,1,1850,1850,Western Australia,1844.0,535.0,,Sank 3 November 1880,|original_cost=
+nfk:eliza,Eliza,,1,1850,1850,Norfolk Island,,,,,
+Cornwall (1810 ship),Cornwall,Cornwall (1810 ship),1,1851,1851,Tasmania,1810.0,798.0,,Wrecked 15 July 1858,"Mathew Smith, Howrah, Calcutta"
+Minden (ship),Minden,Minden (ship),1,1851,1851,Western Australia,,,,,
+wa:marion,Marion,,1,1851,1851,Western Australia,,,,,
+wa:mermaid,Mermaid,,1,1851,1851,Western Australia,,,,,
+Sir Robert Seppings (ship),Sir Robert Seppings,Sir Robert Seppings (ship),1,1852,1852,Tasmania,1844.0,628.0,,"Wrecked by cyclone, Madras, 1872",|name=Sir Robert Seppings
+wa:william jardine,William Jardine,,1,1852,1852,Western Australia,,,,,
+wa:dudbrook,Dudbrook,,1,1853,1853,Western Australia,,,,,
+wa:phoebe dunbar,Phoebe Dunbar,,1,1853,1853,Western Australia,,,,,
+wa:robert small,Robert Small,,1,1853,1853,Western Australia,,,,,
+General Godwin,General Godwin,General Godwin,1,1854,1854,Western Australia,,,,,
+wa:ramillies,Ramillies,,1,1854,1854,Western Australia,,,,,
+wa:sea park,Sea Park,,1,1854,1854,Western Australia,,,,,
+Guide (ship),Guide,Guide (ship),1,1855,1855,Western Australia,,,,,
+wa:adelaide,Adelaide,,1,1855,1855,Western Australia,,,,,
+wa:stag,Stag,,1,1855,1855,Western Australia,,,,,
+Runnymede (1854 ship),Runnymede,Runnymede (1854 ship),1,1856,1856,Western Australia,1854.0,720.0,,Wrecked 2 February 1866,|original_cost=
+William Hammond (ship),William Hammond,William Hammond (ship),1,1856,1856,Western Australia,,149.0,,|status=,|original_cost=
+City of Palaces (ship),City of Palaces,City of Palaces (ship),1,1857,1857,Western Australia,,,,,
+Albuera (1854 ship),Albuera,Albuera (1854 ship),1,1858,1858,Western Australia,1854.0,729.0,,Last listed 1881,"729 tons (bm; old) or 852 tons (bm; new), launched at Moulmein (Burma) in 1854."
+Edwin Fox (ship),Edwin Fox,Edwin Fox (ship),1,1858,1858,Western Australia,,,,,
+Nile (ship),Nile,Nile (ship),1,1858,1858,Western Australia,,,,,
+wa:caducius,Caducius,,1,1858,1858,Western Australia,,,,,
+wa:lord raglan,Lord Raglan,,1,1858,1858,Western Australia,,,,,
+Frances (1859 convict ship),Frances,Frances (1859 convict ship),1,1859,1859,Western Australia,,,,|status=,|name=Frances
+wa:sultana,Sultana,,1,1859,1859,Western Australia,,,,,
+wa:palmerston,Palmerston,,1,1861,1861,Western Australia,,,,,
+York (ship),York,York (ship),1,1862,1862,Western Australia,,,,,
+wa:lincelles,Lincelles,,1,1862,1862,Western Australia,,,,,
+wa:clyde,Clyde,,1,1863,1863,Western Australia,,,,,
+wa:lord dalhousie,Lord Dalhousie,,1,1863,1863,Western Australia,,,,,
+wa:racehorse,Racehorse,,1,1865,1865,Western Australia,,,,,
+wa:vimeira,Vimeira,,1,1865,1865,Western Australia,,,,,
+wa:belgravia,Belgravia,,1,1866,1866,Western Australia,,,,,
+wa:corona,Corona,,1,1866,1866,Western Australia,,,,,
+Hougoumont (ship),Hougoumont,Hougoumont (ship),1,1868,1868,Western Australia,1852.0,875.0,,|notes= }},|laid_down=

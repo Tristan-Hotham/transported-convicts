@@ -1,0 +1,835 @@
+list,row,name,ship_base,article,article_inherited,arrival_raw,sailed_raw,notes,master,embarked,landed,nfk_period,parkhurst,arr_y,arr_m,arr_d,port,via,region,fleet,dep_raw,days_src,src_sentence,days,male,female,deaths,arr_date,women_src,women
+nsw,1,Active (1764 ship),active,Active (1764 ship),0,26 September 1791,Plymouth,Part of Third Fleet,,175,154,0,0,1791,9,26,plymouth,,England,3,27 Mar 1791,fleet table,,183,154,,21,1791-09-26,,0
+nsw,2,Adamant (1811 ship),adamant,Adamant (1811 ship),0,8 September 1821,England,,,,,0,0,1821,9,8,england,,England,0,,,,,,,,1821-09-08,,0
+nsw,3,Adelaide,adelaide,,0,24 December 1849,London,,,,,0,0,1849,12,24,london,,England,0,,,,,,,,1849-12-24,,0
+nsw,4,Admiral Barrington (1781 ship),admiral barrington,Admiral Barrington (1781 ship),0,16 October 1791,Portsmouth,Part of Third Fleet,,300,264,0,0,1791,10,16,portsmouth,,England,3,27 Mar 1791,fleet table,,203,264,,36,1791-10-16,,0
+nsw,5,Admiral Gambier (1807 ship),admiral gambier,Admiral Gambier (1807 ship),0,20 December 1808,Portsmouth,First convict voyage to NSW,,,,0,0,1808,12,20,portsmouth,,England,0,,,,,,,,1808-12-20,,0
+nsw,6,Admiral Gambier,admiral gambier,Admiral Gambier (1807 ship),1,29 September 1811,England,Second convict voyage to NSW,,,,0,0,1811,9,29,england,,England,0,,,,,,,,1811-09-29,,0
+nsw,7,Adrian (1819 ship),adrian,Adrian (1819 ship),0,20 August 1830,Portsmouth,,,,,0,0,1830,8,20,portsmouth,,England,0,,,,,,,,1830-08-20,,0
+nsw,8,Aeolus,aeolus,Æolus (1783 ship),0,26 January 1809,London,,,,,0,0,1809,1,26,london,,England,0,,,,,,,,1809-01-26,,0
+nsw,9,Agamemnon (1811 ship),agamemnon,Agamemnon (1811 ship),0,22 September 1820,Portsmouth,,,,,0,0,1820,9,22,portsmouth,,England,0,,,,,,,,1820-09-22,,0
+nsw,10,Albemarle,albemarle,Albemarle (1776),0,13 October 1791,Portsmouth,Part of Third Fleet,,288,256,0,0,1791,10,13,portsmouth,,England,3,27 Mar 1791,fleet table,,200,250,6,32,1791-10-13,fleet table or ship article,1
+nsw,11,Albion (1813 ship),albion,Albion (1813 ship),0,14 February 1827,Plymouth,First convict voyage to NSW,,,,0,0,1827,2,14,plymouth,,England,0,,,,,,,,1827-02-14,,0
+nsw,12,Albion,albion,Albion (1813 ship),1,3 November 1828,Sheerness,Second convict voyage to NSW,,,,0,0,1828,11,3,sheerness,,England,0,,,,,,,,1828-11-03,,0
+nsw,13,Alexander (1783 ship),alexander,Alexander (1783 ship),0,26 January 1788,Spithead,Part of First Fleet,,,210,0,0,1788,1,26,spithead,,England,1,13 May 1787,fleet table,,251,210,0,,1788-01-26,,0
+nsw,14,Alexander (1801 ship),alexander,Alexander (1801 ship),0,20 August 1806,Portsmouth,,,,,0,0,1806,8,20,portsmouth,,England,0,,,,,,,,1806-08-20,,0
+nsw,15,Alexander (1811),alexander,Alexander (1811 ship),0,4 April 1816,Ireland,,,84,,0,0,1816,4,4,ireland,,Ireland,0,1815-11-04,ship article,"Under the command of William Hamilton, she sailed from Ireland on 4 November 1815, and arrived at Port Jackson on 4 April 1816. She transported 84 female convicts, three of whom died on the voyage.",152,,84,3,1816-04-04,fleet table or ship article,1
+nsw,16,Alice,alice,,0,1 March 1835,Hobart Town,,,,,0,0,1835,3,1,hobart,,Within Australia,0,,,,,,,,1835-03-01,,0
+nsw,17,Almorah (1817),almorah,Almorah (1817),0,29 August 1817,Downs,First convict voyage to NSW,,,,0,0,1817,8,29,downs,,England,0,,,,,,,,1817-08-29,,0
+nsw,18,Almorah,almorah,Almorah (1817),1,22 December 1820,Waterford,Second convict voyage to NSW,,,,0,0,1820,12,22,waterford,,Ireland,0,,,,,,,,1820-12-22,,0
+nsw,19,Almorah,almorah,Almorah (1817),1,20 August 1824,Cork,Third convict voyage to NSW,,,,0,0,1824,8,20,cork,,Ireland,0,,,,,,,,1824-08-20,,0
+nsw,20,Amboyna (1807 ship),amboyna,Amboyna (1807 ship),0,1 January 1822,India,,,,,0,0,1822,1,1,india,,India and the Indian Ocean,0,,,,,,,,1822-01-01,,0
+nsw,21,America,america,,0,18 August 1829,Woolwich,,,,,0,0,1829,8,18,woolwich,,England,0,,,,,,,,1829-08-18,,0
+nsw,22,Amphitrite (1802 ship),amphitrite,Amphitrite (1802 ship),0,Wrecked at outset of voyage,Woolwich,108 female convicts and 12 children drowned,,,,0,0,,,,woolwich,,England,0,,,,,,,,,table notes,1
+nsw,23,Andromeda,andromeda,Andromeda (1819),0,18 December 1830,Cork,First convict voyage to NSW,,,,0,0,1830,12,18,cork,,Ireland,0,,,,,,,,1830-12-18,,0
+nsw,24,Andromeda,andromeda,Andromeda (1819),1,11 March 1833,Portsmouth,Second convict voyage to NSW,,,,0,0,1833,3,11,portsmouth,,England,0,,,,,,,,1833-03-11,,0
+nsw,25,Andromeda,andromeda,Andromeda (1819),1,17 September 1834,Cork,Third convict voyage to NSW,,,,0,0,1834,9,17,cork,,Ireland,0,,,,,,,,1834-09-17,,0
+nsw,26,Ann and Amelia (1816 ship),ann and amelia,Ann and Amelia (1816 ship),0,2 January 1825,Cork,,,,,0,0,1825,1,2,cork,,Ireland,0,,,,,,,,1825-01-02,,0
+nsw,27,Ann,ann,,0,30 June 1825,Mauritius,,,,,0,0,1825,6,30,mauritius,,India and the Indian Ocean,0,,,,,,,,1825-06-30,,0
+nsw,28,Anne (1799 ship),anne,Anne (1799 ship),0,21 February 1801,Cork,,,,,0,0,1801,2,21,cork,,Ireland,0,,,,,,,,1801-02-21,,0
+nsw,29,Ann (1797 ship),ann,Ann (1797 ship),0,27 February 1810,Spithead,,,,,0,0,1810,2,27,spithead,,England,0,,,,,,,,1810-02-27,,0
+nsw,30,Arab,arab,,0,15 August 1834,Hobart Town,,,,,0,0,1834,8,15,hobart,,Within Australia,0,,,,,,,,1834-08-15,,0
+nsw,31,Archduke Charles (1809 ship),archduke charles,Archduke Charles (1809 ship),0,16 February 1813,Cork,,,,,0,0,1813,2,16,cork,,Ireland,0,,,,,,,,1813-02-16,,0
+nsw,32,Asia (1818 ship),asia,Asia (1818 ship),0,28 December 1820,England,First convict voyage to NSW,,,,0,0,1820,12,28,england,,England,0,,,,,,,,1820-12-28,,0
+nsw,33,Asia,asia,Asia (1818 ship),1,24 July 1822,England,Second convict voyage to NSW,,,,0,0,1822,7,24,england,,England,0,,,,,,,,1822-07-24,,0
+nsw,34,Asia,asia,Asia (1818 ship),1,22 February 1825,Cork,Third convict voyage to NSW,,,,0,0,1825,2,22,cork,,Ireland,0,,,,,,,,1825-02-22,,0
+nsw,35,Asia,asia,Asia (1818 ship),1,13 March 1828,London,Fourth convict voyage to NSW,,,,0,0,1828,3,13,london,,England,0,,,,,,,,1828-03-13,,0
+nsw,36,Asia,asia,Asia (1818 ship),1,13 January 1830,Cork,Fifth convict voyage to NSW,,,,0,0,1830,1,13,cork,,Ireland,0,,,,,,,,1830-01-13,,0
+nsw,37,Asia,asia,Asia (1818 ship),1,13 February 1832,Portsmouth,Sixth convict voyage to NSW,,,,0,0,1832,2,13,portsmouth,,England,0,,,,,,,,1832-02-13,,0
+nsw,38,Asia,asia,Asia (1818 ship),1,27 June 1833,Downs,Seventh convict voyage to NSW,,,,0,0,1833,6,27,downs,,England,0,,,,,,,,1833-06-27,,0
+nsw,39,Asia,asia,Asia (1818 ship),1,22 March 1836,Hobart Town,Eighth convict voyage to NSW,,,,0,0,1836,3,22,hobart,,Within Australia,0,,,,,,,,1836-03-22,,0
+nsw,40,Asia (1815 ship),asia,Asia (1815 ship),0,29 April 1825,Portsmouth,First convict voyage to NSW,,,,0,0,1825,4,29,portsmouth,,England,0,,,,,,,,1825-04-29,,0
+nsw,41,Asia,asia,Asia (1815 ship),1,7 December 1827,Portsmouth,Second convict voyage to NSW,,,,0,0,1827,12,7,portsmouth,,England,0,,,,,,,,1827-12-07,,0
+nsw,42,Asia,asia,Asia (1815 ship),1,2 December 1831,Cork,Third convict voyage to NSW,,,,0,0,1831,12,2,cork,,Ireland,0,,,,,,,,1831-12-02,,0
+nsw,43,Asia,asia,Asia (1815 ship),1,2 December 1836,Torbay,Fourth convict voyage to NSW,,,,0,0,1836,12,2,torbay,,England,0,,,,,,,,1836-12-02,,0
+nsw,44,Atlantic (1783 ship),atlantic,Atlantic (1783 ship),0,20 August 1791,Plymouth,Part of Third Fleet,,220,202,0,0,1791,8,20,plymouth,,England,3,27 Mar 1791,fleet table,,147,202,,18,1791-08-20,,0
+nsw,45,Atlas (1801 South Shields ship),atlas,Atlas (1801 South Shields ship),0,7 July 1802,Ireland,First convict voyage to NSW,,,,0,0,1802,7,7,ireland,,Ireland,0,,,,,,,,1802-07-07,,0
+nsw,46,Atlas,atlas,Atlas (1801 South Shields ship),1,19 October 1819,Gravesend,Second convict voyage to NSW.,,,,0,0,1819,10,19,gravesend,,England,0,,,,,,,,1819-10-19,,0
+nsw,47,Atlas (December 1801 ship),atlas,Atlas (1801 Quebec City ship),0,30 October 1802,Cork,,,,,0,0,1802,10,30,cork,,Ireland,0,,,,,,,,1802-10-30,,0
+nsw,48,Atlas (1811 ship),atlas,Atlas (1811 ship),0,22 July 1816,Portsmouth,,,,,0,0,1816,7,22,portsmouth,,England,0,,,,,,,,1816-07-22,,0
+nsw,49,Aurora (1816 ship),aurora,Aurora (1816 ship),0,3 November 1833,Portsmouth,,,,,0,0,1833,11,3,portsmouth,,England,0,,,,,,,,1833-11-03,,0
+nsw,50,Bardaster,bardaster,Bardaster (1833 ship),0,3 February 1836,Hobart Town,One convict transported from Hobart.,,,,0,0,1836,2,3,hobart,,Within Australia,0,,,,,,,,1836-02-03,,0
+nsw,51,Baring,baring,Baring (1801 Indiaman),0,7 September 1815,England,First convict voyage to NSW,,,,0,0,1815,9,7,england,,England,0,,,,,,,,1815-09-07,,0
+nsw,52,Baring,baring,Baring (1801 Indiaman),1,26 June 1819,Downs,Second convict voyage to NSW,,,,0,0,1819,6,26,downs,,England,0,,,,,,,,1819-06-26,,0
+nsw,53,Barrosa,barrosa,Barrosa (1811 ship),0,8 December 1839,Sheerness,,,,,0,0,1839,12,8,sheerness,,England,0,,,,,,,,1839-12-08,,0
+nsw,54,Barwell,barwell,Barwell (1782 ship),0,18 May 1798,Portsmouth,,,,,0,0,1798,5,18,portsmouth,,England,0,,,,,,,,1798-05-18,,0
+nsw,55,Batavia,batavia,Batavia (1802 ship),0,5 April 1818,Plymouth,,,,,0,0,1818,4,5,plymouth,,England,0,,,,,,,,1818-04-05,,0
+nsw,56,Bellona,bellona,Bellona (1782 ship),0,16 January 1793,Gravesend,,,,,0,0,1793,1,16,gravesend,,England,0,,,,,,,,1793-01-16,,0
+nsw,57,Bencoolen,bencoolen,Bencoolen (1818 ship),0,25 August 1819,Cork,,,,,0,0,1819,8,25,cork,,Ireland,0,,,,,,,,1819-08-25,,0
+nsw,58,Bengal Merchant,bengal merchant,Bengal Merchant (1812 ship),0,30 January 1835,London,First convict voyage to NSW,,,,0,0,1835,1,30,london,,England,0,,,,,,,,1835-01-30,,0
+nsw,59,Bengal Merchant,bengal merchant,Bengal Merchant (1812 ship),1,9 December 1836,Downs,Second convict voyage to NSW,,,,0,0,1836,12,9,downs,,England,0,,,,,,,,1836-12-09,,0
+nsw,60,Bengal Merchant,bengal merchant,Bengal Merchant (1812 ship),1,21 July 1838,Sheerness,Third convict voyage to NSW,,,,0,0,1838,7,21,sheerness,,England,0,,,,,,,,1838-07-21,,0
+nsw,61,Blackwell,blackwell,,0,29 September 1835,Cork,,,,,0,0,1835,9,29,cork,,Ireland,0,,,,,,,,1835-09-29,,0
+nsw,62,Blenheim,blenheim,Blenheim (1834 ship),0,14 November 1834,Cork,First convict voyage to NSW,,,,0,0,1834,11,14,cork,,Ireland,0,,,,,,,,1834-11-14,,0
+nsw,63,Blenheim,blenheim,Blenheim (1834 ship),1,5 August 1837,Hobart Town,Second convict voyage to NSW,,,,0,0,1837,8,5,hobart,,Within Australia,0,,,,,,,,1837-08-05,,0
+nsw,64,Blenhiem,blenhiem,,0,27 September 1839,Dublin,Third convict voyage to NSW,,,,0,0,1839,9,27,dublin,,Ireland,0,,,,,,,,1839-09-27,,0
+nsw,65,Boddington,boddington,Boddington (1781 ship),0,7 August 1793,Cork,,,,,0,0,1793,8,7,cork,,Ireland,0,,,,,,,,1793-08-07,,0
+nsw,66,Boddingtons,boddingtons,,0,22 April 1828,Hobart Town,Not clear that she actually carried convicts,,,,0,0,1828,4,22,hobart,,Within Australia,0,,,,,,,,1828-04-22,,0
+nsw,67,Borodino,borodino,Borodino (1826 ship),0,12 July 1828,Cork,,,,,0,0,1828,7,12,cork,,Ireland,0,,,,,,,,1828-07-12,,0
+nsw,68,Bombay,bombay,Bombay (1801 ship),0,26 July 1830,Calcutta,10 prisoners from Calcutta,,,,0,0,1830,7,26,calcutta,,India and the Indian Ocean,0,,,,,,,,1830-07-26,,0
+nsw,69,Boyd,boyd,Boyd (1783 ship),0,14 August 1809,Cork,,,,,0,0,1809,8,14,cork,,Ireland,0,,,,,,,,1809-08-14,,0
+nsw,70,Boyne,boyne,,0,28 October 1826,Cork,,,,,0,0,1826,10,28,cork,,Ireland,0,,,,,,,,1826-10-28,,0
+nsw,71,Brampton,brampton,,0,22 April 1823,Cork,,,,,0,0,1823,4,22,cork,,Ireland,0,,,,,,,,1823-04-22,,0
+nsw,72,Bridgewater,bridgewater,,0,11 May 1816,Bengal,,,,,0,0,1816,5,11,calcutta,,India and the Indian Ocean,0,,,,,,,,1816-05-11,,0
+nsw,73,Britannia,britannia,,0,14 February 1814,Bengal,First convict voyage to NSW,,,,0,0,1814,2,14,calcutta,,India and the Indian Ocean,0,,,,,,,,1814-02-14,,0
+nsw,74,Britannia (1783 whaler),britannia,Britannia (1783 whaler),0,14 October 1791,Portsmouth,First convict voyage to NSW. Part of Third Fleet,,150,129,0,0,1791,10,14,portsmouth,,England,3,27 Mar 1791,fleet table,,201,129,,21,1791-10-14,,0
+nsw,75,Britannia,britannia,Britannia (1783 whaler),1,18 July 1798,Portsmouth,Second convict voyage to NSW,,,,0,0,1798,7,18,portsmouth,,England,0,,,,,,,,1798-07-18,,0
+nsw,76,Britannia (1774 ship),britannia,Britannia (1774 ship),0,27 May 1797,Cork,First convict voyage to NSW,,,,0,0,1797,5,27,cork,,Ireland,0,,,,,,,,1797-05-27,,0
+nsw,77,Brothers,brothers,Brothers (1815 ship),0,7 May 1824,Downs,First convict voyage to NSW,,,,0,0,1824,5,7,downs,,England,0,,,,,,,,1824-05-07,,0
+nsw,78,Brothers,brothers,Brothers (1815 ship),1,2 February 1827,Cork,Second convict voyage to NSW,,,,0,0,1827,2,2,cork,,Ireland,0,,,,,,,,1827-02-02,,0
+nsw,79,Broxbornebury,broxbornebury,Broxbornebury (1812 ship),0,28 July 1814,England,,,,,0,0,1814,7,28,england,,England,0,,,,,,,,1814-07-28,,0
+nsw,80,Buffalo,buffalo,HMS Buffalo (1813),0,5 October 1833,Portsmouth,First convict voyage to NSW,,,,0,0,1833,10,5,portsmouth,,England,0,,,,,,,,1833-10-05,,0
+nsw,81,Buffalo,buffalo,HMS Buffalo (1813),1,27 June 1837,Adelaide,Second convict voyage to NSW,,,,0,0,1837,6,27,adelaide,,Within Australia,0,,,,,,,,1837-06-27,,0
+nsw,82,Buffalo,buffalo,HMS Buffalo (1813),1,25 February 1840,Quebec,Third convict voyage to NSW,,,,0,0,1840,2,25,quebec,,Other colonies,0,,,,,,,,1840-02-25,,0
+nsw,83,Burrell,burrell,Burrell (1825 ship),0,19 December 1830,Plymouth,First convict voyage to NSW,,,,0,0,1830,12,19,plymouth,,England,0,,,,,,,,1830-12-19,,0
+nsw,84,Burrell,burrell,Burrell (1825 ship),1,20 May 1832,Woolwich,Second convict voyage to NSW,,,,0,0,1832,5,20,woolwich,,England,0,,,,,,,,1832-05-20,,0
+nsw,85,Bussorah Merchant,bussorah merchant,Bussorah Merchant (1818 ship),0,26 July 1828,London,First convict voyage to NSW,,,,0,0,1828,7,26,london,,England,0,,,,,,,,1828-07-26,,0
+nsw,86,Bussorah Merchant,bussorah merchant,Bussorah Merchant (1818 ship),1,14 December 1831,Dublin,Second convict voyage to NSW,,,,0,0,1831,12,14,dublin,,Ireland,0,,,,,,,,1831-12-14,,0
+nsw,87,Calcutta,calcutta,,0,5 August 1837,Dublin,,,,,0,0,1837,8,5,dublin,,Ireland,0,,,,,,,,1837-08-05,,0
+nsw,88,Calder,calder,,0,20 November 1822,Calcutta,,,,,0,0,1822,11,20,calcutta,,India and the Indian Ocean,0,,,,,,,,1822-11-20,,0
+nsw,89,Caledonia,caledonia,Caledonia (1829 ship),0,17 December 1838,Madras,First convict voyage to NSW,,,,0,0,1838,12,17,madras,,India and the Indian Ocean,0,,,,,,,,1838-12-17,,0
+nsw,90,Caledonia,caledonia,Caledonia (1829 ship),1,30 April 1840,Swan River,Second convict voyage to NSW,,,,0,0,1840,4,30,swan,,Within Australia,0,,,,,,,,1840-04-30,,0
+nsw,91,Calista,calista,,0,13 April 1828,Hobart Town,,,,,0,0,1828,4,13,hobart,,Within Australia,0,,,,,,,,1828-04-13,,0
+nsw,92,Cambridge,cambridge,Cambridge (1825 ship),0,17 September 1827,Dublin,,,,,0,0,1827,9,17,dublin,,Ireland,0,,,,,,,,1827-09-17,,0
+nsw,93,Camden,camden,Camden (1799 ship),0,25 July 1831,London,First convict voyage to NSW,,,,0,0,1831,7,25,london,,England,0,,,,,,,,1831-07-25,,0
+nsw,94,Camden,camden,Camden (1799 ship),1,18 February 1833,Sheerness,Second convict voyage to NSW,,,,0,0,1833,2,18,sheerness,,England,0,,,,,,,,1833-02-18,,0
+nsw,95,Campbell Macquarie,campbell macquarie,Campbell Macquarie (1812 shipwreck),0,17 January 1812,Calcutta,,,,,0,0,1812,1,17,calcutta,,India and the Indian Ocean,0,,,,,,,,1812-01-17,,0
+nsw,96,Canada,canada,Canada (1800 ship),0,14 December 1801,Spithead,First convict voyage to NSW,,,,0,0,1801,12,14,spithead,,England,0,,,,,,,,1801-12-14,,0
+nsw,97,Canada,canada,Canada (1800 ship),1,8 September 1810,England,Second convict voyage to NSW,,,,0,0,1810,9,8,england,,England,0,,,,,,,,1810-09-08,,0
+nsw,98,Canada,canada,Canada (1800 ship),1,5 August 1815,Cork,Third convict voyage to NSW,,,,0,0,1815,8,5,cork,,Ireland,0,,,,,,,,1815-08-05,,0
+nsw,99,Canada,canada,Canada (1800 ship),1,6 August 1817,Cork,Fourth convict voyage to NSW,,,,0,0,1817,8,6,cork,,Ireland,0,,,,,,,,1817-08-06,,0
+nsw,100,Canada,canada,Canada (1800 ship),1,1 September 1819,London,Fifth convict voyage to NSW,,,,0,0,1819,9,1,london,,England,0,,,,,,,,1819-09-01,,0
+nsw,101,Captain Cook,captain cook,Captain Cook (1826 ship),0,2 April 1832,Dublin,First convict voyage to NSW,,,,0,0,1832,4,2,dublin,,Ireland,0,,,,,,,,1832-04-02,,0
+nsw,102,Captain Cook,captain cook,Captain Cook (1826 ship),1,26 August 1833,Portsmouth,Second convict voyage to NSW,,,,0,0,1833,8,26,portsmouth,,England,0,,,,,,,,1833-08-26,,0
+nsw,103,Captain Cook,captain cook,Captain Cook (1826 ship),1,13 November 1836,Cork,Third convict voyage to NSW,,,,0,0,1836,11,13,cork,,Ireland,0,,,,,,,,1836-11-13,,0
+nsw,104,Caroline,caroline,,0,31 July 1831,Madras & Calcutta,,,,,0,0,1831,7,31,madras,Calcutta,India and the Indian Ocean,0,,,,,,,,1831-07-31,,0
+nsw,105,Caroline,caroline,Caroline (1825 ship),0,6 August 1833,Cork,,,,,0,0,1833,8,6,cork,,Ireland,0,,,,,,,,1833-08-06,,0
+nsw,106,Castle Forbes,castle forbes,Castle Forbes (1818 ship),0,27 January 1820,Cork,First convict voyage to NSW,,,,0,0,1820,1,27,cork,,Ireland,0,,,,,,,,1820-01-27,,0
+nsw,107,Castle Forbes,castle forbes,Castle Forbes (1818 ship),0,15 January 1824,Cork,Second convict voyage to NSW,,,,0,0,1824,1,15,cork,,Ireland,0,,,,,,,,1824-01-15,,0
+nsw,108,Catherine,catherine,Catherine (1811 ship),0,4 May 1814,Falmouth,,,,,0,0,1814,5,4,falmouth,,England,0,,,,,,,,1814-05-04,,0
+nsw,109,Cawdry,cawdry,,0,1 January 1826,India & Ceylon,,,,,0,0,1826,1,1,india,Ceylon,India and the Indian Ocean,0,,,,,,,,1826-01-01,,0
+nsw,110,Celia,celia,,0,14 October 1828,Mauritius,First convict voyage to NSW,,,,0,0,1828,10,14,mauritius,,India and the Indian Ocean,0,,,,,,,,1828-10-14,,0
+nsw,111,Celia,celia,,0,11 March 1831,Mauritius,Second convict voyage to NSW,,,,0,0,1831,3,11,mauritius,,India and the Indian Ocean,0,,,,,,,,1831-03-11,,0
+nsw,112,Ceylon,ceylon,,0,21 August 1830,Ceylon,,,,,0,0,1830,8,21,ceylon,,India and the Indian Ocean,0,,,,,,,,1830-08-21,,0
+nsw,113,Champion,champion,,0,17 October 1827,London,,,,,0,0,1827,10,17,london,,England,0,,,,,,,,1827-10-17,,0
+nsw,114,Chapman,chapman,Chapman (1777 ship),0,26 July 1817,Cork,First convict voyage to NSW,,,,0,0,1817,7,26,cork,,Ireland,0,,,,,,,,1817-07-26,,0
+nsw,115,Chapman,chapman,Chapman (1777 ship),1,3 November 1826,Hobart Town,Second convict voyage to NSW,,,,0,0,1826,11,3,hobart,,Within Australia,0,,,,,,,,1826-11-03,,0
+nsw,116,Charles Dumergue,charles dumergue,,0,16 July 1837,Madras,,,,,0,0,1837,7,16,madras,,India and the Indian Ocean,0,,,,,,,,1837-07-16,,0
+nsw,117,Charles Kerr,charles kerr,,0,9 October 1837,Spithead,,,,,0,0,1837,10,9,spithead,,England,0,,,,,,,,1837-10-09,,0
+nsw,118,Charlotte,charlotte,Charlotte (1784 ship),0,26 January 1788,Spithead,Part of First Fleet,,,124,0,0,1788,1,26,spithead,,England,1,13 May 1787,fleet table,,252,100,24,,1788-01-26,fleet table or ship article,1
+nsw,119,Christina,christina,,0,29 August 1840,Adelaide,,,,,0,0,1840,8,29,adelaide,,Within Australia,0,,,,,,,,1840-08-29,,0
+nsw,120,City of Edinburgh,city of edinburgh,City of Edinburgh (1813 ship),0,12 November 1828,Cork,First convict voyage to NSW,,,,0,0,1828,11,12,cork,,Ireland,0,,,,,,,,1828-11-12,,0
+nsw,121,City of Edinburgh,city of edinburgh,City of Edinburgh (1813 ship),1,27 June 1832,Cork,Second convict voyage to NSW,,,,0,0,1832,6,27,cork,,Ireland,0,,,,,,,,1832-06-27,,0
+nsw,122,Claudine,claudine,Claudine (1811 ship),0,6 December 1829,London,,,,,0,0,1829,12,6,london,,England,0,,,,,,,,1829-12-06,,0
+nsw,123,Clorinda,clorinda,,0,12 May 1835,Ceylon,,,,,0,0,1835,5,12,ceylon,,India and the Indian Ocean,0,,,,,,,,1835-05-12,,0
+nsw,124,Clyde,clyde,Clyde (1820 ship),0,27 August 1832,Portsmouth,First convict voyage to NSW,,,,0,0,1832,8,27,portsmouth,,England,0,,,,,,,,1832-08-27,,0
+nsw,125,Clyde,clyde,Clyde (1820 ship),1,10 September 1838,Dublin,Second convict voyage to NSW,,,,0,0,1838,9,10,dublin,,Ireland,0,,,,,,,,1838-09-10,,0
+nsw,126,Competitor,competitor,Competitor (ship),0,10 October 1828,London,,,,,0,0,1828,10,10,london,,England,0,,,,,,,,1828-10-10,,0
+nsw,127,Coromandel,coromandel,Coromandel (1793 ship),0,13 June 1802,Spithead,First convict voyage to NSW,,,,0,0,1802,6,13,spithead,,England,0,,,,,,,,1802-06-13,,0
+nsw,128,Coromandel,coromandel,Coromandel (1793 ship),1,7 May 1804,England,Second convict voyage to NSW,,,,0,0,1804,5,7,england,,England,0,,,,,,,,1804-05-07,,0
+nsw,129,HMS Coromandel,coromandel,HMS Malabar (1804),0,4 April 1820,Spithead,,,,,0,0,1820,4,4,spithead,,England,0,,,,,,,,1820-04-04,,0
+nsw,130,Countess of Harcourt,countess of harcourt,Countess of Harcourt (1811 ship),0,21 December 1823,Cork,First convict voyage to NSW,,,,0,0,1823,12,21,cork,,Ireland,0,,,,,,,,1823-12-21,,0
+nsw,131,Countess of Harcourt,countess of harcourt,Countess of Harcourt (1811 ship),1,12 July 1824,Downs,Second convict voyage to NSW,,,,0,0,1824,7,12,downs,,England,0,,,,,,,,1824-07-12,,0
+nsw,132,Countess of Harcourt,countess of harcourt,Countess of Harcourt (1811 ship),1,28 June 1827,Dublin,Third convict voyage to NSW,,,,0,0,1827,6,28,dublin,,Ireland,0,,,,,,,,1827-06-28,,0
+nsw,133,Countess of Harcourt,countess of harcourt,Countess of Harcourt (1811 ship),1,8 September 1828,London,Fourth convict voyage to NSW,,,,0,0,1828,9,8,london,,England,0,,,,,,,,1828-09-08,,0
+nsw,134,Courier,courier,,0,23 March 1833,Port Louis,,,,,0,0,1833,3,23,mauritius,,India and the Indian Ocean,0,,,,,,,,1833-03-23,,0
+nsw,135,Currency Lass,currency lass,Currency Lass (1826 schooner),0,11 October 1834,Hobart Town,First convict voyage to NSW,,,,0,0,1834,10,11,hobart,,Within Australia,0,,,,,,,,1834-10-11,,0
+nsw,136,Currency Lass,currency lass,Currency Lass (1826 schooner),1,29 July 1835,Hobart Town,Second convict voyage to NSW,,,,0,0,1835,7,29,hobart,,Within Australia,0,,,,,,,,1835-07-29,,0
+nsw,137,HMS Daphne (1806),daphne,HMS Daphne (1806),0,21 September 1819,Cork,,,,,0,0,1819,9,21,cork,,Ireland,0,,,,,,,,1819-09-21,,0
+nsw,138,Dart (1818 ship),dart,Dart (1818 ship),0,26 June 1831,Mauritius,First convict voyage to NSW - Transported 1 military convict,,,,0,0,1831,6,26,mauritius,,India and the Indian Ocean,0,,,,,,,,1831-06-26,,0
+nsw,139,Dart,dart,Dart (1818 ship),1,31 December 1833,Mauritius,Second convict voyage to NSW - Transported a number of military convicts,,,,0,0,1833,12,31,mauritius,,India and the Indian Ocean,0,,,,,,,,1833-12-31,,0
+nsw,140,Dart,dart,Dart (1818 ship),1,9 July 1834,Mauritius,Third convict voyage to NSW - Transported a number of military convicts,,,,0,0,1834,7,9,mauritius,,India and the Indian Ocean,0,,,,,,,,1834-07-09,,0
+nsw,141,Diamond (1835 ship),diamond,Diamond (1835 ship),0,28 March 1838,Cork,,,,,0,0,1838,3,28,cork,,Ireland,0,,,,,,,,1838-03-28,,0
+nsw,142,Diana (1824 ship),diana,Diana (1824 ship),0,25 May 1833,Woolwich,,,,,0,0,1833,5,25,woolwich,,England,0,,,,,,,,1833-05-25,,0
+nsw,143,Dick (1788 ship),dick,Dick (1788 ship),0,12 March 1821,England,,,,,0,0,1821,3,12,england,,England,0,,,,,,,,1821-03-12,,0
+nsw,144,Dorothy (1815 ship),dorothy,Dorothy (1815 ship),0,19 September 1820,Cork,,,,,0,0,1820,9,19,cork,,Ireland,0,,,,,,,,1820-09-19,,0
+nsw,145,Dorset,dorset,Dorset (1838 ship),0,1 December 1840,Adelaide,Transported 9 male convicts,,,,0,0,1840,12,1,adelaide,,Within Australia,0,,,,,,,,1840-12-01,,0
+nsw,146,HMS Dromedary,dromedary,HMS Howe (1805),0,28 January 1820,England,,,,,0,0,1820,1,28,england,,England,0,,,,,,,,1820-01-28,,0
+nsw,147,Drummore (1830 ship),drummore,Drummore (1830 ship),0,12 September 1831,Mauritius,Transported 1 military convict,,,,0,0,1831,9,12,mauritius,,India and the Indian Ocean,0,,,,,,,,1831-09-12,,0
+nsw,148,HMS Duchess of York (1801),duchess of york,HMS Duchess of York (1801),0,4 April 1807,India,Transported 2 military convicts,,,,0,0,1807,4,4,india,,India and the Indian Ocean,0,,,,,,,,1807-04-04,,0
+nsw,149,Duke of Portland (1794 ship),duke of portland,Duke of Portland (1794 ship),0,27 July 1807,England,First convict voyage to NSW,,,,0,0,1807,7,27,england,,England,0,,,,,,,,1807-07-27,,0
+nsw,150,Duke of Portland,duke of portland,Duke of Portland (1794 ship),1,25 January 1809,Portsmouth,Second convict voyage to NSW,,,,0,0,1809,1,25,portsmouth,,England,0,,,,,,,,1809-01-25,,0
+nsw,151,Dunvegan Castle (1819 ship),dunvegan castle,Dunvegan Castle (1819 ship),0,30 March 1830,Sherness,First convict voyage to NSW,,,,0,0,1830,3,30,sheerness,,England,0,,,,,,,,1830-03-30,,0
+nsw,152,Dunvegan Castle,dunvegan castle,Dunvegan Castle (1819 ship),1,16 October 1832,Dublin,Second convict voyage to NSW,,,,0,0,1832,10,16,dublin,,Ireland,0,,,,,,,,1832-10-16,,0
+nsw,153,Eagle,eagle,,0,17 February 1811,Calcutta,Transported military convicts,,,,0,0,1811,2,17,calcutta,,India and the Indian Ocean,0,,,,,,,,1811-02-17,,0
+nsw,154,Earl Cornwallis,earl cornwallis,Earl Cornwallis (1783 ship),0,12 June 1801,England,,,,,0,0,1801,6,12,england,,England,0,,,,,,,,1801-06-12,,0
+nsw,155,Earl Grey,earl grey,Earl Grey (1835 ship),0,31 December 1836,Cork,First convict voyage to NSW,,,,0,0,1836,12,31,cork,,Ireland,0,,,,,,,,1836-12-31,,0
+nsw,156,Earl Grey,earl grey,Earl Grey (1835 ship),1,21 November 1838,Portsmouth,Second convict voyage to NSW,,,,0,0,1838,11,21,portsmouth,,England,0,,,,,,,,1838-11-21,,0
+nsw,157,Earl of Liverpool,earl of liverpool,,0,5 April 1831,London,,,,,0,0,1831,4,5,london,,England,0,,,,,,,,1831-04-05,,0
+nsw,158,Earl Spencer,earl spencer,Earl Spencer (1795 EIC ship),0,9 October 1813,England,,,,,0,0,1813,10,9,england,,England,0,,,,,,,,1813-10-09,,0
+nsw,159,Earl St. Vincent,earl saint vincent,Earl St. Vincent (1800 ship),0,16 December 1818,Cork,First convict voyage to NSW,,,,0,0,1818,12,16,cork,,Ireland,0,,,,,,,,1818-12-16,,0
+nsw,160,Earl St. Vincent,earl saint vincent,Earl St. Vincent (1800 ship),1,16 August 1820,Portsmouth,Second convict voyage to NSW,,,,0,0,1820,8,16,portsmouth,,England,0,,,,,,,,1820-08-16,,0
+nsw,161,Earl St. Vincent,earl saint vincent,Earl St. Vincent (1800 ship),1,9 September 1823,Cork,Third convict voyage to NSW,,,,0,0,1823,9,9,cork,,Ireland,0,,,,,,,,1823-09-09,,0
+nsw,162,Eden,eden,Eden (1826 ship),0,14 January 1837,Hobart Town,First convict voyage to NSW,,,,0,0,1837,1,14,hobart,,Within Australia,0,,,,,,,,1837-01-14,,0
+nsw,163,Eden,eden,Eden (1826 ship),1,18 November 1840,Sheerness,Second convict voyage to NSW,,,,0,0,1840,11,18,sheerness,,England,0,,,,,,,,1840-11-18,,0
+nsw,164,Edward,edward,Edward (1804 ship),0,26 April 1829,Cork,First convict voyage to NSW,,,,0,0,1829,4,26,cork,,Ireland,0,,,,,,,,1829-04-26,,0
+nsw,165,Edward,edward,Edward (1804 ship),1,22 February 1831,Cork,Second convict voyage to NSW,,,,0,0,1831,2,22,cork,,Ireland,0,,,,,,,,1831-02-22,,0
+nsw,166,Edward Lombes,edward lombes,,0,6 January 1833,India,Transported military convicts,,,,0,0,1833,1,6,india,,India and the Indian Ocean,0,,,,,,,,1833-01-06,,0
+nsw,167,Eleanor (1821 ship),eleanor,Eleanor (1821 ship),0,25 June 1831,Portsmouth,,,,,0,0,1831,6,25,portsmouth,,England,0,,,,,,,,1831-06-25,,0
+nsw,168,Eliza (1811 ship),eliza,Eliza (1811 ship),0,5 July 1813,Calcutta,First convict voyage to NSW,,,,0,0,1813,7,5,calcutta,,India and the Indian Ocean,0,,,,,,,,1813-07-05,,0
+nsw,169,Eliza,eliza,Eliza (1811 ship),1,16 May 1815,Calcutta,Second convict voyage to NSW,,,,0,0,1815,5,16,calcutta,,India and the Indian Ocean,0,,,,,,,,1815-05-16,,0
+nsw,170,Eliza,eliza,Eliza (1811 ship),1,16 May 1828,Hobart,,,,,0,0,1828,5,16,hobart,,Within Australia,0,,,,,,,,1828-05-16,,0
+nsw,171,Eliza (1804 ship),eliza,Eliza (1804 ship),0,21 January 1820,England,First convict voyage to NSW,,160,,0,0,1820,1,21,england,,England,0,1819-10-16,ship article,"Brydone, she left England on 16 October 1819, arrived in Sydney on 21 January 1820. She embarked 160 male convicts and had one death en route.",97,160,,,1820-01-21,,0
+nsw,172,Eliza,eliza,Eliza (1804 ship),1,22 November 1822,Sheerness,Second convict voyage to NSW,,160,,0,0,1822,11,22,sheerness,,England,0,1822-07-20,ship article,"Hunt and surgeon William Rae, she left Sheerness, England on 20 July 1822, and arrived in Sydney on 22 November 1822. She embarked 160 male convicts and had no convict deaths en route.",125,160,,0,1822-11-22,,0
+nsw,173,Eliza,eliza,Eliza (1804 ship),1,8 November 1827,Cork,Third convict voyage to NSW,,192,,0,0,1827,11,8,cork,,Ireland,0,1827-07-19,ship article,"On her next convict voyage under the command of Daniel Leary and surgeon George Rutherford, she left Cork, Ireland on 19 July 1827, and arrived in Sydney on 8 November 1827. She embarked 192 male convicts and had no convict deaths en route. One guard died on the voyage.",112,192,,0,1827-11-08,,0
+nsw,174,Eliza,eliza,Eliza (1804 ship),1,20 June 1829,Cork,Fourth convict voyage to NSW,,171,,0,0,1829,6,20,cork,,Ireland,0,1829-03-02,ship article,"She left Cork, Ireland, on 2 March 1829, and arrived in Sydney on 20 June. She embarked 171 male convicts, three of whom died on the voyage. She also carried 11 free boys joining their parents.",110,171,,3,1829-06-20,,0
+nsw,175,Eliza,eliza,Eliza (1804 ship),1,6 September 1832,Cork,Fifth convict voyage to NSW,,,,0,0,1832,9,6,cork,,Ireland,0,,,,,,,,1832-09-06,,0
+nsw,176,Eliza (1815 ship),eliza,Eliza (1815 ship),0,18 November 1828,London,,,,,0,0,1828,11,18,london,,England,0,,,,,,,,1828-11-18,,0
+nsw,177,Elizabeth (1825 Yarmouth brig),elizabeth,Elizabeth (1825 Yarmouth brig),0,20 December 1830,Hobart,,,,,0,0,1830,12,20,hobart,,Within Australia,0,,,,,,,,1830-12-20,,0
+nsw,178,Elizabeth (1825 New Brunswick barque),elizabeth,Elizabeth (1825 New Brunswick barque),0,20 May 1833,Singapore,,,,,0,0,1833,5,20,singapore,,India and the Indian Ocean,0,,,,,,,,1833-05-20,,0
+nsw,179,Elizabeth (1830 ship),elizabeth,Elizabeth (1830 ship),0,17 December 1838,Singapore & Swan River,Transported military convicts,,,,0,0,1838,12,17,singapore,Swan River,India and the Indian Ocean,0,,,,,,,,1838-12-17,,0
+nsw,180,Elizabeth (1809 ship),elizabeth,Elizabeth (1809 ship),0,5 October 1816,England,First convict voyage to NSW,,,,0,0,1816,10,5,england,,England,0,,,,,,,,1816-10-05,,0
+nsw,181,Elizabeth,elizabeth,Elizabeth (1809 ship),1,19 November 1818,Cork,Second convict voyage to NSW,,,,0,0,1818,11,19,cork,,Ireland,0,,,,,,,,1818-11-19,,0
+nsw,182,Elizabeth,elizabeth,Elizabeth (1809 ship),1,31 December 1820,The Downs,Third convict voyage to NSW,,,,0,0,1820,12,31,downs,,England,0,,,,,,,,1820-12-31,,0
+nsw,183,Elizabeth,elizabeth,Elizabeth (1809 ship),1,12 January 1828,Cork,,,,,0,0,1828,1,12,cork,,Ireland,0,,,,,,,,1828-01-12,,0
+nsw,184,Elizabeth (1805 ship),elizabeth,Elizabeth (1805 ship),0,12 October 1836,London,,,,,0,0,1836,10,12,london,,England,0,,,,,,,,1836-10-12,,0
+nsw,185,Ellen,ellen,,0,5 January 1837,Mauritius,,,,,0,0,1837,1,5,mauritius,,India and the Indian Ocean,0,,,,,,,,1837-01-05,,0
+nsw,186,Elphinstone,elphinstone,,0,29 December 1838,Dublin,,,,,0,0,1838,12,29,dublin,,Ireland,0,,,,,,,,1838-12-29,,0
+nsw,187,Emma Eugenia,emma eugenia,,0,9 February 1838,Portsmouth,,,,,0,0,1838,2,9,portsmouth,,England,0,,,,,,,,1838-02-09,,0
+nsw,188,Enchantress,enchantress,Enchantress (1825 ship),0,16 January 1834,Mauritius,Transported a military convict,,,,0,0,1834,1,16,mauritius,,India and the Indian Ocean,0,,,,,,,,1834-01-16,,0
+nsw,189,England,england,England (1813 ship),0,18 September 1826,Downs,First convict voyage to NSW,,,,0,0,1826,9,18,downs,,England,0,,,,,,,,1826-09-18,,0
+nsw,190,England,england,England (1813 ship),0,1835,Portsmouth,Second convict voyage to NSW,,,,0,0,1835,,,portsmouth,,England,0,,,,,,,,,,0
+nsw,191,Eudora,eudora,,0,22 November 1840,Bombay,Transported military convicts,,,,0,0,1840,11,22,bombay,,India and the Indian Ocean,0,,,,,,,,1840-11-22,,0
+nsw,192,Exmouth,exmouth,,0,28 July 1831,Woolwich,,,,,0,0,1831,7,28,woolwich,,England,0,,,,,,,,1831-07-28,,0
+nsw,193,Experiment,experiment,Experiment (1798 ship),0,24 June 1804,Cowes,,,,,0,0,1804,6,24,cowes,,England,0,,,,,,,,1804-06-24,,0
+nsw,194,Experiment,experiment,Experiment (1802 ship),0,25 June 1809,Cork,,,,,0,0,1809,6,25,cork,,Ireland,0,,,,,,,,1809-06-25,ship article: She made one voyage to New South Wales in 1809–1810 transporting female convicts.,1
+nsw,195,Fairlie,fairlie,Fairlie (1810 ship),0,15 February 1834,England,,,,,0,0,1834,2,15,england,,England,0,,,,,,,,1834-02-15,,0
+nsw,196,Fame,fame,Fame (1812 ship),0,8 March 1817,Spithead,,,,,0,0,1817,3,8,spithead,,England,0,,,,,,,,1817-03-08,,0
+nsw,197,Fanny,fanny,Fanny (1810 ship),0,18 January 1816,The Downs,,,,,0,0,1816,1,18,downs,,England,0,,,,,,,,1816-01-18,,0
+nsw,198,Fanny,fanny,Fanny (1829 ship),0,2 February 1833,The Downs,,,,,0,0,1833,2,2,downs,,England,0,,,,,,,,1833-02-02,,0
+nsw,199,Fergusson,fergusson,,0,26 March 1829,Spithead,,,,,0,0,1829,3,26,spithead,,England,0,,,,,,,,1829-03-26,,0
+nsw,200,Flora,flora,,0,8 November 1829,Spithead,,,,,0,0,1829,11,8,spithead,,England,0,,,,,,,,1829-11-08,,0
+nsw,201,Florentia,florentia,Florentia (1821 ship),0,3 January 1828,England,First convict voyage to NSW,,,,0,0,1828,1,3,england,,England,0,,,,,,,,1828-01-03,,0
+nsw,202,Florentia,florentia,Florentia (1821 ship),0,15 December 1830,Ireland,Second convict voyage to NSW,,,,0,0,1830,12,15,ireland,,Ireland,0,,,,,,,,1830-12-15,,0
+nsw,203,Forth,forth,Forth (1814 ship),0,26 April 1830,Cork,,,,,0,0,1830,4,26,cork,,Ireland,0,,,,,,,,1830-04-26,,0
+nsw,204,Forth,forth,Forth (1826 ship),0,12 October 1830,Cork,First convict voyage to NSW,,,,0,0,1830,10,12,cork,,Ireland,0,,,,,,,,1830-10-12,,0
+nsw,205,Forth,forth,Forth (1826 ship),0,3 February 1835,Cork,Second convict voyage to NSW,,,,0,0,1835,2,3,cork,,Ireland,0,,,,,,,,1835-02-03,,0
+nsw,206,Fortune,fortune,Fortune (1805 ship),0,12 July 1806,England,First convict voyage to NSW,,,,0,0,1806,7,12,england,,England,0,,,,,,,,1806-07-12,,0
+nsw,207,Fortune,fortune,Fortune (1805 ship),1,11 June 1813,England,Second convict voyage to NSW,,,,0,0,1813,6,11,england,,England,0,,,,,,,,1813-06-11,,0
+nsw,208,Francis & Eliza,francis eliza,Francis and Eliza (1782 ship),0,8 August 1815,Cork,,,,,0,0,1815,8,8,cork,,Ireland,0,,,,,,,,1815-08-08,,0
+nsw,209,Freak,freak,,0,23 June 1839,Mauritius,,,,,0,0,1839,6,23,mauritius,,India and the Indian Ocean,0,,,,,,,,1839-06-23,,0
+nsw,210,Frederick,frederick,Frederick (1807 ship),0,18 June 1814,Calcutta,First convict voyage to NSW,,,,0,0,1814,6,18,calcutta,,India and the Indian Ocean,0,,,,,,,,1814-06-18,,0
+nsw,211,Frederick,frederick,Frederick (1807 ship),0,24 April 1815,Calcutta,Second convict voyage to NSW,,,,0,0,1815,4,24,calcutta,,India and the Indian Ocean,0,,,,,,,,1815-04-24,,0
+nsw,212,Frederick,frederick,Frederick (1807 ship),0,22 November 1817,Calcutta,Third convict voyage to NSW,,,,0,0,1817,11,22,calcutta,,India and the Indian Ocean,0,,,,,,,,1817-11-22,,0
+nsw,213,Frederick & Maria,frederick maria,Frederick and Maria (1810 ship),0,19 June 1811,Calcutta,Transported a number of military convicts from Bengal,,,,0,0,1811,6,19,calcutta,,India and the Indian Ocean,0,,,,,,,,1811-06-19,,0
+nsw,214,Friends,friends,Friends (1799 ship),0,10 October 1811,England,,,100,,0,0,1811,10,10,england,,England,0,1811-01-21,ship article,"Under the command of James Ralph, Friends left England on 21 January 1811 with 100 female convicts. She sailed via Rio de Janeiro and arrived at Port Jackson on 10 October.",262,,100,,1811-10-10,fleet table or ship article,1
+nsw,215,Friendship,friendship,Friendship (1784 ship),0,26 January 1788,Spithead,Part of First Fleet,,,104,0,0,1788,1,26,spithead,,England,1,13 May 1787,fleet table,,251,80,24,,1788-01-26,fleet table or ship article,1
+nsw,216,Friendship,friendship,Friendship (1793 ship),0,16 February 1800,Cork,First convict voyage to NSW,,,,0,0,1800,2,16,cork,,Ireland,0,,,,,,,,1800-02-16,,0
+nsw,217,Friendship,friendship,Friendship (1793 ship),0,14 January 1818,England,Second convict voyage to NSW,,,,0,0,1818,1,14,england,,England,0,,,,,,,,1818-01-14,,0
+nsw,218,Gaillardon,gaillardon,Gaillardon (1833 ship),0,30 March 1838,Calcutta,First convict voyage to NSW,,,,0,0,1838,3,30,calcutta,,India and the Indian Ocean,0,,,,,,,,1838-03-30,,0
+nsw,219,Gaillardon,gaillardon,Gaillardon (1833 ship),0,27 December 1838,Madras,Second convict voyage to NSW,,,,0,0,1838,12,27,madras,,India and the Indian Ocean,0,,,,,,,,1838-12-27,,0
+nsw,220,Gaillardon,gaillardon,Gaillardon (1833 ship),0,22 October 1839,Calcutta,Third convict voyage to NSW,,,,0,0,1839,10,22,calcutta,,India and the Indian Ocean,0,,,,,,,,1839-10-22,,0
+nsw,221,Ganges,ganges,Ganges (1792 ship),0,2 June 1797,Portsmouth,,,,,0,0,1797,6,2,portsmouth,,England,0,,,,,,,,1797-06-02,,0
+nsw,222,General Hewett,general hewett,General Hewett (1811 ship),0,7 February 1814,England,,,,,0,0,1814,2,7,england,,England,0,,,,,,,,1814-02-07,,0
+nsw,223,General Stuart (or General Stewart ),general stuart,General Stuart (1801 ship),0,31 December 1818,Portsmouth,,,,,0,0,1818,12,31,portsmouth,,England,0,,,,,,,,1818-12-31,,0
+nsw,224,George Hibbert,george hibbert,,0,1 December 1834,Downs,,,,,0,0,1834,12,1,downs,,England,0,,,,,,,,1834-12-01,,0
+nsw,225,Georgiana,georgiana,Georgiana (1826 ship),0,12 June 1829,Hobart Town,First convict voyage to NSW,,,,0,0,1829,6,12,hobart,,Within Australia,0,,,,,,,,1829-06-12,,0
+nsw,226,Georgiana,georgiana,Georgiana (1826 ship),0,27 July 1831,London,Second convict voyage to NSW,,,,0,0,1831,7,27,london,,England,0,,,,,,,,1831-07-27,,0
+nsw,227,Gilmore,gilmore,Gilmore (1824 ship),0,21 April 1832,Hobart Town,First convict voyage to NSW,,,,0,0,1832,4,21,hobart,,Within Australia,0,,,,,,,,1832-04-21,,0
+nsw,228,Gilmore,gilmore,Gilmore (1824 ship),0,4 March 1839,Hobart Town,Second convict voyage to NSW,,,,0,0,1839,3,4,hobart,,Within Australia,0,,,,,,,,1839-03-04,,0
+nsw,229,Giraffe,giraffe,,0,24 February 1836,Swan River,,,,,0,0,1836,2,24,swan,,Within Australia,0,,,,,,,,1836-02-24,,0
+nsw,230,HMS Glatton,glatton,HMS Glatton (1795),0,11 March 1803,England,,,,,0,0,1803,3,11,england,,England,0,,,,,,,,1803-03-11,,0
+nsw,231,Globe,globe,Globe (1810 ship),0,8 January 1819,Portsmouth,,,,,0,0,1819,1,8,portsmouth,,England,0,,,,,,,,1819-01-08,,0
+nsw,232,Glory,glory,Glory (1811 ship),0,14 September 1818,Sheerness,,,,,0,0,1818,9,14,sheerness,,England,0,,,,,,,,1818-09-14,,0
+nsw,233,HMS Gorgon,gorgon,HMS Gorgon (1785),0,21 September 1791,England,Part of Third Fleet,,31,30,0,0,1791,9,21,england,,England,3,15 Mar 1791,fleet table,,190,30,,1,1791-09-21,,0
+nsw,234,Governor Bourke,governor bourke,,0,21 February 1833,Swan River,,,,,0,0,1833,2,21,swan,,Within Australia,0,,,,,,,,1833-02-21,,0
+nsw,235,Governor Phillip,governor phillip,,0,4 July 1826,Mauritius,,,,,0,0,1826,7,4,mauritius,,India and the Indian Ocean,0,,,,,,,,1826-07-04,,0
+nsw,236,Governor Ready,governor ready,Governor Ready (1825 ship),0,16 January 1829,Cork,,,,,0,0,1829,1,16,cork,,Ireland,0,,,,,,,,1829-01-16,,0
+nsw,237,Grenada,grenada,Grenada (1810 ship),0,21 October 1819,Sheerness,First convict voyage to NSW,,,,0,0,1819,10,21,sheerness,,England,0,,,,,,,,1819-10-21,,0
+nsw,238,Grenada,grenada,Grenada (1810 ship),1,16 September 1821,Portsmouth,Second convict voyage to NSW,,,,0,0,1821,9,16,portsmouth,,England,0,,,,,,,,1821-09-16,,0
+nsw,239,Grenada,grenada,Grenada (1810 ship),1,23 January 1825,London,Third convict voyage to NSW,,,,0,0,1825,1,23,london,,England,0,,,,,,,,1825-01-23,,0
+nsw,240,Grenada,grenada,Grenada (1810 ship),1,23 January 1827,Downs,Fourth convict voyage to NSW,,,,0,0,1827,1,23,downs,,England,0,,,,,,,,1827-01-23,,0
+nsw,241,Greyhound,greyhound,Greyhound (1816 ship),0,14 April 1819,Calcutta,,,,,0,0,1819,4,14,calcutta,,India and the Indian Ocean,0,,,,,,,,1819-04-14,,0
+nsw,242,HMS Guardian,guardian,HMS Guardian (1784),0,,Spithead,Hit iceberg and was beached at Cape of Good Hope,,,,0,0,,,,spithead,,England,0,,,,,,,,,,0
+nsw,243,Guide,guide,,0,9 November 1818,Calcutta,,,,,0,0,1818,11,9,calcutta,,India and the Indian Ocean,0,,,,,,,,1818-11-09,,0
+nsw,244,Guildford,guildford,Guildford (1810 ship),0,18 January 1812,London,First convict voyage to NSW,,,,0,0,1812,1,18,london,,England,0,,,,,,,,1812-01-18,,0
+nsw,245,Guildford,guildford,Guildford (1810 ship),0,8 April 1816,Ireland,Second convict voyage to NSW,,,,0,0,1816,4,8,ireland,,Ireland,0,,,,,,,,1816-04-08,,0
+nsw,246,Guildford,guildford,Guildford (1810 ship),0,1 April 1818,Cork,Third convict voyage to NSW,,,,0,0,1818,4,1,cork,,Ireland,0,,,,,,,,1818-04-01,,0
+nsw,247,Guildford,guildford,Guildford (1810 ship),0,30 September 1820,Portsmouth,Fourth convict voyage to NSW,,,,0,0,1820,9,30,portsmouth,,England,0,,,,,,,,1820-09-30,,0
+nsw,248,Guildford,guildford,Guildford (1810 ship),0,15 July 1822,London,Fifth convict voyage to NSW,,,,0,0,1822,7,15,london,,England,0,,,,,,,,1822-07-15,,0
+nsw,249,Guildford,guildford,Guildford (1810 ship),0,5 March 1824,Portsmouth,Sixth convict voyage to NSW,,,,0,0,1824,3,5,portsmouth,,England,0,,,,,,,,1824-03-05,,0
+nsw,250,Guildford,guildford,Guildford (1810 ship),0,25 July 1827,Plymouth,Seventh convict voyage to NSW,,,,0,0,1827,7,25,plymouth,,England,0,,,,,,,,1827-07-25,,0
+nsw,251,Guildford,guildford,Guildford (1810 ship),0,4 November 1829,Dublin,Eight convict voyage to NSW,,,,0,0,1829,11,4,dublin,,Ireland,0,,,,,,,,1829-11-04,,0
+nsw,252,Hadlow,hadlow,Hadlow (1814 ship),0,24 December 1818,England,First convict voyage to NSW,,,,0,0,1818,12,24,england,,England,0,,,,,,,,1818-12-24,,0
+nsw,253,Hadlow,hadlow,Hadlow (1814 ship),0,5 August 1820,Cork,Second convict voyage to NSW,,,,0,0,1820,8,5,cork,,Ireland,0,,,,,,,,1820-08-05,,0
+nsw,254,Haldane,haldane,,0,18 December 1820,Calcutta,,,,,0,0,1820,12,18,calcutta,,India and the Indian Ocean,0,,,,,,,,1820-12-18,,0
+nsw,255,Harmony,harmony,,0,27 September 1827,London,,,,,0,0,1827,9,27,london,,England,0,,,,,,,,1827-09-27,,0
+nsw,256,Harvey,harvey,,0,27 August 1827,Hobart,,,,,0,0,1827,8,27,hobart,,Within Australia,0,,,,,,,,1827-08-27,,0
+nsw,257,Hashemy,hashemy,Hashemy (1817 ship),0,9 June 1849,Portsmouth,,,,,0,0,1849,6,9,portsmouth,,England,0,,,,,,,,1849-06-09,,0
+nsw,258,Havering,havering,,0,8 November 1849,Dublin,,,,,0,0,1849,11,8,dublin,,Ireland,0,,,,,,,,1849-11-08,,0
+nsw,259,Hayeston,hayeston,,0,13 March 1816,Madras,,,,,0,0,1816,3,13,madras,,India and the Indian Ocean,0,,,,,,,,1816-03-13,,0
+nsw,260,Hebe,hebe,Hebe (1810 ship),0,31 December 1820,England,,,,,0,0,1820,12,31,england,,England,0,,,,,,,,1820-12-31,,0
+nsw,261,Heber,heber,,0,12 July 1837,Dublin,,,,,0,0,1837,7,12,dublin,,Ireland,0,,,,,,,,1837-07-12,,0
+nsw,262,Helen,helen,,0,13 October 1832,Mauritius,,,,,0,0,1832,10,13,mauritius,,India and the Indian Ocean,0,,,,,,,,1832-10-13,,0
+nsw,263,Henry,henry,Henry (1819 ship),0,26 August 1823,London,First convict voyage to NSW,,,,0,0,1823,8,26,london,,England,0,,,,,,,,1823-08-26,,0
+nsw,264,Henry,henry,Henry (1819 ship),0,27 February 1825,London,Second convict voyage to NSW,,,,0,0,1825,2,27,london,,England,0,,,,,,,,1825-02-27,,0
+nsw,265,Henry,henry,Henry (1826 ship),0,26 February 1839,Mauritius,,,,,0,0,1839,2,26,mauritius,,India and the Indian Ocean,0,,,,,,,,1839-02-26,,0
+nsw,266,Henry Porcher,henry porcher,Henry Porcher (1817 ship),0,3 December 1825,Dublin,First convict voyage to NSW,,,,0,0,1825,12,3,dublin,,Ireland,0,,,,,,,,1825-12-03,,0
+nsw,267,Henry Porcher,henry porcher,Henry Porcher (1817 ship),0,1 January 1835,Downs,Second convict voyage to NSW,,,,0,0,1835,1,1,downs,,England,0,,,,,,,,1835-01-01,,0
+nsw,268,Henry Tanner,henry tanner,,0,26 October 1834,London,,,,,0,0,1834,10,26,london,,England,0,,,,,,,,1834-10-26,,0
+nsw,269,Henry Wellesley,henry wellesley,Henry Wellesley (1804 ship),0,7 February 1836,Portsmouth,First convict voyage to NSW,,,,0,0,1836,2,7,portsmouth,,England,0,,,,,,,,1836-02-07,,0
+nsw,270,Henry Wellesley,henry wellesley,Henry Wellesley (1804 ship),0,22 December 1837,Woolwich,Second convict voyage to NSW,,,,0,0,1837,12,22,woolwich,,England,0,,,,,,,,1837-12-22,,0
+nsw,271,Hercules,hercules,Hercules (1801 ship),0,26 June 1801,Ireland,,,,,0,0,1801,6,26,ireland,,Ireland,0,,,,,,,,1801-06-26,,0
+nsw,272,Hercules,hercules,Hercules (1822 ship),0,7 May 1825,Portsmouth,First convict voyage to NSW,,,,0,0,1825,5,7,portsmouth,,England,0,,,,,,,,1825-05-07,,0
+nsw,273,Hercules,hercules,Hercules (1822 ship),1,1 November 1830,Dublin,Second convict voyage to NSW,,,,0,0,1830,11,1,dublin,,Ireland,0,,,,,,,,1830-11-01,,0
+nsw,274,Hercules,hercules,Hercules (1822 ship),1,16 October 1832,Downs,Third convict voyage to NSW,,,,0,0,1832,10,16,downs,,England,0,,,,,,,,1832-10-16,,0
+nsw,275,Hero,hero,,0,31 August 1835,Dublin,,,,,0,0,1835,8,31,dublin,,Ireland,0,,,,,,,,1835-08-31,,0
+nsw,276,Heroine,heroine,,0,19 September 1833,Portsmouth,,,,,0,0,1833,9,19,portsmouth,,England,0,,,,,,,,1833-09-19,,0
+nsw,277,Hillsborough,hillsborough,Hillsborough (1783 EIC ship),0,26 July 1799,Portsmouth,Death toll among her convicts of almost one-third,,,,0,0,1799,7,26,portsmouth,,England,0,,,,,,,,1799-07-26,,0
+nsw,278,Hind,hind,,0,16 October 1838,Mauritius,,,,,0,0,1838,10,16,mauritius,,India and the Indian Ocean,0,,,,,,,,1838-10-16,,0
+nsw,279,Hindostan,hindostan,Hindostan (1819 ship),0,24 November 1821,Portsmouth,,,,,0,0,1821,11,24,portsmouth,,England,0,,,,,,,,1821-11-24,,0
+nsw,280,Hive,hive,Hive (1820),0,11 June 1834,Portsmouth,First convict voyage to NSW,,250,,0,0,1834,6,11,portsmouth,,England,0,1834-01-29,ship article,"First convict voyage (1834): Under the command of John Luscombe, she left Portsmouth on 29 January 1834, carrying 250 male convicts. Hive arrived in Sydney on 11 June 1834 and had two deaths en route. Second convict voyage (1835): Hive left Ireland, under the command of John Nutting in late August 1",133,250,,2,1834-06-11,,0
+nsw,281,Hive,hive,Hive (1820),0,10 December 1835,Ireland,"Second convict voyage to NSW, Wrecked south of Jervis Bay",,,,0,0,1835,12,10,ireland,,Ireland,0,,,,,,,,1835-12-10,,0
+nsw,282,Hooghly,hooghly,Hooghly (1819 ship),0,22 April 1825,Cork,First convict voyage to NSW,,,,0,0,1825,4,22,cork,,Ireland,0,,,,,,,,1825-04-22,,0
+nsw,283,Hooghly,hooghly,Hooghly (1819 ship),0,24 February 1828,London,Second convict voyage to NSW,,,,0,0,1828,2,24,london,,England,0,,,,,,,,1828-02-24,,0
+nsw,284,Hooghly,hooghly,Hooghly (1819 ship),0,27 September 1831,Cork,Third convict voyage to NSW,,184,,0,0,1831,9,27,cork,,Ireland,0,1831-06-24,ship article,"Hooghly left Cork, Ireland on 24 June 1831 and arrived in Sydney on 27 September. She embarked 184 female convicts and had no convict deaths en route.",95,,184,0,1831-09-27,fleet table or ship article,1
+nsw,285,Hooghly,hooghly,Hooghly (1819 ship),0,18 November 1834,Portsmouth,Fourth convict voyage to NSW,,,,0,0,1834,11,18,portsmouth,,England,0,,,,,,,,1834-11-18,,0
+nsw,286,Hunter,hunter,,0,20 August 1810,India,,,,,0,0,1810,8,20,india,,India and the Indian Ocean,0,,,,,,,,1810-08-20,,0
+nsw,287,Hunter,hunter,,0,14 April 1817,Bengal,,,,,0,0,1817,4,14,calcutta,,India and the Indian Ocean,0,,,,,,,,1817-04-14,,0
+nsw,288,Indefatigable (1799 ship),indefatigable,Indefatigable (1799),0,26 April 1815,England,,,,,0,0,1815,4,26,england,,England,0,,,,,,,,1815-04-26,,0
+nsw,289,Indian (1810 ship),indian,Indian (1810 ship),0,16 December 1810,England,,,,,0,0,1810,12,16,england,,England,0,,,,,,,,1810-12-16,,0
+nsw,290,Indispensable (1791 ship),indispensable,Indispensable (1791 ship),0,30 April 1796,England,First convict voyage to NSW,,,,0,0,1796,4,30,england,,England,0,,,,,,,,1796-04-30,,0
+nsw,291,Indispensable,indispensable,Indispensable (1791 ship),1,18 August 1809,England,Second convict voyage to NSW,,,,0,0,1809,8,18,england,,England,0,,,,,,,,1809-08-18,,0
+nsw,292,Integrity (1824 ship),integrity,Integrity (1824 ship),0,17 August 1837,Mauritius,First convict voyage to NSW,,,,0,0,1837,8,17,mauritius,,India and the Indian Ocean,0,,,,,,,,1837-08-17,,0
+nsw,293,Integrity,integrity,Integrity (1824 ship),1,5 July 1838,Mauritius,Second convict voyage to NSW,,,,0,0,1838,7,5,mauritius,,India and the Indian Ocean,0,,,,,,,,1838-07-05,,0
+nsw,294,Isabella (1818 ship),isabella,Isabella (1818 ship),0,14 September 1818,Spithead,First convict voyage to NSW,,230,,0,0,1818,9,14,spithead,,England,0,1818-04-03,ship article,"==Career== ===Convict voyage #1 (1818)=== Under the command of Robert Berry and surgeon John Hallion, she left Spithead, England on 3 April 1818. She sailed via Rio de Janeiro and arrived in Sydney on 14 September. She embarked 230 male convicts and had three convict deaths en route.",164,230,,3,1818-09-14,,0
+nsw,295,Isabella,isabella,Isabella (1818 ship),1,9 March 1822,Cork,Second convict voyage to NSW,,200,,0,0,1822,3,9,cork,,Ireland,0,1821-11-04,ship article,"===Convict voyage #2 (1821)=== On her second convict voyage under the command of John Wallis and surgeon William Price, she left Cork, Ireland on 4 November 1821, arrived in Sydney on 9 March 1822. She had embarked 200 male convicts and had no convict deaths en route. Also aboard were the first Euro",125,200,,0,1822-03-09,,0
+nsw,296,Isabella,isabella,Isabella (1818 ship),1,16 December 1823,Ireland,Third convict voyage to NSW,,,,0,0,1823,12,16,ireland,,Ireland,0,,,,,,,,1823-12-16,,0
+nsw,297,Isabella,isabella,Isabella (1818 ship),1,15 March 1832,Plymouth,Fourth convict voyage to NSW,,224,,0,0,1832,3,15,plymouth,,England,0,1831-11-27,ship article,"===Convict voyage #4 (1831)=== On her fourth convict voyage under the command of William Wiseman and surgeon Thomas Galloway, she left Plymouth, England on 27 November 1831. A revolt by the seamen was put down during the voyage and she arrived in Sydney on 15 March 1832. She embarked 224 male convic",109,224,,0,1832-03-15,,0
+nsw,298,Isabella (1823 ship),isabella,Isabella (1823 ship),0,6 May 1837,Mauritius,First convict voyage to NSW,,,,0,0,1837,5,6,mauritius,,India and the Indian Ocean,0,,,,,,,,1837-05-06,,0
+nsw,299,Isabella (1827 ship),isabella,Isabella (1827 ship),0,24 July 1840,Dublin,First convict voyage to NSW,,,,0,0,1840,7,24,dublin,,Ireland,0,,,,,,,,1840-07-24,,0
+nsw,300,James Laing,james laing,,0,29 June 1834,Dublin,,,,,0,0,1834,6,29,dublin,,Ireland,0,,,,,,,,1834-06-29,,0
+nsw,301,James Pattison,james pattison,James Pattison (1828 ship),0,20 January 1830,Dublin,First convict voyage to NSW,,,,0,0,1830,1,20,dublin,,Ireland,0,,,,,,,,1830-01-20,,0
+nsw,302,James Pattison,james pattison,James Pattison (1828 ship),1,25 October 1837,Sheerness,Second convict voyage to NSW,,,,0,0,1837,10,25,sheerness,,England,0,,,,,,,,1837-10-25,,0
+nsw,303,Jane,jane,,0,5 November 1831,Cork,,,,,0,0,1831,11,5,cork,,Ireland,0,,,,,,,,1831-11-05,,0
+nsw,304,Janus,janus,Janus (1810 ship),0,3 May 1820,Cork,,,105,104,0,0,1820,5,3,cork,,Ireland,0,1819-12-18,ship article,"Mowat sailed from the Cove of Cork on 18 December 1819 for Hobart. She stopped at Rio de Janeiro and then arrived at Port Jackson on 3 May 1820. she had embarked 105 female prisoners and disembarked 104. After James Creagh, the surgeon-superintendent, died on the voyage, Mowat sailed for Port Jackso",137,,105,,1820-05-03,fleet table or ship article,1
+nsw,305,Java,java,Java (1813 ship),0,18 November 1833,Cork,,,,,0,0,1833,11,18,cork,,Ireland,0,,,,,,,,1833-11-18,,0
+nsw,306,Jeune Ferdinand,jeune ferdinand,,0,17 December 1816,Isle de France,,,,,0,0,1816,12,17,mauritius,,India and the Indian Ocean,0,,,,,,,,1816-12-17,,0
+nsw,307,John,john,John (1809 ship),0,25 November 1827,London,First convict voyage to NSW,,,,0,0,1827,11,25,london,,England,0,,,,,,,,1827-11-25,,0
+nsw,308,John,john,John (1809 ship),1,13 September 1829,Sheerness,Second convict voyage to NSW,,,,0,0,1829,9,13,sheerness,,England,0,,,,,,,,1829-09-13,,0
+nsw,309,John,john,John (1809 ship),1,8 June 1832,Downs,Third convict voyage to NSW,,,,0,0,1832,6,8,downs,,England,0,,,,,,,,1832-06-08,,0
+nsw,310,John,john,John (1809 ship),1,7 February 1837,Sheerness,,,,,0,0,1837,2,7,sheerness,,England,0,,,,,,,,1837-02-07,,0
+nsw,311,John Barry,john barry,John Barry (1814 ship),0,26 September 1819,Portsmouth,First convict voyage to NSW,,,,0,0,1819,9,26,portsmouth,,England,0,,,,,,,,1819-09-26,,0
+nsw,312,John Barry,john barry,John Barry (1814 ship),1,7 November 1821,Cork,Second convict voyage to NSW,,,,0,0,1821,11,7,cork,,Ireland,0,,,,,,,,1821-11-07,,0
+nsw,313,John Barry,john barry,John Barry (1814 ship),1,16 September 1834,Hobart Town,Third convict voyage to NSW,,,,0,0,1834,9,16,hobart,,Within Australia,0,,,,,,,,1834-09-16,,0
+nsw,314,John Barry,john barry,John Barry (1814 ship),1,17 January 1836,Torbay,Fourth convict voyage to NSW,,,,0,0,1836,1,17,torbay,,England,0,,,,,,,,1836-01-17,,0
+nsw,315,John Barry,john barry,John Barry (1814 ship),1,22 March 1839,Sheerness,Fifth convict voyage to NSW,,,,0,0,1839,3,22,sheerness,,England,0,,,,,,,,1839-03-22,,0
+nsw,316,John Bull,john bull,John Bull (1799 ship),0,18 December 1821,Cork,,,,,0,0,1821,12,18,cork,,Ireland,0,,,,,,,,1821-12-18,,0
+nsw,317,John Bull,john bull,John Bull (1815 ship),0,5 December 1822,Calcutta,,,,,0,0,1822,12,5,calcutta,,India and the Indian Ocean,0,,,,,,,,1822-12-05,,0
+nsw,318,John Denniston,john denniston,,0,16 July 1835,,,,,,0,0,1835,7,16,,,Not given,0,,,,,,,,1835-07-16,,0
+nsw,319,John Renwick,john renwick,,0,27 August 1838,Downs,,,,,0,0,1838,8,27,downs,,England,0,,,,,,,,1838-08-27,,0
+nsw,320,Jolly Rambler,jolly rambler,Jolly Rambler (1813 sloop),0,19 May 1833,Swan River,Transported one convict,,,,0,0,1833,5,19,swan,,Within Australia,0,,,,,,,,1833-05-19,,0
+nsw,321,Kains,kains,,0,11 March 1831,London,,,,,0,0,1831,3,11,london,,England,0,,,,,,,,1831-03-11,,0
+nsw,322,Kangaroo,kangaroo,HM Colonial brig Kangaroo (1812),0,5 February 1816,Ceylon,,,,,0,0,1816,2,5,ceylon,,India and the Indian Ocean,0,,,,,,,,1816-02-05,,0
+nsw,323,Kate,kate,,0,2 December 1839,Adelaide,,,,,0,0,1839,12,2,adelaide,,Within Australia,0,,,,,,,,1839-12-02,,0
+nsw,324,Katherine Stewart Forbes (1818 ship),katherine stewart forbes,Katherine Stewart Forbes (1818 ship),0,18 February 1830,Spithead,,,,,0,0,1830,2,18,spithead,,England,0,,,,,,,,1830-02-18,,0
+nsw,325,Killmours,killmours,,0,18 August 1838,Mauritius,,,,,0,0,1838,8,18,mauritius,,India and the Indian Ocean,0,,,,,,,,1838-08-18,,0
+nsw,326,King William,king william,,0,17 August 1840,Dublin,,,,,0,0,1840,8,17,dublin,,Ireland,0,,,,,,,,1840-08-17,,0
+nsw,327,Kitty (1787 ship),kitty,Kitty (1787 ship),0,18 November 1792,England,,,,,0,0,1792,11,18,england,,England,0,,,,,,,,1792-11-18,,0
+nsw,328,Lady Castlereagh,lady castlereagh,Lady Castlereagh (1803 EIC ship),0,30 April 1818,England,,,,,0,0,1818,4,30,england,,England,0,,,,,,,,1818-04-30,,0
+nsw,329,Lady Feversham,lady feversham,,0,29 July 1830,Portsmouth,,,,,0,0,1830,7,29,portsmouth,,England,0,,,,,,,,1830-07-29,,0
+nsw,330,Lady Harewood,lady harewood,Lady Harewood (1791 ship),0,4 March 1831,Sheerness,First convict voyage to NSW,,,,0,0,1831,3,4,sheerness,,England,0,,,,,,,,1831-03-04,,0
+nsw,331,Lady Harewood,lady harewood,Lady Harewood (1791 ship),1,5 August 1832,Portsmouth,Second convict voyage to NSW,,,,0,0,1832,8,5,portsmouth,,England,0,,,,,,,,1832-08-05,,0
+nsw,332,Lady Juliana,lady juliana,Lady Juliana (1777 ship),0,3 June 1790,Plymouth,Part of Second Fleet,,226,222,0,0,1790,6,3,plymouth,,England,2,29 July 1789,fleet table,,309,,222,,1790-06-03,fleet table or ship article,1
+nsw,333,Lady Kennaway,lady kennaway,Lady Kennaway (1816 ship),0,4 March 1835,Portsmouth and Cork,First convict voyage to NSW,,,,0,0,1835,3,4,portsmouth,Cork,England,0,,,,,,,,1835-03-04,,0
+nsw,334,Lady Kennaway,lady kennaway,Lady Kennaway (1816 ship),1,12 October 1836,The Downs,Second convict voyage to NSW,,,,0,0,1836,10,12,downs,,England,0,,,,,,,,1836-10-12,,0
+nsw,335,Lady Macnaghten,lady macnaghten,,0,26 October 1835,Dublin,,,,,0,0,1835,10,26,dublin,,Ireland,0,,,,,,,,1835-10-26,,0
+nsw,336,Lady Nugent,lady nugent,Lady Nugent (1814 ship),0,9 April 1835,Sheerness,,,,,0,0,1835,4,9,sheerness,,England,0,,,,,,,,1835-04-09,,0
+nsw,337,Lady Nugent,lady nugent,Lady Nugent (1814 ship),1,2 December 1836,London,,,,,0,0,1836,12,2,london,,England,0,,,,,,,,1836-12-02,,0
+nsw,338,Lady Penrhyn,lady penrhyn,Lady Penrhyn (1786 ship),0,26 January 1788,Spithead,Part of First Fleet,,,101,0,0,1788,1,26,spithead,,England,1,13 May 1787,fleet table,,252,0,101,,1788-01-26,fleet table or ship article,1
+nsw,339,Lady Rowena,lady rowena,,0,17 May 1826,Cork,,,,,0,0,1826,5,17,cork,,Ireland,0,,,,,,,,1826-05-17,,0
+nsw,340,Larkins,larkins,Larkins (1808 ship),0,22 November 1817,Portsmouth,First convict voyage to NSW,,,,0,0,1817,11,22,portsmouth,,England,0,,,,,,,,1817-11-22,,0
+nsw,341,Larkins,larkins,Larkins (1808 ship),1,12 December 1829,Cork,Second convict voyage to NSW,,,,0,0,1829,12,12,cork,,Ireland,0,,,,,,,,1829-12-12,,0
+nsw,342,Larkins,larkins,Larkins (1808 ship),1,24 November 1831,,Convict voyage to Van Dieman's Land,,,,0,0,1831,11,24,,,Not given,0,,,,,,,,1831-11-24,,0
+nsw,343,Layton,layton,Layton (1814 ship),0,8 November 1829,London,Also made three convict voyages to Van Diemen's Land,,,,0,0,1829,11,8,london,,England,0,,,,,,,,1829-11-08,,0
+nsw,344,Layton,layton,Layton (1814 ship),1,27 January 1840,Mauritius,,,,,0,0,1840,1,27,mauritius,,India and the Indian Ocean,0,,,,,,,,1840-01-27,,0
+nsw,345,Little Mary,little mary,,0,13 May 1819,Isle de France,,,,,0,0,1819,5,13,mauritius,,India and the Indian Ocean,0,,,,,,,,1819-05-13,,0
+nsw,346,Lloyds,lloyds,,0,18 December 1833,The Downs,First convict voyage to NSW,,,,0,0,1833,12,18,downs,,England,0,,,,,,,,1833-12-18,,0
+nsw,347,Lloyds,lloyds,,0,17 July 1837,The Downs,Second convict voyage to NSW,,,,0,0,1837,7,17,downs,,England,0,,,,,,,,1837-07-17,,0
+nsw,348,Lochiel,lochiel,,0,4 May 1835,,,,,,0,0,1835,5,4,,,Not given,0,,,,,,,,1835-05-04,,0
+nsw,349,Lonarch,lonarch,,0,4 September 1825,Cork,,,,,0,0,1825,9,4,cork,,Ireland,0,,,,,,,,1825-09-04,,0
+nsw,350,Lord Eldon (1802 EIC ship),lord eldon,Lord Eldon (1802 EIC ship),0,30 September 1817,England,,,,,0,0,1817,9,30,england,,England,0,,,,,,,,1817-09-30,,0
+nsw,351,Lord Lyndoch (1814 ship),lord lyndoch,Lord Lyndoch (1814 ship),0,18 October 1833,Sheerness,First convict voyage to NSW,,,,0,0,1833,10,18,sheerness,,England,0,,,,,,,,1833-10-18,,0
+nsw,352,Lord Lyndoch,lord lyndoch,Lord Lyndoch (1814 ship),1,8 August 1838,England,Second convict voyage to NSW,,,,0,0,1838,8,8,england,,England,0,,,,,,,,1838-08-08,,0
+nsw,353,Lord Melville,lord melville,HMS Porpoise (1804),0,24 February 1817,England,,,,,0,0,1817,2,24,england,,England,0,,,,,,,,1817-02-24,,0
+nsw,354,Lord Melville,lord melville,Lord Melville (1825 ship),0,6 May 1829,London,First convict voyage to NSW,,,,0,0,1829,5,6,london,,England,0,,,,,,,,1829-05-06,,0
+nsw,355,Lord Melville,lord melville,Lord Melville (1825 ship),1,21 October 1830,The Downs,Second convict voyage to NSW,,,,0,0,1830,10,21,downs,,England,0,,,,,,,,1830-10-21,,0
+nsw,356,Lord Sidmouth,lord sidmouth,,0,11 March 1819,Sheerness,First convict voyage to NSW,,,,0,0,1819,3,11,sheerness,,England,0,,,,,,,,1819-03-11,,0
+nsw,357,Lord Sidmouth,lord sidmouth,,0,19 February 1821,Cork,Second convict voyage to NSW,,,,0,0,1821,2,19,cork,,Ireland,0,,,,,,,,1821-02-19,,0
+nsw,358,Lord Sidmouth,lord sidmouth,,0,27 February 1823,Woolwich,Third convict voyage to NSW,,,,0,0,1823,2,27,woolwich,,England,0,,,,,,,,1823-02-27,,0
+nsw,359,Lord Wellington,lord wellington,Lord Wellington (1810 ship),0,20 January 1820,England and Ireland,,,,,0,0,1820,1,20,england,Ireland,England,0,,,,,,,,1820-01-20,,0
+nsw,360,Louisa,louisa,,0,3 December 1827,Woolwich,,,,,0,0,1827,12,3,woolwich,,England,0,,,,,,,,1827-12-03,,0
+nsw,361,Lucy Davidson,lucy davidson,,0,2 November 1829,London,,,,,0,0,1829,11,2,london,,England,0,,,,,,,,1829-11-02,,0
+nsw,362,Maitland (1811 ship),maitland,Maitland (1811 ship),0,14 July 1840,Sheerness,,,,,0,0,1840,7,14,sheerness,,England,0,,,,,,,,1840-07-14,,0
+nsw,363,Malabar (1804 ship),malabar,Malabar (1804 ship),0,30 October 1819,Spithead,,,,,0,0,1819,10,30,spithead,,England,0,,,,,,,,1819-10-30,,0
+nsw,364,Mangalore (1811 ship),mangalore,Mangalore (1811 ship),0,2 November 1811,Calcutta,,,,,0,0,1811,11,2,calcutta,,India and the Indian Ocean,0,,,,,,,,1811-11-02,,0
+nsw,365,Mangles (1803 ship),mangles,Mangles (1803 ship),0,7 August 1820,Falmouth,First convict voyage to NSW,,190,,0,0,1820,8,7,falmouth,,England,0,1820-04-11,ship article,===1st convict voyage (1820)=== Captain John Cogill sailed from Falmouth on 11 April 1820. Mangles arrived at Port Jackson on 7 August. She had embarked 190 male convicts and she suffered one convict death on the voyage. On 17 September she sailed for Calcutta.,118,190,,1,1820-08-07,,0
+nsw,366,Mangles,mangles,Mangles (1803 ship),1,8 November 1822,Cork,Second convict voyage to NSW,,190,,0,0,1822,11,8,cork,,Ireland,0,1822-06-21,ship article,"===2nd convict voyage (1822)=== Captain Cogill sailed on 21 June 1822 from Cork. Mangles arrived at Port Jackson on 8 November, having left Rio de Janeiro on 1 September. She had embarked 190 male convicts and she suffered no convict deaths en route. A detachment from The Buffs had provided the guar",140,190,,0,1822-11-08,,0
+nsw,367,Mangles,mangles,Mangles (1803 ship),1,27 October 1824,Portsmouth,Third convict voyage to NSW,,190,,0,0,1824,10,27,portsmouth,,England,0,1824-07-07,ship article,"===3rd convict voyage (1824)=== Captain Cogill sailed from Portsmouth on 7 July 1824. Mangles left Teneriffe on 28 July, and arrived at Port Jackson on 27 October. She had embarked 190 male convicts and suffered no convict deaths. A detachment of an officer, a surgeon, and 57 men of the 40th Regimen",112,190,,0,1824-10-27,,0
+nsw,368,Mangles,mangles,Mangles (1803 ship),1,18 February 1826,Cork,Fourth convict voyage to NSW,,,,0,0,1826,2,18,cork,,Ireland,0,,,,,,,,1826-02-18,,0
+nsw,369,Mangles,mangles,Mangles (1803 ship),1,2 June 1828,Dublin,Fifth convict voyage to NSW,,200,,0,0,1828,6,2,dublin,,Ireland,0,1828-02-23,ship article,"===5th convict voyage (1828)=== Captain Carr sailed from Dublin on 23 February 1828, bound for Port Jackson. Mangles arrived on 2 June. She had embarked 200 convicts and suffered three convict deaths on her voyage. At the time the voyage of 94 days was the fastest convict voyage from England.",100,,,3,1828-06-02,,0
+nsw,370,Mangles,mangles,Mangles (1803 ship),1,19 April 1833,London,Sixth convict voyage to NSW,,,,0,0,1833,4,19,london,,England,0,,,,,,,,1833-04-19,,0
+nsw,371,Mangles,mangles,Mangles (1803 ship),1,10 July 1837,Portsmouth,Seventh convict voyage to NSW,,310,,0,0,1837,7,10,portsmouth,,England,0,1837-03-23,ship article,"===8th convict voyage (1837)=== Captain Carr sailed from London on 23 March 1837, bound for Port Jackson. Mangles arrived on 10 July. She had embarked 310 male convicts and suffered two crew deaths on the voyage. Three officers and 32 men of the 80th Regiment of Foot provided the guard.",109,310,,,1837-07-10,,0
+nsw,372,Mangles,mangles,Mangles (1803 ship),1,27 April 1840,Portsmouth,Eighth convict voyage to NSW,,290,,0,0,1840,4,27,portsmouth,,England,0,1839-11-28,ship article,"===9th convict voyage (1839–1840)=== Captain Carr sailed from Portsmouth on 28 November 1839, bound for Port Jackson. Mangles sailed via Teneriffe and the Cape and arrived at Port Jackson on 27 April 1840. She had embarked 290 male convicts and she suffered one convict death on the voyage. Two offic",151,290,,1,1840-04-27,,0
+nsw,373,Manlius (1826 ship),manlius,Manlius (1826 ship),0,11 August 1827,The Downs,,,,,0,0,1827,8,11,downs,,England,0,,,,,,,,1827-08-11,,0
+nsw,374,Margaret,margaret,,0,30 May 1837,Cork,First convict voyage to NSW,,,,0,0,1837,5,30,cork,,Ireland,0,,,,,,,,1837-05-30,,0
+nsw,375,Margaret,margaret,,0,5 January 1839,Dublin,Second convict voyage to NSW,,,,0,0,1839,1,5,dublin,,Ireland,0,,,,,,,,1839-01-05,,0
+nsw,376,Margaret,margaret,,0,17 August 1840,Dublin,Third convict voyage to NSW,,,,0,0,1840,8,17,dublin,,Ireland,0,,,,,,,,1840-08-17,,0
+nsw,377,Maria (1798 ship),maria,Maria (1798 ship),0,17 September 1818,Deptford,,,,,0,0,1818,9,17,deptford,,England,0,,,,,,,,1818-09-17,,0
+nsw,378,Mariner (1807 ship),mariner,Mariner (1807 ship),0,11 October 1816,England,First convict voyage to NSW,,,,0,0,1816,10,11,england,,England,0,,,,,,,,1816-10-11,,0
+nsw,379,Mariner,mariner,Mariner (1807 ship),1,10 July 1825,Cork,Second convict voyage to NSW,,,,0,0,1825,7,10,cork,,Ireland,0,,,,,,,,1825-07-10,,0
+nsw,380,Mariner,mariner,Mariner (1807 ship),1,23 May 1827,Cork,Third convict voyage to NSW,,,,0,0,1827,5,23,cork,,Ireland,0,,,,,,,,1827-05-23,,0
+nsw,381,Marquis Cornwallis (1789 ship),marquis cornwallis,Marquis Cornwallis (1789 ship),0,12 February 1796,Cork,,,,,0,0,1796,2,12,cork,,Ireland,0,,,,,,,,1796-02-12,,0
+nsw,382,Marquis of Hastings,marquis of hastings,,0,3 January 1826,Portsmouth,First convict voyage to NSW,,,,0,0,1826,1,3,portsmouth,,England,0,,,,,,,,1826-01-03,,0
+nsw,383,Marquis of Hastings,marquis of hastings,,0,31 July 1827,Portsmouth,Second convict voyage to NSW,,,,0,0,1827,7,31,portsmouth,,England,0,,,,,,,,1827-07-31,,0
+nsw,384,Marquis of Hastings,marquis of hastings,,0,12 October 1828,London,Third convict voyage to NSW,,,,0,0,1828,10,12,london,,England,0,,,,,,,,1828-10-12,,0
+nsw,385,Marquis of Hastings,marquis of hastings,,0,20 August 1839,Hobart Town,Fourth convict voyage to NSW,,,,0,0,1839,8,20,hobart,,Within Australia,0,,,,,,,,1839-08-20,,0
+nsw,386,Marquis of Huntley (1804 ship),marquis of huntley,Marquis of Huntley (1804 ship),0,13 September 1826,Sheerness,First convict voyage to NSW,,,,0,0,1826,9,13,sheerness,,England,0,,,,,,,,1826-09-13,,0
+nsw,387,Marquis of Huntley,marquis of huntley,Marquis of Huntley (1804 ship),1,30 January 1828,Cork,Second convict voyage to NSW,,,,0,0,1828,1,30,cork,,Ireland,0,,,,,,,,1828-01-30,,0
+nsw,388,Marquis of Huntley,marquis of huntley,Marquis of Huntley (1804 ship),1,21 August 1830,Sheerness,Third convict voyage to NSW,,,,0,0,1830,8,21,sheerness,,England,0,,,,,,,,1830-08-21,,0
+nsw,389,Marquis of Huntley,marquis of huntley,Marquis of Huntley (1804 ship),1,5 July 1835,The Downs,Fourth convict voyage to NSW,,,,0,0,1835,7,5,downs,,England,0,,,,,,,,1835-07-05,,0
+nsw,390,Marquis of Lansdown,marquis of lansdown,Marquis of Lansdown (1824 ship),0,12 January 1827,Calcutta,Two runaway convicts and four military prisoners from Calcutta,,,,0,0,1827,1,12,calcutta,,India and the Indian Ocean,0,,,,,,,,1827-01-12,,0
+nsw,391,Marquis of Wellington (1801 ship),marquis of wellington,Betsey (1801 ship),0,27 January 1815,Portsmouth,,,,,0,0,1815,1,27,portsmouth,,England,0,,,,,,,,1815-01-27,,0
+nsw,392,Martha (1810 ship),martha,Martha (1810 ship),0,24 December 1818,Cork,,,,,0,0,1818,12,24,cork,,Ireland,0,,,,,,,,1818-12-24,,0
+nsw,393,Mary,mary,,0,6 June 1817,Calcutta,,,,,0,0,1817,6,6,calcutta,,India and the Indian Ocean,0,,,,,,,,1817-06-06,,0
+nsw,394,Mary,mary,,0,29 May 1819,Calcutta,,,,,0,0,1819,5,29,calcutta,,India and the Indian Ocean,0,,,,,,,,1819-05-29,,0
+nsw,395,Mary,mary,,0,4 June 1836,Calcutta,,,,,0,0,1836,6,4,calcutta,,India and the Indian Ocean,0,,,,,,,,1836-06-04,,0
+nsw,396,Mary (1811 Bideford ship),mary,Mary (1811 Bideford ship),0,26 August 1819,Cork,,,,,0,0,1819,8,26,cork,,Ireland,0,,,,,,,,1819-08-26,,0
+nsw,397,Mary,mary,Mary (1811 Bideford ship),1,23 January 1822,Portsmouth,,,,,0,0,1822,1,23,portsmouth,,England,0,,,,,,,,1822-01-23,,0
+nsw,398,Mary (1811 Ipswich ship),mary,Mary (1811 Ipswich ship),0,18 October 1823,London,First convict voyage to NSW,,,,0,0,1823,10,18,london,,England,0,,,,,,,,1823-10-18,,0
+nsw,399,Mary,mary,Mary (1811 Ipswich ship),1,5 January 1833,London,Second convict voyage to NSW,,170,168,0,0,1833,1,5,london,,England,0,1832-09-04,ship article,"===Convict voyage #4 (1832-1833)=== Captain Jamieson sailed from London on 4 September 1832, and arrived at Sydney on 5 January 1833. She had embarked 170 male convicts, and disembarked 168, having suffered two convict deaths en route.",123,170,,2,1833-01-05,,0
+nsw,400,Mary,mary,Mary (1811 Ipswich ship),1,6 September 1835,London,Third convict voyage to NSW,,180,177,0,0,1835,9,6,london,,England,0,1835-04-16,ship article,"===Convict voyage #5 (1835)=== Captain William Ascough sailed from London on 16 April 1835, and arrived at Sydney on 6 September. She had embarked 180 female convicts, and disembarked 177, having suffered two convict deaths en route, and perhaps relanded one before sailing. Lloyd's Register for 1835",143,,180,2,1835-09-06,fleet table or ship article,1
+nsw,401,Mary Ann (1772),mary ann,Mary Ann (1772 ship),0,2 July 1791,England,,,150,141,0,0,1791,7,2,england,,England,3,16 Feb 1791,fleet table,,143,,141,9,1791-07-02,fleet table or ship article,1
+nsw,402,Mary Ann (1808 Batavia ship) (or Mary Anne ),mary ann,Mary Ann (1808 Batavia ship),0,19 January 1816,,First convict voyage,,,,0,0,1816,1,19,,,Not given,0,,,,,,,,1816-01-19,,0
+nsw,403,Mary Anne (or Mary Ann ),mary anne,,0,20 May 1821,Portsmouth,Second convict voyage,,,,0,0,1821,5,20,portsmouth,,England,0,,,,,,,,1821-05-20,,0
+nsw,404,Mary Anne,mary anne,,0,26 October 1835,Sheerness,,,,,0,0,1835,10,26,sheerness,,England,0,,,,,,,,1835-10-26,,0
+nsw,405,Mary Anne,mary anne,,0,10 November 1839,Woolwich,,,,,0,0,1839,11,10,woolwich,,England,0,,,,,,,,1839-11-10,,0
+nsw,406,Mary Ridgeway,mary ridgeway,,0,19 April 1840,Adelaide,,,,,0,0,1840,4,19,adelaide,,Within Australia,0,,,,,,,,1840-04-19,,0
+nsw,407,Matilda (1790 ship),matilda,Matilda (1790 ship),0,1 August 1791,Portsmouth,Part of Third Fleet,,250,225,0,0,1791,8,1,portsmouth,,England,3,27 Mar 1791,fleet table,,127,225,,25,1791-08-01,,0
+nsw,408,Medina (1811 ship),medina,Medina (1811 ship),0,29 December 1823,Cork,,,,,0,0,1823,12,29,cork,,Ireland,0,,,,,,,,1823-12-29,,0
+nsw,409,Medway,medway,,0,24 May 1822,Calcutta,,,,,0,0,1822,5,24,calcutta,,India and the Indian Ocean,0,,,,,,,,1822-05-24,,0
+nsw,410,Mellish (1819 ship),mellish,Mellish (1819 ship),0,18 April 1829,Falmouth,,,,,0,0,1829,4,18,falmouth,,England,0,,,,,,,,1829-04-18,,0
+nsw,411,Mermaid,mermaid,,0,6 May 1830,Sheerness,,,,,0,0,1830,5,6,sheerness,,England,0,,,,,,,,1830-05-06,,0
+nsw,412,Midas,midas,,0,17 December 1825,London,,,,,0,0,1825,12,17,london,,England,0,,,,,,,,1825-12-17,,0
+nsw,413,Midas,midas,,0,15 February 1825,Plymouth,,,,,0,0,1825,2,15,plymouth,,England,0,,,,,,,,1825-02-15,,0
+nsw,414,Middlesex,middlesex,,0,25 January 1840,Dublin,,,,,0,0,1840,1,25,dublin,,Ireland,0,,,,,,,,1840-01-25,,0
+nsw,415,Minerva (1773 ship),minerva,Minerva (1773 ship),0,11 January 1800,"the Downs, & Cork",,,,,0,0,1800,1,11,downs,Cork,England,0,,,,,,,,1800-01-11,,0
+nsw,416,Minerva (1805 ship),minerva,Minerva (1805 ship),0,30 April 1818,Ireland,First convict voyage to NSW,,,,0,0,1818,4,30,ireland,,Ireland,0,,,,,,,,1818-04-30,,0
+nsw,417,Minerva,minerva,Minerva (1805 ship),1,17 December 1819,Cork,Second convict voyage to NSW,,,,0,0,1819,12,17,cork,,Ireland,0,,,,,,,,1819-12-17,,0
+nsw,418,Minerva,minerva,Minerva (1805 ship),1,16 December 1821,Sheerness,Third convict voyage to NSW,,,,0,0,1821,12,16,sheerness,,England,0,,,,,,,,1821-12-16,,0
+nsw,419,Minerva,minerva,Minerva (1805 ship),1,19 November 1824,London,Fourth convict voyage to NSW,,,,0,0,1824,11,19,london,,England,0,,,,,,,,1824-11-19,,0
+nsw,420,Minerva (1824 ship),minerva,Minerva (1805 ship),1,26 December 1839,Dublin,,,,,0,0,1839,12,26,dublin,,Ireland,0,,,,,,,,1839-12-26,,0
+nsw,421,Minorca (1799 ship),minorca,Minorca (1799 ship),0,14 December 1801,Spithead,,,,,0,0,1801,12,14,spithead,,England,0,,,,,,,,1801-12-14,,0
+nsw,422,Minstrel (1811 ship),minstrel,Minstrel (1811 ship),0,25 October 1812,England,,,,,0,0,1812,10,25,england,,England,0,,,,,,,,1812-10-25,,0
+nsw,423,Minstrel,minstrel,Minstrel (1811 ship),1,22 August 1825,Portsmouth,Second convict voyage to NSW,,,,0,0,1825,8,22,portsmouth,,England,0,,,,,,,,1825-08-22,,0
+nsw,424,Moffat,moffat,Boyne (1807 ship),0,31 August 1836,Portsmouth,First convict voyage to NSW,,,,0,0,1836,8,31,portsmouth,,England,0,,,,,,,,1836-08-31,,0
+nsw,425,Moffat,moffat,Boyne (1807 ship),1,25 April 1838,Hobart,Second convict voyage to NSW,,,,0,0,1838,4,25,hobart,,Within Australia,0,,,,,,,,1838-04-25,,0
+nsw,426,Morley (1811 ship),morley,Morley (1811 ship),0,10 April 1817,England,First convict voyage to NSW,,,,0,0,1817,4,10,england,,England,0,,,,,,,,1817-04-10,,0
+nsw,427,Morley,morley,Morley (1811 ship),1,7 November 1818,Downs,Second convict voyage to NSW,,,,0,0,1818,11,7,downs,,England,0,,,,,,,,1818-11-07,,0
+nsw,428,Morley,morley,Morley (1811 ship),1,30 September 1820,London,Third convict voyage to NSW,,,,0,0,1820,9,30,london,,England,0,,,,,,,,1820-09-30,,0
+nsw,429,Morley,morley,Morley (1811 ship),1,3 March 1828,Dublin,Fourth convict voyage to NSW,,,,0,0,1828,3,3,dublin,,Ireland,0,,,,,,,,1828-03-03,,0
+nsw,430,Morley,morley,Morley (1811 ship),1,3 December 1829,London,Fifth convict voyage to NSW,,,,0,0,1829,12,3,london,,England,0,,,,,,,,1829-12-03,,0
+nsw,431,Nautilus,nautilus,,0,9 February 1840,Dublin,,,,,0,0,1840,2,9,dublin,,Ireland,0,,,,,,,,1840-02-09,,0
+nsw,432,Neptune,neptune,Neptune (1780 ship),0,28 June 1790,Portsmouth,Part of Second Fleet,,499,,0,0,1790,6,28,portsmouth,,England,2,19 January 1790,fleet table,,159,421,78,,1790-06-28,fleet table or ship article,1
+nsw,433,Neptune,neptune,Neptune (1810 ship),0,5 May 1818,The Downs,First convict voyage to NSW,,,,0,0,1818,5,5,downs,,England,0,,,,,,,,1818-05-05,,0
+nsw,434,Neptune,neptune,Neptune (1810 ship),1,16 July 1820,The Downs,Second voyage to NSW,,,,0,0,1820,7,16,downs,,England,0,,,,,,,,1820-07-16,,0
+nsw,435,Neptune,neptune,Neptune (1836 ship),0,2 January 1838,Dublin,,,,,0,0,1838,1,2,dublin,,Ireland,0,,,,,,,,1838-01-02,,0
+nsw,436,Neva,neva,Neva (1813 ship),0,21 November 1833,Plymouth,First convict voyage to NSW,,,,0,0,1833,11,21,plymouth,,England,0,,,,,,,,1833-11-21,,0
+nsw,437,Neva,neva,Neva (1813 ship),1,Wrecked in Bass Sraits with the loss of 224 lives,Cork,Second convict voyage to NSW,,,,0,0,,,,cork,,Ireland,0,,,,,,,,,,0
+nsw,438,New York Packet,new york packet,New York Packet (1823 ship),0,20 August 1835,Hobart Town,,,,,0,0,1835,8,20,hobart,,Within Australia,0,,,,,,,,1835-08-20,,0
+nsw,439,Nile,nile,Nile (1798 ship),0,14 December 1801,Spithead,,,,,0,0,1801,12,14,spithead,,England,0,,,,,,,,1801-12-14,,0
+nsw,440,Nithsdale,nithsdale,,0,12 May 1830,Sheerness,,,,,0,0,1830,5,12,sheerness,,England,0,,,,,,,,1830-05-12,,0
+nsw,441,Norfolk,norfolk,Norfolk (1814 ship),0,18 August 1825,Portsmouth,First convict voyage to NSW,,,,0,0,1825,8,18,portsmouth,,England,0,,,,,,,,1825-08-18,,0
+nsw,442,Norfolk,norfolk,Norfolk (1814 ship),1,27 August 1829,Spithead,Second convict voyage to NSW,,,,0,0,1829,8,27,spithead,,England,0,,,,,,,,1829-08-27,,0
+nsw,443,Norfolk,norfolk,Norfolk (1814 ship),1,9 February 1832,Cork,Third convict voyage to NSW,,,,0,0,1832,2,9,cork,,Ireland,0,,,,,,,,1832-02-09,,0
+nsw,444,Norfolk,norfolk,Norfolk (1814 ship),1,30 December 1832,Madras & Mauritius,Fourth convict voyage to NSW,,,,0,0,1832,12,30,madras,Mauritius,India and the Indian Ocean,0,,,,,,,,1832-12-30,,0
+nsw,445,Norfolk,norfolk,Norfolk (1814 ship),1,12 February 1837,Portsmouth,Fifth convict voyage to NSW,,,,0,0,1837,2,12,portsmouth,,England,0,,,,,,,,1837-02-12,,0
+nsw,446,Northampton,northampton,Northampton (1801 ship),0,18 June 1815,Portsmouth,,,,,0,0,1815,6,18,portsmouth,,England,0,,,,,,,,1815-06-18,,0
+nsw,447,Numa,numa,Numa (1811 ship),0,13 June 1834,Portsmouth,,,,,0,0,1834,6,13,portsmouth,,England,0,,,,,,,,1834-06-13,,0
+nsw,448,Ocean,ocean,Ocean (1802 ship),0,30 January 1816,England,,,,,0,0,1816,1,30,england,,England,0,,,,,,,,1816-01-30,,0
+nsw,449,Ocean,ocean,Ocean (1808 ship),0,10 January 1818,Spithead,First convict voyage to NSW,,180,,0,0,1818,1,10,spithead,,England,0,1817-08-21,ship article,"===First convict transport voyage (1817-1818)=== Under the command of Samuel Remington she sailed from Spithead, England, on 21 August 1817, and arrived at Port Jackson on 10 January 1818. She transported 180 male convicts, none of whom died on the voyage.",142,180,,1,1818-01-10,,0
+nsw,450,Ocean,ocean,Ocean (1808 ship),1,27 August 1823,Portsmouth,Second convict voyage to NSW,,173,,0,0,1823,8,27,portsmouth,,England,0,1823-04-24,ship article,"===Second convict transport voyage (1823-1824)=== Under the command of William Harrison, Ocean sailed from Portsmouth on 24 April 1823, and arrived at Port Jackson on 27 August 1823. She transported 173 male convicts, six of whom died on the voyage. Ocean left Port Jackson in February 1824 bound for",125,173,,6,1823-08-27,,0
+nsw,451,Palambam,palambam,,0,31 July 1831,Cork,,,,,0,0,1831,7,31,cork,,Ireland,0,,,,,,,,1831-07-31,,0
+nsw,452,Parkfield,parkfield,,0,1 September 1839,Sheerness,,,,,0,0,1839,9,1,sheerness,,England,0,,,,,,,,1839-09-01,,0
+nsw,453,Parmelia,parmelia,Parmelia (barque),0,16 November 1832,Sheerness,First convict voyage to NSW,,,,0,0,1832,11,16,sheerness,,England,0,,,,,,,,1832-11-16,,0
+nsw,454,Parmelia,parmelia,Parmelia (barque),0,2 March 1834,Cork,Second convict voyage to NSW,,,,0,0,1834,3,2,cork,,Ireland,0,,,,,,,,1834-03-02,,0
+nsw,455,Patriot,patriot,,0,5 March 1835,Mauritius,First convict voyage to NSW,,,,0,0,1835,3,5,mauritius,,India and the Indian Ocean,0,,,,,,,,1835-03-05,,0
+nsw,456,Patriot,patriot,,0,1 February 1838,Madras & Mauritius,Second convict voyage to NSW,,,,0,0,1838,2,1,madras,Mauritius,India and the Indian Ocean,0,,,,,,,,1838-02-01,,0
+nsw,457,Pegasus,pegasus,,0,26 April 1833,Bombay,,,,,0,0,1833,4,26,bombay,,India and the Indian Ocean,0,,,,,,,,1833-04-26,,0
+nsw,458,Pekoe,pekoe,,0,6 November 1840,Dublin,,,,,0,0,1840,11,6,dublin,,Ireland,0,,,,,,,,1840-11-06,,0
+nsw,459,Perseus,perseus,Perseus (1799 ship),0,4 August 1802,Spithead,,,,,0,0,1802,8,4,spithead,,England,0,,,,,,,,1802-08-04,,0
+nsw,460,Perseverance,perseverance,,0,22 December 1838,Mauritius,,,,,0,0,1838,12,22,mauritius,,India and the Indian Ocean,0,,,,,,,,1838-12-22,,0
+nsw,461,Phoenix,phoenix,Phoenix (1810 ship),0,25 December 1826,Dublin,First convict voyage to NSW,,,,0,0,1826,12,25,dublin,,Ireland,0,,,,,,,,1826-12-25,,0
+nsw,462,Phoenix,phoenix,Phoenix (1810 ship),1,14 July 1828,Spithead,Second convict voyage to NSW,,190,,0,0,1828,7,14,spithead,,England,0,1828-03-28,ship article,"===Second convict voyage to New South Wales (1828)=== Captain Thomas Curzens sailed from Spithead on 28 March 1828, and arrived at Port Jackson on 14 July. Phoenix had embarked 190 convicts and she landed all of them. ==Fate== Phoenix was wrecked at Simon's Bay, South Africa, on 19 July 1829. Her ma",108,,,,1828-07-14,,0
+nsw,463,Phoenix Union,phoenix union,,0,14 April 1815,Calcutta,,,,,0,0,1815,4,14,calcutta,,India and the Indian Ocean,0,,,,,,,,1815-04-14,,0
+nsw,464,Pilot,pilot,Pilot (1813 ship),0,29 July 1817,Cork,,,,,0,0,1817,7,29,cork,,Ireland,0,,,,,,,,1817-07-29,,0
+nsw,465,Pitt,pitt,Fortitude (1780 EIC ship),0,14 February 1792,Yarmouth Roads,,,,,0,0,1792,2,14,yarmouth,,England,0,,,,,,,,1792-02-14,,0
+nsw,466,Planter,planter,,0,15 October 1832,Portsmouth,First convict voyage to NSW,,,,0,0,1832,10,15,portsmouth,,England,0,,,,,,,,1832-10-15,,0
+nsw,467,Planter,planter,,0,9 March 1839,Portland,Second convict voyage to NSW,,,,0,0,1839,3,9,portland,,England,0,,,,,,,,1839-03-09,,0
+nsw,468,Portland,portland,,0,11 September 1826,,,,,,0,0,1826,9,11,,,Not given,0,,,,,,,,1826-09-11,,0
+nsw,469,Portland,portland,,0,26 March 1832,Portsmouth,First convict voyage to NSW,,,,0,0,1832,3,26,portsmouth,,England,0,,,,,,,,1832-03-26,,0
+nsw,470,Portland,portland,,0,26 June 1833,Cork,Second convict voyage to NSW,,,,0,0,1833,6,26,cork,,Ireland,0,,,,,,,,1833-06-26,,0
+nsw,471,Portsea,portsea,Portsea (1807 ship),0,18 December 1838,Portsmouth,,,,,0,0,1838,12,18,portsmouth,,England,0,,,,,,,,1838-12-18,,0
+nsw,472,Prentice,prentice,,0,20 September 1834,Bombay & Mauritius,,,,,0,0,1834,9,20,bombay,Mauritius,India and the Indian Ocean,0,,,,,,,,1834-09-20,,0
+nsw,473,Prince George,prince george,Prince George (1830 ship),0,8 May 1837,Torbay,,,,,0,0,1837,5,8,torbay,,England,0,,,,,,,,1837-05-08,,0
+nsw,474,Prince of Orange,prince of orange,,0,12 February 1821,The Downs,,,,,0,0,1821,2,12,downs,,England,0,,,,,,,,1821-02-12,,0
+nsw,475,Prince Regent,prince regent,Prince Regent (1811 Shields ship),0,21 January 1820,Cork,First convict voyage to NSW,,,,0,0,1820,1,21,cork,,Ireland,0,,,,,,,,1820-01-21,,0
+nsw,476,Prince Regent,prince regent,Prince Regent (1811 Shields ship),1,15 July 1824,Cork,Second convict voyage to NSW,,,,0,0,1824,7,15,cork,,Ireland,0,,,,,,,,1824-07-15,,0
+nsw,477,Prince Regent,prince regent,Prince Regent (1811 Shields ship),1,27 September 1827,,Third convict voyage to NSW,,,,0,0,1827,9,27,,,Not given,0,,,,,,,,1827-09-27,,0
+nsw,478,Prince Regent,prince regent,Prince Regent (1811 Rochester ship),0,9 January 1821,Cork,,,,,0,0,1821,1,9,cork,,Ireland,0,,,,,,,,1821-01-09,,0
+nsw,479,Princess Charlotte,princess charlotte,Princess Charlotte (1813 Sunderland ship),0,6 August 1827,Woolwich,,,,,0,0,1827,8,6,woolwich,,England,0,,,,,,,,1827-08-06,,0
+nsw,480,Princess Royal,princess royal,Princess Royal (1794 ship),0,9 February 1823,England,First convict voyage to NSW,,,,0,0,1823,2,9,england,,England,0,,,,,,,,1823-02-09,,0
+nsw,481,Princess Royal,princess royal,Princess Royal (1794 ship),1,9 May 1829,London,Second convict voyage to NSW,,,,0,0,1829,5,9,london,,England,0,,,,,,,,1829-05-09,,0
+nsw,482,Princess Victoria,princess victoria,,0,28 November 1834,Calcutta,,,,,0,0,1834,11,28,calcutta,,India and the Indian Ocean,0,,,,,,,,1834-11-28,,0
+nsw,483,Providence,providence,Providence (1807 ship),0,2 July 1811,Falmouth,,,,,0,0,1811,7,2,falmouth,,England,0,,,,,,,,1811-07-02,,0
+nsw,484,Providence,providence,Providence (1807 ship),1,7 January 1822,England,,,,,0,0,1822,1,7,england,,England,0,,,,,,,,1822-01-07,,0
+nsw,485,Pyramus,pyramus,,0,5 March 1832,Cork,First convict voyage to NSW,,,,0,0,1832,3,5,cork,,Ireland,0,,,,,,,,1832-03-05,,0
+nsw,486,Pyramus,pyramus,,0,14 December,Cork,Second convict voyage to NSW,,,,0,0,,,,cork,,Ireland,0,,,,,,,,,,0
+nsw,487,Queen,queen,Queen (1773 ship),0,26 September 1791,Cork,Part of Third Fleet,,155,148,0,0,1791,9,26,cork,,Ireland,3,19 Apr 1791,fleet table,,160,126,22,7,1791-09-26,fleet table or ship article,1
+nsw,488,Queen Charlotte,queen charlotte,Queen Charlotte (1813 ship),0,17 April 1829,Calcutta,First convict voyage to NSW - Transported 1 military convict,,,,0,0,1829,4,17,calcutta,,India and the Indian Ocean,0,,,,,,,,1829-04-17,,0
+nsw,489,Queen Charlotte,queen charlotte,Queen Charlotte (1813 ship),1,26 April 1830,Mauritius,Second convict voyage to NSW - Transported 1 military convict,,,,0,0,1830,4,26,mauritius,,India and the Indian Ocean,0,,,,,,,,1830-04-26,,0
+nsw,490,Randolph,randolph,,0,20 August 1849,London,,,,,0,0,1849,8,20,london,,England,0,,,,,,,,1849-08-20,,0
+nsw,491,Recovery,recovery,Recovery (1811 ship),0,18 December 1819,Woolwich,First convict voyage to New South Wales,,,,0,0,1819,12,18,woolwich,,England,0,,,,,,,,1819-12-18,,0
+nsw,492,Recovery,recovery,Recovery (1811 ship),1,30 July 1823,Cork,Second convict voyage to New South Wales,,,,0,0,1823,7,30,cork,,Ireland,0,,,,,,,,1823-07-30,,0
+nsw,493,Recovery,recovery,Recovery (1811 ship),1,25 February 1836,London,Third convict voyage to New South Wales,,,,0,0,1836,2,25,london,,England,0,,,,,,,,1836-02-25,,0
+nsw,494,Red Rover,red rover,,0,28 April 1831,Hobart Town,,,,,0,0,1831,4,28,hobart,,Within Australia,0,,,,,,,,1831-04-28,,0
+nsw,495,Regalia,regalia,Regalia (1811 ship),0,5 August 1826,Dublin,,,,,0,0,1826,8,5,dublin,,Ireland,0,,,,,,,,1826-08-05,,0
+nsw,496,Regia,regia,,0,13 September 1838,Singapore,,,,,0,0,1838,9,13,singapore,,India and the Indian Ocean,0,,,,,,,,1838-09-13,,0
+nsw,497,Reliance,reliance,Reliance (1815 ship),0,22 January 1829,Calcutta,First convict voyage to New South Wales,,,,0,0,1829,1,22,calcutta,,India and the Indian Ocean,0,,,,,,,,1829-01-22,,0
+nsw,498,Reliance,reliance,Reliance (1815 ship),1,27 March 1829,Île de France (Mauritius),Second convict voyage to New South Wales,,,,0,0,1829,3,27,mauritius,,India and the Indian Ocean,0,,,,,,,,1829-03-27,,0
+nsw,499,Research,research,,0,10 January 1832,Calcutta & Mauritius,,,,,0,0,1832,1,10,calcutta,Mauritius,India and the Indian Ocean,0,,,,,,,,1832-01-10,,0
+nsw,500,Resource,resource,,0,21 May 1835,Hobart Town,,,,,0,0,1835,5,21,hobart,,Within Australia,0,,,,,,,,1835-05-21,,0
+nsw,501,Rolla,rolla,Rolla (1800 ship),0,12 May 1803,Cork,,,,,0,0,1803,5,12,cork,,Ireland,0,,,,,,,,1803-05-12,,0
+nsw,502,Roslin Castle,roslin castle,Roslin Castle (1819 ship),0,29 June 1830,The Downs,First convict voyage to New South Wales,,,,0,0,1830,6,29,downs,,England,0,,,,,,,,1830-06-29,,0
+nsw,503,Roslin Castle,roslin castle,Roslin Castle (1819 ship),1,5 February 1833,Cork,Second convict voyage to New South Wales,,,,0,0,1833,2,5,cork,,Ireland,0,,,,,,,,1833-02-05,,0
+nsw,504,Roslin Castle,roslin castle,Roslin Castle (1819 ship),1,15 September 1834,London,Third convict voyage to New South Wales,,,,0,0,1834,9,15,london,,England,0,,,,,,,,1834-09-15,,0
+nsw,505,Roslin Castle,roslin castle,Roslin Castle (1819 ship),1,25 February 1836,Cork,Fourth convict voyage to New South Wales,,,,0,0,1836,2,25,cork,,Ireland,0,,,,,,,,1836-02-25,,0
+nsw,506,Royal Admiral,royal admiral,Royal Admiral (1777 ship),0,7 October 1792,England,First convict voyage to New South Wales,,,,0,0,1792,10,7,england,,England,0,,,,,,,,1792-10-07,,0
+nsw,507,Royal Admiral,royal admiral,Royal Admiral (1777 ship),1,20 November 1800,England,Second convict voyage to New South Wales,,,,0,0,1800,11,20,england,,England,0,,,,,,,,1800-11-20,,0
+nsw,508,Royal Admiral,royal admiral,Royal Admiral (1828 ship),0,8 November 1830,Portsmouth,First convict voyage to New South Wales,,,,0,0,1830,11,8,portsmouth,,England,0,,,,,,,,1830-11-08,,0
+nsw,509,Royal Admiral,royal admiral,Royal Admiral (1828 ship),1,26 October 1833,Dublin,Second convict voyage to New South Wales,,,,0,0,1833,10,26,dublin,,Ireland,0,,,,,,,,1833-10-26,,0
+nsw,510,Royal Admiral,royal admiral,Royal Admiral (1828 ship),1,22 January 1835,Dublin,Third convict voyage to New South Wales,,,,0,0,1835,1,22,dublin,,Ireland,0,,,,,,,,1835-01-22,,0
+nsw,511,Royal Charlotte,royal charlotte,Royal Charlotte (1819 ship),0,29 April 1825,Portsmouth,,,,,0,0,1825,4,29,portsmouth,,England,0,,,,,,,,1825-04-29,,0
+nsw,512,Royal George,royal george,Royal George (1820 ship),0,24 December 1828,Spithead,First convict voyage to New South Wales,,,,0,0,1828,12,24,spithead,,England,0,,,,,,,,1828-12-24,,0
+nsw,513,Royal George,royal george,Royal George (1820 ship),1,19 April 1835,Hobart Town,Second convict voyage to New South Wales,,,,0,0,1835,4,19,hobart,,Within Australia,0,,,,,,,,1835-04-19,,0
+nsw,514,Royal Sovereign,royal sovereign,Royal Sovereign (1829 ship),0,19 January 1834,Dublin,First convict voyage to New South Wales,,,,0,0,1834,1,19,dublin,,Ireland,0,,,,,,,,1834-01-19,,0
+nsw,515,Royal Sovereign,royal sovereign,Royal Sovereign (1829 ship),1,12 December 1835,England,Second convict voyage to New South Wales,,,,0,0,1835,12,12,england,,England,0,,,,,,,,1835-12-12,,0
+nsw,516,Ruby,ruby,Ruby (1800 ship),0,28 September 1811,Calcutta,,,,,0,0,1811,9,28,calcutta,,India and the Indian Ocean,0,,,,,,,,1811-09-28,,0
+nsw,517,Salamander,salamander,HMS Shark (1776),0,21 August 1791,Plymouth,,,160,155,0,0,1791,8,21,plymouth,,England,3,27 Mar 1791,fleet table,,148,155,,5,1791-08-21,,0
+nsw,518,Sarah,sarah,Sarah (1819 ship),0,7 December 1829,London,,,,,0,0,1829,12,7,london,,England,0,,,,,,,,1829-12-07,,0
+nsw,519,Sarah & Elizabeth,sarah elizabeth,,0,23 April 1837,Woolwich,,,,,0,0,1837,4,23,woolwich,,England,0,,,,,,,,1837-04-23,,0
+nsw,520,Scarborough,scarborough,Scarborough (1782 ship),0,26 January 1788,Spithead,Part of First Fleet – First voyage to New South Wales,,,208,0,0,1788,1,26,spithead,,England,1,13 May 1787,fleet table,,251,208,0,,1788-01-26,,0
+nsw,521,Scarborough,scarborough,Scarborough (1782 ship),1,28 June 1790,Portsmouth,Part of Second Fleet – Second voyage to New South Wales,,253,180,0,0,1790,6,28,portsmouth,,England,2,19 January 1790,fleet table,,160,180,,,1790-06-28,,0
+nsw,522,Sea Flower,sea flower,,0,30 April 1820,Calcutta,,,,,0,0,1820,4,30,calcutta,,India and the Indian Ocean,0,,,,,,,,1820-04-30,,0
+nsw,523,Seppings,seppings,,0,22 April 1840,Calcutta & Port Phillip,,,,,0,0,1840,4,22,calcutta,Port Phillip,India and the Indian Ocean,0,,,,,,,,1840-04-22,,0
+nsw,524,Sesostris,sesostris,Sesostris (1818 ship),0,21 March 1826,Portsmouth,,,,,0,0,1826,3,21,portsmouth,,England,0,,,,,,,,1826-03-21,,0
+nsw,525,Shipley,shipley,Shipley (1805 ship),0,24 April 1817,England,First convict voyage to New South Wales,,,,0,0,1817,4,24,england,,England,0,,,,,,,,1817-04-24,,0
+nsw,526,Shipley,shipley,Shipley (1805 ship),1,18 November 1818,Woolwich,Second convict voyage to New South Wales,,,,0,0,1818,11,18,woolwich,,England,0,,,,,,,,1818-11-18,,0
+nsw,527,Shipley,shipley,Shipley (1805 ship),1,26 September 1820,The Downs,Third convict voyage to New South Wales,,,,0,0,1820,9,26,downs,,England,0,,,,,,,,1820-09-26,,0
+nsw,528,Shipley,shipley,Shipley (1805 ship),1,11 March 1822,London,Fourth convict voyage to New South Wales,,,,0,0,1822,3,11,london,,England,0,,,,,,,,1822-03-11,,0
+nsw,529,Sir Charles Forbes,sir charles forbes,Sir Charles Forbes (1824 ship),0,25 December 1837,Dublin,,,,,0,0,1837,12,25,dublin,,Ireland,0,,,,,,,,1837-12-25,,0
+nsw,530,Sir Godfrey Webster,sir godfrey webster,Sir Godfrey Webster (1799 ship),0,3 January 1826,Cork,,,,,0,0,1826,1,3,cork,,Ireland,0,,,,,,,,1826-01-03,,0
+nsw,531,Sir John Byng,sir john byng,,0,21 January 1842,Cape of Good Hope,,,,,0,0,1842,1,21,cape,,Other colonies,0,,,,,,,,1842-01-21,,0
+nsw,532,Sir William Bensley,sir william bensley,Sir William Bensley (1802 Indiaman),0,10 March 1817,England,,,,,0,0,1817,3,10,england,,England,0,,,,,,,,1817-03-10,,0
+nsw,533,Siren,siren,,0,9 April 1835,,,,,,0,0,1835,4,9,,,Not given,0,,,,,,,,1835-04-09,,0
+nsw,534,Siren,siren,,0,14 October 1836,Bengal,,,,,0,0,1836,10,14,calcutta,,India and the Indian Ocean,0,,,,,,,,1836-10-14,,0
+nsw,535,Somersetshire,somersetshire,Somersetshire (1810 ship),0,16 October 1813,Spithead,,,,,0,0,1813,10,16,spithead,,England,0,,,,,,,,1813-10-16,,0
+nsw,536,Sophia,sophia,,0,17 January 1829,Dublin,,,,,0,0,1829,1,17,dublin,,Ireland,0,,,,,,,,1829-01-17,,0
+nsw,537,Southworth,southworth,,0,9 March 1822,Cork,,,,,0,0,1822,3,9,cork,,Ireland,0,,,,,,,,1822-03-09,,0
+nsw,538,Southworth,southworth,,0,14 June 1832,Cork,,,,,0,0,1832,6,14,cork,,Ireland,0,,,,,,,,1832-06-14,,0
+nsw,539,Sovereign,sovereign,Sovereign (1793 ship),0,5 November 1795,The Downs,,,,,0,0,1795,11,5,downs,,England,0,,,,,,,,1795-11-05,,0
+nsw,540,Sovereign,sovereign,Sovereign (1793 ship),1,3 August 1829,The Downs,,,,,0,0,1829,8,3,downs,,England,0,,,,,,,,1829-08-03,,0
+nsw,541,Sovereign,sovereign,Sovereign (1793 ship),1,20 January 1833,Mauritius,,,,,0,0,1833,1,20,mauritius,,India and the Indian Ocean,0,,,,,,,,1833-01-20,,0
+nsw,542,Sovereign,sovereign,Sovereign (1793 ship),1,20 November 1834,Mauritius,,,,,0,0,1834,11,20,mauritius,,India and the Indian Ocean,0,,,,,,,,1834-11-20,,0
+nsw,543,Speedy,speedy,Speedy (1779 ship),0,15 April 1800,London,,,,,0,0,1800,4,15,london,,England,0,,,,,,,,1800-04-15,"ship article: She also made voyages to New South Wales, transporting female convicts in 1799.",1
+nsw,544,Speke,speke,Warren Hastings (1789 ship),0,16 November 1808,Falmouth,First convict voyage to NSW,,,,0,0,1808,11,16,falmouth,,England,0,,,,,,,,1808-11-16,,0
+nsw,545,Speke,speke,Warren Hastings (1789 ship),1,18 May 1821,England,Second convict voyage to NSW,,,,0,0,1821,5,18,england,,England,0,,,,,,,,1821-05-18,,0
+nsw,546,Speke,speke,Warren Hastings (1789 ship),1,26 November 1826,Sheerness,Third convict voyage to NSW,,,,0,0,1826,11,26,sheerness,,England,0,,,,,,,,1826-11-26,,0
+nsw,547,Spence,spence,,0,21 June 1835,,,,,,0,0,1835,6,21,,,Not given,0,,,,,,,,1835-06-21,,0
+nsw,548,St. Michael,saint michael,,0,29 November 1819,Calcutta,,,,,0,0,1819,11,29,calcutta,,India and the Indian Ocean,0,,,,,,,,1819-11-29,,0
+nsw,549,St. Michael,saint michael,,0,30 October 1820,Calcutta,,,,,0,0,1820,10,30,calcutta,,India and the Indian Ocean,0,,,,,,,,1820-10-30,,0
+nsw,550,St. Vincent,saint vincent,,0,5 January 1837,Cork,,,,,0,0,1837,1,5,cork,,Ireland,0,,,,,,,,1837-01-05,,0
+nsw,551,Stirling Castle,stirling castle,,0,21 March 1836,,,,,,0,0,1836,3,21,,,Not given,0,,,,,,,,1836-03-21,,0
+nsw,552,Strathfieldsay,strathfieldsay,,0,19 December 1831,,,,,,0,0,1831,12,19,,,Not given,0,,,,,,,,1831-12-19,,0
+nsw,553,Strathfieldsay,strathfieldsay,,0,15 June 1836,Portsmouth,,,,,0,0,1836,6,15,portsmouth,,England,0,,,,,,,,1836-06-15,,0
+nsw,554,Strathisla,strathisla,,0,16 May 1837,Calcutta,,,,,0,0,1837,5,16,calcutta,,India and the Indian Ocean,0,,,,,,,,1837-05-16,,0
+nsw,555,Success,success,,0,28 November 1826,Mauritius,,,,,0,0,1826,11,28,mauritius,,India and the Indian Ocean,0,,,,,,,,1826-11-28,,0
+nsw,556,Sugar Cane,sugar cane,Sugar Cane (1786 ship),0,17 September 1793,Cork,,,,,0,0,1793,9,17,cork,,Ireland,0,,,,,,,,1793-09-17,,0
+nsw,557,Surprize,surprize,Surprize (1780 ship),0,26 June 1790,Portsmouth England,Part of Second Fleet,,254,218,0,0,1790,6,26,portsmouth,,England,2,19 January 1790,fleet table,,158,218,,,1790-06-26,,0
+nsw,558,Surprize,surprize,Surprize (1780 ship),1,25 November 1794,England,Second convict voyage to New South Wales,,,,0,0,1794,11,25,england,,England,0,,,,,,,,1794-11-25,,0
+nsw,559,Surry ( Surrey ),surry,Surry (1811 ship),0,28 July 1814,England,First convict voyage to New South Wales,,,,0,0,1814,7,28,england,,England,0,,,,,,,,1814-07-28,,0
+nsw,560,Surrey,surrey,,0,20 December 1816,Cork,Second convict voyage to New South Wales,,,,0,0,1816,12,20,cork,,Ireland,0,,,,,,,,1816-12-20,,0
+nsw,561,Surrey,surrey,,0,4 March 1819,Sheerness,Third convict voyage to New South Wales,,,,0,0,1819,3,4,sheerness,,England,0,,,,,,,,1819-03-04,,0
+nsw,562,Surrey,surrey,,0,4 March 1823,Portsmouth,Fourth convict voyage to New South Wales,,,,0,0,1823,3,4,portsmouth,,England,0,,,,,,,,1823-03-04,,0
+nsw,563,Surrey,surrey,,0,26 November 1831,Portsmouth,Fifth convict voyage to New South Wales,,,,0,0,1831,11,26,portsmouth,,England,0,,,,,,,,1831-11-26,,0
+nsw,564,Surrey,surrey,,0,17 August 1834,Plymouth,Sixth convict voyage to New South Wales,,,,0,0,1834,8,17,plymouth,,England,0,,,,,,,,1834-08-17,,0
+nsw,565,Surrey,surrey,,0,17 May 1836,Cork,Seventh convict voyage to New South Wales,,,,0,0,1836,5,17,cork,,Ireland,0,,,,,,,,1836-05-17,,0
+nsw,566,Surrey,surrey,,0,13 July 1840,The Downs,Eighth convict voyage to New South Wales,,,,0,0,1840,7,13,downs,,England,0,,,,,,,,1840-07-13,,0
+nsw,567,Surrey,surrey,,0,9 March 1833,Cork,,,,,0,0,1833,3,9,cork,,Ireland,0,,,,,,,,1833-03-09,,0
+nsw,568,Susan,susan,Susan (1813 ship),0,8 July 1834,London,First convict voyage to New South Wales,,,,0,0,1834,7,8,london,,England,0,,,,,,,,1834-07-08,,0
+nsw,569,Susan,susan,Susan (1813 ship),1,7 February 1836,Portsmouth,Second convict voyage to New South Wales,,,,0,0,1836,2,7,portsmouth,,England,0,,,,,,,,1836-02-07,,0
+nsw,570,Susannah,susannah,,0,7 September 1837,Mauritius,,,,,0,0,1837,9,7,mauritius,,India and the Indian Ocean,0,,,,,,,,1837-09-07,,0
+nsw,571,Susannah,susannah,,0,10 January 1839,Mauritius,,,,,0,0,1839,1,10,mauritius,,India and the Indian Ocean,0,,,,,,,,1839-01-10,,0
+nsw,572,Swallow,swallow,,0,23 October 1836,India,,,,,0,0,1836,10,23,india,,India and the Indian Ocean,0,,,,,,,,1836-10-23,,0
+nsw,573,Sydney Cove,sydney cove,Sydney Cove (1803 ship),0,18 June 1807,Falmouth,,,,,0,0,1807,6,18,falmouth,,England,0,,,,,,,,1807-06-18,,0
+nsw,574,Symmetry,symmetry,,0,28 May 1838,Mauritius,,,,,0,0,1838,5,28,mauritius,,India and the Indian Ocean,0,,,,,,,,1838-05-28,,0
+nsw,575,Tellicherry,tellicherry,Tellicherry (1796 ship),0,15 February 1806,Cork,,,166,,0,0,1806,2,15,cork,,Ireland,0,1805-08-31,ship article,"He sailed her from Cork, Ireland on 31 August 1805. She left at the same time as William Pitt, and would arrive at Port Jackson some two months earlier. spent three days at Madeira on her way and arrived at Port Jackson on 15 February 1806. Tellichery had embarked 130 male and 36 female convicts. Fi",168,130,36,6,1806-02-15,fleet table or ship article,1
+nsw,576,Theresa,theresa,,0,31 January 1839,Sheerness,,,,,0,0,1839,1,31,sheerness,,England,0,,,,,,,,1839-01-31,,0
+nsw,577,Thomas Harrison,thomas harrison,Thomas Harrison (ship),0,9 June 1836,Cork,,,,,0,0,1836,6,9,cork,,Ireland,0,,,,,,,,1836-06-09,,0
+nsw,578,Three Bees,three bees,Three Bees (1813 ship),0,6 May 1814,Falmouth,,,,,0,0,1814,5,6,falmouth,,England,0,,,,,,,,1814-05-06,,0
+nsw,579,Tottenham,tottenham,Tottenham (1802 Indiaman),0,14 October 1818,Spithead,,,,,0,0,1818,10,14,spithead,,England,0,,,,,,,,1818-10-14,,0
+nsw,580,Tranmere,tranmere,Tranmere (1819 ship),0,19 December 1829,London,No evidence that Tranmere carried convicts,,,,0,0,1829,12,19,london,,England,0,,,,,,,,1829-12-19,,0
+nsw,581,Tyne,tyne,Tyne (1807 ship),0,4 January 1819,Ireland,,,,,0,0,1819,1,4,ireland,,Ireland,0,,,,,,,,1819-01-04,,0
+nsw,582,Union,union,,0,14 April 1815,Madras,Transported 1 military convict,,,,0,0,1815,4,14,madras,,India and the Indian Ocean,0,,,,,,,,1815-04-14,,0
+nsw,583,Vittoria,vittoria,Vittoria (1813 Gainsborough ship),0,17 January 1829,Devonport,,,,,0,0,1829,1,17,devonport,,England,0,,,,,,,,1829-01-17,,0
+nsw,584,Wanstead,wanstead,Wanstead (1813 ship),0,9 January 1814,Spithead,,,,,0,0,1814,1,9,spithead,,England,0,,,,,,,,1814-01-09,,0
+nsw,585,Warrior,warrior,,0,20 November 1835,Calcutta,,,,,0,0,1835,11,20,calcutta,,India and the Indian Ocean,0,,,,,,,,1835-11-20,,0
+nsw,586,Waterloo,waterloo,Waterloo (1815 ship),0,9 July 1829,London,First convict voyage to NSW,,,,0,0,1829,7,9,london,,England,0,,,,,,,,1829-07-09,,0
+nsw,587,Waterloo,waterloo,Waterloo (1815 ship),1,30 April 1831,Dublin,Second convict voyage to NSW,,,,0,0,1831,4,30,dublin,,Ireland,0,,,,,,,,1831-04-30,,0
+nsw,588,Waterloo,waterloo,Waterloo (1815 ship),1,3 August 1833,Sheerness,Third convict voyage to NSW,,,,0,0,1833,8,3,sheerness,,England,0,,,,,,,,1833-08-03,,0
+nsw,589,Waterloo,waterloo,Waterloo (1815 ship),1,6 September 1836,London,Fourth convict voyage to NSW,,,,0,0,1836,9,6,london,,England,0,,,,,,,,1836-09-06,,0
+nsw,590,Waterloo,waterloo,Waterloo (1815 ship),1,8 February 1838,Sheerness,Fifth convict voyage to NSW,,,,0,0,1838,2,8,sheerness,,England,0,,,,,,,,1838-02-08,,0
+nsw,591,Wave,wave,,0,2 April 1832,Hobart Town,,,,,0,0,1832,4,2,hobart,,Within Australia,0,,,,,,,,1832-04-02,,0
+nsw,592,Waverley,waverley,,0,17 June 1839,Dublin,,,,,0,0,1839,6,17,dublin,,Ireland,0,,,,,,,,1839-06-17,,0
+nsw,593,Westbrook,westbrook,,0,12 February 1840,Mauritius,,,,,0,0,1840,2,12,mauritius,,India and the Indian Ocean,0,,,,,,,,1840-02-12,,0
+nsw,594,Westmoreland,westmoreland,Westmoreland (1832 ship),0,15 July 1835,London,First convict voyage to NSW,,,,0,0,1835,7,15,london,,England,0,,,,,,,,1835-07-15,,0
+nsw,595,Westmoreland,westmoreland,Westmoreland (1832 ship),1,22 August 1838,Dublin,Second convict voyage to NSW,,,,0,0,1838,8,22,dublin,,Ireland,0,,,,,,,,1838-08-22,,0
+nsw,596,Whitby,whitby,Whitby (barque),0,23 June 1839,Dublin,,,,,0,0,1839,6,23,dublin,,Ireland,0,,,,,,,,1839-06-23,,0
+nsw,597,William and Ann,william and ann,William and Ann (1759),0,28 August 1791,Plymouth,,,188,181,0,0,1791,8,28,plymouth,,England,3,27 Mar 1791,fleet table,,154,181,,7,1791-08-28,,0
+nsw,598,William Jardine,william jardine,,0,11 April 1838,Dublin,,,,,0,0,1838,4,11,dublin,,Ireland,0,,,,,,,,1838-04-11,,0
+nsw,599,William Pitt,william pitt,William Pitt (1803 ship),0,11 April 1806,Cork,,,,,0,0,1806,4,11,cork,,Ireland,0,,,,,,,,1806-04-11,,0
+nsw,600,William Young,william young,,0,31 October 1829,Calcutta,,,,,0,0,1829,10,31,calcutta,,India and the Indian Ocean,0,,,,,,,,1829-10-31,,0
+nsw,601,Woodbridge,woodbridge,Bheemoolah (1808 ship),0,26 February 1840,London,,,,,0,0,1840,2,26,london,,England,0,,,,,,,,1840-02-26,,0
+nsw,602,Woodman,woodman,Woodman (1808 ship),0,25 June 1823,Cork,,,,,0,0,1823,6,25,cork,,Ireland,0,,,,,,,,1823-06-25,,0
+nsw,603,York,york,York (1819 ship),0,7 February 1831,Sheerness,,,,,0,0,1831,2,7,sheerness,,England,0,,,,,,,,1831-02-07,,0
+vdl,1,Admiral Cockburn (1814 ship),admiral cockburn,Admiral Cockburn (1814 ship),0,,Port Jackson,,,,,0,0,,,,sydney,,Within Australia,0,,,,,,,,,,0
+vdl,2,Albion (1813 ship),albion,Albion (1813 ship),0,21 October 1823,England,,,,,0,0,1823,10,21,england,,England,0,,,,,,,,1823-10-21,,0
+vdl,3,Andromeda (1819),andromeda,Andromeda (1819),0,28 February 1827,London,,,,,0,0,1827,2,28,london,,England,0,,,,,,,,1827-02-28,,0
+vdl,4,Asia (1813 ship),asia,Asia (1813 ship),0,30 November 1827,London,,,,,0,0,1827,11,30,london,,England,0,,,,,,,,1827-11-30,,0
+vdl,5,Asia (1815 ship),asia,Asia (1815 ship),0,17 August 1827,Portsmouth,,,,,0,0,1827,8,17,portsmouth,,England,0,,,,,,,,1827-08-17,,0
+vdl,6,Asia (1817 ship),asia,Asia (1817 ship),0,19 January 1824,The Downs,,,,,0,0,1824,1,19,downs,,England,0,,,,,,,,1824-01-19,,0
+vdl,7,Asia (1818 ship),asia,Asia (1818 ship),0,21 February 1836,Sheerness,,,,,0,0,1836,2,21,sheerness,,England,0,,,,,,,,1836-02-21,,0
+vdl,8,Aurora (1816 ship),aurora,Aurora (1816 ship),0,7 October 1835,The Downs,,,,,0,0,1835,10,7,downs,,England,0,,,,,,,,1835-10-07,,0
+vdl,9,Augusta Jessie (1834 ship),augusta jessie,,0,27 September 1834,Portsmouth,First convict voyage to Van Diemen's Land (VDL),,,,0,0,1834,9,27,portsmouth,,England,0,,,,,,,,1834-09-27,,0
+vdl,10,Augusta Jessie,augusta jessie,,0,6 December 1838,,Second convict voyage to VDL,,,,0,0,1838,12,6,,,Not given,0,,,,,,,,1838-12-06,,0
+vdl,11,Bardaster (1833 ship),bardaster,Bardaster (1833 ship),0,13 January 1836,Portsmouth,,,,,0,0,1836,1,13,portsmouth,,England,0,,,,,,,,1836-01-13,,0
+vdl,12,Barrosa (1811 ship),barrosa,Barrosa (1811 ship),0,13 January 1842,Sheerness,Her first convict voyage to Van Diemen's Land,,,,0,0,1842,1,13,sheerness,,England,0,,,,,,,,1842-01-13,,0
+vdl,13,Barrosa (1811 ship),barrosa,Barrosa (1811 ship),0,5 September 1844,Dublin,Her second convict voyage to Van Diemen's Land,,,,0,0,1844,9,5,dublin,,Ireland,0,,,,,,,,1844-09-05,,0
+vdl,14,Bengal Merchant (1812 ship),bengal merchant,Bengal Merchant (1812 ship),0,10 August 1828,Plymouth,,,,,0,0,1828,8,10,plymouth,,England,0,,,,,,,,1828-08-10,,0
+vdl,15,Bheemoolah (1808 ship),bheemoolah,Bheemoolah (1808 ship),0,23 December 1843,London,,,,,0,0,1843,12,23,london,,England,0,,,,,,,,1843-12-23,,0
+vdl,16,Blenheim (1834 ship),blenheim,Blenheim (1834 ship),0,16 July 1837,Woolwich,,,,,0,0,1837,7,16,woolwich,,England,0,,,,,,,,1837-07-16,,0
+vdl,17,Borneo (1817 ship),borneo,Borneo (1817 ship),0,8 October 1828,,,,,,0,0,1828,10,8,,,Not given,0,,,,,,,,1828-10-08,,0
+vdl,18,Brothers (1815 ship),brothers,Brothers (1815 ship),0,15 April 1824,The Downs,,,,,0,0,1824,4,15,downs,,England,0,,,,,,,,1824-04-15,,0
+vdl,19,Bussorah Merchant (1818 ship),bussorah merchant,Bussorah Merchant (1818 ship),0,18 January 1830,The Downs,,,,,0,0,1830,1,18,downs,,England,0,,,,,,,,1830-01-18,,0
+vdl,20,Caledonia (1815 ship),caledonia,Caledonia (1815 ship),0,17 November 1820,Portsmouth,Her first convict voyage to Van Diemen's Land,,,,0,0,1820,11,17,portsmouth,,England,0,,,,,,,,1820-11-17,,0
+vdl,21,Caledonia,caledonia,Caledonia (1815 ship),1,6 November 1822,Portsmouth,Her second convict voyage to Van Diemen's Land,,,,0,0,1822,11,6,portsmouth,,England,0,,,,,,,,1822-11-06,,0
+vdl,22,Castle Forbes (1818 ship),castle forbes,Castle Forbes (1818 ship),0,29 February 1820,Port Jackson,,,,,0,0,1820,2,29,sydney,,Within Australia,0,,,,,,,,1820-02-29,,0
+vdl,23,Chapman (1777 ship),chapman,Chapman (1777 ship),0,27 July 1824,England,Her first convict voyage to Van Diemen's Land,,,,0,0,1824,7,27,england,,England,0,,,,,,,,1824-07-27,,0
+vdl,24,Chapman,chapman,Chapman (1777 ship),1,7 October 1826,London,Her second convict voyage to Van Diemen's Land,,,,0,0,1826,10,7,london,,England,0,,,,,,,,1826-10-07,,0
+vdl,25,Claudine (1811 ship),claudine,Claudine (1811 ship),0,15 December 1821,Woolwich,,,,,0,0,1821,12,15,woolwich,,England,0,,,,,,,,1821-12-15,,0
+vdl,26,Clyde (1820 ship),clyde,Clyde (1820 ship),0,18 December 1830,Portsmouth,,,,,0,0,1830,12,18,portsmouth,,England,0,,,,,,,,1830-12-18,,0
+vdl,27,Competitor (1813 ship),competitor,Competitor (ship),0,3 August 1823,England,,,,,0,0,1823,8,3,england,,England,0,,,,,,,,1823-08-03,,0
+vdl,28,Cornwall (1810 ship),cornwall,Cornwall (1810 ship),0,11 June 1851,Ireland,,,,,0,0,1851,6,11,ireland,,Ireland,0,,,,,,,,1851-06-11,,0
+vdl,29,HMS Coromandel (1815),coromandel,HMS Malabar (1804),0,12 March 1823,England,,,,,0,0,1823,3,12,england,,England,0,,,,,,,,1823-03-12,,0
+vdl,30,Coromandel (1820 ship),coromandel,Coromandel (1820 ship),0,26 October 1838,,,,,,0,0,1838,10,26,,,Not given,0,,,,,,,,1838-10-26,,0
+vdl,31,Countess of Harcourt (1811 ship),countess of harcourt,Countess of Harcourt (1811 ship),0,27 July 1821,Portsmouth,,,,,0,0,1821,7,27,portsmouth,,England,0,,,,,,,,1821-07-27,,0
+vdl,32,Currency Lass (1826 schooner),currency lass,Currency Lass (1826 schooner),0,,,Moved convicts between Hobart and Sydney in the 1830s,,,,0,0,,,,,,Not given,0,,,,,,,,,,0
+vdl,33,David Clark (1816 ship),david clark,David Clark (ship),0,4 October 1841,Plymouth,,,308,,0,0,1841,10,4,plymouth,,England,0,1841-06-07,ship article,"She departed Plymouth on 7 June, under the command of William B. Mills, and arrived in Hobart on 4 October 1841. She carried 308 convicts, one of whom died on the way.",119,,,1,1841-10-04,,0
+vdl,34,HMS Dromedary (1806),dromedary,HMS Howe (1805),0,10 January 1820,,,,,,0,0,1820,1,10,,,Not given,0,,,,,,,,1820-01-10,,0
+vdl,35,Earl Grey (1835 ship),earl grey,Earl Grey (1835 ship),0,14 January 1843,Plymouth,Her first convict voyage to Van Diemen's Land,,,,0,0,1843,1,14,plymouth,,England,0,,,,,,,,1843-01-14,,0
+vdl,36,Earl Grey,earl grey,Earl Grey (1835 ship),1,9 May 1850,Dublin,Her second convict voyage to Van Diemen's Land,,,,0,0,1850,5,9,dublin,,Ireland,0,,,,,,,,1850-05-09,,0
+vdl,37,Eden (1826 ship),eden,Eden (1826 ship),0,22 December 1836,Portsmouth,,,,,0,0,1836,12,22,portsmouth,,England,0,,,,,,,,1836-12-22,,0
+vdl,38,Egyptian,egyptian,Egyptian (1825 ship),0,24 August 1839,Sheerness,Her first convict voyage to Van Diemen's Land,,,,0,0,1839,8,24,sheerness,,England,0,,,,,,,,1839-08-24,,0
+vdl,39,Egyptian,egyptian,Egyptian (1825 ship),1,12 December 1840,Dublin,Her second convict voyage to Van Diemen's Land,,,,0,0,1840,12,12,dublin,,Ireland,0,,,,,,,,1840-12-12,,0
+vdl,40,Eliza (1804 ship),eliza,Eliza (1804 ship),0,29 May 1831,Portsmouth,,,224,,0,0,1831,5,29,portsmouth,,England,0,1831-02-06,ship article,"She left Portsmouth, England on 6 February 1831 and arrived at Hobart Town on 29 May. She embarked 224 male convicts and had no deaths en route.",112,224,,0,1831-05-29,,0
+vdl,41,Eliza (1815 ship),eliza,Eliza (1815 ship),0,24 February 1830,London,,,,,0,0,1830,2,24,london,,England,0,,,,,,,,1830-02-24,,0
+vdl,42,Emperor Alexander (1813 Chepstow ship),emperor alexander,Emperor Alexander (1813 Chepstow ship),0,12 August 1833,Sheerness,,,,,0,0,1833,8,12,sheerness,,England,0,,,,,,,,1833-08-12,,0
+vdl,43,Emu (1812 ship),emu,Emu (1812 ship),0,,,Captured on way to Van Diemen's Land before she could land her convicts,,,,0,0,,,,,,Not given,0,,,,,,,,,,0
+vdl,44,Enchantress (1828 ship),enchantress,Enchantress (1828 ship),0,31 July 1833,Portsmouth,,,,,0,0,1833,7,31,portsmouth,,England,0,,,,,,,,1833-07-31,,0
+vdl,45,England (1813 ship),england,England (1813 ship),0,18 July 1832,Sheerness,,,,,0,0,1832,7,18,sheerness,,England,0,,,,,,,,1832-07-18,,0
+vdl,46,Fairlie (1810 ship),fairlie,Fairlie (1810 ship),0,3 July 1852,"Dublin, via the Cape",,,,,0,0,1852,7,3,dublin,the Cape,Ireland,0,,,,,,,,1852-07-03,,0
+vdl,47,George III (ship),george iii,George III (ship),0,12 March 1835,Woolwich,Wrecked with heavy loss of live before she could disembark her convicts,,,,0,0,1835,3,12,woolwich,,England,0,,,,,,,,1835-03-12,,0
+vdl,48,George Hibbert (1803 ship),george hibbert,George Hibbert (1803 ship),0,1 December 1834,The Downs,,,,,0,0,1834,12,1,downs,,England,0,,,,,,,,1834-12-01,,0
+vdl,49,Georgiana (1826 ship),georgiana,Georgiana (1826 ship),0,20 April 1829,Plymouth,Her first convict voyage to Van Diemen's Land,,,,0,0,1829,4,20,plymouth,,England,0,,,,,,,,1829-04-20,,0
+vdl,50,Georgiana,georgiana,Georgiana (1826 ship),1,1 February 1833,Portsmouth,Her second convict voyage to Van Diemen's Land,,,,0,0,1833,2,1,portsmouth,,England,0,,,,,,,,1833-02-01,,0
+vdl,51,Gilmore (1824 ship),gilmore,Gilmore (1824 ship),0,22 March 1832,London,Her first convict voyage to Van Diemen's Land,,,,0,0,1832,3,22,london,,England,0,,,,,,,,1832-03-22,,0
+vdl,52,Gilmore,gilmore,Gilmore (1824 ship),1,24 January 1839,Spithead,Her second convict voyage to Van Diemen's Land,,,,0,0,1839,1,24,spithead,,England,0,,,,,,,,1839-01-24,,0
+vdl,53,Governor Ready (1825 ship),governor ready,Governor Ready (1825 ship),0,31 March 1827,Plymouth,,,,,0,0,1827,3,31,plymouth,,England,0,,,,,,,,1827-03-31,,0
+vdl,54,Grenada (1810 ship),grenada,Grenada (1810 ship),0,9 January 1827,Portsmouth,,,,,0,0,1827,1,9,portsmouth,,England,0,,,,,,,,1827-01-09,,0
+vdl,55,Guildford (1810 ship),guildford,Guildford (1810 ship),0,28 October 1820,Portsmouth,,,,,0,0,1820,10,28,portsmouth,,England,0,,,,,,,,1820-10-28,,0
+vdl,56,Henry (1819 ship),henry,Henry (1819 ship),0,9 February 1825,London,,,,,0,0,1825,2,9,london,,England,0,,,,,,,,1825-02-09,,0
+vdl,57,Henry Porcher (1817 ship),henry porcher,Henry Porcher (1817 ship),0,24 April 1833,London,Her first convict voyage to Van Diemen's Land,,,,0,0,1833,4,24,london,,England,0,,,,,,,,1833-04-24,,0
+vdl,58,Henry Porcher,henry porcher,Henry Porcher (1817 ship),1,15 November 1836,Portsmouth,Her second convict voyage to Van Diemen's Land,,,,0,0,1836,11,15,portsmouth,,England,0,,,,,,,,1836-11-15,,0
+vdl,59,Hibernia (1810 ship),hibernia,Hibernia (1810 ship),0,11 May 1819,Portsmouth,,,,,0,0,1819,5,11,portsmouth,,England,0,,,,,,,,1819-05-11,,0
+vdl,60,Hooghly (1819 ship),hooghly,Hooghly (1819 ship),0,,,,,,,0,0,,,,,,Not given,0,,,,,,,,,,0
+vdl,61,Hindostan (1819 ship),hindostan,Hindostan (1819 ship),0,7 December 1839,London,Her first convict voyage to Van Diemen's Land,,,,0,0,1839,12,7,london,,England,0,,,,,,,,1839-12-07,,0
+vdl,62,Hindostan,hindostan,Hindostan (1819 ship),1,19 January 1841,London,Her second convict voyage to Van Diemen's Land,,,,0,0,1841,1,19,london,,England,0,,,,,,,,1841-01-19,,0
+vdl,63,HMS Howe,howe,HMS Howe (1805),0,10 January 1820,England,,,,,0,0,1820,1,10,england,,England,0,,,,,,,,1820-01-10,,0
+vdl,64,Indefatigable (1799 ship),indefatigable,Indefatigable (1799),0,19 October 1812,England,First ship to bring convicts to VDL,,,,0,0,1812,10,19,england,,England,0,,,,,,,,1812-10-19,,0
+vdl,65,Isabella (1818 ship),isabella,Isabella (1818 ship),0,14 November 1833,Plymouth,,,300,,0,0,1833,11,14,plymouth,,England,0,1833-07-28,ship article,"Isabella left Plymouth, England, on 28 July 1833 and arrived in Hobart Town on 14 November. She embarked 300 male convicts and had no convict deaths en route.",109,300,,0,1833-11-14,,0
+vdl,66,John (1809 ship),john,John (1809 ship),0,28 January 1831,London,First voyage to VDL,,,,0,0,1831,1,28,london,,England,0,,,,,,,,1831-01-28,,0
+vdl,67,John,john,John (1809 ship),1,1 December 1833,Spithead,Second voyage to VDL,,,,0,0,1833,12,1,spithead,,England,0,,,,,,,,1833-12-01,,0
+vdl,68,John Barry (1814 ship),john barry,John Barry (1814 ship),0,11 August 1834,England,,,,,0,0,1834,8,11,england,,England,0,,,,,,,,1834-08-11,,0
+vdl,69,Katherine Stewart Forbes (1818 ship),katherine stewart forbes,Katherine Stewart Forbes (1818 ship),0,16 July 1832,England,,,,,0,0,1832,7,16,england,,England,0,,,,,,,,1832-07-16,,0
+vdl,70,Lady Castlereagh (1803 EIC ship),lady castlereagh,Lady Castlereagh (1803 EIC ship),0,11 June 1818,England via Port Jackson,Landed some convicts at Port Jackson and took the bulk of them on to Hobart,,,,0,0,1818,6,11,england,Port Jackson,England,0,,,,,,,,1818-06-11,,0
+vdl,71,Lady Denison,lady denison,Lady Denison,0,,,Transferred convicts between Australian penal colonies,,,,0,0,,,,,,Not given,0,,,,,,,,,,0
+vdl,72,Lady Harewood (1791 ship),lady harewood,Lady Harewood (1791 ship),0,28 July 1829,London,,,,,0,0,1829,7,28,london,,England,0,,,,,,,,1829-07-28,,0
+vdl,73,Lady Kennaway (1816 ship),lady kennaway,Lady Kennaway (1816 ship),0,13 February 1835,Portsmouth & Cork,First convict voyage to Tasmania,,,,0,0,1835,2,13,portsmouth,Cork,England,0,,,,,,,,1835-02-13,,0
+vdl,74,Lady Kennaway,lady kennaway,Lady Kennaway (1816 ship),1,28 May 1851,Portsmouth,Second convict voyage to Tasmania,,,,0,0,1851,5,28,portsmouth,,England,0,,,,,,,,1851-05-28,,0
+vdl,75,HMS Lady Nelson (1798),lady nelson,HMS Lady Nelson,0,,,Transferred convicts and former convicts between Australian ports,,,,0,0,,,,,,Not given,0,,,,,,,,,,0
+vdl,76,Lady Nugent (1814 ship),lady nugent,Lady Nugent (1814 ship),0,11 November 1836,Sheerness,,,,,0,0,1836,11,11,sheerness,,England,0,,,,,,,,1836-11-11,,0
+vdl,77,Lady Ridley (1813 ship),lady ridley,Lady Ridley (1813 ship),0,27 June 1821,England,,,,,0,0,1821,6,27,england,,England,0,,,,,,,,1821-06-27,,0
+vdl,78,Larkins (1808 ship),larkins,Larkins (1808 ship),0,19 October 1831,The Downs,,,,,0,0,1831,10,19,downs,,England,0,,,,,,,,1831-10-19,,0
+vdl,79,Layton,layton,Layton (1814 ship),0,9 October 1827,Plymouth,First convict voyage to VDL,,,,0,0,1827,10,9,plymouth,,England,0,,,,,,,,1827-10-09,,0
+vdl,80,Layton,layton,Layton (1814 ship),1,10 December 1835,Sheerness,Second convict voyage to VDL,,,,0,0,1835,12,10,sheerness,,England,0,,,,,,,,1835-12-10,,0
+vdl,81,Layton,layton,Layton (1814 ship),1,1 September 1841,Lonson,Third convict voyage to VDL,,,,0,0,1841,9,1,london,,England,0,,,,,,,,1841-09-01,,0
+vdl,82,London (1832 ship),london,London (1832 ship),0,1 May 1842,London,First convict voyage,,,,0,0,1842,5,1,london,,England,0,,,,,,,,1842-05-01,,0
+vdl,83,London,london,London (1832 ship),1,10 March 1851,Dublin,Second convict voyage to Tasmania,,,,0,0,1851,3,10,dublin,,Ireland,0,,,,,,,,1851-03-10,,0
+vdl,84,Lord Melville,lord melville,HMS Porpoise (1804),0,17 December 1818,,,,,,0,0,1818,12,17,,,Not given,0,,,,,,,,1818-12-17,,0
+vdl,85,Lord Hungerford (1814 ship),lord hungerford,Lord Hungerford (1814 ship),0,26 December 1821,England,,,,,0,0,1821,12,26,england,,England,0,,,,,,,,1821-12-26,,0
+vdl,86,Lord Lyndoch (1814 ship),lord lyndoch,Lord Lyndoch (1814 ship),0,18 November 1831,Sheerness,First convict voyage to Tasmania,,,,0,0,1831,11,18,sheerness,,England,0,,,,,,,,1831-11-18,,0
+vdl,87,Lord Lyndoch,lord lyndoch,Lord Lyndoch (1814 ship),1,20 August 1836,London,Second convict voyage to Tasmania,,,,0,0,1836,8,20,london,,England,0,,,,,,,,1836-08-20,,0
+vdl,88,Lord Lyndoch,lord lyndoch,Lord Lyndoch (1814 ship),1,5 February 1841,London,Third convict voyage to Tasmania,,,,0,0,1841,2,5,london,,England,0,,,,,,,,1841-02-05,,0
+vdl,89,Lord William Bentinck (1828 Bristol ship),lord william bentinck,Lord William Bentinck (1828 Bristol ship),0,26 August 1838,Portsmouth,,,,,0,0,1838,8,26,portsmouth,,England,0,,,,,,,,1838-08-26,,0
+vdl,90,Lord William Bentinck (1828 Yarmouth ship),lord william bentinck,Lord William Bentinck (1828 Yarmouth ship),0,28 August 1832,Portsmouth,,,,,0,0,1832,8,28,portsmouth,,England,0,,,,,,,,1832-08-28,,0
+vdl,91,Lotus (1826 ship),lotus,Lotus (1826 ship),0,16 May 1833,London,,,,,0,0,1833,5,16,london,,England,0,,,,,,,,1833-05-16,,0
+vdl,92,Maitland (1811 ship),maitland,Maitland (1811 ship),0,3 March 1844,Norfolk Island,Her first convict voyage to Tasmania,,,,0,0,1844,3,3,norfolk,,Within Australia,0,,,,,,,,1844-03-03,,0
+vdl,93,Maitland,maitland,Maitland (1811 ship),1,27 October 1846,London,Her second convict voyage to Tasmania,,,,0,0,1846,10,27,london,,England,0,,,,,,,,1846-10-27,,0
+vdl,94,Majestic (1829 ship),majestic,Majestic (1829 ship),0,22 January 1829,London,,,,,0,0,1829,1,22,london,,England,0,,,,,,,,1829-01-22,,0
+vdl,95,Malabar (1804 ship),malabar,Malabar (1804 ship),0,21 October 1821,Gravesend,,,,,0,0,1821,10,21,gravesend,,England,0,,,,,,,,1821-10-21,,0
+vdl,96,Mangles (1803 ship),mangles,Mangles (1803 ship),0,2 August 1835,Portsmouth,,,,,0,0,1835,8,2,portsmouth,,England,0,,,,,,,,1835-08-02,,0
+vdl,97,Manlius (1826 ship),manlius,Manlius (1826 ship),0,9 November 1828,London,Her first convict voyage to Tasmania,,,,0,0,1828,11,9,london,,England,0,,,,,,,,1828-11-09,,0
+vdl,98,Manlius,manlius,Manlius (1826 ship),1,12 August 1830,Sheerness,Her second convict voyage to Tasmania,,,,0,0,1830,8,12,sheerness,,England,0,,,,,,,,1830-08-12,,0
+vdl,99,Maria (1798 ship),maria,Maria (1798 ship),0,1 December 1820,London,,,,,0,0,1820,12,1,london,,England,0,,,,,,,,1820-12-01,,0
+vdl,100,Mary (1811 Ipswich ship),mary,Mary (1811 Ipswich ship),0,5 October 1823,London,Her first convict voyage to Tasmania,,127,,0,0,1823,10,5,london,,England,0,1823-06-10,ship article,"Steele sailed from London on 10 June 1823, and arrived at Hobart on 5 October. She sailed on to Port Jackson and arrived there on 18 October. She had embarked 127 female convicts and she landed 67 at Hobart and 57 at Sydney, having perhaps left one in London before sailing. Register of Shipping for ",117,,127,,1823-10-05,fleet table or ship article,1
+vdl,101,Mary,mary,Mary (1811 Ipswich ship),1,10 April 1830,London,Her second convict voyage to Tasmania,,168,167,0,0,1830,4,10,london,,England,0,1829-12-18,ship article,"===Convict voyage #2 (1829–1830)=== Captain Alexander Jamieson sailed from London on 18 December 1829, and arrived at Hobart on 10 April 1830. Mary had embarked 168 male convicts and she disembarked 167, having suffered one convict death en route. The Register of Shipping for 1830, showed Marys mast",113,168,,1,1830-04-10,,0
+vdl,102,Mary,mary,Mary (1811 Ipswich ship),1,19 October 1831,London,Her third convict voyage to Tasmania,,151,149,0,0,1831,10,19,london,,England,0,1831-06-12,ship article,"===Convict voyage #3 (1831)=== Captain Jamieson sailed from London on 12 June 1831, and arrived at Hobart on 19 October. Mary had embarked 151 female convicts and she disembarked 149, having suffered two convict deaths en route.",129,,151,2,1831-10-19,fleet table or ship article,1
+vdl,103,Mary Ann (1807 Batavia ship),mary ann,Mary Ann (1808 Batavia ship),0,2 May 1822,Dartmouth,,,,,0,0,1822,5,2,dartmouth,,England,0,,,,,,,,1822-05-02,,0
+vdl,104,Medina (1811 ship),medina,Medina (1811 ship),0,14 September 1825,The Downs,,,,,0,0,1825,9,14,downs,,England,0,,,,,,,,1825-09-14,,0
+vdl,105,Medway (1810 ship),medway,Medway (1810 ship),0,21 October 1821,Land's End,,,,,0,0,1821,10,21,landsend,,England,0,,,,,,,,1821-10-21,,0
+vdl,106,Mellish (1819 ship),mellish,Mellish (1819 ship),0,22 September 1830,Spithead,,,,,0,0,1830,9,22,spithead,,England,0,,,,,,,,1830-09-22,,0
+vdl,107,Minerva (1805 ship),minerva,Minerva (1805 ship),0,7 June 1818,Cork,Second ship to bring convicts to VDL,,,,0,0,1818,6,7,cork,,Ireland,0,,,,,,,,1818-06-07,,0
+vdl,108,Moffat,moffat,Boyne (1807 ship),0,9 May 1834,Plymouth,Her first convict voyage to Tasmania,,,,0,0,1834,5,9,plymouth,,England,0,,,,,,,,1834-05-09,,0
+vdl,109,Moffat,moffat,Boyne (1807 ship),1,1 April 1838,Portsmouth,Her second convict voyage to Tasmania,,,,0,0,1838,4,1,portsmouth,,England,0,,,,,,,,1838-04-01,,0
+vdl,110,Moffat,moffat,Boyne (1807 ship),1,20 November 1842,Portsmouth,Her third convict voyage to Tasmania,,,,0,0,1842,11,20,portsmouth,,England,0,,,,,,,,1842-11-20,,0
+vdl,111,Morley (1811 ship),morley,Morley (1811 ship),0,28 August 1820,London,,,,,0,0,1820,8,28,london,,England,0,,,,,,,,1820-08-28,,0
+vdl,112,Neptune (1815 ship),neptune,Neptune (1815 ship),0,18 January 1838,Sheerness,Her first convict voyage to Tasmania,,,,0,0,1838,1,18,sheerness,,England,0,,,,,,,,1838-01-18,,0
+vdl,113,Neptune,neptune,Neptune (1815 ship),1,5 April 1850,England & Bermuda,Her second convict voyage to Tasmania,,,,0,0,1850,4,5,england,Bermuda,England,0,,,,,,,,1850-04-05,,0
+vdl,114,Norfolk (1814 ship),norfolk,Norfolk (1814 ship),0,28 August 1835,Sheerness,,,,,0,0,1835,8,28,sheerness,,England,0,,,,,,,,1835-08-28,,0
+vdl,115,Ocean (1794 ship),ocean,Ocean (1794 ship),0,1804,Port Phillip,,,,,0,0,1804,,,portphillip,,Within Australia,0,,,,,,,,,,0
+vdl,116,Phoenix (1810 ship),phoenix,Phoenix (1810 ship),0,20 May 1822,Portsmouth,,,184,,0,0,1822,5,20,portsmouth,,England,0,1822-01-05,ship article,"===Convict transport to Van Diemen's Land (1822)=== Captain Thomas Weatherhead and surgeon Evan Evans sailed Phoenix from Portsmouth on 5 January 1822. She sailed via Rio de Janeiro, and arrived at Hobart, Van Diemen's Land (Tasmania), on 20 May, after a voyage of 135 days. She transported 184 male ",135,184,,,1822-05-20,,0
+vdl,117,Phoenix (1798 ship),phoenix,Phoenix (1798 ship),0,21 July 1824,England,,,,,0,0,1824,7,21,england,,England,0,,,,,,,,1824-07-21,,0
+vdl,118,Princess Charlotte (1813 Sunderland ship),princess charlotte,Princess Charlotte (1813 Sunderland ship),0,8 November 1824,London,,,,,0,0,1824,11,8,london,,England,0,,,,,,,,1824-11-08,,0
+vdl,119,Prince Regent (1811 Shields ship),prince regent,Prince Regent (1811 Shields ship),0,10 January 1830,Sheerness,,,,,0,0,1830,1,10,sheerness,,England,0,,,,,,,,1830-01-10,,0
+vdl,120,Prince Regent (1811 Rochester ship),prince regent,Prince Regent (1811 Rochester ship),0,2 January 1842,Kingstown (Dublin),,,,,0,0,1842,1,2,dublin,,Ireland,0,,,,,,,,1842-01-02,,0
+vdl,121,Roslin Castle (1819 ship),roslin castle,Roslin Castle (1819 ship),0,16 December 1828,The Downs,,,,,0,0,1828,12,16,downs,,England,0,,,,,,,,1828-12-16,,0
+vdl,122,Royal George (1820 ship),royal george,Royal George (1820 ship),0,18 October 1830,Portsmouth,,,,,0,0,1830,10,18,portsmouth,,England,0,,,,,,,,1830-10-18,,0
+vdl,123,Ruby (1800 ship),ruby,Ruby (1800 ship),0,c.March 1812,Port Jackson,,,,,0,0,1812,3,,sydney,,Within Australia,0,,,,,,,,,,0
+vdl,124,Runnymede (1825 ship),runnymede,Runnymede (1825 ship),0,28 March 1840,London,,,,,0,0,1840,3,28,london,,England,0,,,,,,,,1840-03-28,,0
+vdl,125,Sarah (1819 ship),sarah,Sarah (1819 ship),0,29 March 1837,London,,,,,0,0,1837,3,29,london,,England,0,,,,,,,,1837-03-29,,0
+vdl,126,Sir Charles Forbes,sir charles forbes,Sir Charles Forbes (1824 ship),0,18 April 1825,Portsmouth,First convict voyage to Tasmania,,,,0,0,1825,4,18,portsmouth,,England,0,,,,,,,,1825-04-18,,0
+vdl,127,Sir Charles Forbes,sir charles forbes,Sir Charles Forbes (1824 ship),1,3 January 1827,London,Second convict voyage to Tasmania,,,,0,0,1827,1,3,london,,England,0,,,,,,,,1827-01-03,,0
+vdl,128,Sir Charles Forbes,sir charles forbes,Sir Charles Forbes (1824 ship),1,27 July 1830,Plymouth,Third convict voyage to Tasmania,,,,0,0,1830,7,27,plymouth,,England,0,,,,,,,,1830-07-27,,0
+vdl,129,Sir Godfrey Webster (1799 ship),sir godfrey webster,Sir Godfrey Webster (1799 ship),0,30 December 1823,London,,,,,0,0,1823,12,30,london,,England,0,,,,,,,,1823-12-30,,0
+vdl,130,Sir Robert Seppings (ship),sir robert seppings,Sir Robert Seppings (ship),0,8 July 1852,Woolwich,220 female convicts (1 died at sea),,,,0,0,1852,7,8,woolwich,,England,0,,,,,,,,1852-07-08,table notes,1
+vdl,131,Somersetshire (1810 ship),somersetshire,Somersetshire (1810 ship),0,30 May 1842,Plymouth,,,,,0,0,1842,5,30,plymouth,,England,0,,,,,,,,1842-05-30,,0
+vdl,132,Stakesby (1814 ship),stakesby,Stakesby (1814 ship),0,4 September 1833,Spithead,,,,,0,0,1833,9,4,spithead,,England,0,,,,,,,,1833-09-04,,0
+vdl,133,Surry (1811 ship),surry,Surry (1811 ship),0,14 December 1829,London,Her first convict voyage to Van Diemen's Land,,,,0,0,1829,12,14,london,,England,0,,,,,,,,1829-12-14,,0
+vdl,134,Surrey,surrey,,0,17 May 1836,Cork,Her second convict voyage to Van Diemen's Land,,,,0,0,1836,5,17,cork,,Ireland,0,,,,,,,,1836-05-17,,0
+vdl,135,Surrey,surrey,,0,11 August 1842,The Downs,Her third convict voyage to Van Diemen's Land,,,,0,0,1842,8,11,downs,,England,0,,,,,,,,1842-08-11,,0
+vdl,136,Susan (1813 ship),susan,Susan (1813 ship),0,21 November 1837,London,Her first convict voyage to Van Diemen's Land,,,,0,0,1837,11,21,london,,England,0,,,,,,,,1837-11-21,,0
+vdl,137,Susan,susan,Susan (1813 ship),1,25 July 1842,Plymouth,Her second convict voyage to Van Diemen's Land,,,,0,0,1842,7,25,plymouth,,England,0,,,,,,,,1842-07-25,,0
+vdl,138,Thames (1818 ship),thames,Thames (1818 ship),0,1 November 1829,London,,,,,0,0,1829,11,1,london,,England,0,,,,,,,,1829-11-01,,0
+vdl,139,HMS Tortoise (1807),tortoise,Sir Edward Hughes (1784 EIC ship),0,19 February 1842,Plymouth,,,,,0,0,1842,2,19,plymouth,,England,0,,,,,,,,1842-02-19,,0
+vdl,140,Waterloo (1815 ship),waterloo,Waterloo (1815 ship),0,20 November 1834,Portsmouth,,,,,0,0,1834,11,20,portsmouth,,England,0,,,,,,,,1834-11-20,,0
+vdl,141,Westmoreland (1832 ship),westmoreland,Westmoreland (1832 ship),0,3 December 1836,Woolwich,,,,,0,0,1836,12,3,woolwich,,England,0,,,,,,,,1836-12-03,,0
+vdl,142,William Miles (1808 ship),william miles,William Miles (1808 ship),0,29 July 1828,The Downs,,,,,0,0,1828,7,29,downs,,England,0,,,,,,,,1828-07-29,,0
+vdl,143,Woodford (1819 ship),woodford,Woodford (1819 ship),0,22 November 1826,London,Her first convict voyage to Van Diemen's Land,,,,0,0,1826,11,22,london,,England,0,,,,,,,,1826-11-22,,0
+vdl,144,Woodford,woodford,Woodford (1819 ship),1,25 August 1828,Portsmouth,Her second convict voyage to Van Diemen's Land,,,,0,0,1828,8,25,portsmouth,,England,0,,,,,,,,1828-08-25,,0
+vdl,145,Woodman (1808 ship),woodman,Woodman (1808 ship),0,29 April 1826,Sheerness,,,,,0,0,1826,4,29,sheerness,,England,0,,,,,,,,1826-04-29,,0
+vdl,146,York (1819 ship),york,York (1819 ship),0,28 August 1829,London,Her first convict voyage to Van Diemen's Land,,,,0,0,1829,8,28,london,,England,0,,,,,,,,1829-08-28,,0
+vdl,147,York,york,York (1819 ship),1,29 December 1832,Plymouth,Her second convict voyage to Van Diemen's Land,,,,0,0,1832,12,29,plymouth,,England,0,,,,,,,,1832-12-29,,0
+nfk,1,HMS Supply,supply,HMS Supply (1759),0,6 March 1788,Sydney,,David Blackburn,15,15,1,0,1788,3,6,sydney,,Within Australia,0,,,,,,,,1788-03-06,,0
+nfk,2,Golden Grove,golden grove,Golden Grove (1782 ship),0,October 1788,Sydney,,William Sharp,32,32,1,0,1788,10,,sydney,,Within Australia,0,,,,,,,,,,0
+nfk,3,HMS Supply,supply,,0,2 March 1789,Sydney,,David Blackburn,27,27,1,0,1789,3,2,sydney,,Within Australia,0,,,,,,,,1789-03-02,,0
+nfk,4,HMS Supply,supply,,0,3 December 1789,Sydney,,David Blackburn,14,14,1,0,1789,12,3,sydney,,Within Australia,0,,,,,,,,1789-12-03,,0
+nfk,5,HMS Supply,supply,,0,29 January 1790,Sydney,,David Blackburn,24,24,1,0,1790,1,29,sydney,,Within Australia,0,,,,,,,,1790-01-29,,0
+nfk,6,HMS Sirius,sirius,HMS Sirius (1786),0,13 March 1790,Sydney,,John Hunter,161,161,1,0,1790,3,13,sydney,,Within Australia,0,,,,,,,,1790-03-13,,0
+nfk,7,HMS Supply,supply,,0,13 March 1790,Sydney,,David Blackburn,,,1,0,1790,3,13,sydney,,Within Australia,0,,,,,,,,1790-03-13,,0
+nfk,8,Surprize,surprize,Surprize (1780 ship),0,7 August 1790,Sydney,,Nicholas Anstis,,,1,0,1790,8,7,sydney,,Within Australia,0,,,,,,,,1790-08-07,,0
+nfk,9,HMS Supply,supply,,0,15 April 1791,Sydney,,David Blackburn,4,4,1,0,1791,4,15,sydney,,Within Australia,0,,,,,,,,1791-04-15,,0
+nfk,10,Mary Ann,mary ann,Mary Ann (1772 ship),0,15 August 1791,Sydney,,Mark Munroe,134,134,1,0,1791,8,15,sydney,,Within Australia,0,,,,,,,,1791-08-15,,0
+nfk,11,Salamander,salamander,HMS Shark (1776),0,16 September 1791,Sydney,,John Nichol,160,160,1,0,1791,9,16,sydney,,Within Australia,0,,,,,,,,1791-09-16,,0
+nfk,12,Atlantic,atlantic,Atlantic (1783 ship),0,2 November 1791,Sydney,,Archibald Armstrong,3,3,1,0,1791,11,2,sydney,,Within Australia,0,,,,,,,,1791-11-02,,0
+nfk,13,Queen,queen,Queen (1773 ship),0,2 November 1791,Sydney,,Richard Owen,,,1,0,1791,11,2,sydney,,Within Australia,0,,,,,,,,1791-11-02,,0
+nfk,14,HMS Reliance,reliance,HMS Reliance (1793),0,13 February 1796,Sydney,,Commander Henry Waterhouse,24,24,1,0,1796,2,13,sydney,,Within Australia,0,,,,,,,,1796-02-13,,0
+nfk,15,HMS Supply,supply,HMS Supply (1793),0,April 1796,Sydney,,Lieutenant William Kent,,,1,0,1796,4,,sydney,,Within Australia,0,,,,,,,,,,0
+nfk,16,HMS Reliance,reliance,,0,November 1799,Sydney,,Commander Henry Waterhouse,5,5,1,0,1799,11,,sydney,,Within Australia,0,,,,,,,,,,0
+nfk,17,HMS Porpoise,porpoise,HMS Porpoise (1799),0,7 Jan 1801,Sydney,,Lieutenant William Scott,,,1,0,1801,1,7,sydney,,Within Australia,0,,,,,,,,1801-01-07,,0
+nfk,18,HMS Buffalo,buffalo,HMS Buffalo (1797),0,9 May 1803,Sydney,,Lieutenant William Kent,9,9,1,0,1803,5,9,sydney,,Within Australia,0,,,,,,,,1803-05-09,,0
+nfk,19,HMS Lady Nelson,lady nelson,HMS Lady Nelson (1798),0,24 June 1804,Sydney,,Lieutenant James Symons,11,11,1,0,1804,6,24,sydney,,Within Australia,0,,,,,,,,1804-06-24,,0
+nfk,20,Nautilus,nautilus,,0,1840,Dublin,landed 178 + 21 Sydney,H.F. Alloway,200,178,2,0,1840,,,dublin,,Ireland,0,,,,,,,,,,0
+nfk,21,Augusta Jessie,augusta jessie,,0,27 March 1840,Dublin,landed 129 + 34 Sydney,J.S. Sparke,161,129,2,0,1840,3,27,dublin,,Ireland,0,,,,,,,,1840-03-27,,0
+nfk,22,Mangles,mangles,Mangles (1803 ship),0,18 May 1840,Plymouth,landed 236 + 53 Sydney,William Carr,290,236,2,0,1840,5,18,plymouth,,England,0,,,,,,,,1840-05-18,,0
+nfk,23,Maitland,maitland,Maitland (1811 ship),0,7 February 1844,Portsmouth,,George (or John) Thompson,199,199,2,0,1844,2,7,portsmouth,,England,0,,,,,,,,1844-02-07,,0
+nfk,24,Blundell,blundell,,0,5 July 1844,Woolwich,,Robert L. Hunter,210,210,2,0,1844,7,5,woolwich,,England,0,,,,,,,,1844-07-05,,0
+nfk,25,Agincourt,agincourt,Agincourt (1844 ship),0,9 November 1844,Woolwich,,Henry Neatby,224,220,2,0,1844,11,9,woolwich,,England,0,,,,,,,,1844-11-09,,0
+nfk,26,Hydrabad,hydrabad,,0,19 February 1845,The Downs,,Alexander Robertson,260,259,2,0,1845,2,19,downs,,England,0,,,,,,,,1845-02-19,,0
+nfk,27,David Malcolm,david malcolm,,0,25 August 1845,The Downs,,James Cable,220,220,2,0,1845,8,25,downs,,England,0,,,,,,,,1845-08-25,,0
+nfk,28,Hyderabad,hyderabad,,0,2 September 1845,,,T.A. Castle,250,250,2,0,1845,9,2,,,Not given,0,,,,,,,,1845-09-02,,0
+nfk,29,Mayda,mayda,,0,8 January 1846,London,,May,199,195,2,0,1846,1,8,london,,England,0,,,,,,,,1846-01-08,,0
+nfk,30,China,china,,0,16 May 1846,Woolwich,,Livesay,200,199,2,0,1846,5,16,woolwich,,England,0,,,,,,,,1846-05-16,,0
+nfk,31,John Calvin,john calvin,,0,21 September 1846,Woolwich,,Hunter,200,199,2,0,1846,9,21,woolwich,,England,0,,,,,,,,1846-09-21,,0
+nfk,32,Tory,tory,,0,1847,Dublin,,Lukey (or John) Young,200,195,2,0,1847,,,dublin,,Ireland,0,,,,,,,,,,0
+nfk,33,Eliza,eliza,,0,30 April 1850,London,landed 56 + 4 Hobart,Daniel,60,56,2,0,1850,4,30,london,,England,0,,,,,,,,1850-04-30,,0
+wa,1,Simon Taylor,simon taylor,Simon Taylor (ship),0,August 1842,England,"Parkhurst apprentices (juvenile prisoners, pardoned on arrival and apprenticed)",,,18,0,1,1842,8,,england,,England,0,,,,,,,,,,0
+wa,2,Shepherd,shepherd,,0,October 1843,England,"Parkhurst apprentices (juvenile prisoners, pardoned on arrival and apprenticed)",,,28,0,1,1843,10,,england,,England,0,,,,,,,,,,0
+wa,3,Halifax,halifax,,0,December 1844,England,"Parkhurst apprentices (juvenile prisoners, pardoned on arrival and apprenticed)",,,18,0,1,1844,12,,england,,England,0,,,,,,,,,,0
+wa,4,Cumberland,cumberland,Cumberland (1826 ship),0,January 1846,England,"Parkhurst apprentices (juvenile prisoners, pardoned on arrival and apprenticed)",,,16,0,1,1846,1,,england,,England,0,,,,,,,,,,0
+wa,5,Orient,orient,,0,March 1848,England,"Parkhurst apprentices (juvenile prisoners, pardoned on arrival and apprenticed)",,,51,0,1,1848,3,,england,,England,0,,,,,,,,,,0
+wa,6,Ameer,ameer,,0,February 1849,England,"Parkhurst apprentices (juvenile prisoners, pardoned on arrival and apprenticed)",,,50,0,1,1849,2,,england,,England,0,,,,,,,,,,0
+wa,7,Mary,mary,,0,October 1849,England,"Parkhurst apprentices (juvenile prisoners, pardoned on arrival and apprenticed)",,,53,0,1,1849,10,,england,,England,0,,,,,,,,,,0
+wa,8,Scindian,scindian,Scindian,0,1 June 1850,Portsmouth,,,75,75,0,0,1850,6,1,portsmouth,,England,0,1850-03-04,ship article,"Scindian left Portsmouth on 4 March 1850 under the command of Captain James Cammell and surgeon-superintendent John Gibson, and docked at Fremantle on 1 June 1850 after a voyage of 89 days. The vessel carried 275 people to Western Australia including 75 male convicts and 163 military pensioners. All",89,75,,,1850-06-01,,0
+wa,9,Hashemy,hashemy,Hashemy (1817 ship),0,25 October 1850,Portland,,,,100,0,0,1850,10,25,portland,,England,0,,,,,,,,1850-10-25,,0
+wa,10,Mermaid,mermaid,,0,13 May 1851,Portsmouth,,,,208,0,0,1851,5,13,portsmouth,,England,0,,,,,,,,1851-05-13,,0
+wa,11,Pyrenees,pyrenees,,0,28 June 1851,Torbay,,,,293,0,0,1851,6,28,torbay,,England,0,,,,,,,,1851-06-28,,0
+wa,12,Minden,minden,Minden (ship),0,14 October 1851,Plymouth,,,,301,0,0,1851,10,14,plymouth,,England,0,,,,,,,,1851-10-14,,0
+wa,13,Marion,marion,,0,2 November 1851,Portland,,,,279,0,0,1851,11,2,portland,,England,0,,,,,,,,1851-11-02,,0
+wa,14,William Jardine,william jardine,,0,1 August 1852,Plymouth,,,,212,0,0,1852,8,1,plymouth,,England,0,,,,,,,,1852-08-01,,0
+wa,15,Dudbrook,dudbrook,,0,7 February 1853,Plymouth,,,,228,0,0,1853,2,7,plymouth,,England,0,,,,,,,,1853-02-07,,0
+wa,16,Pyrenees,pyrenees,,0,30 April 1853,Torbay,,,,293,0,0,1853,4,30,torbay,,England,0,,,,,,,,1853-04-30,,0
+wa,17,Robert Small,robert small,,0,19 August 1853,London,,,,303,0,0,1853,8,19,london,,England,0,,,,,,,,1853-08-19,,0
+wa,18,Phoebe Dunbar,phoebe dunbar,,0,30 August 1853,Kingstown,,,,285,0,0,1853,8,30,dublin,,Ireland,0,,,,,,,,1853-08-30,,0
+wa,19,General Godwin,general godwin,General Godwin,0,28 March 1854,Calcutta,,,,15,0,0,1854,3,28,calcutta,,India and the Indian Ocean,0,,,,,,,,1854-03-28,,0
+wa,20,Sea Park,sea park,,0,5 April 1854,London,,,,304,0,0,1854,4,5,london,,England,0,,,,,,,,1854-04-05,,0
+wa,21,Ramillies,ramillies,,0,7 August 1854,London,,,,277,0,0,1854,8,7,london,,England,0,,,,,,,,1854-08-07,,0
+wa,22,Guide,guide,Guide (ship),0,9 January 1855,Calcutta,,,,6,0,0,1855,1,9,calcutta,,India and the Indian Ocean,0,,,,,,,,1855-01-09,,0
+wa,23,Stag,stag,,0,23 May 1855,London,,,,224,0,0,1855,5,23,london,,England,0,,,,,,,,1855-05-23,,0
+wa,24,Adelaide,adelaide,,0,18 July 1855,Portland,,,,259,0,0,1855,7,18,portland,,England,0,,,,,,,,1855-07-18,,0
+wa,25,William Hammond,william hammond,William Hammond (ship),0,29 March 1856,Plymouth,,,,249,0,0,1856,3,29,plymouth,,England,0,,,,,,,,1856-03-29,,0
+wa,26,Runnymede,runnymede,Runnymede (1854 ship),0,7 September 1856,Plymouth,,,,248,0,0,1856,9,7,plymouth,,England,0,,,,,,,,1856-09-07,,0
+wa,27,Clara,clara,,0,3 July 1857,London,,,,262,0,0,1857,7,3,london,,England,0,,,,,,,,1857-07-03,,0
+wa,28,City of Palaces,city of palaces,City of Palaces (ship),0,8 August 1857,Singapore,,,,4,0,0,1857,8,8,singapore,,India and the Indian Ocean,0,,,,,,,,1857-08-08,,0
+wa,29,Nile,nile,Nile (ship),0,1 January 1858,Plymouth,,,,270,0,0,1858,1,1,plymouth,,England,0,,,,,,,,1858-01-01,,0
+wa,30,Caducius,caducius,,0,5 February 1858,Bombay,,,,1,0,0,1858,2,5,bombay,,India and the Indian Ocean,0,,,,,,,,1858-02-05,,0
+wa,31,Lord Raglan,lord raglan,,0,1 June 1858,Plymouth,,,,268,0,0,1858,6,1,plymouth,,England,0,,,,,,,,1858-06-01,,0
+wa,32,Albuera,albuera,Albuera (1854 ship),0,28 October 1858,Calcutta,,,,11,0,0,1858,10,28,calcutta,,India and the Indian Ocean,0,,,,,,,,1858-10-28,,0
+wa,33,Edwin Fox,edwin fox,Edwin Fox (ship),0,20 November 1858,Plymouth,,,,280,0,0,1858,11,20,plymouth,,England,0,,,,,,,,1858-11-20,,0
+wa,34,Sultana,sultana,,0,19 August 1859,Plymouth,,,,224,0,0,1859,8,19,plymouth,,England,0,,,,,,,,1859-08-19,,0
+wa,35,Frances,frances,Frances (1859 convict ship),0,19 November 1859,Madras,,,,1,0,0,1859,11,19,madras,,India and the Indian Ocean,0,,,,,,,,1859-11-19,,0
+wa,36,Palmerston,palmerston,,0,11 February 1861,Portland,,,,293,0,0,1861,2,11,portland,,England,0,,,,,,,,1861-02-11,,0
+wa,37,Lincelles,lincelles,,0,28 January 1862,Portland,,,,304,0,0,1862,1,28,portland,,England,0,,,,,,,,1862-01-28,,0
+wa,38,Norwood,norwood,,0,9 June 1862,Portland,,,,290,0,0,1862,6,9,portland,,England,0,,,,,,,,1862-06-09,,0
+wa,39,York,york,York (ship),0,31 December 1862,Portland,,,,299,0,0,1862,12,31,portland,,England,0,,,,,,,,1862-12-31,,0
+wa,40,Merchantman,merchantman,,0,14 February 1863,London,,,,191,0,0,1863,2,14,london,,England,0,,,,,,,,1863-02-14,,0
+wa,41,Clyde,clyde,,0,29 May 1863,Portland,,,,320,0,0,1863,5,29,portland,,England,0,,,,,,,,1863-05-29,,0
+wa,42,Lord Dalhousie,lord dalhousie,,0,28 December 1863,Portland,,,,270,0,0,1863,12,28,portland,,England,0,,,,,,,,1863-12-28,,0
+wa,43,Clara,clara,,0,13 April 1864,London,,,,301,0,0,1864,4,13,london,,England,0,,,,,,,,1864-04-13,,0
+wa,44,Merchantman,merchantman,,0,12 September 1864,Portland,,,,257,0,0,1864,9,12,portland,,England,0,,,,,,,,1864-09-12,,0
+wa,45,Racehorse,racehorse,,0,10 August 1865,Portland,,,,278,0,0,1865,8,10,portland,,England,0,,,,,,,,1865-08-10,,0
+wa,46,Vimeira,vimeira,,0,22 December 1865,Portland,,,,278,0,0,1865,12,22,portland,,England,0,,,,,,,,1865-12-22,,0
+wa,47,Belgravia,belgravia,,0,4 July 1866,Portland,,,,276,0,0,1866,7,4,portland,,England,0,,,,,,,,1866-07-04,,0
+wa,48,Corona,corona,,0,22 December 1866,Portland,,,,305,0,0,1866,12,22,portland,,England,0,,,,,,,,1866-12-22,,0
+wa,49,Norwood,norwood,,0,13 July 1867,Portland,,,,253,0,0,1867,7,13,portland,,England,0,,,,,,,,1867-07-13,,0
+wa,50,Hougoumont,hougoumont,Hougoumont (ship),0,9 January 1868,London,,,280,279,0,0,1868,1,9,london,,England,0,1867-10-12,ship article,"It departed Portsmouth on 12 October 1867 with 280 convicts and 108 passengers on board. Most of the passengers were pensioner guards and their families. The ship's captain was William Cozens and the surgeon-superintendent was Dr William Smith. After a largely uneventful voyage of 89 days, during wh",90,,,1,1868-01-09,,0
+nsw,0,Prince of Wales,prince of wales,,0,26 January 1788,Portsmouth,Part of First Fleet (not in the New South Wales list; added from the First Fleet article),,,49,0,0,1788,1,26,portsmouth,,England,1,13 May 1787,fleet table,,252,2,47,,1788-01-26,fleet table or ship article,1

@@ -1,0 +1,39 @@
+key,name,lat,lon,region,voyages_counted
+portsmouth,Portsmouth,50.797,-1.108,England,100
+spithead,Spithead,50.76,-1.09,England,30
+plymouth,Plymouth,50.36,-4.14,England,36
+devonport,Devonport,50.37,-4.18,England,1
+torbay,Torbay,50.45,-3.52,England,5
+dartmouth,Dartmouth,50.35,-3.57,England,1
+falmouth,Falmouth,50.15,-5.06,England,7
+portland,Portland,50.57,-2.44,England,16
+cowes,Cowes,50.76,-1.3,England,1
+landsend,Land's End,50.06,-5.72,England,1
+sheerness,Sheerness,51.443,0.762,England,45
+woolwich,Woolwich,51.492,0.068,England,21
+deptford,Deptford,51.483,-0.026,England,1
+gravesend,Gravesend,51.444,0.369,England,3
+london,London,51.505,-0.075,England,92
+downs,The Downs,51.23,1.46,England,41
+yarmouth,Yarmouth Roads,52.6,1.76,England,1
+england,England (port not given),50.9,-1.4,England,62
+cork,Cork (Cove of Cork),51.85,-8.295,Ireland,101
+dublin,Dublin (Kingstown),53.294,-6.134,Ireland,51
+waterford,Waterford,52.26,-7.11,Ireland,1
+ireland,Ireland (port not given),51.9,-8.35,Ireland,10
+bermuda,Bermuda,32.325,-64.835,Other colonies,0
+quebec,Quebec,46.81,-71.2,Other colonies,1
+cape,Cape of Good Hope,-33.92,18.42,Other colonies,1
+calcutta,Calcutta,22.57,88.35,India and the Indian Ocean,42
+madras,Madras,13.09,80.29,India and the Indian Ocean,9
+bombay,Bombay,18.94,72.84,India and the Indian Ocean,4
+india,India (port not given),21.0,88.0,India and the Indian Ocean,6
+ceylon,Ceylon,6.93,79.84,India and the Indian Ocean,3
+mauritius,Mauritius (Port Louis),-20.16,57.5,India and the Indian Ocean,33
+singapore,Singapore,1.29,103.85,India and the Indian Ocean,4
+sydney,Sydney (Port Jackson),-33.857,151.21,Within Australia,0
+hobart,Hobart,-42.882,147.331,Within Australia,0
+norfolk,Norfolk Island,-29.056,167.959,Within Australia,0
+adelaide,Adelaide,-34.85,138.5,Within Australia,0
+swan,Swan River (Fremantle),-32.055,115.745,Within Australia,0
+portphillip,Port Phillip,-37.84,144.95,Within Australia,0

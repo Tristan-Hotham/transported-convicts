@@ -1,0 +1,751 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Transported</title>
+<meta name="description" content="An interactive map of the {{source.n_main|int}} convict voyages to Australia in Wikipedia's ship lists, 1788 to 1868: where the ships sailed from, how long they took, who died, and how Britain's penal transportation compares with France's, Russia's and British India's.">
+<meta property="og:title" content="Transported: the convict ships to Australia, mapped">
+<meta property="og:description" content="{{source.n_main|int}} convict voyages from Britain, Ireland and India to Australia, 1788 to 1868. The busiest year was {{peak.year|raw}}, with {{peak.n|int}} arrivals. The Second Fleet lost a quarter of its convicts at sea.">
+<meta property="og:image" content="https://maps.tristanhotham.com/transported-convicts/header.png">
+<meta property="og:url" content="https://maps.tristanhotham.com/transported-convicts/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<style>
+/* Ship's log: rag paper, ink, and four colonies: harbour blue, Van Diemen's red, Norfolk pine green, Swan River gold. */
+:root{
+  --bg:#F6F3EC; --panel:#ECE7DC; --fg:#1E2126; --muted:#646A70; --rule:#DED7C9; --card:#FFFDF8; --border:#CBC3B4;
+  --nsw:#2F5FA7; --vdl:#C2412D; --nfk:#2E8A6E; --wa:#D9961A; --world:#6E4C9A; --ink:#1F2F4D; --land:#E4DED1; --sea:#EEF1F1;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#13161B; --panel:#1C2029; --fg:#ECEEF1; --muted:#A3A9B1; --rule:#30353F; --card:#181C23; --border:#454C58;
+  --nsw:#7DA7E6; --vdl:#FF7A66; --nfk:#5CC7A2; --wa:#F2B54E; --world:#B79BE0; --ink:#A9BBDD; --land:#262B34; --sea:#15191F; color-scheme:dark; --icofilter:invert(1)}}
+:root[data-theme="dark"]{
+  --bg:#13161B; --panel:#1C2029; --fg:#ECEEF1; --muted:#A3A9B1; --rule:#30353F; --card:#181C23; --border:#454C58;
+  --nsw:#7DA7E6; --vdl:#FF7A66; --nfk:#5CC7A2; --wa:#F2B54E; --world:#B79BE0; --ink:#A9BBDD; --land:#262B34; --sea:#15191F; color-scheme:dark; --icofilter:invert(1)}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 18px/1.62 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
+.wrap{max-width:700px;margin:0 auto;padding-block:28px 64px}
+.wrap .bleed{width:min(1180px,calc(100vw - 32px));margin-left:calc((100% - min(1180px,100vw - 32px))/2);margin-right:0}
+a{color:inherit;text-decoration-color:var(--vdl);text-underline-offset:3px}
+.kicker{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.kicker b{background:var(--ink);color:#fff;padding:5px 8px;font-weight:500}
+:root[data-theme="dark"] .kicker b{color:#13161B}
+header.hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 24px;align-items:end;border-bottom:6px double var(--fg);padding-bottom:22px;margin-top:18px}
+h1{font:900 clamp(44px,11vw,84px)/.9 var(--display);letter-spacing:-.02em;margin:0;text-wrap:balance}
+h1 span{color:var(--vdl)}
+.mark{width:clamp(78px,16vw,128px);height:auto;display:block;color:var(--fg)}
+.dek{grid-column:1/-1;font-size:21px;line-height:1.42;margin:8px 0 0;max-width:56ch}
+.byline{font:400 13px/1.4 var(--mono);color:var(--muted);margin-top:14px}
+h2{font:800 34px/1.04 var(--display);letter-spacing:-.01em;margin:54px 0 10px;text-wrap:balance}
+h2 .n{font:500 13px/1 var(--mono);color:var(--vdl);display:block;letter-spacing:.1em;margin-bottom:10px}
+h3{font:600 20px/1.25 var(--display);margin:28px 0 6px}
+p{margin:0 0 16px}
+.lede::first-letter{font:900 72px/.8 var(--display);float:left;margin:6px 10px 0 0;color:var(--vdl)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin:26px 0 8px}
+.stats div{background:var(--card);padding:14px 12px}
+.stats b{display:block;font:900 clamp(22px,4.4vw,32px)/1 var(--display);letter-spacing:-.01em}
+.stats b.a{color:var(--nsw)} .stats b.b{color:var(--vdl)} .stats b.c{color:var(--wa)} .stats b.d{color:var(--ink)}
+.stats span{font:400 12px/1.35 var(--mono);color:var(--muted);display:block;margin-top:6px}
+@media (max-width:600px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.figure{margin:26px 0 30px}
+.fig-h{font:600 19px/1.25 var(--display);margin:0 0 4px}
+.fig-sub{font:400 13px/1.45 var(--mono);color:var(--muted);margin:0 0 12px}
+.src{font:400 12px/1.45 var(--mono);color:var(--muted);margin-top:10px}
+.chart{width:100%;position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font-family:var(--mono);fill:var(--fg)}
+.lab{font-size:12px}.lab.m{fill:var(--muted)}.lab.b{font-weight:500}.lab.s{font-size:11px}
+.tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font:400 12px/1.45 var(--mono);padding:8px 10px;border-radius:3px;max-width:300px;z-index:1000;transform:translate(-50%,calc(-100% - 12px));display:none}
+.tip b{font-weight:500}
+.controls{display:flex;gap:8px;align-items:center;margin:0 0 10px;flex-wrap:wrap}
+.scrollrow{display:flex;gap:6px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:thin;padding-bottom:2px;max-width:100%}
+.scrollrow .btn{flex:0 0 auto;white-space:nowrap}
+.ctl-l{font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:2px;flex:0 0 auto;align-self:center}
+.btn{font:500 12px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:8px 10px;cursor:pointer;min-height:36px}
+.btn[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.btn i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px;border:1px solid rgba(0,0,0,.2)}
+.btn:focus-visible,input:focus-visible,summary:focus-visible,select:focus-visible{outline:2px solid var(--vdl);outline-offset:2px}
+.searchbox{position:relative;flex:1 1 260px;min-width:0}
+input[type=search]{font:400 15px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:10px 11px;min-height:40px;width:100%}
+.suggest{position:absolute;left:0;right:0;top:100%;margin:2px 0 0;padding:0;list-style:none;background:var(--card);border:1px solid var(--border);z-index:1001;font:400 13px/1.3 var(--mono);display:none;max-height:340px;overflow:auto}
+.suggest li{padding:8px 10px;cursor:pointer;border-bottom:1px solid var(--rule)}
+.suggest li span{color:var(--muted)}
+.suggest li[aria-selected="true"],.suggest li:hover{background:var(--panel)}
+.timebox{display:grid;grid-template-columns:auto auto minmax(0,1fr) auto;gap:10px;align-items:center;margin:0 0 10px;font:500 13px/1 var(--mono)}
+.timebox .yv{font:900 30px/1 var(--display);min-width:3.2ch;text-align:center;color:var(--vdl)}
+.timebox input[type=range]{width:100%;accent-color:var(--vdl);height:28px}
+.play{width:42px;height:38px;border-radius:3px;border:1px solid var(--fg);background:var(--fg);color:var(--bg);font:600 15px/1 var(--mono);cursor:pointer}
+.mapgrid{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:14px;align-items:start}
+@media (max-width:900px){.mapgrid{grid-template-columns:1fr}}
+.side{background:var(--card);border:1px solid var(--border);padding:12px 12px 10px;font:400 13px/1.45 var(--mono);max-height:640px;overflow:auto}
+@media (max-width:900px){.side{max-height:none}}
+.side h4{font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:14px 0 8px}
+.side h4:first-child{margin-top:2px}
+.side .big{font:800 28px/1.08 var(--display);margin:2px 0 4px}
+.side .sub{color:var(--muted);font-size:12px;margin:0 0 8px}
+.side ol,.side ul{margin:4px 0 8px;padding-left:20px}
+.side li{margin:3px 0}
+.side li small,.side td small{color:var(--muted)}
+.side table{width:100%;border-collapse:collapse;margin:4px 0 6px}
+.side td{padding:4px 4px 4px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+.side td.num{text-align:right;white-space:nowrap}
+.chip{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.back{font:400 12px var(--mono);background:none;border:0;color:var(--muted);padding:0;cursor:pointer;text-decoration:underline;margin-bottom:6px}
+.go{cursor:pointer;text-decoration:underline;text-decoration-color:var(--border);text-underline-offset:3px}
+.lmap{height:620px;border:1px solid var(--border);background:var(--sea);border-radius:2px;position:relative}
+@media (max-width:600px){.lmap{height:min(64vh,470px)}}
+.maplibregl-map{font:400 12px/1.4 var(--mono)}
+.maplibregl-popup-content{background:var(--card);color:var(--fg);font:400 12.5px/1.45 var(--mono);padding:10px 12px;border-radius:3px;box-shadow:0 2px 10px rgba(0,0,0,.2);max-width:300px}
+.maplibregl-popup-content b.t{font:700 16px/1.2 var(--display);display:block;margin-bottom:3px}
+.maplibregl-popup-content small{color:var(--muted)}
+.maplibregl-popup-content ul{margin:4px 0;padding-left:18px}
+.maplibregl-popup-tip{border-top-color:var(--card)!important;border-bottom-color:var(--card)!important}
+.maplibregl-popup-close-button{color:var(--fg);font-size:18px;padding:0 6px}
+.maplibregl-ctrl-attrib{background:color-mix(in srgb,var(--card) 85%,transparent)!important;color:var(--muted)}
+.maplibregl-ctrl-attrib a{color:var(--fg)}
+.maplibregl-ctrl-group{background:var(--card)}
+.maplibregl-ctrl-group button .maplibregl-ctrl-icon{filter:var(--icofilter,none)}
+.lyrWrap{position:absolute;top:10px;left:10px;z-index:3}
+.lyrBtn{background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;font:600 12px/1 var(--mono);padding:9px 10px;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.lyrBtn[aria-expanded="true"]{background:var(--fg);color:var(--bg)}
+.lyrPanel{background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:10px 12px 8px;margin-top:6px;width:262px;box-shadow:0 2px 10px rgba(0,0,0,.15);font:400 12px/1.3 var(--mono);max-height:min(66vh,520px);overflow:auto}
+.lyrPanel[hidden]{display:none}
+.lyrPanel .row{margin:0 0 9px}
+.lyrPanel label{display:flex;gap:6px;align-items:center;cursor:pointer;font-weight:600}
+.lyrPanel input[type=range]{width:100%;accent-color:var(--fg)}
+.lyrPanel .sub{display:flex;gap:6px;align-items:center;color:var(--muted);font-size:11px;margin-top:3px}
+.lyrPanel .sub span{flex:0 0 58px}
+.lyrPanel .hd{font:500 10.5px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:10px 0 7px;border-top:1px solid var(--rule);padding-top:9px}
+.lyrPanel .reset{font:400 11px var(--mono);color:var(--muted);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline}
+.mapnote{position:absolute;left:10px;bottom:10px;z-index:2;background:color-mix(in srgb,var(--card) 92%,transparent);border:1px solid var(--border);border-radius:3px;padding:6px 9px;font:400 12px/1.35 var(--mono);max-width:min(330px,70%);box-shadow:0 1px 4px rgba(0,0,0,.12);pointer-events:none}
+.mapnote:empty{display:none}
+.loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font:400 13px var(--mono);color:var(--muted);z-index:1;text-align:center;padding:20px}
+.fallback{position:absolute;inset:0;width:100%;height:100%}
+.fbnote{position:absolute;left:10px;top:10px;right:10px;font:400 12px/1.4 var(--mono);color:var(--muted);background:color-mix(in srgb,var(--card) 90%,transparent);padding:6px 9px;border:1px solid var(--border);border-radius:3px}
+.ptL{font:500 11px/1.1 var(--mono);color:var(--fg);white-space:nowrap;text-shadow:0 0 3px var(--sea),0 0 3px var(--sea),0 0 3px var(--sea);pointer-events:none}
+.ptL small{color:var(--muted);font-weight:400}
+.ptL.col{font-weight:600;font-size:12px}
+.ptL.w{color:var(--world);font-weight:600}
+[hidden]{display:none!important}
+.legend{display:flex;gap:6px 14px;flex-wrap:wrap;font:400 12px/1.3 var(--mono);color:var(--muted);margin-top:8px;align-items:center}
+.legend span{display:inline-flex;align-items:center}
+.legend i{display:inline-block;width:14px;height:12px;margin-right:6px;border-radius:2px;border:1px solid rgba(0,0,0,.12)}
+.legend i.ln{height:0;border:0;border-top:3px solid;width:18px;border-radius:0}
+.legend i.ln.thin{border-top-width:1px}
+.legend i.dot{border-radius:50%;width:11px;height:11px}
+.legend i.ring{border-radius:50%;width:12px;height:12px;background:transparent!important;border:2px solid}
+.pull{font:600 26px/1.25 var(--display);border-left:6px solid var(--vdl);padding:4px 0 4px 18px;margin:30px 0}
+.note{background:var(--panel);border:1px solid var(--rule);padding:14px 16px;font-size:16px;margin:22px 0}
+.note h3{margin-top:0}
+table.tbl{width:100%;border-collapse:collapse;font:400 13px/1.4 var(--mono)}
+table.tbl th{font:500 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-align:left;padding:6px 6px 6px 0;border-bottom:2px solid var(--fg);white-space:nowrap;position:sticky;top:0;background:var(--card)}
+table.tbl td{padding:6px 6px 6px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.tbl td.r,table.tbl th.r{text-align:right;white-space:nowrap}
+table.tbl tr[data-i]{cursor:pointer}
+table.tbl tr[data-i]:hover td{background:var(--panel)}
+.tablebox{max-height:460px;overflow:auto;border:1px solid var(--border);background:var(--card);padding:0 10px}
+details{margin:14px 0}
+summary{font:500 13px/1.4 var(--mono);cursor:pointer;color:var(--fg);padding:8px 0}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.cta a{font:500 13px/1 var(--mono);text-decoration:none;border:1px solid var(--fg);padding:11px 14px;border-radius:3px}
+.cta a.p{background:var(--vdl);border-color:var(--vdl);color:#fff}
+footer{border-top:6px double var(--fg);margin-top:56px;padding-top:16px;font:400 13px/1.55 var(--mono);color:var(--muted)}
+footer p{margin:0 0 10px}
+.theme{position:fixed;right:12px;bottom:12px;z-index:1002}
+@media print{.theme,.controls{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="kicker"><b>Data study</b><span>History</span><span>Australia and the world, 1717 to 1953</span></div>
+<header class="hero">
+  <h1>Trans<span>ported</span></h1>
+  <svg class="mark" viewBox="0 0 120 120" aria-hidden="true"><g id="heroMark"></g></svg>
+  <p class="dek">Between 1788 and 1868 Britain shipped about {{stated.conv_162|int}} convicts to Australia. Wikipedia's ship lists record {{source.n_main|int}} of their voyages. This is a map of every one of them: where the ships sailed from, when they arrived, how long the passage took and who did not survive it, set against a century and a half of penal transportation around the world.</p>
+</header>
+<div class="byline">Dr Tristan Hotham · Independent researcher · 2026 · Data: English Wikipedia (CC BY-SA 4.0); Natural Earth</div>
+
+<div class="stats">
+  <div><b class="a">{{source.n_main|int}}</b><span>convict voyages from overseas in the lists, {{source.first_year|raw}} to {{source.last_year|raw}}</span></div>
+  <div><b class="b">{{peak.n|int}}</b><span>ships arrived in {{peak.year|raw}}, the busiest year</span></div>
+  <div><b class="c">{{irish.pct|pc}}</b><span>of the voyages from Britain and Ireland sailed from an Irish port</span></div>
+  <div><b class="d">{{deaths.sf_pct|int}}%</b><span>of the Second Fleet's convicts died at sea, 1789 to 1790</span></div>
+</div>
+
+<p class="lede">In May 1787 eleven ships left Portsmouth for the other side of the world, carrying more than {{stated.ff_over|int}} people, over half of them convicts. They reached Botany Bay in January 1788, {{stated.ff_days|int}} days later, and met the Eora people, who, the First Fleet's own article says, "seemed curious but suspicious of the newcomers". For the next eighty years Britain used the Australian colonies as its prison. Men, women and children convicted of crimes from petty theft to rebellion were sentenced to "transportation beyond the seas", put aboard hired merchant ships and sent to New South Wales, Van Diemen's Land (now Tasmania), Norfolk Island and finally Western Australia. The last ship, Hougoumont, reached Fremantle in January 1868.</p>
+<p>Volunteers on Wikipedia have listed those voyages colony by colony. The lists are not complete, and for most ships they give only a name, a port and a date of arrival, but together they hold {{source.rows_total|int}} rows. The map below draws each voyage on the usual sailing route of the time. Press play to watch the traffic build from a handful of ships a year to more than thirty in the 1830s, move from Sydney to Hobart and Norfolk Island in the 1840s, and end on the far side of the continent at the Swan River. These were people, not cargo, and the ships carried them to land that was not empty: the dispossession of Aboriginal people runs underneath the whole story.</p>
+
+<h2><span class="n">01 · The map</span>Every listed convict voyage</h2>
+<div class="bleed" id="atlas">
+<div class="timebox"><button class="play" id="play" aria-label="Play through the years">&#9654;</button><span class="yv" id="yv">1868</span><input type="range" id="yr" min="1787" max="1868" step="1" value="1868" aria-label="Year"><span id="ylab" style="color:var(--muted);font-size:12px">all years to here</span></div>
+<div class="controls">
+  <div class="scrollrow" id="modeRow"><span class="ctl-l">Show</span><button class="btn" data-m="cum" aria-pressed="true">All years to then</button><button class="btn" data-m="year" aria-pressed="false">That year only</button></div>
+</div>
+<div class="controls"><div class="scrollrow" id="colRow"><span class="ctl-l">Colony</span></div></div>
+<div class="controls">
+  <div class="searchbox"><input type="search" id="q" placeholder="Search a ship or a port (Hougoumont, Cork...)" aria-label="Search a ship or a port" autocomplete="off"><ul class="suggest" id="sug" role="listbox"></ul></div>
+</div>
+<div class="controls"><div class="scrollrow" id="focusRow"><span class="ctl-l">Zoom to</span></div></div>
+<div class="mapgrid">
+  <div><div id="map" class="lmap" role="application" aria-label="World map of convict voyages to Australia, coloured by colony"><div class="loading" id="loading">Loading the map...</div></div>
+    <div class="legend" id="legend"></div></div>
+  <div class="side" id="side" aria-live="polite"></div>
+</div>
+<p class="src">Lines: each listed voyage from overseas, coloured by the colony it arrived in, drawn on a stylised sailing route (via the South Atlantic and the Cape of Good Hope, or across the Indian Ocean). The tables give only the departure port and the colony, not the track. Thicker lines: voyages for which a table or ship article gives the number of convicts (mostly Western Australia, the 1840s ships to Norfolk Island and the first three fleets). Circles at the ports: voyages that sailed from there. Purple rings (Map layers): other places of penal transportation, from Wikipedia's articles. Source: English Wikipedia's lists of convict ships to New South Wales, Tasmania, Norfolk Island and Western Australia (CC BY-SA 4.0). Land: Natural Earth.</p>
+</div>
+
+<h2><span class="n">02 · Eighty years</span>From the First Fleet to the Hougoumont</h2>
+<p>The lists start slowly. The First Fleet's convict transports arrived in January 1788; the Second Fleet in 1790; the Third in 1791. Through the 1790s and 1800s only {{peak.n_1790s|int}} and {{peak.n_1800s|int}} voyages a decade arrived from overseas, while Britain was at war with France. The flood came after Waterloo. Between 1815 and 1840 the lists hold {{peak.n_1815_1840|int}} arrivals, {{peak.pct_1815_1840|int}}% of the whole, peaking at {{peak.n|int}} in {{peak.year|raw}}, and the 1830s alone saw {{peak.n_1830s|int}}.</p>
+<div class="figure"><p class="fig-h">Convict ships arriving from overseas, by year and colony</p><p class="fig-sub">Voyages in Wikipedia's lists with a departure place outside Australia, by year of arrival. Transfers between Australian ports, the Parkhurst boys' ships and voyages listed twice are left out. Hover or tap a year.</p><div class="chart" id="yearChart"></div><div class="legend" id="yearLegend"></div></div>
+<p>Then the traffic moved. New South Wales stopped taking convicts in 1840 and the ships turned to Van Diemen's Land and, for a few years, straight to Norfolk Island. From 1841 to 1849 the lists hold {{peak.vdl_4149|int}} arrivals in Van Diemen's Land, {{peak.nfk_4149|int}} at Norfolk Island and only {{peak.nsw_4149|int}} in New South Wales. The last listed ship to New South Wales was {{col.nsw.last_ship|raw}}, on {{col.nsw.last_date|raw}}; transportation there was abolished on 1 October 1850. Van Diemen's Land's list ends with {{col.vdl.last_ship|raw}} on {{col.vdl.last_date|raw}}, although its own article says the last ship, St Vincent, arrived on 26 May 1853. Western Australia, which asked for convicts to build its colony, received {{col.wa.n|int}} ships between {{col.wa.first|raw}} and {{col.wa.last|raw}}.</p>
+<div class="figure"><p class="fig-h">When each colony took convicts</p><p class="fig-sub">First and last listed arrival from overseas, and the number of voyages. Click a colony to show it alone on the map.</p><div class="tablebox" style="max-height:none"><table class="tbl" id="colTable"></table></div></div>
+
+<h2><span class="n">03 · How many people</span>About {{stated.conv_162|int}}, and why the lists can't count them</h2>
+<p>Wikipedia's article on convicts in Australia gives the totals: about {{stated.conv_162|int}} convicts from Great Britain and Ireland between 1788 and 1868, or "about {{stated.conv_164|int}} ... onboard {{stated.ships_806|int}} ships". The lists hold {{cover.n_main|int}} voyages from overseas, {{cover.n_main_pct_806|int}}% of that {{stated.ships_806|int}}, so most of the ships are there. The people mostly are not. For New South Wales and Tasmania the lists give no numbers of convicts at all, only names, ports and dates. Numbers come from the Western Australia list, the Norfolk Island list, the tables of the first three fleets and a few ship articles: {{cover.n_conv|int}} voyages, {{cover.n_conv_pct|int}}% of the total, carrying {{cover.sum_conv|int}} convicts between them.</p>
+<div class="figure"><p class="fig-h">How much of each colony's traffic has a head count</p><p class="fig-sub">Listed voyages from overseas, split into those for which a table or ship article gives the number of convicts and those for which it does not.</p><div class="chart" id="coverChart"></div><div class="legend" id="coverLegend"></div></div>
+<p>Those voyages carried {{cover.avg_known|int}} convicts each on average, the same as the {{cover.avg_stated|int}} implied by {{stated.conv_164|int}} people on {{stated.ships_806|int}} ships. If every listed voyage carried that average, the lists would cover about {{cover.implied_if_avg|int}} people. The one list that is complete is Western Australia's: its {{wa.n|int}} voyages add up to {{wa.sum|int}} convicts, against the {{stated.wa_668|int}} and {{stated.wa_721|int}} given in two other Wikipedia articles.</p>
+
+<h2><span class="n">04 · The passage</span>From {{stated.ff_days|int}} days to {{days.fast.days|int}}</h2>
+<p>The First Fleet took {{stated.ff_days|int}} days. The voyage got much quicker. For {{days.n|int}} voyages the fleet tables or the ships' own Wikipedia articles give both a departure and an arrival date. The First Fleet anchored at Tenerife and spent a month at Rio de Janeiro on the way. The first three fleets took a median of {{days.eras.0.median|int}} days; ships of the 1820s and 1830s, {{days.eras.2.median|int}}. The slowest was Lady Juliana of the Second Fleet, whose voyage with {{women.lady_juliana|int}} women took {{days.slow.days|int}} days. The fastest was Scindian, the first convict ship to Western Australia, in {{days.fast.days|int}} days in {{days.fast.y|raw}}; Hougoumont, the last, took {{days.hougoumont|int}}.</p>
+<div class="figure"><p class="fig-h">How long the voyage took</p><p class="fig-sub">Days from departure to arrival, for the {{days.n|int}} voyages where both dates are given. Squares: the first three fleets (their articles' tables). Circles: dates in the ship's own article. Lines: median for each period. Hover a point.</p><div class="chart" id="daysChart"></div><div class="legend" id="daysLegend"></div></div>
+<p>Mangles, which made more convict voyages than any other ship in the lists, is typical of the later years. Her article dates {{days.mangles_n|int}} of her {{ships.top.0.voyages|int}} voyages, with a median of {{days.mangles_med|int}} days, and records no more than {{deaths.mangles_max|int}} convict deaths on any voyage for which it gives a figure. The dates here are a small and uneven sample, {{days.eras.1.n|int}} voyages before 1820 and {{days.eras.3.n|int}} after 1840, so the trend is clearer than any single median.</p>
+
+<h2><span class="n">05 · Death at sea</span>The Second Fleet</h2>
+<p>The Second Fleet was the worst. Its contractors were paid a flat fee per head, "whether they landed alive or not". Of the {{stated.sf_embarked|int}} convicts embarked, {{stated.sf_died|int}} died during the voyage, {{deaths.sf_pct|int}}%, and {{stated.sf_sick|int}} landed sick; {{stated.sf_after|int}} more died soon after. (The articles disagree slightly: another gives {{stated.sf_267|int}} deaths among {{stated.sf_1006|int}} prisoners.) The Third Fleet's table records {{deaths.tf_deaths|int}} deaths among {{deaths.tf_boarded|int}} convicts who boarded its ships, {{deaths.tf_pct|f1}}%, from {{deaths.tf_best.pct|f1}}% on Salamander to {{deaths.tf_worst.pct|int}}% on Britannia.</p>
+<div class="figure"><p class="fig-h">Convicts who died at sea</p><p class="fig-sub">Share of embarked convicts who died on the voyage: the Second Fleet as a whole, each ship of the Third Fleet, and the {{deaths.art_n|int}} later voyages whose ship articles give both the number embarked and the deaths. Hover a bar.</p><div class="chart" id="deathChart"></div></div>
+<p>Later voyages were very different. Across the {{deaths.art_n|int}} voyages in ship articles that give the numbers, {{deaths.art_deaths|int}} of {{deaths.art_embarked|int}} convicts died, {{deaths.art_pct|f1}}%, and {{deaths.art_zero|int}} voyages lost nobody. Shipwreck was the danger that remained. The New South Wales list records that Amphitrite was wrecked at the outset of her voyage, in 1833 according to her article, and {{stated.amph_women|int}} women convicts and {{stated.amph_children|int}} children drowned, and that Neva was lost in Bass Strait with {{stated.neva|int}} lives; the Tasmania list that George III was wrecked "with heavy loss of life before she could disembark her convicts".</p>
+
+<h2><span class="n">06 · Where they sailed from</span>London, Portsmouth, and Cork</h2>
+<p>Most ships left from the Thames or the Solent: {{irish.thames|int}} voyages from London, Woolwich, Deptford, Gravesend, Sheerness and the Downs, {{irish.solent|int}} from Portsmouth and Spithead. But the busiest single port in the lists is Cork, with {{irish.cork|int}} voyages, and Dublin had {{irish.dublin|int}}. Ireland supplied {{irish.n|int}} of the {{irish.n_ei|int}} voyages from Britain and Ireland, {{irish.pct|int}}%, and nearly all of them went to New South Wales: {{irish.nsw_pct|int}}% of its ships from the British Isles were Irish, against {{irish.vdl_pct|int}}% of Van Diemen's Land's in the lists and {{irish.wa_irish|int}} ship to Western Australia.</p>
+<div class="figure"><p class="fig-h">The busiest ports of departure</p><p class="fig-sub">Listed voyages from overseas by the place the ship sailed from, coloured by region. "England (port not given)": the list says only England. Click a bar to see the port on the map.</p><div class="chart" id="portChart"></div><div class="legend" id="portLegend"></div></div>
+<p>Not every convict came from the British Isles. The lists hold {{indian.n|int}} voyages that sailed from India, Ceylon, Mauritius or Singapore, {{indian.calcutta|int}} of them from Calcutta and {{indian.mauritius|int}} from Mauritius. Where the tables give a number it was small: the {{indian.wa|int}} such ships to Western Australia carried {{indian.wa_conv|int}} convicts between them, and the New South Wales notes describe some of the others as carrying "military convicts". Western Australia's ships, by contrast, sailed most often from Portland in Dorset ({{irish.portland_wa|int}} of its {{col.wa.n|int}}) and Plymouth ({{irish.plymouth_wa|int}}).</p>
+
+<h2><span class="n">07 · The ships</span>Merchantmen for hire</h2>
+<p>There was no such thing as a purpose-built convict ship. As Wikipedia's article on convict ships puts it, "there was no ship specifically built as a convict vessel": the government chartered ordinary merchant ships, among them East Indiamen and whalers, for one voyage at a time. The lists name {{ships.n_ids|int}} ships, {{ships.one_voyage|int}} of which made a single listed voyage. For {{ships.age_n|int}} voyages the ship's article gives its launch year; the median ship was {{ships.age_med|int}} years old when it arrived. A few ships made a career of it.</p>
+<div class="figure"><p class="fig-h">Ships that made the most convict voyages</p><p class="fig-sub">Listed voyages from overseas, grouped by the ship's Wikipedia article. "Article says": the number of convict voyages stated in the ship's own article, where it gives one. Click a row to see the ship's voyages on the map.</p><div class="tablebox"><table class="tbl" id="shipTable"></table></div></div>
+<p>The lists and the ship articles agree well: for {{ships.lead_agree|int}} of the {{ships.lead_checked|int}} ships whose article states how many convict voyages they made, the lists hold exactly that many.</p>
+
+<h2><span class="n">08 · Women</span>One in seven</h2>
+<p>About {{stated.women|int}} of the convicts, one in seven, were women. Some {{stated.women_theft_pct|int}}% had been convicted of theft, usually petty. Although they were routinely described as courtesans, no women were transported for prostitution, which was not a transportable offence. The lists rarely say who a ship carried, so only {{women.flagged|int}} voyages can be identified as carrying women from the tables, the fleet records and the ship articles, among them Lady Penrhyn of the First Fleet and Lady Juliana of the Second. During the {{stated.fry_years|int}} years that Elizabeth Fry's British Ladies' Society worked with women convicts, {{stated.fry_women|int}} women were transported on {{stated.fry_ships|int}} ships.</p>
+<div class="figure"><p class="fig-h">The convict population of New South Wales, by sex</p><p class="fig-sub">Convicts in the colony in the years given in Wikipedia's article on convict women. Line: women's share (right scale). Hover a year.</p><div class="chart" id="womenChart"></div><div class="legend" id="womenLegend"></div></div>
+<p>The imbalance grew as the colony grew. Women were {{women.pop_first_pct|int}}% of the convicts in New South Wales in 1788 and {{women.pop_last_pct|int}}% in {{women.pop_last_year|raw}}; in 1836 there were {{women.pop_1836_m|int}} male convicts and {{women.pop_1836_f|int}} female ones. Western Australia took no women at all: it asked, as a condition, "that no female convicts be transported".</p>
+
+<h2><span class="n">09 · The land</span>Arrival</h2>
+<p>The convict colonies were built on Aboriginal land. When the First Fleet moved from Botany Bay to Sydney Cove it encountered the Eora people, including the Bidjigal clan. Wikipedia's article on penal transportation states it plainly: violent conflict on the Australian frontier between Indigenous Australians and the colonists "began only months after the First Fleet landed, lasting over a century". Convicts were on both sides of it. Convicts forced to work on the frontier were sometimes attacked, convicts and former convicts carried out killings such as the Myall Creek massacre, and in the Hawkesbury and Nepean Wars a group of Irish convicts joined the coalition of Eora, Gandangara, Dharug and Tharawal nations fighting the colonists. Every ship on this map landed its convicts on Aboriginal land.</p>
+<p>Inside the colonies, convicts who reoffended were sent on again, to places of secondary punishment: Norfolk Island in its second period, Moreton Bay (now Brisbane, 1824 to 1842), Macquarie Harbour on the wild west coast of Van Diemen's Land (1822 to 1833) and Port Arthur (1833 to 1877). Eleven convict sites, from Port Arthur to Fremantle Prison, were inscribed together as a UNESCO World Heritage Site in 2010. Turn on "Penal stations in Australia" in Map layers to see the four.</p>
+
+<h2><span class="n">10 · The wider world</span>Transportation was not only British</h2>
+<p>Australia was Britain's second dumping ground. Before the American Revolution, convicts were shipped to Virginia and Maryland under the Transportation Act of 1717: "commonly accepted" to be {{stated.am_1717_low|int}}, with estimates from {{stated.am_lang|int}} to {{stated.am_keneally|int}}. When the American Revolution stopped transportation in 1776, convicts were held instead in prison hulks, old ships moored in the Thames and the naval ports, until Australia was chosen. Later, from the 1820s to 1863, convicts from Britain and Ireland were sent to Bermuda to build the Royal Naval Dockyard, living on hulks.</p>
+<div class="figure"><p class="fig-h">Penal transportation around the world</p><p class="fig-sub">Places that received transported convicts, with the years and the numbers Wikipedia's articles give. Where an article gives no total, none is shown. Click a row to see the place on the map.</p><div class="tablebox" style="max-height:none"><table class="tbl" id="worldTable"></table></div><p class="src">Sakhalin and Siberia: the articles used give when transportation began but not when it ended.</p></div>
+<p>France sent convicts to the bagnes of French Guiana from 1852, more than {{stated.guiana|int}} of them to the Devil's Island system, most never to return; the last came home in 1953. New Caledonia took about {{stated.newcal|int}} between 1864 and 1897, most notably the Communards. Russia used katorga, penal labour in Siberia, from the 17th century and set up a penal colony on Sakhalin in 1857, which Anton Chekhov visited and described in "Sakhalin Island". British India sent prisoners of the 1857 rebellion to the Andaman Islands, where the first {{stated.andaman_first|int}} convicts landed in March 1858 and the Cellular Jail, with {{stated.andaman_cells|int}} solitary cells, held independence activists until the penal settlement closed in 1947.</p>
+
+<h2><span class="n">11 · How I did this</span>Methods and caveats</h2>
+<p><b>Data.</b> Wikipedia's "Convict ships to New South Wales" ({{source.rows.nsw|int}} rows including Prince of Wales, a First Fleet transport the list omits), "Convict ships to Tasmania" ({{source.rows.vdl|int}}), "Convict ships to Norfolk Island" ({{source.rows.nfk|int}}) and "List of convict ship voyages to Western Australia" ({{source.rows.wa|int}}), at the revisions given in the paper. A voyage from overseas is a row with an arrival year and a departure place outside Australia. I leave out {{source.n_intra|int}} transfers between Australian ports, {{source.n_parkhurst|int}} ships that took {{source.parkhurst_n|int}} boys from Parkhurst prison to Western Australia as apprentices, {{source.n_dup|int}} voyages that appear in two colonies' lists (one ship landing convicts at Hobart and then Sydney, for instance) and {{source.n_undated|int}} rows with no arrival year, mostly wrecks and captures. Years are years of arrival.</p>
+<p><b>Numbers, dates and routes.</b> Convict numbers, departure dates and deaths come from the Norfolk Island and Western Australia tables, the tables in the First, Second and Third Fleet articles, and sentences in {{source.n_article_voyages|int}} voyages' ship articles, each kept only where the article's arrival date is within three days of the list's. Departure ports are drawn at coordinates I chose for each harbour; "England" and "Ireland" without a port are drawn in the Channel and off Cork. The routes are stylised sailing tracks, not logged ones: the lists say only where a ship left and which colony it reached.</p>
+<p><b>What this is not.</b> Wikipedia's lists are compiled by volunteers from Charles Bateson's "The Convict Ships" and other sources; the Tasmania list in particular is shorter than the traffic it describes, and none of the lists has been checked here against the original records. The count of women's voyages is a floor. Figures for other countries are those the articles state, and the articles' own sources vary in quality.</p>
+<details><summary>Sources and licences</summary>
+<ul>
+<li>English Wikipedia: "Convict ships to New South Wales", "Convict ships to Tasmania", "Convict ships to Norfolk Island", "List of convict ship voyages to Western Australia", "First Fleet", "Second Fleet (Australia)", "Third Fleet (Australia)", "Convicts in Australia", "Convict women in Australia", "Penal transportation", "Transportation Act 1717", "Convict era of Western Australia", "Norfolk Island", "Moreton Bay Penal Settlement", "Macquarie Harbour Penal Station", "Port Arthur, Tasmania", "Australian Convict Sites", "Royal Naval Dockyard, Bermuda", "List of British prison hulks", "Bagne (penal establishment)", "Devil's Island", "Penal colony", "Katorga", "Sakhalin", "Gulag", "Cellular Jail", "Port Blair", "Andaman Islands" and {{source.n_ship_articles|int}} convict ship articles. CC BY-SA 4.0; the voyage tables derived from them are CC BY-SA 4.0.</li>
+<li>Natural Earth countries and land (public domain).</li>
+<li>Optional shaded relief tiles © Esri.</li>
+</ul></details>
+
+<div class="cta"><a class="p" href="https://doi.org/10.5281/zenodo.23873537">Read the paper</a><a href="https://github.com/Tristan-Hotham/transported-convicts">Data and code</a><a href="https://blog.tristanhotham.com/2026/10/31/transported-convicts/">Blog post</a></div>
+
+<footer>
+<p>Dr Tristan Hotham, Independent researcher. ORCID <a href="https://orcid.org/0000-0003-4931-9349">0000-0003-4931-9349</a>.</p>
+<p>Cite as: Hotham, T. (2026) Transported: the convict ships to Australia, 1788 to 1868, and the wider world of penal transportation. Zenodo. <a href="https://doi.org/10.5281/zenodo.23873537">https://doi.org/10.5281/zenodo.23873537</a></p>
+<p>Data: English Wikipedia (CC BY-SA 4.0). Licence: code MIT; text, figures and derived data CC BY 4.0, except the tables derived from Wikipedia, which are CC BY-SA 4.0.</p>
+<p>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</p>
+</footer>
+</div>
+<div class="tip" id="tip"></div>
+<button class="btn theme" id="theme" aria-label="Toggle dark mode">◐</button>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script>
+const R = /*RESULTS*/;
+const SITE = /*SITE*/;
+const WORLD = /*WORLD*/;
+const fmt = n => n == null || n === "" || n < 0 ? "n/a" : Math.round(n).toLocaleString("en-GB");
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const tip = document.getElementById("tip");
+function showTip(h, x, y) { tip.innerHTML = h; tip.style.display = "block"; const w = tip.offsetWidth; x = Math.max(w / 2 + 8, Math.min(innerWidth - w / 2 - 8, x)); tip.style.left = x + scrollX + "px"; tip.style.top = y + scrollY + "px"; }
+function hideTip() { tip.style.display = "none"; }
+document.addEventListener("click", e => { if (!e.target.closest("svg")) hideTip(); });
+const NS = "http://www.w3.org/2000/svg";
+const el = (t, a, p) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (p) p.appendChild(e); return e; };
+const lbl = (svg, x, y, s, cls = "lab", anchor = "start") => { const t = el("text", { x, y, class: cls, "text-anchor": anchor }, svg); t.textContent = s; return t; };
+const redraws = [];
+function resp(box, render) { let last = 0; const go = force => { const w = Math.max(280, Math.round(box.clientWidth)); if (!force && Math.abs(w - last) < 4) return; last = w; box.innerHTML = ""; render(w, w < 560); }; new ResizeObserver(() => go()).observe(box); go(); redraws.push(() => go(true)); }
+const isDark = () => { const r = document.documentElement; return r.dataset.theme ? r.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const small = () => innerWidth < 900;
+const Y0 = R.meta.y0, Y1 = R.meta.y1;
+const COLS = SITE.colonies, CK = COLS.map(c => c[0]);
+const CC = () => CK.map(k => css("--" + k));
+const PORTS = SITE.ports, REG = SITE.regions, VO = SITE.voyages, ROUTES = SITE.routes;
+const C = {}; SITE.cols.forEach((k, i) => C[k] = i);
+const MON = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const wiki = t => "https://en.wikipedia.org/wiki/" + encodeURIComponent(String(t).replace(/ /g, "_"));
+const FLAGN = ["voyage from overseas", "transfer within Australia", "Parkhurst boys' ship", "listed twice; drawn once"];
+
+/* hero mark: a three-masted ship over a long wave, with the convict broad arrow */
+(function () {
+  const g = document.getElementById("heroMark");
+  el("path", { d: "M8 96 Q30 90 52 96 T96 96 T116 94", stroke: "currentColor", "stroke-width": 3, fill: "none" }, g);
+  el("path", { d: "M22 78 L98 78 L88 92 L32 92 Z", fill: "#1F2F4D", stroke: "currentColor", "stroke-width": 2 }, g);
+  [[40, 24], [60, 14], [80, 26]].forEach(([x, t]) => { el("line", { x1: x, y1: t, x2: x, y2: 78, stroke: "currentColor", "stroke-width": 2.4 }, g); el("path", { d: `M${x - 13} ${t + 10} Q${x} ${t + 18} ${x + 13} ${t + 10} L${x + 11} ${t + 34} Q${x} ${t + 40} ${x - 11} ${t + 34} Z`, fill: "#FFFDF8", stroke: "currentColor", "stroke-width": 1.8 }, g); });
+  el("path", { d: "M60 104 L60 118 M53 111 L60 104 L67 111", stroke: "#C2412D", "stroke-width": 3.2, fill: "none", "stroke-linecap": "round" }, g);
+})();
+
+/* ---------- state ---------- */
+const S = { y: Y1, mode: "cum", col: new Set([0, 1, 2, 3]), sel: null, play: null, t: Y1 + .999 };
+const LYDEF = { routes: true, ships: true, ports: true, pnames: true, intra: false, parkhurst: false, world: true, stations: false, borders: true, relief: false, reliefK: 35, alpha: 22 };
+const LY = { ...LYDEF };
+try { Object.assign(LY, JSON.parse(localStorage.getItem("tc_layers") || "{}")); } catch (e) {}
+const saveLY = () => { try { localStorage.setItem("tc_layers", JSON.stringify(LY)); } catch (e) {} };
+const inWin = v => S.mode === "cum" ? v[C.y] <= S.y : v[C.y] === S.y;
+const shown = v => (v[C.flag] === 0 || (v[C.flag] === 1 && LY.intra) || (v[C.flag] === 2 && LY.parkhurst)) && S.col.has(v[C.colony]);
+const winTxt = () => S.mode === "cum" ? `${Y0} to ${S.y}` : String(S.y);
+function dateTxt(v) { return v[C.d] > 0 ? `${v[C.d]} ${MON[v[C.m] - 1]} ${v[C.y]}` : v[C.m] > 0 ? `${MON[v[C.m] - 1]} ${v[C.y]}` : String(v[C.y]); }
+function portName(v) { return v[C.port] >= 0 ? PORTS[v[C.port]][1] : (v[C.sailed] || "not given"); }
+
+/* ---------- map ---------- */
+let map = null, ready = false, popup = null, labels = [];
+const hash = i => { let h = (i + 1) * 2654435761 % 4294967296; h = (h ^ (h >>> 15)) * 2246822519 % 4294967296; return (h % 10000) / 10000; };
+function braid(r, i) {   // each voyage drawn a little off the shared route, so that a bundle of voyages reads as many lines
+  const a = (hash(i) * 2 - 1) * 1.15, n = r.length - 1;
+  return r.map((p, j) => { const q = r[Math.min(n, j + 1)], o = r[Math.max(0, j - 1)], dx = q[0] - o[0], dy = q[1] - o[1], L = Math.hypot(dx, dy) || 1, k = Math.sin(Math.PI * j / n) * a;
+    return [p[0] - dy / L * k, p[1] + dx / L * k]; });
+}
+function lineFeatures() {
+  const fs = [];
+  VO.forEach((v, i) => { if (v[C.route] < 0) return; fs.push({ type: "Feature", id: i, properties: { i, y: v[C.y], c: v[C.colony], f: v[C.flag], n: v[C.convicts] }, geometry: { type: "LineString", coordinates: braid(ROUTES[v[C.route]], i) } }); });
+  fs.sort((a, b) => hash(a.id + 7) - hash(b.id + 7));   // shuffled draw order: no colony's colour hides the others
+  return { type: "FeatureCollection", features: fs };
+}
+function pal() { const d = isDark(); return { sea: css("--sea"), land: css("--land"), border: d ? "#3A404B" : "#FFFFFF", ink: d ? "#ECEEF1" : "#1E2126", halo: d ? "#13161B" : "#FFFFFF" }; }
+function colExpr() { const c = CC(); return ["match", ["get", "c"], 0, c[0], 1, c[1], 2, c[2], 3, c[3], "#888"]; }
+function widthExpr(k) { const base = ["case", [">=", ["get", "n"], 0], ["+", .9, ["*", .16, ["sqrt", ["get", "n"]]]], .75]; return ["interpolate", ["linear"], ["zoom"], 0, ["*", .7 * k, base], 3, ["*", 1.1 * k, base], 6, ["*", 2 * k, base]]; }
+function startMap() {
+  if (typeof maplibregl === "undefined") { fallback(); return; }
+  const P = pal();
+  try {
+    map = new maplibregl.Map({ container: "map", center: small() ? [100, -5] : [62, 4], zoom: small() ? 0.15 : 1.05, minZoom: 0, maxZoom: 8, renderWorldCopies: false, attributionControl: { compact: true }, fadeDuration: 0, dragRotate: false, pitchWithRotate: false,
+      style: { version: 8, sources: {
+        world: { type: "geojson", data: WORLD, attribution: "Natural Earth" },
+        relief: { type: "raster", tiles: ["https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}"], tileSize: 256, maxzoom: 13, attribution: "Relief: Esri" },
+        voy: { type: "geojson", data: lineFeatures(), attribution: "Voyages: English Wikipedia (CC BY-SA 4.0)" },
+        hl: { type: "geojson", data: { type: "FeatureCollection", features: [] } },
+        ports: { type: "geojson", data: { type: "FeatureCollection", features: [] } },
+        arr: { type: "geojson", data: { type: "FeatureCollection", features: [] } },
+        ships: { type: "geojson", data: { type: "FeatureCollection", features: [] } },
+        wsys: { type: "geojson", data: { type: "FeatureCollection", features: SITE.world.map((w, i) => ({ type: "Feature", properties: { i }, geometry: { type: "Point", coordinates: [w.lon, w.lat] } })).filter((f, i) => SITE.world[i].key !== "aus") } },
+        stn: { type: "geojson", data: { type: "FeatureCollection", features: SITE.stations.map((s, i) => ({ type: "Feature", properties: { i }, geometry: { type: "Point", coordinates: [s.lon, s.lat] } })) } } },
+        layers: [{ id: "bg", type: "background", paint: { "background-color": P.sea } },
+          { id: "land", type: "fill", source: "world", paint: { "fill-color": P.land } },
+          { id: "relief", type: "raster", source: "relief", layout: { visibility: "none" }, paint: { "raster-opacity": LY.reliefK / 100 } },
+          { id: "borders", type: "line", source: "world", paint: { "line-color": P.border, "line-width": .6 } },
+          { id: "voy", type: "line", source: "voy", layout: { "line-cap": "butt", "line-join": "bevel" }, paint: { "line-color": colExpr(), "line-width": widthExpr(1), "line-opacity": .2 } },
+          { id: "hl", type: "line", source: "hl", layout: { "line-cap": "round" }, paint: { "line-color": P.ink, "line-width": ["interpolate", ["linear"], ["zoom"], 0, 2, 5, 4], "line-opacity": .95, "line-dasharray": [2, 1.5] } },
+          { id: "wsys", type: "circle", source: "wsys", paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 0, 6, 5, 11], "circle-color": "rgba(0,0,0,0)", "circle-stroke-color": css("--world"), "circle-stroke-width": 2.4 } },
+          { id: "ports", type: "circle", source: "ports", paint: { "circle-radius": ["get", "r"], "circle-color": ["get", "col"], "circle-opacity": .88, "circle-stroke-color": P.halo, "circle-stroke-width": 1.2 } },
+          { id: "arr", type: "circle", source: "arr", paint: { "circle-radius": ["get", "r"], "circle-color": ["get", "col"], "circle-opacity": .82, "circle-stroke-color": P.halo, "circle-stroke-width": 1.6 } },
+          { id: "stn", type: "circle", source: "stn", layout: { visibility: "none" }, paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 0, 3.5, 6, 7], "circle-color": P.ink, "circle-stroke-color": P.halo, "circle-stroke-width": 1.5 } },
+          { id: "ships", type: "circle", source: "ships", paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 0, 3, 5, 6], "circle-color": ["get", "col"], "circle-stroke-color": P.halo, "circle-stroke-width": 1.4 } }] } });
+  } catch (e) { fallback(); return; }
+  window.map = map;
+  map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
+  map.on("error", e => { const m = String((e && e.error && (e.error.message || e.error)) || ""); if (/Failed to fetch|NetworkError|AJAXError|404|Could not load|tile/i.test(m)) return; console.warn(m); });
+  layerPanel();
+  map.on("load", () => { ready = true; const l = document.getElementById("loading"); if (l) l.remove(); applyLayers(); update(); });
+  map.on("moveend", placeNames);
+  map.on("click", e => {
+    const b = [[e.point.x - 5, e.point.y - 5], [e.point.x + 5, e.point.y + 5]];
+    const w = map.queryRenderedFeatures(b, { layers: ["wsys", "stn"].filter(l => map.getLayoutProperty(l, "visibility") !== "none") });
+    if (w.length) { const f = w[0]; f.layer.id === "wsys" ? worldPop(f.properties.i) : stnPop(f.properties.i); return; }
+    const a = map.queryRenderedFeatures(b, { layers: ["arr", "ports"] });
+    if (a.length) { const f = a[0]; f.layer.id === "arr" ? colPop(f.properties.k) : portPop(f.properties.k); return; }
+    if (!LY.routes) return;
+    const v = map.queryRenderedFeatures(b, { layers: ["voy"] }); const ids = [...new Set(v.map(f => f.properties.i))];
+    if (!ids.length) return;
+    ids.sort((a, b) => VO[b][C.y] - VO[a][C.y] || a - b);
+    if (ids.length === 1) voyPop(ids[0], e.lngLat);
+    else openPop(e.lngLat, `<b class="t">${ids.length} voyages on this route</b><small>${winTxt()}, newest first</small><ul>${ids.slice(0, 10).map(i => `<li><span class="go" data-v="${i}">${esc(VO[i][C.ship])}</span> <small>${VO[i][C.y]}, from ${esc(portName(VO[i]))}</small></li>`).join("")}</ul>${ids.length > 10 ? `<small>and ${ids.length - 10} more</small>` : ""}`);
+  });
+  map.on("mousemove", e => {
+    if (!ready) return; const b = [[e.point.x - 4, e.point.y - 4], [e.point.x + 4, e.point.y + 4]];
+    const f = map.queryRenderedFeatures(b, { layers: ["ports", "arr", "wsys", "stn", ...(LY.routes ? ["voy"] : [])].filter(l => map.getLayoutProperty(l, "visibility") !== "none") });
+    map.getCanvas().style.cursor = f.length ? "pointer" : "";
+    if (!f.length) { note(""); return; }
+    const x = f[0], id = x.layer.id;
+    if (id === "voy") { const v = VO[x.properties.i]; note(`<b>${esc(v[C.ship])}</b>, ${esc(dateTxt(v))}, ${esc(portName(v))} to ${esc(COLS[v[C.colony]][2])}`); }
+    else if (id === "ports") { const p = PORTS[x.properties.k]; note(`<b>${esc(p[1])}</b>: ${fmt(x.properties.n)} voyage${x.properties.n === 1 ? "" : "s"}, ${winTxt()}`); }
+    else if (id === "arr") { note(`<b>${esc(COLS[x.properties.k][1])}</b>: ${fmt(x.properties.n)} arrivals, ${winTxt()}`); }
+    else if (id === "wsys") { const w = SITE.world[x.properties.i]; note(`<b>${esc(w.name)}</b> (${esc(w.by)}), ${esc(w.years)}`); }
+    else { const s = SITE.stations[x.properties.i]; note(`<b>${esc(s.name)}</b>, penal station ${esc(s.years)}`); }
+  });
+  map.on("mouseout", () => note(""));
+}
+function note(h) { const n = document.getElementById("mapnote"); if (n) n.innerHTML = h || ""; }
+function openPop(ll, html) { if (!map) return; if (popup) popup.remove(); popup = new maplibregl.Popup({ maxWidth: "310px", offset: 6, focusAfterOpen: false }).setLngLat(ll).setHTML(html).addTo(map);
+  setTimeout(() => document.querySelectorAll(".maplibregl-popup .go[data-v]").forEach(g => g.onclick = () => { const i = +g.dataset.v; pickVoyage(i, false); }), 0); }
+function voyHTML(i) {
+  const v = VO[i], col = COLS[v[C.colony]], cc = CC()[v[C.colony]];
+  const conv = v[C.convicts] >= 0 ? `${fmt(v[C.convicts])}${v[C.embarked] >= 0 && v[C.embarked] !== v[C.convicts] ? ` landed of ${fmt(v[C.embarked])} embarked` : ""}` : "<small>not given in the list</small>";
+  return `<b class="t">${esc(v[C.ship])}</b><span class="chip" style="background:${cc}"></span>${esc(col[2])} · arrived ${esc(dateTxt(v))}<br>
+From <b>${esc(portName(v))}</b>${v[C.sailed] && v[C.port] >= 0 && v[C.sailed] !== PORTS[v[C.port]][1] ? ` <small>(listed as "${esc(v[C.sailed])}")</small>` : ""}<br>
+Convicts: ${conv}${v[C.women] ? "<br>Carried women convicts" : ""}${v[C.deaths] >= 0 ? `<br>Convict deaths on the voyage: ${fmt(v[C.deaths])}` : ""}${v[C.days] > 0 ? `<br>Voyage: ${v[C.days]} days${v[C.dep] ? ` <small>(departed ${esc(v[C.dep])})</small>` : ""}` : ""}
+${v[C.notes] ? `<br><small>${esc(v[C.notes])}</small>` : ""}${v[C.flag] ? `<br><small>${FLAGN[v[C.flag]]}</small>` : ""}
+<br><a href="${wiki(v[C.article] || col[7])}" target="_blank" rel="noopener">${v[C.article] ? "Ship on Wikipedia" : "The list on Wikipedia"}</a>`;
+}
+function voyPop(i, ll) { const v = VO[i]; if (!ll) { const r = ROUTES[v[C.route]]; ll = r ? r[Math.floor(r.length * .55)] : [COLS[v[C.colony]][5], COLS[v[C.colony]][4]]; } openPop(ll, voyHTML(i)); }
+function portPop(k) { const p = PORTS[k], n = CK.map(() => 0); let a = 9999, b = 0; VO.forEach(v => { if (v[C.port] !== k || v[C.flag] !== 0) return; n[v[C.colony]]++; a = Math.min(a, v[C.y]); b = Math.max(b, v[C.y]); });
+  openPop([p[3], p[2]], `<b class="t">${esc(p[1])}</b>${esc(REG[p[4]][0])}<br>${fmt(n.reduce((x, y) => x + y, 0))} voyages from overseas, ${a} to ${b}<br>${COLS.map((c, j) => n[j] ? `<span class="chip" style="background:${CC()[j]}"></span>${esc(c[2])} ${n[j]}` : "").filter(Boolean).join("<br>")}`); }
+function colPop(k) { const c = COLS[k], r = R.col[c[0]]; openPop([c[5], c[4]], `<b class="t">${esc(c[1])}</b>${esc(c[6])}<br>${fmt(r.n)} listed voyages from overseas, ${r.first} to ${r.last}<br>Busiest year ${r.peak_year} (${r.peak_n})<br>Last listed: ${esc(r.last_ship)}, ${esc(r.last_date)}<br><a href="${wiki(c[7])}" target="_blank" rel="noopener">The list on Wikipedia</a>`); }
+function worldPop(i) { const w = SITE.world[i]; openPop([w.lon, w.lat], `<b class="t">${esc(w.name)}</b>${esc(w.place)}<br>Transportation by ${esc(w.by)}, ${esc(w.years)}<br>People: ${esc(w.people)}<br><small>Wikipedia: ${w.articles.map(esc).join(", ")}</small>`); }
+function stnPop(i) { const s = SITE.stations[i]; openPop([s.lon, s.lat], `<b class="t">${esc(s.name)}</b>Penal station, ${esc(s.years)}<br><small>${esc(s.note)}</small>`); }
+function applyLayers() {
+  if (!ready) return;
+  const vis = (id, on) => map.setLayoutProperty(id, "visibility", on ? "visible" : "none");
+  vis("voy", LY.routes); vis("ships", LY.ships); vis("ports", LY.ports); vis("wsys", LY.world); vis("stn", LY.stations); vis("borders", LY.borders); vis("relief", LY.relief);
+  map.setPaintProperty("relief", "raster-opacity", LY.reliefK / 100);
+  update();
+}
+function filterExpr() {
+  const f = ["any", ["==", ["get", "f"], 0]]; if (LY.intra) f.push(["==", ["get", "f"], 1]); if (LY.parkhurst) f.push(["==", ["get", "f"], 2]);
+  return ["all", S.mode === "cum" ? ["<=", ["get", "y"], S.y] : ["==", ["get", "y"], S.y], ["in", ["get", "c"], ["literal", [...S.col]]], f];
+}
+function counts() {
+  const pn = new Array(PORTS.length).fill(0), cn = CK.map(() => 0); let n = 0, conv = 0, kn = 0;
+  VO.forEach(v => { if (!inWin(v) || !shown(v)) return; n++; cn[v[C.colony]]++; if (v[C.port] >= 0) pn[v[C.port]]++; if (v[C.convicts] >= 0) { conv += v[C.convicts]; kn++; } });
+  return { pn, cn, n, conv, kn };
+}
+let CNT = null;
+const pr = n => n <= 0 ? 0 : Math.max(3, Math.sqrt(n) * (S.mode === "cum" ? 1.7 : 4.2) * (map && map.getZoom() > 3 ? 1.4 : 1));
+function update() {
+  CNT = counts();
+  if (ready) {
+    map.setFilter("voy", filterExpr());
+    map.setPaintProperty("voy", "line-opacity", S.mode === "cum" ? LY.alpha / 100 : .85);
+    map.setPaintProperty("voy", "line-width", widthExpr(S.mode === "cum" ? 1 : 1.6));
+    const rc = REG.map(r => r[1]);
+    map.getSource("ports").setData({ type: "FeatureCollection", features: PORTS.map((p, k) => ({ type: "Feature", properties: { k, n: CNT.pn[k], r: pr(CNT.pn[k]), col: rc[p[4]] }, geometry: { type: "Point", coordinates: [p[3], p[2]] } })).filter(f => f.properties.n > 0 && REG[PORTS[f.properties.k][4]][0] !== "Within Australia") });
+    map.getSource("arr").setData({ type: "FeatureCollection", features: COLS.map((c, k) => ({ type: "Feature", properties: { k, n: CNT.cn[k], r: pr(CNT.cn[k]) * .62, col: CC()[k] }, geometry: { type: "Point", coordinates: [c[5], c[4]] } })).filter(f => f.properties.n > 0) });
+    hlDraw(); if (!S.play) shipsDraw(S.mode === "year" ? S.y + .999 : null);
+    placeNames();
+  }
+  side(); legend();
+}
+function overlap(b, bs) { return bs.some(o => b[0] < o[2] && b[2] > o[0] && b[1] < o[3] && b[3] > o[1]); }
+function placeNames() {
+  labels.forEach(m => m.remove()); labels = []; if (!ready || !CNT) return;
+  const z = map.getZoom(), W = map.getContainer().clientWidth, H = map.getContainer().clientHeight, boxes = [[0, 0, 150, 48], [W - 50, 0, W, 50]];
+  const add = (ll, html, cls, dx, w) => { const q = map.project(ll); if (q.x < 4 || q.y < 10 || q.x > W - 10 || q.y > H - 10) return false; const b = [q.x + dx - 2, q.y - 9, q.x + dx + w, q.y + 9]; if (b[2] > W - 6 || overlap(b, boxes)) return false; boxes.push(b);
+    const d = document.createElement("div"); d.className = "ptL " + cls; d.innerHTML = html; labels.push(new maplibregl.Marker({ element: d, anchor: "left", offset: [dx, 0] }).setLngLat(ll).addTo(map)); return true; };
+  COLS.forEach((c, k) => { if (!CNT.cn[k]) return; const r = pr(CNT.cn[k]) * .62; const q = map.project([c[5], c[4]]); boxes.push([q.x - r, q.y - r, q.x + r, q.y + r]); });
+  PORTS.forEach((p, k) => { if (!CNT.pn[k] || !LY.ports) return; const r = pr(CNT.pn[k]); const q = map.project([p[3], p[2]]); boxes.push([q.x - r, q.y - r, q.x + r, q.y + r]); });
+  COLS.forEach((c, k) => { if (!CNT.cn[k]) return; const nm = c[6].replace(" (Port Jackson)", ""); add([c[5], c[4]], `${esc(nm)} <small>${fmt(CNT.cn[k])}</small>`, "col", pr(CNT.cn[k]) * .62 + 4, (nm.length + 5) * 7.4); });
+  if (LY.ports && LY.pnames) {
+    const order = PORTS.map((p, k) => k).filter(k => CNT.pn[k] > 0 && REG[PORTS[k][4]][0] !== "Within Australia").sort((a, b) => CNT.pn[b] - CNT.pn[a]);
+    let n = 0; for (const k of order) { const p = PORTS[k]; const nm = p[1].replace(" (port not given)", "*").replace(" (Cove of Cork)", "").replace(" (Kingstown)", "").replace(" (Port Louis)", ""); if (z < 2.5 && n >= 6) break; if (add([p[3], p[2]], `${esc(nm)} <small>${fmt(CNT.pn[k])}</small>`, "", pr(CNT.pn[k]) + 3, (nm.length + 5) * 6.9)) n++; if (n > 30) break; }
+  }
+  if (LY.world) SITE.world.forEach((w, i) => { if (w.key === "aus") return; const q = map.project([w.lon, w.lat]), r = z < 5 ? 9 + z : 14; boxes.push([q.x - r, q.y - r, q.x + r, q.y + r]); });
+  if (LY.world) SITE.world.forEach((w, i) => { if (w.key === "aus") return; add([w.lon, w.lat], esc(w.name), "w", (z < 5 ? 9 + z : 14) + 4, w.name.length * 7.2); });
+  if (LY.stations) SITE.stations.forEach(s => add([s.lon, s.lat], esc(s.name), "", 8, s.name.length * 6.9));
+}
+function layerPanel() {
+  const box = map.getContainer(), d = document.createElement("div"); d.className = "lyrWrap";
+  d.innerHTML = `<button class="lyrBtn" aria-expanded="false">Map layers</button>
+<div class="lyrPanel" hidden>
+ <div class="row"><label><input type="checkbox" data-k="routes"> Voyage routes</label><div class="sub"><span>strength</span><input type="range" data-k="alpha" min="6" max="60" step="2" aria-label="Route strength"></div></div>
+ <div class="row"><label><input type="checkbox" data-k="ships"> Ships at sea (when playing)</label></div>
+ <div class="row"><label><input type="checkbox" data-k="ports"> Ports of departure</label></div>
+ <div class="row"><label><input type="checkbox" data-k="pnames"> Port names</label></div>
+ <div class="row"><label><input type="checkbox" data-k="intra"> Transfers within Australia</label></div>
+ <div class="row"><label><input type="checkbox" data-k="parkhurst"> Parkhurst boys' ships, 1842 to 1849</label></div>
+ <div class="hd">Context</div>
+ <div class="row"><label><input type="checkbox" data-k="world"> Penal transportation worldwide</label></div>
+ <div class="row"><label><input type="checkbox" data-k="stations"> Penal stations in Australia</label></div>
+ <div class="hd">Base map</div>
+ <div class="row"><label><input type="checkbox" data-k="borders"> Borders</label></div>
+ <div class="row"><label><input type="checkbox" data-k="relief"> Shaded relief (Esri, online only)</label><div class="sub"><span>strength</span><input type="range" data-k="reliefK" min="10" max="80" step="5" aria-label="Relief strength"></div></div>
+ <button class="reset">Reset layers</button>
+</div>`;
+  box.appendChild(d);
+  ["click", "dblclick", "mousedown", "touchstart", "wheel"].forEach(t => d.addEventListener(t, e => e.stopPropagation(), { passive: true }));
+  const btn = d.querySelector(".lyrBtn"), pan = d.querySelector(".lyrPanel");
+  btn.onclick = () => { const o = pan.hidden; pan.hidden = !o; btn.setAttribute("aria-expanded", o); };
+  const sync = () => pan.querySelectorAll("[data-k]").forEach(i => { const k = i.dataset.k; if (i.type === "checkbox") i.checked = LY[k]; else i.value = LY[k]; });
+  pan.querySelectorAll("[data-k]").forEach(i => i.addEventListener(i.type === "range" ? "input" : "change", () => {
+    const k = i.dataset.k; LY[k] = i.type === "checkbox" ? i.checked : +i.value; if (k === "reliefK") LY.relief = true; if (k === "alpha") LY.routes = true; sync(); saveLY(); applyLayers(); }));
+  pan.querySelector(".reset").onclick = () => { Object.assign(LY, LYDEF); saveLY(); sync(); applyLayers(); };
+  sync(); window.syncLayers = sync;
+  const n = document.createElement("div"); n.className = "mapnote"; n.id = "mapnote"; box.appendChild(n);
+}
+
+/* ---------- highlight and ships at sea ---------- */
+function hlDraw() {
+  if (!ready) return; const f = [];
+  if (S.sel) S.sel.ids.forEach(i => { const v = VO[i]; if (v[C.route] >= 0) f.push({ type: "Feature", properties: {}, geometry: { type: "LineString", coordinates: ROUTES[v[C.route]] } }); });
+  map.getSource("hl").setData({ type: "FeatureCollection", features: f });
+}
+const MED = R.days.eras.map(e => e.median);
+function eraDays(y) { return y <= 1791 ? MED[0] : y < 1820 ? MED[1] : y < 1840 ? MED[2] : MED[3]; }
+const BRC = {}; const BR = i => BRC[i] || (BRC[i] = braid(ROUTES[VO[i][C.route]], i));
+const ARR = VO.map(v => v[C.y] + ((v[C.m] > 0 ? v[C.m] - 1 : 6) + (v[C.d] > 0 ? (v[C.d] - 1) / 30 : .5)) / 12);
+function along(r, t) { const n = r.length - 1, x = t * n, i = Math.min(n - 1, Math.floor(x)), u = x - i; return [r[i][0] + (r[i + 1][0] - r[i][0]) * u, r[i][1] + (r[i + 1][1] - r[i][1]) * u]; }
+function shipsDraw(T) {
+  if (!ready) return; const f = []; const cc = CC();
+  if (T != null && LY.ships) VO.forEach((v, i) => { if (v[C.route] < 0 || !shown(v)) return; const A = ARR[i], dur = (v[C.days] > 0 ? v[C.days] : eraDays(v[C.y])) / 365; if (T < A - dur || T > A) return;
+    f.push({ type: "Feature", properties: { col: cc[v[C.colony]] }, geometry: { type: "Point", coordinates: along(BR(i), (T - (A - dur)) / dur) } }); });
+  map.getSource("ships").setData({ type: "FeatureCollection", features: f });
+}
+
+/* ---------- fallback: no map library ---------- */
+function fallback() {
+  const box = document.getElementById("map"), l = document.getElementById("loading"); if (l) l.remove();
+  const cv = document.createElement("canvas"); cv.className = "fallback"; box.appendChild(cv);
+  const nt = document.createElement("div"); nt.className = "fbnote"; nt.textContent = "The interactive map library did not load, so this is a still drawing of every listed voyage. The charts and tables below still work."; box.appendChild(nt);
+  const draw = () => { const W = box.clientWidth, H = box.clientHeight, d = devicePixelRatio || 1; cv.width = W * d; cv.height = H * d; const x = cv.getContext("2d"); x.setTransform(d, 0, 0, d, 0, 0);
+    const lo0 = -80, lo1 = 180, la0 = -50, la1 = 62, k = Math.min(W / (lo1 - lo0), H / (la1 - la0)), ox = (W - k * (lo1 - lo0)) / 2, oy = (H - k * (la1 - la0)) / 2;
+    const P = (lo, la) => [ox + (lo - lo0) * k, oy + (la1 - la) * k];
+    x.fillStyle = css("--sea"); x.fillRect(0, 0, W, H); x.fillStyle = css("--land");
+    WORLD.features.forEach(f => { const g = f.geometry, polys = g.type === "Polygon" ? [g.coordinates] : g.coordinates; polys.forEach(pg => { x.beginPath(); pg[0].forEach((c, j) => { const [a, b] = P(c[0], c[1]); j ? x.lineTo(a, b) : x.moveTo(a, b); }); x.fill(); }); });
+    const cc = CC(); x.globalAlpha = .18; x.lineWidth = 1;
+    VO.forEach(v => { if (v[C.flag] || v[C.route] < 0) return; x.strokeStyle = cc[v[C.colony]]; x.beginPath(); ROUTES[v[C.route]].forEach((c, j) => { const [a, b] = P(c[0], c[1]); j ? x.lineTo(a, b) : x.moveTo(a, b); }); x.stroke(); });
+    x.globalAlpha = 1; };
+  draw(); new ResizeObserver(draw).observe(box); redraws.push(draw);
+}
+
+/* ---------- controls ---------- */
+const yr = document.getElementById("yr");
+function setYear(y, keepT) { S.y = Math.max(Y0, Math.min(Y1, y)); yr.value = S.y; document.getElementById("yv").textContent = S.y; document.getElementById("ylab").textContent = S.mode === "cum" ? "all years to here" : "this year only"; if (!keepT) S.t = S.y + .999; update(); }
+window.setYear = setYear;
+yr.addEventListener("input", () => { stop(); setYear(+yr.value); });
+function stop() { if (S.play) { cancelAnimationFrame(S.play); S.play = null; document.getElementById("play").innerHTML = "&#9654;"; shipsDraw(S.mode === "year" ? S.y + .999 : null); } }
+document.getElementById("play").onclick = () => {
+  if (S.play) return stop();
+  if (S.y >= Y1) { S.t = 1787.3; setYear(Y0, true); } else S.t = S.y;
+  document.getElementById("play").innerHTML = "&#10074;&#10074;";
+  let last = performance.now();
+  const step = now => { const dtm = Math.min(80, now - last); last = now; S.t += dtm / 1000 * (1 / 0.75);   // one year every 0.75 s
+    if (S.t >= Y1 + .999) { S.t = Y1 + .999; setYear(Y1, true); S.play = null; document.getElementById("play").innerHTML = "&#9654;"; shipsDraw(null); return; }
+    const y = Math.floor(S.t); if (y !== S.y) setYear(y, true); shipsDraw(S.t); S.play = requestAnimationFrame(step); };
+  S.play = requestAnimationFrame(step);
+};
+const press = (row, b) => document.querySelectorAll(row + " .btn").forEach(x => x.setAttribute("aria-pressed", x === b));
+document.querySelectorAll("#modeRow .btn").forEach(b => b.onclick = () => { S.mode = b.dataset.m; press("#modeRow", b); setYear(S.y, !!S.play); });
+(function colRow() {
+  const row = document.getElementById("colRow");
+  const all = document.createElement("button"); all.className = "btn"; all.textContent = "All four"; all.setAttribute("aria-pressed", "true"); row.appendChild(all);
+  const bs = COLS.map((c, i) => { const b = document.createElement("button"); b.className = "btn"; b.innerHTML = `<i style="background:var(--${c[0]})"></i>${esc(c[2])}`; b.setAttribute("aria-pressed", "false"); b.dataset.g = i; row.appendChild(b); return b; });
+  const sync = () => { const allOn = S.col.size === COLS.length; all.setAttribute("aria-pressed", allOn); bs.forEach(b => b.setAttribute("aria-pressed", !allOn && S.col.has(+b.dataset.g))); update(); };
+  all.onclick = () => { S.col = new Set(COLS.map((c, i) => i)); sync(); };
+  bs.forEach(b => b.onclick = () => { const g = +b.dataset.g; if (S.col.size === COLS.length) S.col = new Set([g]); else if (S.col.has(g)) { S.col.delete(g); if (!S.col.size) S.col = new Set(COLS.map((c, i) => i)); } else S.col.add(g); sync(); });
+  window.setCols = set => { S.col = set; sync(); };
+})();
+(function focusRow() {
+  const row = document.getElementById("focusRow");
+  const F = [["World", null], ["British Isles", [[-11, 49.4], [3, 55.8]]], ["Australia", [[110, -45], [170, -12]]], ["Tasmania", [[143.5, -44], [149.5, -39.5]]], ["Indian Ocean", [[50, -45], [120, 25]]], ["Atlantic", [[-60, -45], [25, 55]]]];
+  F.forEach(([n, b]) => { const x = document.createElement("button"); x.className = "btn"; x.textContent = n; x.onclick = () => { if (!map) return; if (!b) map.flyTo({ center: small() ? [100, -5] : [62, 4], zoom: small() ? .15 : 1.05 }); else map.fitBounds(b, { padding: 30, duration: 900 }); toMap(); }; row.appendChild(x); });
+})();
+function toMap() { if (small()) document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "start" }); }
+
+/* ---------- selection: a voyage, a ship or a port ---------- */
+const SHIPKEY = v => v[C.article] || (v[C.ship] + "|" + v[C.colony]);
+function pickVoyage(i, move) { const v = VO[i]; stop(); S.sel = { kind: "v", ids: [i], name: v[C.ship] }; if (S.mode === "year") setYear(v[C.y]); else if (v[C.y] > S.y) setYear(Y1); else update(); voyPop(i); if (move && map) { const r = ROUTES[v[C.route]]; if (r) { const b = r.reduce((a, c) => [[Math.min(a[0][0], c[0]), Math.min(a[0][1], c[1])], [Math.max(a[1][0], c[0]), Math.max(a[1][1], c[1])]], [[999, 99], [-999, -99]]); map.fitBounds(b, { padding: 40, duration: 900 }); } toMap(); } }
+function pickShip(key, move) {
+  stop(); const ids = VO.map((v, i) => i).filter(i => SHIPKEY(VO[i]) === key); if (!ids.length) return;
+  S.sel = { kind: "s", ids, name: VO[ids[0]][C.ship], key }; if (!ids.every(i => S.col.has(VO[i][C.colony]))) window.setCols(new Set(COLS.map((c, i) => i)));
+  if (S.mode === "year") { S.mode = "cum"; press("#modeRow", document.querySelector('#modeRow [data-m="cum"]')); } setYear(Y1);
+  if (map && move) { map.flyTo({ center: [62, -10], zoom: small() ? .2 : 1.05 }); toMap(); }
+}
+function pickPort(k) { if (!map) return; const p = PORTS[k]; map.flyTo({ center: [p[3], p[2]], zoom: Math.max(map.getZoom(), 5) }); portPop(k); toMap(); }
+
+/* ---------- legend and side panel ---------- */
+function legend() {
+  const cc = CC();
+  let h = COLS.map((c, k) => `<span><i class="ln" style="border-color:${cc[k]}"></i>${esc(c[1])}</span>`).join("");
+  h += `<span><i class="ln" style="border-color:var(--muted);border-top-width:4px"></i>thicker: convict number given</span>`;
+  if (LY.ports) h += `<span><i class="dot" style="background:${REG[0][1]}"></i>port, England</span><span><i class="dot" style="background:${REG[1][1]}"></i>Ireland</span><span><i class="dot" style="background:${REG[2][1]}"></i>India and Indian Ocean</span>`;
+  if (LY.world) h += `<span><i class="ring" style="border-color:var(--world)"></i>other penal transportation</span>`;
+  if (LY.stations) h += `<span><i class="dot" style="background:var(--fg)"></i>penal station in Australia</span>`;
+  document.getElementById("legend").innerHTML = h;
+}
+function side() {
+  const box = document.getElementById("side"); if (!CNT) return; const cc = CC(); let h = "";
+  if (S.sel && S.sel.kind === "s") {
+    const ids = S.sel.ids, v0 = VO[ids[0]];
+    h = `<button class="back">Back</button><h4>Ship</h4><div class="big">${esc(S.sel.name)}</div><p class="sub">${ids.length} listed voyage${ids.length === 1 ? "" : "s"}${v0[C.article] ? ` · <a href="${wiki(v0[C.article])}" target="_blank" rel="noopener">Wikipedia</a>` : ""}</p><table>` +
+      ids.map(i => { const v = VO[i]; return `<tr><td><span class="chip" style="background:${cc[v[C.colony]]}"></span><span class="go" data-v="${i}">${esc(dateTxt(v))}</span><br><small>from ${esc(portName(v))}${v[C.flag] ? ", " + FLAGN[v[C.flag]] : ""}</small></td><td class="num">${v[C.convicts] >= 0 ? fmt(v[C.convicts]) : "<small>n/a</small>"}</td></tr>`; }).join("") + `</table><p class="sub">Right: convicts, where given. The dashed line marks the ship's routes.</p>`;
+  } else {
+    h = `${S.sel ? `<button class="back">Clear selection</button>` : ""}<h4>On the map now</h4><div class="big">${fmt(CNT.n)}</div><p class="sub">voyages, ${winTxt()}${CNT.kn ? `; ${fmt(CNT.conv)} convicts on the ${fmt(CNT.kn)} with a number` : ""}</p><table>` +
+      COLS.map((c, k) => CNT.cn[k] ? `<tr><td><span class="chip" style="background:${cc[k]}"></span>${esc(c[1])}</td><td class="num">${fmt(CNT.cn[k])}</td></tr>` : "").join("") + `</table>`;
+    const here = VO.map((v, i) => i).filter(i => VO[i][C.y] === S.y && shown(VO[i]));
+    h += `<h4>Arrivals in ${S.y}</h4>` + (here.length ? `<ul>${here.slice(0, 40).map(i => { const v = VO[i]; return `<li><span class="chip" style="background:${cc[v[C.colony]]}"></span><span class="go" data-v="${i}">${esc(v[C.ship])}</span> <small>${v[C.d] > 0 ? v[C.d] + " " + MON[v[C.m] - 1].slice(0, 3) + ", " : ""}from ${esc(portName(v))}${v[C.convicts] >= 0 ? ", " + fmt(v[C.convicts]) + " convicts" : ""}</small></li>`; }).join("")}</ul>` : `<p class="sub">No listed arrival from overseas in ${S.y}.</p>`);
+    const top = PORTS.map((p, k) => k).filter(k => CNT.pn[k]).sort((a, b) => CNT.pn[b] - CNT.pn[a]).slice(0, 6);
+    h += `<h4>Busiest ports, ${winTxt()}</h4><ol>${top.map(k => `<li><span class="go" data-p="${k}">${esc(PORTS[k][1])}</span> <small>${fmt(CNT.pn[k])}</small></li>`).join("")}</ol>`;
+    h += `<h4>Famous voyages</h4><ul>${[["Scarborough", 1788], ["Lady Juliana", 1790], ["Mangles", 1820], ["Hougoumont", 1868]].map(([n, y]) => { const i = VO.findIndex(v => v[C.ship].startsWith(n) && v[C.y] === y); return i >= 0 ? `<li><span class="go" data-v="${i}">${esc(n)}</span> <small>${y}</small></li>` : ""; }).join("")}</ul><p class="sub">Press play, or drag the year. Click a line for its voyage; search for a ship to see all its voyages.</p>`;
+  }
+  box.innerHTML = h;
+  const b = box.querySelector(".back"); if (b) b.onclick = () => { S.sel = null; if (popup) popup.remove(); update(); };
+  box.querySelectorAll("[data-v]").forEach(e => e.onclick = () => pickVoyage(+e.dataset.v, true));
+  box.querySelectorAll("[data-p]").forEach(e => e.onclick = () => pickPort(+e.dataset.p));
+}
+
+/* ---------- search ---------- */
+(function search() {
+  const inp = document.getElementById("q"), sug = document.getElementById("sug"); let opts = [], k = -1;
+  const nrm = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const ships = new Map(); VO.forEach(v => { const key = SHIPKEY(v); const o = ships.get(key) || { key, n: v[C.ship], c: 0, a: v[C.y], b: v[C.y] }; o.c++; o.a = Math.min(o.a, v[C.y]); o.b = Math.max(o.b, v[C.y]); ships.set(key, o); });
+  function build(q) {
+    const nq = nrm(q); if (nq.length < 2) return []; const out = [];
+    for (const o of ships.values()) { const n = nrm(o.n); if (n.includes(nq)) out.push({ t: "s", o, s: (n.startsWith(nq) ? 9 : 4) + Math.min(o.c, 9) / 10 }); }
+    PORTS.forEach((p, i) => { const n = nrm(p[1]); if (n.includes(nq) && p[5] > 0) out.push({ t: "p", i, s: n.startsWith(nq) ? 10 : 5 }); });
+    return out.sort((a, b) => b.s - a.s).slice(0, 12);
+  }
+  const lab = o => o.t === "s" ? `${esc(o.o.n)} <span>${o.o.c} voyage${o.o.c === 1 ? "" : "s"}, ${o.o.a}${o.o.b !== o.o.a ? " to " + o.o.b : ""}</span>` : `${esc(PORTS[o.i][1])} <span>port, ${PORTS[o.i][5]} voyages</span>`;
+  const show = () => { sug.innerHTML = opts.map((o, i) => `<li role="option" aria-selected="${i === k}" data-i="${i}">${lab(o)}</li>`).join(""); sug.style.display = opts.length ? "block" : "none"; };
+  const choose = o => { sug.style.display = "none"; inp.blur(); if (o.t === "s") { inp.value = o.o.n; pickShip(o.o.key, true); } else { inp.value = PORTS[o.i][1]; pickPort(o.i); } };
+  inp.addEventListener("input", () => { opts = build(inp.value); k = -1; show(); });
+  inp.addEventListener("keydown", e => { if (e.key === "ArrowDown") { k = Math.min(opts.length - 1, k + 1); show(); e.preventDefault(); } else if (e.key === "ArrowUp") { k = Math.max(0, k - 1); show(); e.preventDefault(); } else if (e.key === "Enter" && opts.length) choose(opts[Math.max(0, k)]); else if (e.key === "Escape") sug.style.display = "none"; });
+  sug.addEventListener("click", e => { const li = e.target.closest("li"); if (li) choose(opts[+li.dataset.i]); });
+  document.addEventListener("click", e => { if (!e.target.closest(".searchbox")) sug.style.display = "none"; });
+  window.pickShipByName = n => { for (const o of ships.values()) if (o.n === n) return pickShip(o.key, true); };
+})();
+
+/* ---------- charts ---------- */
+function yearChart() {
+  const Yr = R.years;
+  resp(document.getElementById("yearChart"), (w, sm) => {
+    const h = sm ? 270 : 330, m = { l: 32, r: 8, t: 16, b: 28 }, svg = el("svg", { viewBox: `0 0 ${w} ${h}`, role: "img", "aria-label": "Stacked bar chart of convict ship arrivals per year by colony, 1787 to 1868" }, document.getElementById("yearChart"));
+    const mx = 40, bw = (w - m.l - m.r) / (Y1 - Y0 + 1), X = y => m.l + (y - Y0) * bw, Y = v => h - m.b - (h - m.t - m.b) * v / mx, cc = CC();
+    for (let v = 0; v <= mx; v += 10) { el("line", { x1: m.l, x2: w - m.r, y1: Y(v), y2: Y(v), stroke: css("--rule") }, svg); lbl(svg, m.l - 6, Y(v) + 4, v, "lab s m", "end"); }
+    for (let y = 1790; y <= 1860; y += sm ? 20 : 10) lbl(svg, X(y) + bw / 2, h - 9, y, "lab s m", "middle");
+    Yr.forEach(d => { let base = 0; CK.forEach((k, j) => { const v = d[k]; if (!v) return; el("rect", { x: X(d.y) + .4, y: Y(base + v), width: Math.max(1, bw - .9), height: Y(base) - Y(base + v), fill: cc[j] }, svg); base += v; });
+      const hr = el("rect", { x: X(d.y), y: m.t, width: bw, height: h - m.t - m.b, fill: "transparent" }, svg);
+      const mv = ev => showTip(`<b>${d.y}</b>: ${d.n} arrival${d.n === 1 ? "" : "s"} from overseas<br>` + COLS.map((c, j) => d[c[0]] ? `<span style="color:${cc[j]}">■</span> ${esc(c[2])} ${d[c[0]]}` : "").filter(Boolean).join("<br>") + (d.n_conv ? `<br>${fmt(d.conv_known)} convicts on the ${d.n_conv} with a number` : ""), ev.clientX, ev.clientY);
+      hr.addEventListener("mousemove", mv); hr.addEventListener("click", ev => { ev.stopPropagation(); mv(ev); }); hr.addEventListener("mouseleave", hideTip); });
+    const pk = R.peak; lbl(svg, X(pk.year) + bw / 2, Y(pk.n) - 6, `${pk.year}: ${pk.n}`, "lab s b", "middle");
+    [[1788, "First Fleet"], [1840, "NSW stops"], [1850, "Western Australia"]].forEach(([y, t], j) => { if (sm && j === 2) return; const x = X(y) + bw / 2; el("line", { x1: x, x2: x, y1: Y(mx * .78), y2: Y(mx * .72 - 1), stroke: css("--muted") }, svg); lbl(svg, x + (j === 0 ? -2 : 3), Y(mx * .8), t, "lab s m", j === 0 ? "start" : "start"); });
+  });
+  document.getElementById("yearLegend").innerHTML = COLS.map((c, k) => `<span><i style="background:var(--${c[0]})"></i>${esc(c[1])}</span>`).join("");
+}
+function colTable() {
+  const t = document.getElementById("colTable");
+  t.innerHTML = `<thead><tr><th>Colony</th><th class="r">Voyages</th><th class="r">First</th><th class="r">Last</th><th class="r">Busiest year</th><th class="r">From Ireland</th></tr></thead><tbody>` +
+    COLS.map((c, i) => { const r = R.col[c[0]]; return `<tr data-i="${i}"><td><span class="chip" style="background:var(--${c[0]})"></span>${esc(c[1])}</td><td class="r">${fmt(r.n)}</td><td class="r">${r.first}</td><td class="r">${r.last}</td><td class="r">${r.peak_year} (${r.peak_n})</td><td class="r">${r.irish}</td></tr>`; }).join("") + `</tbody>`;
+  t.querySelectorAll("tr[data-i]").forEach(r => r.onclick = () => { document.getElementById("atlas").scrollIntoView({ behavior: "smooth" }); window.setCols(new Set([+r.dataset.i])); });
+}
+function coverChart() {
+  resp(document.getElementById("coverChart"), (w, sm) => {
+    const rh = 34, lw = sm ? 112 : 150, h = COLS.length * rh + 44, svg = el("svg", { viewBox: `0 0 ${w} ${h}`, role: "img", "aria-label": "Bars showing for each colony how many listed voyages have a convict number" }, document.getElementById("coverChart"));
+    const mx = Math.max(...CK.map(k => R.col[k].n)), cc = CC();
+    COLS.forEach((c, i) => { const r = R.col[c[0]], y = 8 + i * rh, x0 = lw, W = w - lw - 70, b1 = W * r.n_conv / mx, b2 = W * (r.n - r.n_conv) / mx;
+      lbl(svg, x0 - 8, y + 16, c[2], "lab", "end");
+      el("rect", { x: x0, y: y + 4, width: Math.max(1, b1), height: rh - 12, fill: cc[i] }, svg);
+      el("rect", { x: x0 + b1, y: y + 4, width: Math.max(1, b2), height: rh - 12, fill: cc[i], opacity: .22 }, svg);
+      lbl(svg, x0 + b1 + b2 + 6, y + 16, `${r.n_conv} of ${r.n}`, "lab s b");
+      const hr = el("rect", { x: 0, y, width: w, height: rh, fill: "transparent" }, svg);
+      hr.addEventListener("mousemove", ev => showTip(`<b>${esc(c[1])}</b><br>${r.n} listed voyages from overseas<br>${r.n_conv} with a convict number, ${fmt(r.sum_conv)} convicts`, ev.clientX, ev.clientY)); hr.addEventListener("mouseleave", hideTip); });
+    lbl(svg, lw, h - 20, `${fmt(R.cover.sum_conv)} convicts counted on ${R.cover.n_conv} voyages;`, "lab s m"); lbl(svg, lw, h - 5, `the articles give about ${fmt(R.stated.conv_162)} in all`, "lab s m");
+  });
+  document.getElementById("coverLegend").innerHTML = `<span><i style="background:var(--muted)"></i>number of convicts given</span><span><i style="background:var(--muted);opacity:.25"></i>not given</span>`;
+}
+function daysChart() {
+  const D = R.days.rows, E = R.days.eras;
+  resp(document.getElementById("daysChart"), (w, sm) => {
+    const h = sm ? 260 : 320, m = { l: 40, r: 10, t: 14, b: 28 }, svg = el("svg", { viewBox: `0 0 ${w} ${h}`, role: "img", "aria-label": "Scatter chart of convict voyage lengths in days by year" }, document.getElementById("daysChart"));
+    const X = y => m.l + (w - m.l - m.r) * (y - Y0) / (Y1 - Y0), Y = v => h - m.b - (h - m.t - m.b) * (v - 60) / 270, cc = CC();
+    for (let v = 60; v <= 330; v += 30) { el("line", { x1: m.l, x2: w - m.r, y1: Y(v), y2: Y(v), stroke: css("--rule") }, svg); lbl(svg, m.l - 6, Y(v) + 4, v, "lab s m", "end"); }
+    for (let y = 1790; y <= 1860; y += sm ? 20 : 10) lbl(svg, X(y), h - 9, y, "lab s m", "middle");
+    lbl(svg, m.l, m.t - 2, "days", "lab s m");
+    const eraY = [[1787, 1791], [1800, 1819], [1820, 1839], [1840, 1868]];
+    E.forEach((e, j) => { el("line", { x1: X(eraY[j][0]), x2: X(eraY[j][1]), y1: Y(e.median), y2: Y(e.median), stroke: css("--fg"), "stroke-width": 2, opacity: .55 }, svg); const t = lbl(svg, X(eraY[j][0]) + (j === 0 ? 14 : 2), Y(e.median) + (j === 0 ? 4 : -6), `median ${e.median}`, "lab s b"); t.setAttribute("style", `paint-order:stroke;stroke:${css("--bg")};stroke-width:3px`); });
+    D.forEach(d => { const ci = CK.indexOf(d.list), x = X(d.y + (d.fleet ? 0 : 0)), y = Y(d.days);
+      const s = d.fleet ? el("rect", { x: x - 4, y: y - 4, width: 8, height: 8, fill: cc[ci], stroke: css("--card"), "stroke-width": 1 }, svg) : el("circle", { cx: x, cy: y, r: 4.5, fill: cc[ci], stroke: css("--card"), "stroke-width": 1 }, svg);
+      const mv = ev => showTip(`<b>${esc(d.ship)}</b>, ${d.y}<br>${d.days} days${d.fleet ? `, ${["First", "Second", "Third"][d.fleet - 1]} Fleet` : ""}<br><small>${esc(d.src)}</small>`, ev.clientX, ev.clientY);
+      s.addEventListener("mousemove", mv); s.addEventListener("click", ev => { ev.stopPropagation(); mv(ev); }); s.addEventListener("mouseleave", hideTip); });
+    const f = R.days.fast, sl = R.days.slow;
+    lbl(svg, X(sl.y) + 7, Y(sl.days) + 4, `${sl.ship}, ${sl.days}`, "lab s");
+    lbl(svg, X(f.y) - 6, Y(f.days) + 16, `${f.ship}, ${f.days}`, "lab s", "end");
+  });
+  document.getElementById("daysLegend").innerHTML = COLS.map((c, k) => `<span><i class="dot" style="background:var(--${c[0]})"></i>${esc(c[2])}</span>`).join("") + `<span><i style="background:var(--muted);width:10px;height:10px"></i>fleet table</span><span><i class="dot" style="background:var(--muted)"></i>ship article</span>`;
+}
+function deathChart() {
+  const T = R.deaths.tf_ships.slice().sort((a, b) => b.pct - a.pct), rows = [{ n: "Second Fleet, all ships", v: R.deaths.sf_pct, t: `${R.deaths.sf_died} of ${fmt(R.deaths.sf_embarked)} embarked`, c: "--vdl" }].concat(T.map(s => ({ n: s.ship, v: s.pct, t: `${s.deaths} of ${s.boarded} boarded, ${s.days} days`, c: "--ink", g: "Third Fleet" }))).concat([{ n: `Later voyages (${R.deaths.art_n})`, v: R.deaths.art_pct, t: `${R.deaths.art_deaths} of ${fmt(R.deaths.art_embarked)} embarked`, c: "--nfk" }]);
+  resp(document.getElementById("deathChart"), (w, sm) => {
+    const rh = 22, lw = sm ? 150 : 200, h = rows.length * rh + 52, svg = el("svg", { viewBox: `0 0 ${w} ${h}`, role: "img", "aria-label": "Bar chart of the share of convicts who died at sea on the Second Fleet, each Third Fleet ship and later voyages" }, document.getElementById("deathChart"));
+    const W = w - lw - 50, X = v => lw + W * v / 30;
+    for (let v = 0; v <= 30; v += 10) { el("line", { x1: X(v), x2: X(v), y1: 4, y2: h - 20, stroke: css("--rule") }, svg); lbl(svg, X(v), h - 6, v + "%", "lab s m", "middle"); }
+    rows.forEach((r, i) => { const y = 4 + i * rh + (i > 0 ? 18 : 0) + (i > T.length ? 8 : 0);
+      if (i === 1) lbl(svg, lw, y + 2, "Third Fleet ships, 1791", "lab s m");
+      lbl(svg, lw - 8, y + 14, r.n, "lab" + (i === 0 || i > T.length ? " b" : ""), "end");
+      const b = el("rect", { x: lw, y: y + 4, width: Math.max(1.5, X(r.v) - lw), height: rh - 8, fill: css(r.c), rx: 1 }, svg); lbl(svg, X(r.v) + 5, y + 14, (r.v < 2 ? r.v.toFixed(1) : Math.round(r.v)) + "%", "lab s b");
+      b.addEventListener("mousemove", ev => showTip(`<b>${esc(r.n)}</b><br>${esc(r.t)}<br>${r.v.toFixed(1)}% died at sea`, ev.clientX, ev.clientY)); b.addEventListener("mouseleave", hideTip); });
+  });
+}
+function portChart() {
+  const P = R.ports.filter(p => p.region !== "Within Australia").slice(0, 16);
+  resp(document.getElementById("portChart"), (w, sm) => {
+    const rh = 23, lw = sm ? 150 : 210, h = P.length * rh + 10, svg = el("svg", { viewBox: `0 0 ${w} ${h}`, role: "img", "aria-label": "Bar chart of the busiest ports of departure for convict ships" }, document.getElementById("portChart"));
+    const mx = P[0].n, rc = Object.fromEntries(REG);
+    P.forEach((p, i) => { const y = 4 + i * rh, bw = (w - lw - 40) * p.n / mx;
+      lbl(svg, lw - 8, y + 14, p.name.replace(" (Cove of Cork)", "").replace(" (Kingstown)", ""), "lab", "end");
+      const b = el("rect", { x: lw, y: y + 4, width: bw, height: rh - 8, fill: rc[p.region], rx: 1 }, svg); b.style.cursor = "pointer";
+      lbl(svg, lw + bw + 5, y + 14, p.n, "lab s b");
+      b.addEventListener("click", () => { document.getElementById("atlas").scrollIntoView({ behavior: "smooth" }); setTimeout(() => pickPort(PORTS.findIndex(q => q[0] === p.key)), 400); });
+      b.addEventListener("mousemove", ev => showTip(`<b>${esc(p.name)}</b>, ${esc(p.region)}<br>${p.n} voyages, ${p.first} to ${p.last}<br>` + COLS.map(c => p[c[0]] ? `${esc(c[2])} ${p[c[0]]}` : "").filter(Boolean).join(", "), ev.clientX, ev.clientY)); b.addEventListener("mouseleave", hideTip); });
+  });
+  document.getElementById("portLegend").innerHTML = REG.filter(r => r[0] !== "Within Australia" && r[0] !== "Not given").map(([n, c]) => `<span><i style="background:${c}"></i>${esc(n)}</span>`).join("");
+}
+function shipTable() {
+  const t = document.getElementById("shipTable"), T = R.ships.top;
+  t.innerHTML = `<thead><tr><th>Ship</th><th class="r">Voyages</th><th class="r">Years</th><th>Colonies</th><th class="r">Launched</th><th class="r">Article says</th></tr></thead><tbody>` +
+    T.map((s, i) => `<tr data-i="${i}"><td>${esc(s.name)}</td><td class="r">${s.voyages}</td><td class="r">${s.first} to ${s.last}</td><td>${esc(s.colonies)}</td><td class="r">${s.launched || ""}</td><td class="r">${s.lead || ""}</td></tr>`).join("") + `</tbody>`;
+  t.querySelectorAll("tr[data-i]").forEach(r => r.onclick = () => { const s = T[+r.dataset.i]; document.getElementById("atlas").scrollIntoView({ behavior: "smooth" }); setTimeout(() => s.article ? pickShip(s.article, true) : window.pickShipByName(s.name), 400); });
+}
+function womenChart() {
+  const D = R.women.pop;
+  resp(document.getElementById("womenChart"), (w, sm) => {
+    const h = sm ? 240 : 280, m = { l: 52, r: 40, t: 16, b: 28 }, svg = el("svg", { viewBox: `0 0 ${w} ${h}`, role: "img", "aria-label": "Bar chart of the convict population of New South Wales by sex, 1788 to 1841" }, document.getElementById("womenChart"));
+    const mx = 30000, n = D.length, gap = (w - m.l - m.r) / n, bw = Math.min(46, gap * .62), X = i => m.l + gap * (i + .5), Y = v => h - m.b - (h - m.t - m.b) * v / mx, YP = v => h - m.b - (h - m.t - m.b) * v / 30;
+    for (let v = 0; v <= mx; v += 10000) { el("line", { x1: m.l, x2: w - m.r, y1: Y(v), y2: Y(v), stroke: css("--rule") }, svg); lbl(svg, m.l - 6, Y(v) + 4, fmt(v), "lab s m", "end"); }
+    for (let v = 0; v <= 30; v += 10) lbl(svg, w - m.r + 6, YP(v) + 4, v + "%", "lab s").setAttribute("style", `fill:${css("--vdl")}`);
+    D.forEach((d, i) => { el("rect", { x: X(i) - bw / 2, y: Y(d.male + d.female), width: bw, height: Y(d.male) - Y(d.male + d.female), fill: css("--vdl") }, svg);
+      el("rect", { x: X(i) - bw / 2, y: Y(d.male), width: bw, height: Y(0) - Y(d.male), fill: css("--ink"), opacity: .8 }, svg);
+      lbl(svg, X(i), h - 9, d.year, "lab s m", "middle");
+      const hr = el("rect", { x: X(i) - gap / 2, y: m.t, width: gap, height: h - m.t - m.b, fill: "transparent" }, svg);
+      hr.addEventListener("mousemove", ev => showTip(`<b>${d.year}</b><br>${fmt(d.male)} men, ${fmt(d.female)} women<br>women ${d.fpct.toFixed(1)}%`, ev.clientX, ev.clientY)); hr.addEventListener("mouseleave", hideTip); });
+    el("polyline", { points: D.map((d, i) => `${X(i)},${YP(d.fpct)}`).join(" "), fill: "none", stroke: css("--vdl"), "stroke-width": 2.2 }, svg);
+    D.forEach((d, i) => el("circle", { cx: X(i), cy: YP(d.fpct), r: 3.2, fill: css("--vdl") }, svg));
+  });
+  document.getElementById("womenLegend").innerHTML = `<span><i style="background:var(--ink)"></i>male convicts</span><span><i style="background:var(--vdl)"></i>female convicts</span><span><i class="ln" style="border-color:var(--vdl)"></i>women's share</span>`;
+}
+function worldTable() {
+  const t = document.getElementById("worldTable"), W = SITE.world;
+  t.innerHTML = `<thead><tr><th>Destination</th><th>Years</th><th>Convicts sent, as stated</th></tr></thead><tbody>` +
+    W.map((w, i) => `<tr data-i="${i}"><td>${esc(w.name)}<br><small style="color:var(--muted)">from ${esc(w.by)}; ${esc(w.place)}</small></td><td>${esc(w.years)}</td><td>${esc(w.people)}</td></tr>`).join("") + `</tbody>`;
+  t.querySelectorAll("tr[data-i]").forEach(r => r.onclick = () => { const i = +r.dataset.i, w = W[i]; document.getElementById("atlas").scrollIntoView({ behavior: "smooth" }); LY.world = true; saveLY(); if (window.syncLayers) syncLayers(); applyLayers();
+    setTimeout(() => { if (!map) return; map.flyTo({ center: [w.lon, w.lat], zoom: 3.2 }); if (w.key === "aus") colPop(0); else worldPop(i); }, 400); });
+  t.insertAdjacentHTML("afterend", "");
+}
+function charts() { yearChart(); colTable(); coverChart(); daysChart(); deathChart(); portChart(); shipTable(); womenChart(); worldTable(); }
+
+/* ---------- start ---------- */
+document.getElementById("theme").onclick = () => { const r = document.documentElement; r.dataset.theme = isDark() ? "light" : "dark"; if (ready) { const P = pal(); map.setPaintProperty("bg", "background-color", P.sea); map.setPaintProperty("land", "fill-color", P.land); map.setPaintProperty("borders", "line-color", P.border); map.setPaintProperty("voy", "line-color", colExpr()); map.setPaintProperty("wsys", "circle-stroke-color", css("--world")); ["ports", "arr", "ships"].forEach(l => map.setPaintProperty(l, "circle-stroke-color", P.halo)); map.setPaintProperty("hl", "line-color", P.ink); map.setPaintProperty("stn", "circle-color", P.ink); } update(); redraws.forEach(f => f()); };
+charts(); startMap(); setYear(Y1);
+</script>
+/*FULLSCREEN*/
+</body>
+</html>

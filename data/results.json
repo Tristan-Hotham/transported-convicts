@@ -1,0 +1,3408 @@
+{
+ "dups": [
+  {
+   "ship": "Brothers",
+   "listed": "NSW",
+   "arr": "7 May 1824",
+   "kept": "Tasmania",
+   "kept_arr": "15 April 1824"
+  },
+  {
+   "ship": "HMS Dromedary",
+   "listed": "NSW",
+   "arr": "28 January 1820",
+   "kept": "Tasmania",
+   "kept_arr": "10 January 1820"
+  },
+  {
+   "ship": "Grenada",
+   "listed": "NSW",
+   "arr": "23 January 1827",
+   "kept": "Tasmania",
+   "kept_arr": "9 January 1827"
+  },
+  {
+   "ship": "Henry",
+   "listed": "NSW",
+   "arr": "27 February 1825",
+   "kept": "Tasmania",
+   "kept_arr": "9 February 1825"
+  },
+  {
+   "ship": "Lady Kennaway",
+   "listed": "NSW",
+   "arr": "4 March 1835",
+   "kept": "Tasmania",
+   "kept_arr": "13 February 1835"
+  },
+  {
+   "ship": "Lady Nugent",
+   "listed": "NSW",
+   "arr": "2 December 1836",
+   "kept": "Tasmania",
+   "kept_arr": "11 November 1836"
+  },
+  {
+   "ship": "Larkins",
+   "listed": "NSW",
+   "arr": "24 November 1831",
+   "kept": "Tasmania",
+   "kept_arr": "19 October 1831"
+  },
+  {
+   "ship": "Mangles",
+   "listed": "NSW",
+   "arr": "27 April 1840",
+   "kept": "Norfolk Island",
+   "kept_arr": "18 May 1840"
+  },
+  {
+   "ship": "Mary",
+   "listed": "NSW",
+   "arr": "18 October 1823",
+   "kept": "Tasmania",
+   "kept_arr": "5 October 1823"
+  },
+  {
+   "ship": "Morley",
+   "listed": "NSW",
+   "arr": "30 September 1820",
+   "kept": "Tasmania",
+   "kept_arr": "28 August 1820"
+  },
+  {
+   "ship": "George Hibbert",
+   "listed": "Tasmania",
+   "arr": "1 December 1834",
+   "kept": "NSW",
+   "kept_arr": "1 December 1834"
+  },
+  {
+   "ship": "Guildford",
+   "listed": "Tasmania",
+   "arr": "28 October 1820",
+   "kept": "NSW",
+   "kept_arr": "30 September 1820"
+  },
+  {
+   "ship": "Lady Castlereagh",
+   "listed": "Tasmania",
+   "arr": "11 June 1818",
+   "kept": "NSW",
+   "kept_arr": "30 April 1818"
+  },
+  {
+   "ship": "Minerva",
+   "listed": "Tasmania",
+   "arr": "7 June 1818",
+   "kept": "NSW",
+   "kept_arr": "30 April 1818"
+  },
+  {
+   "ship": "Surrey",
+   "listed": "Tasmania",
+   "arr": "17 May 1836",
+   "kept": "NSW",
+   "kept_arr": "17 May 1836"
+  }
+ ],
+ "source": {
+  "rows": {
+   "nsw": 604,
+   "vdl": 147,
+   "nfk": 33,
+   "wa": 50
+  },
+  "rows_total": 834,
+  "added_from_fleet": [
+   "Prince of Wales"
+  ],
+  "revids": {
+   "Convict ships to New South Wales": 1329275779,
+   "Convict ships to Tasmania": 1153506110,
+   "Convict ships to Norfolk Island": 1383115444,
+   "Convict ships to Australia": 1364897894,
+   "List of convict ship voyages to Western Australia": 1334470026,
+   "List of convict ships to Western Australia": 1334470026,
+   "List of convicts transported to Australia": 1369575880,
+   "List of British prison hulks": 1379028118,
+   "Penal transportation": 1381060835,
+   "Convicts in Australia": 1373855829,
+   "Convict era of Western Australia": 1376677837,
+   "Moreton Bay Penal Settlement": 1376283471,
+   "Bagne (penal establishment)": 1378312137,
+   "Cellular Jail": 1379660571,
+   "Royal Naval Dockyard, Bermuda": 1377314982,
+   "Indentured servitude in British America": 1368066200,
+   "Transportation Act 1717": 1381752810,
+   "First Fleet": 1381165491,
+   "Second Fleet (Australia)": 1339109887,
+   "Third Fleet (Australia)": 1308790478,
+   "Australian Convict Sites": 1366152364,
+   "Convict women in Australia": 1346295726,
+   "Macquarie Harbour Penal Station": 1368436442,
+   "Port Arthur, Tasmania": 1381786866,
+   "Norfolk Island": 1381712229,
+   "Katorga": 1371129600
+  },
+  "n_ship_articles": 305,
+  "n_article_voyages": 33,
+  "category_members": {
+   "Category:Convict ships to Australia": 10,
+   "Category:Convict ships to New South Wales": 240,
+   "Category:Convict ships to Norfolk Island": 9,
+   "Category:Convict ships to Tasmania": 119,
+   "Category:Convict ships to Western Australia": 15
+  },
+  "n_main": 745,
+  "n_intra": 57,
+  "n_parkhurst": 7,
+  "parkhurst_n": 234,
+  "n_dup": 15,
+  "n_undated": 10,
+  "n_noport_main": 15,
+  "first_year": 1788,
+  "last_year": 1868
+ },
+ "col": {
+  "nsw": {
+   "name": "New South Wales",
+   "short": "NSW",
+   "n": 556,
+   "pct": 74.6,
+   "first": 1788,
+   "last": 1849,
+   "peak_year": 1829,
+   "peak_n": 27,
+   "n_conv": 44,
+   "sum_conv": 7993,
+   "irish": 152,
+   "england": 298,
+   "indian": 95,
+   "last_ship": "Adelaide",
+   "last_date": "24 December 1849",
+   "first_ship": "Alexander",
+   "first_date": "26 January 1788",
+   "intra": 34,
+   "irish_pct": 33.8
+  },
+  "vdl": {
+   "name": "Van Diemen's Land (Tasmania)",
+   "short": "Tasmania",
+   "n": 132,
+   "pct": 17.7,
+   "first": 1812,
+   "last": 1852,
+   "peak_year": 1830,
+   "peak_n": 9,
+   "n_conv": 7,
+   "sum_conv": 1459,
+   "irish": 7,
+   "england": 120,
+   "indian": 0,
+   "last_ship": "Sir Robert Seppings",
+   "last_date": "8 July 1852",
+   "first_ship": "Indefatigable",
+   "first_date": "19 October 1812",
+   "intra": 4,
+   "irish_pct": 5.5
+  },
+  "nfk": {
+   "name": "Norfolk Island",
+   "short": "Norfolk Island",
+   "n": 14,
+   "pct": 1.9,
+   "first": 1840,
+   "last": 1850,
+   "peak_year": 1840,
+   "peak_n": 3,
+   "n_conv": 14,
+   "sum_conv": 2745,
+   "irish": 3,
+   "england": 10,
+   "indian": 0,
+   "last_ship": "Eliza",
+   "last_date": "30 April 1850",
+   "first_ship": "Augusta Jessie",
+   "first_date": "27 March 1840",
+   "intra": 19,
+   "irish_pct": 23.1
+  },
+  "wa": {
+   "name": "Western Australia",
+   "short": "Western Australia",
+   "n": 43,
+   "pct": 5.8,
+   "first": 1850,
+   "last": 1868,
+   "peak_year": 1858,
+   "peak_n": 5,
+   "n_conv": 43,
+   "sum_conv": 9674,
+   "irish": 1,
+   "england": 36,
+   "indian": 6,
+   "last_ship": "Hougoumont",
+   "last_date": "9 January 1868",
+   "first_ship": "Scindian",
+   "first_date": "1 June 1850",
+   "intra": 0,
+   "irish_pct": 2.7
+  }
+ },
+ "wa": {
+  "n": 43,
+  "sum": 9674,
+  "stated_721": 9721,
+  "stated_668": 9668,
+  "diff_721": 47,
+  "diff_668": 6
+ },
+ "years": [
+  {
+   "y": 1787,
+   "n": 0,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1788,
+   "n": 6,
+   "nsw": 6,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 796,
+   "n_conv": 6
+  },
+  {
+   "y": 1789,
+   "n": 0,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1790,
+   "n": 4,
+   "nsw": 4,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 1119,
+   "n_conv": 4
+  },
+  {
+   "y": 1791,
+   "n": 11,
+   "nsw": 11,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 1885,
+   "n_conv": 11
+  },
+  {
+   "y": 1792,
+   "n": 3,
+   "nsw": 3,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1793,
+   "n": 3,
+   "nsw": 3,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1794,
+   "n": 1,
+   "nsw": 1,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1795,
+   "n": 1,
+   "nsw": 1,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1796,
+   "n": 2,
+   "nsw": 2,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1797,
+   "n": 2,
+   "nsw": 2,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1798,
+   "n": 2,
+   "nsw": 2,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1799,
+   "n": 1,
+   "nsw": 1,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1800,
+   "n": 4,
+   "nsw": 4,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1801,
+   "n": 6,
+   "nsw": 6,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1802,
+   "n": 4,
+   "nsw": 4,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1803,
+   "n": 2,
+   "nsw": 2,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1804,
+   "n": 2,
+   "nsw": 2,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1805,
+   "n": 0,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1806,
+   "n": 4,
+   "nsw": 4,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 166,
+   "n_conv": 1
+  },
+  {
+   "y": 1807,
+   "n": 3,
+   "nsw": 3,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1808,
+   "n": 2,
+   "nsw": 2,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1809,
+   "n": 5,
+   "nsw": 5,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1810,
+   "n": 4,
+   "nsw": 4,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1811,
+   "n": 7,
+   "nsw": 7,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 100,
+   "n_conv": 1
+  },
+  {
+   "y": 1812,
+   "n": 4,
+   "nsw": 3,
+   "vdl": 1,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1813,
+   "n": 5,
+   "nsw": 5,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1814,
+   "n": 8,
+   "nsw": 8,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1815,
+   "n": 10,
+   "nsw": 10,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1816,
+   "n": 13,
+   "nsw": 13,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 84,
+   "n_conv": 1
+  },
+  {
+   "y": 1817,
+   "n": 14,
+   "nsw": 14,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1818,
+   "n": 20,
+   "nsw": 19,
+   "vdl": 1,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 410,
+   "n_conv": 2
+  },
+  {
+   "y": 1819,
+   "n": 20,
+   "nsw": 19,
+   "vdl": 1,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1820,
+   "n": 26,
+   "nsw": 21,
+   "vdl": 5,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 454,
+   "n_conv": 3
+  },
+  {
+   "y": 1821,
+   "n": 18,
+   "nsw": 12,
+   "vdl": 6,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1822,
+   "n": 16,
+   "nsw": 13,
+   "vdl": 3,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 734,
+   "n_conv": 4
+  },
+  {
+   "y": 1823,
+   "n": 17,
+   "nsw": 12,
+   "vdl": 5,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 300,
+   "n_conv": 2
+  },
+  {
+   "y": 1824,
+   "n": 12,
+   "nsw": 7,
+   "vdl": 5,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 190,
+   "n_conv": 1
+  },
+  {
+   "y": 1825,
+   "n": 18,
+   "nsw": 15,
+   "vdl": 3,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1826,
+   "n": 18,
+   "nsw": 15,
+   "vdl": 3,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1827,
+   "n": 24,
+   "nsw": 17,
+   "vdl": 7,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 192,
+   "n_conv": 1
+  },
+  {
+   "y": 1828,
+   "n": 24,
+   "nsw": 18,
+   "vdl": 6,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 390,
+   "n_conv": 2
+  },
+  {
+   "y": 1829,
+   "n": 33,
+   "nsw": 27,
+   "vdl": 6,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 171,
+   "n_conv": 1
+  },
+  {
+   "y": 1830,
+   "n": 30,
+   "nsw": 21,
+   "vdl": 9,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 167,
+   "n_conv": 1
+  },
+  {
+   "y": 1831,
+   "n": 26,
+   "nsw": 21,
+   "vdl": 5,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 557,
+   "n_conv": 3
+  },
+  {
+   "y": 1832,
+   "n": 25,
+   "nsw": 20,
+   "vdl": 5,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 224,
+   "n_conv": 1
+  },
+  {
+   "y": 1833,
+   "n": 35,
+   "nsw": 27,
+   "vdl": 8,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 468,
+   "n_conv": 2
+  },
+  {
+   "y": 1834,
+   "n": 23,
+   "nsw": 19,
+   "vdl": 4,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 250,
+   "n_conv": 1
+  },
+  {
+   "y": 1835,
+   "n": 28,
+   "nsw": 22,
+   "vdl": 6,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 177,
+   "n_conv": 1
+  },
+  {
+   "y": 1836,
+   "n": 27,
+   "nsw": 20,
+   "vdl": 7,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1837,
+   "n": 23,
+   "nsw": 20,
+   "vdl": 3,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 310,
+   "n_conv": 1
+  },
+  {
+   "y": 1838,
+   "n": 29,
+   "nsw": 24,
+   "vdl": 5,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1839,
+   "n": 18,
+   "nsw": 15,
+   "vdl": 3,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1840,
+   "n": 20,
+   "nsw": 15,
+   "vdl": 2,
+   "nfk": 3,
+   "wa": 0,
+   "conv_known": 543,
+   "n_conv": 3
+  },
+  {
+   "y": 1841,
+   "n": 4,
+   "nsw": 0,
+   "vdl": 4,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 308,
+   "n_conv": 1
+  },
+  {
+   "y": 1842,
+   "n": 9,
+   "nsw": 1,
+   "vdl": 8,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1843,
+   "n": 2,
+   "nsw": 0,
+   "vdl": 2,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1844,
+   "n": 4,
+   "nsw": 0,
+   "vdl": 1,
+   "nfk": 3,
+   "wa": 0,
+   "conv_known": 629,
+   "n_conv": 3
+  },
+  {
+   "y": 1845,
+   "n": 3,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 3,
+   "wa": 0,
+   "conv_known": 729,
+   "n_conv": 3
+  },
+  {
+   "y": 1846,
+   "n": 4,
+   "nsw": 0,
+   "vdl": 1,
+   "nfk": 3,
+   "wa": 0,
+   "conv_known": 593,
+   "n_conv": 3
+  },
+  {
+   "y": 1847,
+   "n": 1,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 1,
+   "wa": 0,
+   "conv_known": 195,
+   "n_conv": 1
+  },
+  {
+   "y": 1848,
+   "n": 0,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1849,
+   "n": 4,
+   "nsw": 4,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1850,
+   "n": 5,
+   "nsw": 0,
+   "vdl": 2,
+   "nfk": 1,
+   "wa": 2,
+   "conv_known": 231,
+   "n_conv": 3
+  },
+  {
+   "y": 1851,
+   "n": 7,
+   "nsw": 0,
+   "vdl": 3,
+   "nfk": 0,
+   "wa": 4,
+   "conv_known": 1081,
+   "n_conv": 4
+  },
+  {
+   "y": 1852,
+   "n": 3,
+   "nsw": 0,
+   "vdl": 2,
+   "nfk": 0,
+   "wa": 1,
+   "conv_known": 212,
+   "n_conv": 1
+  },
+  {
+   "y": 1853,
+   "n": 4,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 4,
+   "conv_known": 1109,
+   "n_conv": 4
+  },
+  {
+   "y": 1854,
+   "n": 3,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 3,
+   "conv_known": 596,
+   "n_conv": 3
+  },
+  {
+   "y": 1855,
+   "n": 3,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 3,
+   "conv_known": 489,
+   "n_conv": 3
+  },
+  {
+   "y": 1856,
+   "n": 2,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 2,
+   "conv_known": 497,
+   "n_conv": 2
+  },
+  {
+   "y": 1857,
+   "n": 2,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 2,
+   "conv_known": 266,
+   "n_conv": 2
+  },
+  {
+   "y": 1858,
+   "n": 5,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 5,
+   "conv_known": 830,
+   "n_conv": 5
+  },
+  {
+   "y": 1859,
+   "n": 2,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 2,
+   "conv_known": 225,
+   "n_conv": 2
+  },
+  {
+   "y": 1860,
+   "n": 0,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "conv_known": 0,
+   "n_conv": 0
+  },
+  {
+   "y": 1861,
+   "n": 1,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 1,
+   "conv_known": 293,
+   "n_conv": 1
+  },
+  {
+   "y": 1862,
+   "n": 3,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 3,
+   "conv_known": 893,
+   "n_conv": 3
+  },
+  {
+   "y": 1863,
+   "n": 3,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 3,
+   "conv_known": 781,
+   "n_conv": 3
+  },
+  {
+   "y": 1864,
+   "n": 2,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 2,
+   "conv_known": 558,
+   "n_conv": 2
+  },
+  {
+   "y": 1865,
+   "n": 2,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 2,
+   "conv_known": 556,
+   "n_conv": 2
+  },
+  {
+   "y": 1866,
+   "n": 2,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 2,
+   "conv_known": 581,
+   "n_conv": 2
+  },
+  {
+   "y": 1867,
+   "n": 1,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 1,
+   "conv_known": 253,
+   "n_conv": 1
+  },
+  {
+   "y": 1868,
+   "n": 1,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 1,
+   "conv_known": 279,
+   "n_conv": 1
+  }
+ ],
+ "peak": {
+  "year": 1833,
+  "n": 35,
+  "years_over_20": [
+   1818,
+   1819,
+   1820,
+   1827,
+   1828,
+   1829,
+   1830,
+   1831,
+   1832,
+   1833,
+   1834,
+   1835,
+   1836,
+   1837,
+   1838,
+   1840
+  ],
+  "zero_years": [
+   1789,
+   1805,
+   1848,
+   1860
+  ],
+  "dec": 1830,
+  "dec_n": 264,
+  "n_1830s": 264,
+  "n_1820s": 206,
+  "n_1810s": 105,
+  "n_1790s": 30,
+  "n_1800s": 32,
+  "n_1840s": 51,
+  "n_1850s": 36,
+  "n_1860s": 15,
+  "n_1815_1840": 567,
+  "pct_1815_1840": 76.1,
+  "n_pre1815": 96,
+  "vdl_1840s": 18,
+  "nsw_1840s": 20,
+  "nsw_1830s": 209,
+  "vdl_1830s": 55,
+  "nsw_4149": 5,
+  "vdl_4149": 16,
+  "nfk_4149": 10,
+  "wa_4149": 0
+ },
+ "decades": [
+  {
+   "dec": 1780,
+   "n": 6,
+   "nsw": 6,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "irish": 0,
+   "indian": 0
+  },
+  {
+   "dec": 1790,
+   "n": 30,
+   "nsw": 30,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "irish": 5,
+   "indian": 0
+  },
+  {
+   "dec": 1800,
+   "n": 32,
+   "nsw": 32,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "irish": 10,
+   "indian": 1
+  },
+  {
+   "dec": 1810,
+   "n": 105,
+   "nsw": 102,
+   "vdl": 3,
+   "nfk": 0,
+   "wa": 0,
+   "irish": 19,
+   "indian": 25
+  },
+  {
+   "dec": 1820,
+   "n": 206,
+   "nsw": 157,
+   "vdl": 49,
+   "nfk": 0,
+   "wa": 0,
+   "irish": 52,
+   "indian": 17
+  },
+  {
+   "dec": 1830,
+   "n": 264,
+   "nsw": 209,
+   "vdl": 55,
+   "nfk": 0,
+   "wa": 0,
+   "irish": 59,
+   "indian": 48
+  },
+  {
+   "dec": 1840,
+   "n": 51,
+   "nsw": 20,
+   "vdl": 18,
+   "nfk": 13,
+   "wa": 0,
+   "irish": 13,
+   "indian": 4
+  },
+  {
+   "dec": 1850,
+   "n": 36,
+   "nsw": 0,
+   "vdl": 7,
+   "nfk": 1,
+   "wa": 28,
+   "irish": 5,
+   "indian": 6
+  },
+  {
+   "dec": 1860,
+   "n": 15,
+   "nsw": 0,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 15,
+   "irish": 0,
+   "indian": 0
+  }
+ ],
+ "cover": {
+  "stated_162": 162000,
+  "stated_164": 164000,
+  "stated_ships": 806,
+  "n_main": 745,
+  "n_main_pct_806": 92.4,
+  "n_conv": 108,
+  "n_conv_pct": 14.5,
+  "sum_conv": 21871,
+  "sum_conv_pct_162": 13.5,
+  "avg_stated": 203,
+  "avg_known": 203,
+  "avg_known_ex_small": 214,
+  "n_conv_nsw": 44,
+  "n_conv_vdl": 7,
+  "n_conv_wa": 43,
+  "n_conv_nfk": 14,
+  "n_eastern": 688,
+  "n_eastern_conv": 51,
+  "implied_if_avg": 151000,
+  "n_eastern_conv_pct": 7.4
+ },
+ "days": {
+  "rows": [
+   {
+    "ship": "Alexander",
+    "y": 1788,
+    "days": 251,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 1,
+    "port": "spithead"
+   },
+   {
+    "ship": "Charlotte",
+    "y": 1788,
+    "days": 252,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 1,
+    "port": "spithead"
+   },
+   {
+    "ship": "Friendship",
+    "y": 1788,
+    "days": 251,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 1,
+    "port": "spithead"
+   },
+   {
+    "ship": "Lady Penrhyn",
+    "y": 1788,
+    "days": 252,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 1,
+    "port": "spithead"
+   },
+   {
+    "ship": "Prince of Wales",
+    "y": 1788,
+    "days": 252,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 1,
+    "port": "portsmouth"
+   },
+   {
+    "ship": "Scarborough",
+    "y": 1788,
+    "days": 251,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 1,
+    "port": "spithead"
+   },
+   {
+    "ship": "Lady Juliana",
+    "y": 1790,
+    "days": 309,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 2,
+    "port": "plymouth"
+   },
+   {
+    "ship": "Scarborough",
+    "y": 1790,
+    "days": 160,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 2,
+    "port": "portsmouth"
+   },
+   {
+    "ship": "Neptune",
+    "y": 1790,
+    "days": 159,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 2,
+    "port": "portsmouth"
+   },
+   {
+    "ship": "Surprize",
+    "y": 1790,
+    "days": 158,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 2,
+    "port": "portsmouth"
+   },
+   {
+    "ship": "Britannia",
+    "y": 1791,
+    "days": 201,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 3,
+    "port": "portsmouth"
+   },
+   {
+    "ship": "Matilda",
+    "y": 1791,
+    "days": 127,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 3,
+    "port": "portsmouth"
+   },
+   {
+    "ship": "HMS Gorgon",
+    "y": 1791,
+    "days": 190,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 3,
+    "port": "england"
+   },
+   {
+    "ship": "Atlantic",
+    "y": 1791,
+    "days": 147,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 3,
+    "port": "plymouth"
+   },
+   {
+    "ship": "Albemarle",
+    "y": 1791,
+    "days": 200,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 3,
+    "port": "portsmouth"
+   },
+   {
+    "ship": "Admiral Barrington",
+    "y": 1791,
+    "days": 203,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 3,
+    "port": "portsmouth"
+   },
+   {
+    "ship": "Salamander",
+    "y": 1791,
+    "days": 148,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 3,
+    "port": "plymouth"
+   },
+   {
+    "ship": "William and Ann",
+    "y": 1791,
+    "days": 154,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 3,
+    "port": "plymouth"
+   },
+   {
+    "ship": "Queen",
+    "y": 1791,
+    "days": 160,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 3,
+    "port": "cork"
+   },
+   {
+    "ship": "Active",
+    "y": 1791,
+    "days": 183,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 3,
+    "port": "plymouth"
+   },
+   {
+    "ship": "Mary Ann",
+    "y": 1791,
+    "days": 143,
+    "src": "fleet table",
+    "list": "nsw",
+    "fleet": 3,
+    "port": "england"
+   },
+   {
+    "ship": "Tellicherry",
+    "y": 1806,
+    "days": 168,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "cork"
+   },
+   {
+    "ship": "Friends",
+    "y": 1811,
+    "days": 262,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "england"
+   },
+   {
+    "ship": "Alexander",
+    "y": 1816,
+    "days": 152,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "ireland"
+   },
+   {
+    "ship": "Ocean",
+    "y": 1818,
+    "days": 142,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "spithead"
+   },
+   {
+    "ship": "Isabella",
+    "y": 1818,
+    "days": 164,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "spithead"
+   },
+   {
+    "ship": "Eliza",
+    "y": 1820,
+    "days": 97,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "england"
+   },
+   {
+    "ship": "Janus",
+    "y": 1820,
+    "days": 137,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "cork"
+   },
+   {
+    "ship": "Mangles",
+    "y": 1820,
+    "days": 118,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "falmouth"
+   },
+   {
+    "ship": "Isabella",
+    "y": 1822,
+    "days": 125,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "cork"
+   },
+   {
+    "ship": "Mangles",
+    "y": 1822,
+    "days": 140,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "cork"
+   },
+   {
+    "ship": "Eliza",
+    "y": 1822,
+    "days": 125,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "sheerness"
+   },
+   {
+    "ship": "Phoenix",
+    "y": 1822,
+    "days": 135,
+    "src": "ship article",
+    "list": "vdl",
+    "fleet": 0,
+    "port": "portsmouth"
+   },
+   {
+    "ship": "Ocean",
+    "y": 1823,
+    "days": 125,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "portsmouth"
+   },
+   {
+    "ship": "Mary",
+    "y": 1823,
+    "days": 117,
+    "src": "ship article",
+    "list": "vdl",
+    "fleet": 0,
+    "port": "london"
+   },
+   {
+    "ship": "Mangles",
+    "y": 1824,
+    "days": 112,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "portsmouth"
+   },
+   {
+    "ship": "Eliza",
+    "y": 1827,
+    "days": 112,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "cork"
+   },
+   {
+    "ship": "Phoenix",
+    "y": 1828,
+    "days": 108,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "spithead"
+   },
+   {
+    "ship": "Mangles",
+    "y": 1828,
+    "days": 100,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "dublin"
+   },
+   {
+    "ship": "Eliza",
+    "y": 1829,
+    "days": 110,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "cork"
+   },
+   {
+    "ship": "Mary",
+    "y": 1830,
+    "days": 113,
+    "src": "ship article",
+    "list": "vdl",
+    "fleet": 0,
+    "port": "london"
+   },
+   {
+    "ship": "Hooghly",
+    "y": 1831,
+    "days": 95,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "cork"
+   },
+   {
+    "ship": "Mary",
+    "y": 1831,
+    "days": 129,
+    "src": "ship article",
+    "list": "vdl",
+    "fleet": 0,
+    "port": "london"
+   },
+   {
+    "ship": "Eliza",
+    "y": 1831,
+    "days": 112,
+    "src": "ship article",
+    "list": "vdl",
+    "fleet": 0,
+    "port": "portsmouth"
+   },
+   {
+    "ship": "Isabella",
+    "y": 1832,
+    "days": 109,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "plymouth"
+   },
+   {
+    "ship": "Isabella",
+    "y": 1833,
+    "days": 109,
+    "src": "ship article",
+    "list": "vdl",
+    "fleet": 0,
+    "port": "plymouth"
+   },
+   {
+    "ship": "Mary",
+    "y": 1833,
+    "days": 123,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "london"
+   },
+   {
+    "ship": "Hive",
+    "y": 1834,
+    "days": 133,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "portsmouth"
+   },
+   {
+    "ship": "Mary",
+    "y": 1835,
+    "days": 143,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "london"
+   },
+   {
+    "ship": "Mangles",
+    "y": 1837,
+    "days": 109,
+    "src": "ship article",
+    "list": "nsw",
+    "fleet": 0,
+    "port": "portsmouth"
+   },
+   {
+    "ship": "David Clark",
+    "y": 1841,
+    "days": 119,
+    "src": "ship article",
+    "list": "vdl",
+    "fleet": 0,
+    "port": "plymouth"
+   },
+   {
+    "ship": "Scindian",
+    "y": 1850,
+    "days": 89,
+    "src": "ship article",
+    "list": "wa",
+    "fleet": 0,
+    "port": "portsmouth"
+   },
+   {
+    "ship": "Hougoumont",
+    "y": 1868,
+    "days": 90,
+    "src": "ship article",
+    "list": "wa",
+    "fleet": 0,
+    "port": "london"
+   }
+  ],
+  "n": 53,
+  "n_fleet": 21,
+  "n_article": 32,
+  "fleet1_min": 251,
+  "fleet1_max": 252,
+  "fleet1_med": 251,
+  "fleet2_min": 158,
+  "fleet2_max": 309,
+  "fleet2_med": 159,
+  "fleet3_min": 127,
+  "fleet3_max": 203,
+  "fleet3_med": 160,
+  "eras": [
+   {
+    "era": "1787 to 1791",
+    "n": 21,
+    "median": 190,
+    "min": 127,
+    "max": 309
+   },
+   {
+    "era": "1800 to 1819",
+    "n": 5,
+    "median": 164,
+    "min": 142,
+    "max": 262
+   },
+   {
+    "era": "1820 to 1839",
+    "n": 24,
+    "median": 115,
+    "min": 95,
+    "max": 143
+   },
+   {
+    "era": "1840 to 1868",
+    "n": 3,
+    "median": 90,
+    "min": 89,
+    "max": 119
+   }
+  ],
+  "fast": {
+   "ship": "Scindian",
+   "y": 1850,
+   "days": 89,
+   "list": "Western Australia"
+  },
+  "slow": {
+   "ship": "Lady Juliana",
+   "y": 1790,
+   "days": 309,
+   "list": "NSW"
+  },
+  "slow_after": {
+   "ship": "Friends",
+   "y": 1811,
+   "days": 262
+  },
+  "after1815_med": 117,
+  "after1815_n": 30,
+  "ff_days": 252,
+  "hougoumont": 90,
+  "scindian": 89,
+  "mangles_n": 5,
+  "mangles_med": 112,
+  "mangles_1828": 100
+ },
+ "deaths": {
+  "tf_boarded": 2067,
+  "tf_deaths": 182,
+  "tf_pct": 8.8,
+  "tf_ships": [
+   {
+    "ship": "Mary Ann",
+    "boarded": 150,
+    "deaths": 9,
+    "pct": 6.0,
+    "days": 143
+   },
+   {
+    "ship": "HMS Gorgon",
+    "boarded": 31,
+    "deaths": 1,
+    "pct": 3.2,
+    "days": 190
+   },
+   {
+    "ship": "Matilda",
+    "boarded": 250,
+    "deaths": 25,
+    "pct": 10.0,
+    "days": 127
+   },
+   {
+    "ship": "Atlantic",
+    "boarded": 220,
+    "deaths": 18,
+    "pct": 8.2,
+    "days": 147
+   },
+   {
+    "ship": "Salamander",
+    "boarded": 160,
+    "deaths": 5,
+    "pct": 3.1,
+    "days": 148
+   },
+   {
+    "ship": "William and Ann",
+    "boarded": 188,
+    "deaths": 7,
+    "pct": 3.7,
+    "days": 154
+   },
+   {
+    "ship": "Active",
+    "boarded": 175,
+    "deaths": 21,
+    "pct": 12.0,
+    "days": 183
+   },
+   {
+    "ship": "Queen",
+    "boarded": 155,
+    "deaths": 7,
+    "pct": 4.5,
+    "days": 160
+   },
+   {
+    "ship": "Albemarle",
+    "boarded": 288,
+    "deaths": 32,
+    "pct": 11.1,
+    "days": 200
+   },
+   {
+    "ship": "Britannia",
+    "boarded": 150,
+    "deaths": 21,
+    "pct": 14.0,
+    "days": 201
+   },
+   {
+    "ship": "Admiral Barrington",
+    "boarded": 300,
+    "deaths": 36,
+    "pct": 12.0,
+    "days": 203
+   }
+  ],
+  "tf_worst": {
+   "ship": "Britannia",
+   "boarded": 150,
+   "deaths": 21,
+   "pct": 14.0,
+   "days": 201
+  },
+  "tf_best": {
+   "ship": "Salamander",
+   "boarded": 160,
+   "deaths": 5,
+   "pct": 3.1,
+   "days": 148
+  },
+  "sf_ships": [
+   {
+    "ship": "Lady Juliana",
+    "boarded": 226,
+    "arrived": 222,
+    "gap": 4
+   },
+   {
+    "ship": "Guardian",
+    "boarded": 25,
+    "arrived": 20,
+    "gap": 5
+   },
+   {
+    "ship": "Justinian",
+    "boarded": 0,
+    "arrived": null,
+    "gap": null
+   },
+   {
+    "ship": "Surprize",
+    "boarded": 254,
+    "arrived": 218,
+    "gap": 36
+   },
+   {
+    "ship": "Neptune",
+    "boarded": 499,
+    "arrived": null,
+    "gap": null
+   },
+   {
+    "ship": "Scarborough",
+    "boarded": 253,
+    "arrived": 180,
+    "gap": 73
+   }
+  ],
+  "sf_embarked": 1038,
+  "sf_died": 273,
+  "sf_pct": 26,
+  "sf_sick": 486,
+  "sf_after": 124,
+  "sf_1006": 1006,
+  "sf_267": 267,
+  "ff_deaths": 48,
+  "ff_births": 28,
+  "art_n": 24,
+  "art_deaths": 37,
+  "art_embarked": 4765,
+  "art_pct": 0.8,
+  "art_zero": 9,
+  "art_max": 6,
+  "art_max_ship": "Tellicherry",
+  "art_max_y": 1806,
+  "sf_vs_art_x": 32,
+  "mangles_max": 3,
+  "mangles_n_deaths": 4,
+  "tf_vs_art_x": 11
+ },
+ "lost": [
+  {
+   "ship": "Amphitrite",
+   "list": "NSW",
+   "arr": "Wrecked at outset of voyage",
+   "notes": "108 female convicts and 12 children drowned"
+  },
+  {
+   "ship": "HMS Guardian",
+   "list": "NSW",
+   "arr": "",
+   "notes": "Hit iceberg and was beached at Cape of Good Hope"
+  },
+  {
+   "ship": "Hive",
+   "list": "NSW",
+   "arr": "10 December 1835",
+   "notes": "Second convict voyage to NSW, Wrecked south of Jervis Bay"
+  },
+  {
+   "ship": "Neva",
+   "list": "NSW",
+   "arr": "Wrecked in Bass Sraits with the loss of 224 lives",
+   "notes": "Second convict voyage to NSW"
+  },
+  {
+   "ship": "Emu",
+   "list": "Tasmania",
+   "arr": "",
+   "notes": "Captured on way to Van Diemen's Land before she could land her convicts"
+  },
+  {
+   "ship": "George III",
+   "list": "Tasmania",
+   "arr": "12 March 1835",
+   "notes": "Wrecked with heavy loss of live before she could disembark her convicts"
+  }
+ ],
+ "ports": [
+  {
+   "key": "cork",
+   "name": "Cork (Cove of Cork)",
+   "lat": 51.85,
+   "lon": -8.295,
+   "region": "Ireland",
+   "n": 101,
+   "nsw": 101,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1791,
+   "last": 1838
+  },
+  {
+   "key": "portsmouth",
+   "name": "Portsmouth",
+   "lat": 50.797,
+   "lon": -1.108,
+   "region": "England",
+   "n": 100,
+   "nsw": 71,
+   "vdl": 26,
+   "nfk": 1,
+   "wa": 2,
+   "first": 1788,
+   "last": 1851
+  },
+  {
+   "key": "london",
+   "name": "London",
+   "lat": 51.505,
+   "lon": -0.075,
+   "region": "England",
+   "n": 92,
+   "nsw": 47,
+   "vdl": 35,
+   "nfk": 2,
+   "wa": 8,
+   "first": 1800,
+   "last": 1868
+  },
+  {
+   "key": "england",
+   "name": "England (port not given)",
+   "lat": 50.9,
+   "lon": -1.4,
+   "region": "England",
+   "n": 62,
+   "nsw": 50,
+   "vdl": 12,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1791,
+   "last": 1850
+  },
+  {
+   "key": "dublin",
+   "name": "Dublin (Kingstown)",
+   "lat": 53.294,
+   "lon": -6.134,
+   "region": "Ireland",
+   "n": 51,
+   "nsw": 41,
+   "vdl": 6,
+   "nfk": 3,
+   "wa": 1,
+   "first": 1825,
+   "last": 1853
+  },
+  {
+   "key": "sheerness",
+   "name": "Sheerness",
+   "lat": 51.443,
+   "lon": 0.762,
+   "region": "England",
+   "n": 45,
+   "nsw": 32,
+   "vdl": 13,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1818,
+   "last": 1842
+  },
+  {
+   "key": "calcutta",
+   "name": "Calcutta",
+   "lat": 22.57,
+   "lon": 88.35,
+   "region": "India and the Indian Ocean",
+   "n": 42,
+   "nsw": 39,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 3,
+   "first": 1811,
+   "last": 1858
+  },
+  {
+   "key": "downs",
+   "name": "The Downs",
+   "lat": 51.23,
+   "lon": 1.46,
+   "region": "England",
+   "n": 41,
+   "nsw": 30,
+   "vdl": 9,
+   "nfk": 2,
+   "wa": 0,
+   "first": 1795,
+   "last": 1845
+  },
+  {
+   "key": "plymouth",
+   "name": "Plymouth",
+   "lat": 50.36,
+   "lon": -4.14,
+   "region": "England",
+   "n": 36,
+   "nsw": 13,
+   "vdl": 13,
+   "nfk": 1,
+   "wa": 9,
+   "first": 1790,
+   "last": 1859
+  },
+  {
+   "key": "mauritius",
+   "name": "Mauritius (Port Louis)",
+   "lat": -20.16,
+   "lon": 57.5,
+   "region": "India and the Indian Ocean",
+   "n": 33,
+   "nsw": 33,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1816,
+   "last": 1840
+  },
+  {
+   "key": "spithead",
+   "name": "Spithead",
+   "lat": 50.76,
+   "lon": -1.09,
+   "region": "England",
+   "n": 30,
+   "nsw": 26,
+   "vdl": 4,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1788,
+   "last": 1839
+  },
+  {
+   "key": "woolwich",
+   "name": "Woolwich",
+   "lat": 51.492,
+   "lon": 0.068,
+   "region": "England",
+   "n": 21,
+   "nsw": 12,
+   "vdl": 5,
+   "nfk": 4,
+   "wa": 0,
+   "first": 1818,
+   "last": 1852
+  },
+  {
+   "key": "portland",
+   "name": "Portland",
+   "lat": 50.57,
+   "lon": -2.44,
+   "region": "England",
+   "n": 16,
+   "nsw": 1,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 15,
+   "first": 1839,
+   "last": 1867
+  },
+  {
+   "key": "ireland",
+   "name": "Ireland (port not given)",
+   "lat": 51.9,
+   "lon": -8.35,
+   "region": "Ireland",
+   "n": 10,
+   "nsw": 9,
+   "vdl": 1,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1801,
+   "last": 1851
+  },
+  {
+   "key": "madras",
+   "name": "Madras",
+   "lat": 13.09,
+   "lon": 80.29,
+   "region": "India and the Indian Ocean",
+   "n": 9,
+   "nsw": 8,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 1,
+   "first": 1815,
+   "last": 1859
+  },
+  {
+   "key": "falmouth",
+   "name": "Falmouth",
+   "lat": 50.15,
+   "lon": -5.06,
+   "region": "England",
+   "n": 7,
+   "nsw": 7,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1807,
+   "last": 1829
+  },
+  {
+   "key": "india",
+   "name": "India (port not given)",
+   "lat": 21.0,
+   "lon": 88.0,
+   "region": "India and the Indian Ocean",
+   "n": 6,
+   "nsw": 6,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1807,
+   "last": 1836
+  },
+  {
+   "key": "torbay",
+   "name": "Torbay",
+   "lat": 50.45,
+   "lon": -3.52,
+   "region": "England",
+   "n": 5,
+   "nsw": 3,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 2,
+   "first": 1836,
+   "last": 1853
+  },
+  {
+   "key": "bombay",
+   "name": "Bombay",
+   "lat": 18.94,
+   "lon": 72.84,
+   "region": "India and the Indian Ocean",
+   "n": 4,
+   "nsw": 3,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 1,
+   "first": 1833,
+   "last": 1858
+  },
+  {
+   "key": "singapore",
+   "name": "Singapore",
+   "lat": 1.29,
+   "lon": 103.85,
+   "region": "India and the Indian Ocean",
+   "n": 4,
+   "nsw": 3,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 1,
+   "first": 1833,
+   "last": 1857
+  },
+  {
+   "key": "ceylon",
+   "name": "Ceylon",
+   "lat": 6.93,
+   "lon": 79.84,
+   "region": "India and the Indian Ocean",
+   "n": 3,
+   "nsw": 3,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1816,
+   "last": 1835
+  },
+  {
+   "key": "gravesend",
+   "name": "Gravesend",
+   "lat": 51.444,
+   "lon": 0.369,
+   "region": "England",
+   "n": 3,
+   "nsw": 2,
+   "vdl": 1,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1793,
+   "last": 1821
+  },
+  {
+   "key": "cape",
+   "name": "Cape of Good Hope",
+   "lat": -33.92,
+   "lon": 18.42,
+   "region": "Other colonies",
+   "n": 1,
+   "nsw": 1,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1842,
+   "last": 1842
+  },
+  {
+   "key": "cowes",
+   "name": "Cowes",
+   "lat": 50.76,
+   "lon": -1.3,
+   "region": "England",
+   "n": 1,
+   "nsw": 1,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1804,
+   "last": 1804
+  },
+  {
+   "key": "dartmouth",
+   "name": "Dartmouth",
+   "lat": 50.35,
+   "lon": -3.57,
+   "region": "England",
+   "n": 1,
+   "nsw": 0,
+   "vdl": 1,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1822,
+   "last": 1822
+  },
+  {
+   "key": "deptford",
+   "name": "Deptford",
+   "lat": 51.483,
+   "lon": -0.026,
+   "region": "England",
+   "n": 1,
+   "nsw": 1,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1818,
+   "last": 1818
+  },
+  {
+   "key": "devonport",
+   "name": "Devonport",
+   "lat": 50.37,
+   "lon": -4.18,
+   "region": "England",
+   "n": 1,
+   "nsw": 1,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1829,
+   "last": 1829
+  },
+  {
+   "key": "landsend",
+   "name": "Land's End",
+   "lat": 50.06,
+   "lon": -5.72,
+   "region": "England",
+   "n": 1,
+   "nsw": 0,
+   "vdl": 1,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1821,
+   "last": 1821
+  },
+  {
+   "key": "quebec",
+   "name": "Quebec",
+   "lat": 46.81,
+   "lon": -71.2,
+   "region": "Other colonies",
+   "n": 1,
+   "nsw": 1,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1840,
+   "last": 1840
+  },
+  {
+   "key": "waterford",
+   "name": "Waterford",
+   "lat": 52.26,
+   "lon": -7.11,
+   "region": "Ireland",
+   "n": 1,
+   "nsw": 1,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1820,
+   "last": 1820
+  },
+  {
+   "key": "yarmouth",
+   "name": "Yarmouth Roads",
+   "lat": 52.6,
+   "lon": 1.76,
+   "region": "England",
+   "n": 1,
+   "nsw": 1,
+   "vdl": 0,
+   "nfk": 0,
+   "wa": 0,
+   "first": 1792,
+   "last": 1792
+  }
+ ],
+ "regions": {
+  "England": 464,
+  "Ireland": 163,
+  "India and the Indian Ocean": 101,
+  "Other colonies": 2,
+  "Within Australia": 0,
+  "Not given": 15
+ },
+ "irish": {
+  "n": 163,
+  "n_ei": 627,
+  "pct": 26.0,
+  "cork": 101,
+  "dublin": 51,
+  "cork_rank": 1,
+  "nsw_pct": 33.8,
+  "vdl_pct": 5.5,
+  "wa_irish": 1,
+  "england_unspecified": 62,
+  "thames": 203,
+  "solent": 131,
+  "plymouth": 37,
+  "portland": 16,
+  "portland_wa": 15,
+  "plymouth_wa": 9,
+  "nsw_n": 152,
+  "vdl_n": 7
+ },
+ "indian": {
+  "n": 101,
+  "pct": 13.6,
+  "first": 1807,
+  "last": 1859,
+  "military": 15,
+  "calcutta": 42,
+  "mauritius": 33,
+  "nsw": 95,
+  "wa": 6,
+  "wa_conv": 38
+ },
+ "ships": {
+  "n_ids": 453,
+  "n_with_article": 300,
+  "one_voyage": 296,
+  "top": [
+   {
+    "name": "Mangles",
+    "article": "Mangles (1803 ship)",
+    "voyages": 9,
+    "first": 1820,
+    "last": 1840,
+    "colonies": "NSW, Norfolk Island, Tasmania",
+    "launched": 1803,
+    "lead": 9
+   },
+   {
+    "name": "Guildford",
+    "article": "Guildford (1810 ship)",
+    "voyages": 8,
+    "first": 1812,
+    "last": 1829,
+    "colonies": "NSW",
+    "launched": 1810,
+    "lead": null
+   },
+   {
+    "name": "Surrey",
+    "article": "",
+    "voyages": 8,
+    "first": 1816,
+    "last": 1840,
+    "colonies": "NSW",
+    "launched": null,
+    "lead": null
+   },
+   {
+    "name": "Asia",
+    "article": "Asia (1818 ship)",
+    "voyages": 8,
+    "first": 1820,
+    "last": 1836,
+    "colonies": "NSW, Tasmania",
+    "launched": 1818,
+    "lead": 8
+   },
+   {
+    "name": "Eliza",
+    "article": "Eliza (1804 ship)",
+    "voyages": 6,
+    "first": 1820,
+    "last": 1832,
+    "colonies": "NSW, Tasmania",
+    "launched": 1802,
+    "lead": 5
+   },
+   {
+    "name": "Norfolk",
+    "article": "Norfolk (1814 ship)",
+    "voyages": 6,
+    "first": 1825,
+    "last": 1837,
+    "colonies": "NSW, Tasmania",
+    "launched": 1814,
+    "lead": 4
+   },
+   {
+    "name": "John",
+    "article": "John (1809 ship)",
+    "voyages": 6,
+    "first": 1827,
+    "last": 1837,
+    "colonies": "NSW, Tasmania",
+    "launched": 1809,
+    "lead": null
+   },
+   {
+    "name": "Waterloo",
+    "article": "Waterloo (1815 ship)",
+    "voyages": 6,
+    "first": 1829,
+    "last": 1838,
+    "colonies": "NSW, Tasmania",
+    "launched": 1815,
+    "lead": 4
+   },
+   {
+    "name": "Canada",
+    "article": "Canada (1800 ship)",
+    "voyages": 5,
+    "first": 1801,
+    "last": 1819,
+    "colonies": "NSW",
+    "launched": 1800,
+    "lead": 5
+   },
+   {
+    "name": "Morley",
+    "article": "Morley (1811 ship)",
+    "voyages": 5,
+    "first": 1817,
+    "last": 1829,
+    "colonies": "NSW, Tasmania",
+    "launched": 1811,
+    "lead": 6
+   },
+   {
+    "name": "Isabella",
+    "article": "Isabella (1818 ship)",
+    "voyages": 5,
+    "first": 1818,
+    "last": 1833,
+    "colonies": "NSW, Tasmania",
+    "launched": 1818,
+    "lead": 6
+   },
+   {
+    "name": "Minerva",
+    "article": "Minerva (1805 ship)",
+    "voyages": 5,
+    "first": 1818,
+    "last": 1839,
+    "colonies": "NSW",
+    "launched": 1805,
+    "lead": 4
+   }
+  ],
+  "voyages_by_top": 67,
+  "lead_checked": 144,
+  "lead_agree": 121,
+  "age_n": 503,
+  "age_med": 14,
+  "tons_med": 443,
+  "tons_n": 260
+ },
+ "women": {
+  "stated": 24000,
+  "one_in": 7,
+  "stated_pct": 14.8,
+  "fry_women": 12000,
+  "fry_ships": 106,
+  "pop": [
+   {
+    "year": 1788,
+    "male": 529,
+    "female": 188,
+    "total": 717,
+    "fpct": 26.2
+   },
+   {
+    "year": 1790,
+    "male": 297,
+    "female": 70,
+    "total": 367,
+    "fpct": 19.1
+   },
+   {
+    "year": 1800,
+    "male": 1230,
+    "female": 328,
+    "total": 1558,
+    "fpct": 21.1
+   },
+   {
+    "year": 1805,
+    "male": 1561,
+    "female": 516,
+    "total": 2077,
+    "fpct": 24.8
+   },
+   {
+    "year": 1819,
+    "male": 8920,
+    "female": 1066,
+    "total": 9986,
+    "fpct": 10.7
+   },
+   {
+    "year": 1828,
+    "male": 16442,
+    "female": 1544,
+    "total": 17986,
+    "fpct": 8.6
+   },
+   {
+    "year": 1836,
+    "male": 25254,
+    "female": 2577,
+    "total": 27831,
+    "fpct": 9.3
+   },
+   {
+    "year": 1841,
+    "male": 23844,
+    "female": 3133,
+    "total": 26977,
+    "fpct": 11.6
+   }
+  ],
+  "pop_first_pct": 26.2,
+  "pop_last_pct": 11.6,
+  "pop_last_year": 1841,
+  "pop_1836_f": 2577,
+  "pop_1836_m": 25254,
+  "pop_max_total": 27831,
+  "pop_max_year": 1836,
+  "flagged": 20,
+  "flagged_pct": 2.7,
+  "ships_flagged": [
+   {
+    "ship": "Charlotte",
+    "y": 1788,
+    "list": "NSW",
+    "female": 24
+   },
+   {
+    "ship": "Friendship",
+    "y": 1788,
+    "list": "NSW",
+    "female": 24
+   },
+   {
+    "ship": "Lady Penrhyn",
+    "y": 1788,
+    "list": "NSW",
+    "female": 101
+   },
+   {
+    "ship": "Prince of Wales",
+    "y": 1788,
+    "list": "NSW",
+    "female": 47
+   },
+   {
+    "ship": "Neptune",
+    "y": 1790,
+    "list": "NSW",
+    "female": 78
+   },
+   {
+    "ship": "Lady Juliana",
+    "y": 1790,
+    "list": "NSW",
+    "female": 222
+   },
+   {
+    "ship": "Albemarle",
+    "y": 1791,
+    "list": "NSW",
+    "female": 6
+   },
+   {
+    "ship": "Mary Ann",
+    "y": 1791,
+    "list": "NSW",
+    "female": 141
+   },
+   {
+    "ship": "Queen",
+    "y": 1791,
+    "list": "NSW",
+    "female": 22
+   },
+   {
+    "ship": "Speedy",
+    "y": 1800,
+    "list": "NSW",
+    "female": null
+   },
+   {
+    "ship": "Tellicherry",
+    "y": 1806,
+    "list": "NSW",
+    "female": 36
+   },
+   {
+    "ship": "Experiment",
+    "y": 1809,
+    "list": "NSW",
+    "female": null
+   },
+   {
+    "ship": "Friends",
+    "y": 1811,
+    "list": "NSW",
+    "female": 100
+   },
+   {
+    "ship": "Alexander",
+    "y": 1816,
+    "list": "NSW",
+    "female": 84
+   },
+   {
+    "ship": "Janus",
+    "y": 1820,
+    "list": "NSW",
+    "female": 105
+   },
+   {
+    "ship": "Mary",
+    "y": 1823,
+    "list": "Tasmania",
+    "female": 127
+   },
+   {
+    "ship": "Mary",
+    "y": 1831,
+    "list": "Tasmania",
+    "female": 151
+   },
+   {
+    "ship": "Hooghly",
+    "y": 1831,
+    "list": "NSW",
+    "female": 184
+   },
+   {
+    "ship": "Mary",
+    "y": 1835,
+    "list": "NSW",
+    "female": 180
+   },
+   {
+    "ship": "Sir Robert Seppings",
+    "y": 1852,
+    "list": "Tasmania",
+    "female": null
+   }
+  ],
+  "ff_women_ships": 4,
+  "lady_juliana": 222
+ },
+ "world": [
+  {
+   "key": "aus",
+   "years": "1788 to 1868",
+   "name": "Australia",
+   "by": "Britain and Ireland",
+   "place": "New South Wales, Van Diemen's Land, Norfolk Island, Moreton Bay, Western Australia",
+   "lat": -33.86,
+   "lon": 151.21,
+   "from": 1788,
+   "to": 1868,
+   "people": "about 162,000",
+   "pn": 162000,
+   "src": [
+    "aus_162k"
+   ],
+   "quote": "Convicts in Sydney , 1793, by Juan Ravenet Between 1784 and 1868 the British penal system transported about 162,000 convicts from Great Britain and Ireland to various penal colonies in Australia .",
+   "articles": [
+    "Convicts in Australia"
+   ]
+  },
+  {
+   "key": "america",
+   "years": "1718 to 1776",
+   "name": "British America",
+   "by": "Britain",
+   "place": "mostly Virginia and Maryland (the Chesapeake)",
+   "lat": 38.3,
+   "lon": -76.4,
+   "from": 1718,
+   "to": 1776,
+   "people": "30,000 to 50,000; estimates range to 120,000",
+   "pn": 50000,
+   "src": [
+    "america_1717",
+    "america_lang",
+    "america_60k"
+   ],
+   "quote": "It is commonly accepted that 30,000 convicts (women, men and children) may have been transported to the British American colonies, with some estimates going as high as 50,000. The number of convicts transported to North America is not verified, although it has been estimated to be 50,000 by John Dunmore Lang and 120,000 by Thomas Keneally .",
+   "articles": [
+    "Convicts in Australia",
+    "Transportation Act 1717"
+   ]
+  },
+  {
+   "key": "bermuda",
+   "years": "1823 to 1863",
+   "name": "Bermuda",
+   "by": "Britain",
+   "place": "Royal Naval Dockyard, Ireland Island (prison hulks)",
+   "lat": 32.326,
+   "lon": -64.835,
+   "from": 1823,
+   "to": 1863,
+   "people": "not stated",
+   "pn": null,
+   "src": [
+    "bermuda_1823",
+    "bermuda_1863",
+    "bermuda"
+   ],
+   "quote": "The absence of suitable labour for the continuation of the dockyard works over the following six years led to the decision late in 1822 to use convicts shipped from Britain and Ireland to carry out most of the original phase of building at the base, the first arriving in 1823. The last convicts were withdrawn in 1863, returned to Britain on the Bermudian merchant clipper, Cedrine (which was wrecked on the Isle of Wight , on its maiden voyage, costing Captain Thomas Melville Dill, grandfather of the parliamentarian and Attorney General of the same name , his Master's certificate).",
+   "articles": [
+    "Penal transportation",
+    "Royal Naval Dockyard, Bermuda"
+   ]
+  },
+  {
+   "key": "guiana",
+   "years": "1852 to 1953",
+   "name": "French Guiana",
+   "by": "France",
+   "place": "Cayenne, Saint-Laurent-du-Maroni and Devil's Island",
+   "lat": 5.29,
+   "lon": -52.58,
+   "from": 1852,
+   "to": 1953,
+   "people": "more than 80,000",
+   "pn": 80000,
+   "src": [
+    "guiana_dates",
+    "guiana_80k",
+    "bagne_1953"
+   ],
+   "quote": "Devil's Island, a French penal colony in Guiana , was used for transportation from 1852 to 1953. The vast majority of the more than 80,000 prisoners sent to the Devil's Island prison system never returned to France",
+   "articles": [
+    "Bagne (penal establishment)",
+    "Devil's Island",
+    "Penal transportation"
+   ]
+  },
+  {
+   "key": "newcal",
+   "years": "1864 to 1897",
+   "name": "New Caledonia",
+   "by": "France",
+   "place": "the bagne of New Caledonia",
+   "lat": -22.27,
+   "lon": 166.44,
+   "from": 1864,
+   "to": 1897,
+   "people": "about 22,000",
+   "pn": 22000,
+   "src": [
+    "newcal",
+    "bagne_1852"
+   ],
+   "quote": "New Caledonia became a French penal colony from the 1860s until the end of the transportations in 1897; about 22,000 criminals and political prisoners (most notably Communards ) were sent to New Caledonia. The maritime bagnes were then transferred to Cayenne in 1852, and to New Caledonia in 1864, at a time when the Navy was switching from sail to steam, making the need for manpower less important.",
+   "articles": [
+    "Bagne (penal establishment)",
+    "Penal transportation"
+   ]
+  },
+  {
+   "key": "andaman",
+   "years": "1858 to 1947",
+   "name": "Andaman Islands",
+   "by": "British India",
+   "place": "Port Blair and the Cellular Jail",
+   "lat": 11.675,
+   "lon": 92.748,
+   "from": 1858,
+   "to": 1947,
+   "people": "200 in the first party, 1858; the Cellular Jail had 698 cells",
+   "pn": null,
+   "src": [
+    "portblair_200",
+    "andaman_cells",
+    "andaman_1947",
+    "andaman_1857"
+   ],
+   "quote": "the first set of 200 convicts arrived at the island in March 1858 [ citation needed ] The Cellular Jail in Port Blair , South Andaman Island , also called Kālā Pānī or Kalapani (Hindi for black waters), was constructed between 1896 and 1906 as a high-security prison with 698 individual cells for solitary confinement .",
+   "articles": [
+    "Andaman Islands",
+    "Penal transportation",
+    "Port Blair"
+   ]
+  },
+  {
+   "key": "sakhalin",
+   "years": "from 1857",
+   "name": "Sakhalin",
+   "by": "Russia",
+   "place": "katorga settlements around Aleksandrovsk",
+   "lat": 50.9,
+   "lon": 142.16,
+   "from": 1857,
+   "to": 1905,
+   "people": "not stated",
+   "pn": null,
+   "src": [
+    "sakhalin_1857",
+    "katorga_chekhov"
+   ],
+   "quote": "In 1857, the Russians established a penal colony, or katorga, on Sakhalin In 1891 Anton Chekhov , the Russian writer and playwright, visited the katorga settlements on Sakhalin island in the Russian Far East and wrote about the conditions there in his book Sakhalin Island .",
+   "articles": [
+    "Katorga",
+    "Sakhalin"
+   ]
+  },
+  {
+   "key": "siberia",
+   "years": "from the 17th century",
+   "name": "Siberia",
+   "by": "Russia",
+   "place": "katorga mines and camps, such as Nerchinsk and Kara",
+   "lat": 51.98,
+   "lon": 116.58,
+   "from": 1650,
+   "to": 1917,
+   "people": "about 6,000 serving katorga in 1906, up to 28,600 by 1916",
+   "pn": null,
+   "src": [
+    "katorga_17c",
+    "katorga_1906"
+   ],
+   "quote": "Katorga camps were established in the 17th century by Tsar Alexis of Russia in newly conquered, underpopulated areas of Siberia and the Russian Far East , regions that had few towns or food sources. approximately 6,000 katorga convicts were serving sentences in 1906, with up to 28,600 by 1916",
+   "articles": [
+    "Gulag",
+    "Katorga"
+   ]
+  }
+ ],
+ "america": {
+  "low": 30000,
+  "high": 50000,
+  "lang": 50000,
+  "keneally": 120000,
+  "about": 60000
+ },
+ "stations": [
+  {
+   "name": "Norfolk Island",
+   "lat": -29.056,
+   "lon": 167.959,
+   "years": "1788 to 1814, 1825 to 1855",
+   "a": 1788,
+   "b": 1855,
+   "src": "nfk_dates",
+   "note": "a place of secondary punishment for convicts who reoffended in Australia, in its second period"
+  },
+  {
+   "name": "Moreton Bay",
+   "lat": -27.47,
+   "lon": 153.03,
+   "years": "1824 to 1842",
+   "a": 1824,
+   "b": 1842,
+   "src": "moreton",
+   "note": "prisoners rose from 200 to 1,000 between 1826 and 1829; now Brisbane"
+  },
+  {
+   "name": "Macquarie Harbour",
+   "lat": -42.39,
+   "lon": 145.45,
+   "years": "1822 to 1833",
+   "a": 1822,
+   "b": 1833,
+   "src": "macquarie",
+   "note": "Sarah Island, on the remote west coast of Van Diemen's Land"
+  },
+  {
+   "name": "Port Arthur",
+   "lat": -43.148,
+   "lon": 147.85,
+   "years": "1833 to 1877",
+   "a": 1833,
+   "b": 1877,
+   "src": "portarthur",
+   "note": "for 'the most hardened' secondary offenders; a timber station from 1830"
+  }
+ ],
+ "quotes": {
+  "aus_162k": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829
+  },
+  "aus_164k": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829
+  },
+  "aus_women": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829
+  },
+  "aus_political": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829
+  },
+  "aus_1840": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829
+  },
+  "nsw_end": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829
+  },
+  "nsw_abolished": {
+   "article": "Convict ships to New South Wales",
+   "revid": 1329275779
+  },
+  "vdl_end": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829
+  },
+  "vdl_last": {
+   "article": "Convict ships to Tasmania",
+   "revid": 1153506110
+  },
+  "vdl_first": {
+   "article": "Convict ships to Tasmania",
+   "revid": 1153506110
+  },
+  "wa_9721": {
+   "article": "Convict era of Western Australia",
+   "revid": 1376677837
+  },
+  "wa_9668": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829
+  },
+  "wa_last": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829
+  },
+  "wa_nowomen": {
+   "article": "Convict era of Western Australia",
+   "revid": 1376677837
+  },
+  "wa_parkhurst": {
+   "article": "List of convict ship voyages to Western Australia",
+   "revid": 1334470026
+  },
+  "nfk_dates": {
+   "article": "Norfolk Island",
+   "revid": 1381712229
+  },
+  "nfk_nocompil": {
+   "article": "Convict ships to Norfolk Island",
+   "revid": 1383115444
+  },
+  "ff_depart": {
+   "article": "First Fleet",
+   "revid": 1381165491
+  },
+  "ff_deaths": {
+   "article": "First Fleet",
+   "revid": 1381165491
+  },
+  "ff_252": {
+   "article": "First Fleet",
+   "revid": 1381165491
+  },
+  "ff_eora": {
+   "article": "First Fleet",
+   "revid": 1381165491
+  },
+  "sf_quarter": {
+   "article": "Second Fleet (Australia)",
+   "revid": 1339109887
+  },
+  "sf_273": {
+   "article": "Second Fleet (Australia)",
+   "revid": 1339109887
+  },
+  "sf_124": {
+   "article": "Second Fleet (Australia)",
+   "revid": 1339109887
+  },
+  "sf_fee": {
+   "article": "Second Fleet (Australia)",
+   "revid": 1339109887
+  },
+  "sf_267": {
+   "article": "Convict women in Australia",
+   "revid": 1346295726
+  },
+  "tf_2000": {
+   "article": "Third Fleet (Australia)",
+   "revid": 1308790478
+  },
+  "women_fry": {
+   "article": "Convict women in Australia",
+   "revid": 1346295726
+  },
+  "women_six": {
+   "article": "Convict women in Australia",
+   "revid": 1346295726
+  },
+  "frontier": {
+   "article": "Penal transportation",
+   "revid": 1381060835
+  },
+  "myall": {
+   "article": "Penal transportation",
+   "revid": 1381060835
+  },
+  "hawkesbury": {
+   "article": "Penal transportation",
+   "revid": 1381060835
+  },
+  "america_lang": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829
+  },
+  "america_60k": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829
+  },
+  "america_1717": {
+   "article": "Transportation Act 1717",
+   "revid": 1381752810
+  },
+  "america_range": {
+   "article": "Penal transportation",
+   "revid": 1381060835
+  },
+  "america_1776": {
+   "article": "Penal transportation",
+   "revid": 1381060835
+  },
+  "bermuda": {
+   "article": "Penal transportation",
+   "revid": 1381060835
+  },
+  "bermuda_1823": {
+   "article": "Royal Naval Dockyard, Bermuda",
+   "revid": 1377314982
+  },
+  "bermuda_1863": {
+   "article": "Royal Naval Dockyard, Bermuda",
+   "revid": 1377314982
+  },
+  "andaman_1857": {
+   "article": "Penal transportation",
+   "revid": 1381060835
+  },
+  "andaman_80k": {
+   "article": "Penal transportation",
+   "revid": 1381060835
+  },
+  "andaman_cells": {
+   "article": "Penal transportation",
+   "revid": 1381060835
+  },
+  "guiana_dates": {
+   "article": "Penal transportation",
+   "revid": 1381060835
+  },
+  "newcal": {
+   "article": "Penal transportation",
+   "revid": 1381060835
+  },
+  "bagne_1852": {
+   "article": "Bagne (penal establishment)",
+   "revid": 1378312137
+  },
+  "bagne_1953": {
+   "article": "Bagne (penal establishment)",
+   "revid": 1378312137
+  },
+  "bagne_1938": {
+   "article": "Bagne (penal establishment)",
+   "revid": 1378312137
+  },
+  "katorga_chekhov": {
+   "article": "Katorga",
+   "revid": 1371129600
+  },
+  "katorga_17c": {
+   "article": "Katorga",
+   "revid": 1371129600
+  },
+  "moreton": {
+   "article": "Moreton Bay Penal Settlement",
+   "revid": 1376283471
+  },
+  "moreton_1000": {
+   "article": "Moreton Bay Penal Settlement",
+   "revid": 1376283471
+  },
+  "macquarie": {
+   "article": "Macquarie Harbour Penal Station",
+   "revid": 1368436442
+  },
+  "portarthur": {
+   "article": "Port Arthur, Tasmania",
+   "revid": 1381786866
+  },
+  "sites_unesco": {
+   "article": "Australian Convict Sites",
+   "revid": 1366152364
+  },
+  "sites_eleven": {
+   "article": "Australian Convict Sites",
+   "revid": 1366152364
+  },
+  "sites_fremantle": {
+   "article": "Australian Convict Sites",
+   "revid": 1366152364
+  },
+  "women_theft": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829
+  },
+  "women_prost": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829
+  },
+  "women_courtesans": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829
+  },
+  "women_fry_society": {
+   "article": "Convict women in Australia",
+   "revid": 1346295726
+  },
+  "ff_tenerife": {
+   "article": "First Fleet",
+   "revid": 1381165491
+  },
+  "ff_rio": {
+   "article": "First Fleet",
+   "revid": 1381165491
+  },
+  "ff_eora_first": {
+   "article": "First Fleet",
+   "revid": 1381165491
+  },
+  "wa_request": {
+   "article": "Convict era of Western Australia",
+   "revid": 1376677837
+  },
+  "nsw_1840": {
+   "article": "Convicts in Australia",
+   "revid": 1373855829
+  },
+  "cellular_political": {
+   "article": "Cellular Jail",
+   "revid": 1379660571
+  },
+  "ff_gillen": {
+   "article": "First Fleet",
+   "revid": 1381165491
+  },
+  "ff_eleven": {
+   "article": "First Fleet",
+   "revid": 1381165491
+  },
+  "guiana_80k": {
+   "article": "Devil's Island",
+   "revid": null
+  },
+  "guiana_pc": {
+   "article": "Penal colony",
+   "revid": null
+  },
+  "sakhalin_1857": {
+   "article": "Sakhalin",
+   "revid": null
+  },
+  "sakhalin_1869": {
+   "article": "Sakhalin",
+   "revid": null
+  },
+  "katorga_1906": {
+   "article": "Gulag",
+   "revid": null
+  },
+  "portblair_200": {
+   "article": "Port Blair",
+   "revid": null
+  },
+  "andaman_1947": {
+   "article": "Andaman Islands",
+   "revid": null
+  },
+  "hulks_1776": {
+   "article": "Hulk (ship type)",
+   "revid": null
+  },
+  "convict_ship": {
+   "article": "Convict ship",
+   "revid": null
+  },
+  "devils_never": {
+   "article": "Devil's Island",
+   "revid": null
+  }
+ },
+ "stated": {
+  "ships_806": 806,
+  "conv_164": 164000,
+  "conv_162": 162000,
+  "by1840": 150000,
+  "political": 3600,
+  "ff_over": 1400,
+  "ff_days": 252,
+  "ff_men": 582,
+  "ff_women": 193,
+  "tf_over": 2000,
+  "women": 24000,
+  "women_theft_pct": 80,
+  "fry_women": 12000,
+  "fry_ships": 106,
+  "wa_721": 9721,
+  "wa_668": 9668,
+  "sf_embarked": 1038,
+  "sf_died": 273,
+  "sf_sick": 486,
+  "sf_after": 124,
+  "sf_1006": 1006,
+  "sf_267": 267,
+  "sf_six_months_pct": 40,
+  "ff_deaths": 48,
+  "ff_births": 28,
+  "am_1717_low": 30000,
+  "am_1717_high": 50000,
+  "am_lang": 50000,
+  "am_keneally": 120000,
+  "am_60k": 60000,
+  "guiana": 80000,
+  "newcal": 22000,
+  "andaman_first": 200,
+  "andaman_cells": 698,
+  "andaman_80k": 80000,
+  "katorga_1906": 6000,
+  "katorga_1916": 28600,
+  "moreton_max": 1000,
+  "sites": 11,
+  "parkhurst": 234,
+  "fry_years": 25,
+  "nsw_end": 1850,
+  "vdl_end": 1853,
+  "wa_end": 1868,
+  "nfk_end": 1855,
+  "unesco": 2010,
+  "amph_women": 108,
+  "amph_children": 12,
+  "neva": 224
+ },
+ "meta": {
+  "page": "https://maps.tristanhotham.com/transported-convicts/",
+  "repo": "https://github.com/Tristan-Hotham/transported-convicts",
+  "slug": "transported-convicts",
+  "y0": 1787,
+  "y1": 1868,
+  "dup_days": 75,
+  "match_days": 3
+ },
+ "ports_n": 38
+}
