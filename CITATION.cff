@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "Transported: The Convict Ships to Australia, 1788 to 1868, and the Wider World of Penal Transportation"
+type: dataset
+authors:
+  - family-names: Hotham
+    given-names: Tristan
+    orcid: "https://orcid.org/0000-0003-4931-9349"
+    affiliation: "Independent researcher"
+doi: "10.5281/zenodo.23873537"
+url: "https://maps.tristanhotham.com/transported-convicts/"
+repository-code: "https://github.com/Tristan-Hotham/transported-convicts"
+license: CC-BY-4.0
+keywords:
+  - "penal transportation"
+  - "convicts"
+  - "convict ships"
+  - "Australia"
+  - "New South Wales"
+  - "Van Diemen's Land"
+  - "Western Australia"
+  - "maritime history"
+  - "colonial history"
+  - "Wikipedia"
+  - "open data"
+  - "maps"
